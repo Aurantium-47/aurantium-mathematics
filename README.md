@@ -15,24 +15,24 @@
 <table width="100%">
 <tbody>
 <tr>
-<td width="250" align="center"><h3>24</h3><strong>研究成果组</strong><br><sub>按核心问题组织</sub></td>
-<td width="250" align="center"><h3>13</h3><strong>原题得到解答</strong><br><sub>10项肯定结论 · 3项反例</sub></td>
-<td width="250" align="center"><h3>7</h3><strong>原问题的部分结果</strong><br><sub>证明若干情形</sub></td>
+<td width="278" align="center"><h3>24</h3><strong>研究成果组</strong><br><sub>按核心问题组织</sub></td>
+<td width="278" align="center"><h3>13</h3><strong>原题得到解答</strong><br><sub>10项肯定结论 · 3项反例</sub></td>
+<td width="278" align="center"><h3>7</h3><strong>原问题的部分结果</strong><br><sub>证明若干情形</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>7</h3><strong>包含进一步推广</strong><br><sub>扩大对象与参数范围</sub></td>
-<td width="250" align="center"><h3>8</h3><strong>含Lean形式化成果</strong><br><sub>具体命题由内核检查</sub></td>
-<td width="250" align="center"><h3>189</h3><strong>Lean源文件</strong><br><sub>8个项目的固定公开版本</sub></td>
+<td width="278" align="center"><h3>7</h3><strong>包含进一步推广</strong><br><sub>扩大对象与参数范围</sub></td>
+<td width="278" align="center"><h3>8</h3><strong>含Lean形式化成果</strong><br><sub>具体命题由内核检查</sub></td>
+<td width="278" align="center"><h3>189</h3><strong>Lean源文件</strong><br><sub>8个项目的固定公开版本</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>14</h3><strong>原题来自专业期刊</strong><br><sub>其余见会议、OEIS及预印本等</sub></td>
-<td width="250" align="center"><h3>60</h3><strong>问题来源与相关文献</strong><br><sub>原题、后续研究及经典工具</sub></td>
-<td width="250" align="center"><h3>48</h3><strong>原题文献作者</strong><br><sub>当前书目已列出的姓名</sub></td>
+<td width="278" align="center"><h3>14</h3><strong>原题来自专业期刊</strong><br><sub>其余见会议、OEIS及预印本等</sub></td>
+<td width="278" align="center"><h3>60</h3><strong>问题来源与相关文献</strong><br><sub>原题、后续研究及经典工具</sub></td>
+<td width="278" align="center"><h3>48</h3><strong>原题文献作者</strong><br><sub>当前书目已列出的姓名</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>102</h3><strong>原题及相关文献作者</strong><br><sub>按已列姓名去重</sub></td>
-<td width="250" align="center"><h3>0—14年</h3><strong>来源文献距今</strong><br><sub>22项可定年来源 · 2012—2026</sub></td>
-<td width="250" align="center"><h3>4.5年</h3><strong>来源文献平均距今</strong><br><sub>按2026年与首发年份之差</sub></td>
+<td width="278" align="center"><h3>102</h3><strong>原题及相关文献作者</strong><br><sub>按已列姓名去重</sub></td>
+<td width="278" align="center"><h3>0—14年</h3><strong>来源文献距今</strong><br><sub>22项可定年来源 · 2012—2026</sub></td>
+<td width="278" align="center"><h3>4.5年</h3><strong>来源文献平均距今</strong><br><sub>按2026年与首发年份之差</sub></td>
 </tr>
 </tbody>
 </table>

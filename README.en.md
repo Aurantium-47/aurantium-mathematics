@@ -15,24 +15,24 @@ My AI-assisted mathematical research is organized into **24 result families**: *
 <table width="100%">
 <tbody>
 <tr>
-<td width="250" align="center"><h3>24</h3><strong>Result families</strong><br><sub>Organized by core question</sub></td>
-<td width="250" align="center"><h3>13</h3><strong>Original targets answered</strong><br><sub>10 affirmative · 3 counterexamples</sub></td>
-<td width="250" align="center"><h3>7</h3><strong>Partial-result projects</strong><br><sub>Particular cases established</sub></td>
+<td width="278" align="center"><h3>24</h3><strong>Result families</strong><br><sub>Organized by core question</sub></td>
+<td width="278" align="center"><h3>13</h3><strong>Original targets answered</strong><br><sub>10 affirmative · 3 counterexamples</sub></td>
+<td width="278" align="center"><h3>7</h3><strong>Partial-result projects</strong><br><sub>Particular cases established</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>7</h3><strong>Families with extensions</strong><br><sub>Broader objects and parameters</sub></td>
-<td width="250" align="center"><h3>8</h3><strong>Families with Lean results</strong><br><sub>Covered statements kernel-checked</sub></td>
-<td width="250" align="center"><h3>189</h3><strong>Lean source files</strong><br><sub>Eight fixed public project versions</sub></td>
+<td width="278" align="center"><h3>7</h3><strong>Families with extensions</strong><br><sub>Broader objects and parameters</sub></td>
+<td width="278" align="center"><h3>8</h3><strong>Families with Lean results</strong><br><sub>Covered statements kernel-checked</sub></td>
+<td width="278" align="center"><h3>189</h3><strong>Lean source files</strong><br><sub>Eight fixed public project versions</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>14</h3><strong>Journal problem sources</strong><br><sub>Other sources include proceedings and preprints</sub></td>
-<td width="250" align="center"><h3>60</h3><strong>Bibliographic records</strong><br><sub>Original questions, related work and tools</sub></td>
-<td width="250" align="center"><h3>48</h3><strong>Original-source author names</strong><br><sub>Names currently listed in the bibliography</sub></td>
+<td width="278" align="center"><h3>14</h3><strong>Journal problem sources</strong><br><sub>Other sources include proceedings and preprints</sub></td>
+<td width="278" align="center"><h3>60</h3><strong>Bibliographic records</strong><br><sub>Original questions, related work and tools</sub></td>
+<td width="278" align="center"><h3>48</h3><strong>Original-source author names</strong><br><sub>Names currently listed in the bibliography</sub></td>
 </tr>
 <tr>
-<td width="250" align="center"><h3>102</h3><strong>Source and related-work author names</strong><br><sub>Distinct listed names</sub></td>
-<td width="250" align="center"><h3>0–14 years</h3><strong>Age of source literature</strong><br><sub>22 dated sources · 2012–2026</sub></td>
-<td width="250" align="center"><h3>4.5 years</h3><strong>Mean age of source literature</strong><br><sub>2026 minus first source year</sub></td>
+<td width="278" align="center"><h3>102</h3><strong>Source and related-work author names</strong><br><sub>Distinct listed names</sub></td>
+<td width="278" align="center"><h3>0–14 years</h3><strong>Age of source literature</strong><br><sub>22 dated sources · 2012–2026</sub></td>
+<td width="278" align="center"><h3>4.5 years</h3><strong>Mean age of source literature</strong><br><sub>2026 minus first source year</sub></td>
 </tr>
 </tbody>
 </table>
