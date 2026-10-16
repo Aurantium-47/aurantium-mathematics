@@ -42,7 +42,7 @@ Knor、Škrekovski、Filipovski与Dimitrov在[Extremizing antiregular graphs by 
 
 Billey、Fahrbach与Talmage研究排列的峰集所对应的多项式，其[Coefficients and roots of peak polynomials](https://arxiv.org/abs/1410.8506)发表于**Experimental Mathematics 25(2)，2016**。本项目对应其Conjecture 6.6。后续有Diaz-Lopez、Harris、Insko与Omar的正性论文（**JCTA，2017**），以及Li于2026年的[系数研究稿](https://doi.org/10.5281/zenodo.22832569)。
 
-本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间**整个实区间(a,m)**的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。
+本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间<strong>整个实区间 (a,m)</strong>的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。
 
 → [完整区间的符号论证](https://github.com/Aurantium-47/peak-polynomial-last-real-root)
 
@@ -88,7 +88,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面22项可定年来源相距0–14年，平均4年；这个量描述文献年代，项目的具体研究历史见上文。
 
-2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp问题来自2012年，但已有2026年10月10日公开的相关证明，故当前不作为“14年未解”案例。
+2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp问题来自2012年，但已有2026年10月10日提交的相关证明，故当前不作为“14年未解”案例。
 
 | 问题／项目 | 来源首年 | 采用版本年 | 截至2026年与采用版相距 | 出处 |
 | --- | --- | --- | --- | --- |
@@ -156,6 +156,6 @@ Hurwitz项目尤其连接了枚举几何和实根多项式：已有Coulter–Do�
 
 ## 文献更新：Karp
 
-2026年10月17日核到Henry Zweiman的[A proof of Karp’s conjecture](https://arxiv.org/abs/2610.18895)，arXiv记录提交日期为10月10日。其Theorem 1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。保留现有证明材料，但移出首解叙述与扩展成果组统计；其他具体推广待逐项对照。
+2026年10月17日核到Henry Zweiman的[A proof of Karp’s conjecture](https://arxiv.org/abs/2610.18895)，arXiv记录提交日期为10月10日。其Theorem 1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。保留现有证明材料，但按同题研究保留Beta矩证明路线与显式参数化引理，移出首解叙述与扩展成果组统计。详见[时间线与证明比较](KARP_COMPARISON.md)。
 
 统计与引用口径见[阅读说明](METHODS.md)。

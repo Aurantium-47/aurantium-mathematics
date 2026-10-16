@@ -63,7 +63,7 @@
 | 57 | Rectangular Hardinian Arrays | 2024 | Robert Dougherty-Bliss; George Spahn | ACM Communications in Computer Algebra;ISSAC2024 poster | Hardinian后续矩形工作 | [来源](https://doi.org/10.1145/3717582.3717589) |
 | 58 | On the large genus of Hurwitz numbers | 2026 | Davide Accadia; Danilo Lewanski; Giulio Ruzza | arXiv | Hurwitz主阶框架 | [来源](https://arxiv.org/abs/2604.12880) |
 | 59 | The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus | 2025 | Chenglang Yang | arXiv | Hurwitz普通单调主阶 | [来源](https://arxiv.org/abs/2503.01920) |
-| 60 | A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series | 2026 | Henry Zweiman | arXiv:2610.18895v1 | Karp：2026-10-10公开证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中 | [来源](https://arxiv.org/abs/2610.18895) |
+| 60 | A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series | 2026 | Henry Zweiman | arXiv:2610.18895v1 | Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中 | [来源](https://arxiv.org/abs/2610.18895) |
 
 ## 刊物记录
 

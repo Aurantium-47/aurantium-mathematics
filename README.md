@@ -54,7 +54,7 @@ Knor、Škrekovski、Filipovski与Dimitrov在[Extremizing antiregular graphs by 
 
 Billey、Fahrbach与Talmage研究排列的峰集所对应的多项式，其[Coefficients and roots of peak polynomials](https://arxiv.org/abs/1410.8506)发表于**Experimental Mathematics 25(2)，2016**。本项目对应其Conjecture 6.6。后续有Diaz-Lopez、Harris、Insko与Omar的正性论文（**JCTA，2017**），以及Li于2026年的[系数研究稿](https://doi.org/10.5281/zenodo.22832569)。
 
-本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间**整个实区间(a,m)**的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。
+本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间<strong>整个实区间 (a,m)</strong>的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。
 
 → [完整区间的符号论证](https://github.com/Aurantium-47/peak-polynomial-last-real-root)
 
@@ -124,7 +124,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 | [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | 三项式尾部 → 一般严格正多项式幂 → 增长深度曲率 |
 | [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | 两个否定实例 → 任意有限格点多重集的锐excess界 |
 
-Karp项目另列文献对照：Zweiman于2026年10月10日公开的[Theorem 1.3](https://arxiv.org/html/2610.18895v1)已覆盖正序列情形的实根性、根定位与间距。本项目的进一步贡献仍在逐项比较，暂不计入上述7组。
+**Karp同题研究：对方先行提交，本项目保留Beta矩证明路线。** Zweiman的arXiv提交记录比本项目Release早约三天。主结果重合；本稿另有Beta积分推导、一般正参数变换引理及对称权重推论，暂不计入上述7组扩展。[时间线与逐项比较](KARP_COMPARISON.md)
 
 <details>
 <summary><strong>展开全部24个项目</strong></summary>

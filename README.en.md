@@ -58,7 +58,7 @@ Concrete methods include Dyck paths, Stieltjes–Rogers polynomials, Toeplitz/Ha
 
 ## Literature and extensions
 
-The bibliography contains 24 problem-source records and 36 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is separately under contribution comparison: [Zweiman’s preprint](https://arxiv.org/abs/2610.18895), submitted 10 October 2026, contains substantively overlapping real-rootedness and root-location results.
+The bibliography contains 24 problem-source records and 36 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is listed as a parallel treatment of a result submitted earlier by Zweiman: our manuscript retains a Beta-moment route, a parameterized transform lemma and a symmetric-weight corollary. The main target overlaps. See the [dated comparison](KARP_COMPARISON.md); these additions are not counted as a confirmed new extension group.
 
 Problem dates and venue information are given in the [research background](REPORT.zh.md). Source dates describe the documented history; each project's exact contribution is stated separately.
 
