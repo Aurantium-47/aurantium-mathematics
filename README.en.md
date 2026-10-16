@@ -10,19 +10,28 @@
 
 ---
 
-This collection brings together AI-assisted research in combinatorics, graph theory and polynomials: all-parameter proofs, exact counterexamples and structural extensions.
+This collection organizes AI-assisted research into **24 result families**, each centred on a mathematical question from papers or public problem sources. Principal results, supporting arguments and subsequent extensions stay in the same family, with manuscripts, exact certificates and formalization sources.
 
-| Public research projects | Projects with Lean results | Extension groups |
-| :---: | :---: | :---: |
-| **24** | **8** | **7** |
+| Result families | Projects answering their original targets | Families with Lean results | Families with extensions |
+| :---: | :---: | :---: | :---: |
+| **24** | **13** | **8** | **7** |
 
-By primary result, the collection contains 10 affirmative target projects, 3 counterexample-focused projects, 7 further-progress projects, 3 construction/classification projects, and 1 parallel treatment. The repository includes [189 Lean source files from eight fixed public versions](formalizations/README.md).
+The primary-result breakdown is 10 affirmative target results, 3 counterexample-focused results, 7 further-progress projects, 3 construction/classification projects, and 1 parallel treatment. Seven families include subsequent extensions, and eight contain Lean results.
 
-**Highlights:** the remaining cases of Howroyd’s 2018 classification problem; all-index Lecture Hall polynomiality with SAGBI and toric-degeneration extensions; chemical-graph degree extremizers for every n ≥ 7; a 237-step fence-rowmotion counterexample; and a sharp 23-colour bound for K6 clique chains.
+## From earlier work to the present results
 
-**Mathematical areas:** extremal graph theory, algebraic combinatorics, commutative algebra, real-rootedness and interlacing, enumerative geometry.
+| Project | Earlier work | Contribution presented here |
+| --- | --- | --- |
+| Howroyd, posed in 2018 | One of three residue classes was settled | The other two classes, explicit 27-set classification, and Lean proof |
+| Lecture Hall, 2018 | Computations through length 12 | All-index polynomiality; further coefficient and algebraic-structure results |
+| Chemical graphs, Applied Mathematics and Computation | A later paper covered one residue class modulo four | All four classes for every n ≥ 7, realizability, and Lean formalization |
+| Peak polynomials, Experimental Mathematics (2016) | Partial interval and coefficient results | The remaining sign interval needed for the specified last-real-root conclusion |
+| Fence rowmotion, Algebraic Combinatorics | A conjectured constant orbit average | A 237-step counterexample orbit, checked in Lean |
+| K6 clique chains, 2025 | A proposed uniform 22-colour bound | A 450-vertex counterexample and the sharp uniform bound 23 |
 
-The project entries below connect each result to its original question, earlier literature, proof and verification materials.
+The [bibliography](SOURCES.md) records original questions and prior work; the [Lean collection](formalizations/README.md) contains 189 source files from eight fixed public project versions. The mathematical areas include combinatorics, graph theory, polynomials, commutative algebra and asymptotic analysis.
+
+Verification materials vary by project: comparison with the original statements and literature, proof checks, exact computations or finite certificates, and Lean formalization in eight projects. Project records identify the covered statements and supplied artifacts.
 
 ## Selected problems
 

@@ -35,5 +35,8 @@
     "karp-order-two-real-rootedness"
   ],
   "lean_projects": 8,
-  "extension_groups": 7
+  "extension_groups": 7,
+  "result_families": 24,
+  "family_grouping": "One core-question group per listed project; principal result, supporting arguments and extensions remain in that group.",
+  "families_with_extensions": 7
 }
