@@ -1,0 +1,60 @@
+﻿title,year,authors,venue,url,role,kind
+Howroyd 27集分类：原题来源,2018,Andrew Howroyd,OEIS A297557,https://oeis.org/A297557,问题来源,OEIS原始提问
+化学图极值度数分类：原题来源,2024,Martin Knor; Riste Škrekovski; Slobodan Filipovski; Darko Dimitrov,Applied Mathematics and Computation,https://arxiv.org/abs/2411.01530,问题来源,论文
+Stern多项式正性：原题来源,2019,Maciej Ulas,Publicationes Mathematicae Debrecen / arXiv固定版,https://arxiv.org/abs/1909.10844,问题来源,论文
+Hardinian数组渐近：原题来源,2023,Robert Dougherty-Bliss; Manuel Kauers,Electronic Journal of Combinatorics,https://doi.org/10.37236/12358,问题来源,论文
+无三角形循环图存在性：原题来源,2020,S. Masih Ayat; S. Majid Ayat; Meysam Ghahramani,AIMS Mathematics,https://doi.org/10.3934/math.2020242,问题来源,论文
+五点集合装填密度：原题来源,2024,Alexander Natalchenko; Arsenii Sagdeev,Journal of Graph Theory,https://doi.org/10.1002/jgt.23269,问题来源,论文
+Lecture Hall多项式与退化：原题来源,2018,Lukas Katthän,2018 Osaka Lattice Polytopes Workshop / arXiv,https://arxiv.org/abs/1809.01377,问题来源,会议稿
+Fence行运动反例：原题来源,2021,Sergi Elizalde; Matthew Plante; Tom Roby; Bruce E. Sagan,Algebraic Combinatorics,https://doi.org/10.5802/alco.256,问题来源,论文
+K6链装填着色：原题来源,2025,Hanna Furmańczyk; Didem Gözüpek; Sibel Özkan,arXiv,https://arxiv.org/abs/2511.12761,问题来源,预印本
+q-rook与嵌套盒单峰性：原题来源,2024,Joel Brewster Lewis; Alejandro H. Morales,Experimental Mathematics / arXiv固定版,https://arxiv.org/abs/2410.19714,问题来源,论文
+Catalan幂Hankel精确次数：原题来源,2023,Johann Cigler,arXiv,https://arxiv.org/abs/2308.07642,问题来源,预印本
+数值半群端点残差：原题来源,2026,Dumitru I. Stamate; Francesco Strazzanti,Journal of Pure and Applied Algebra,https://doi.org/10.1016/j.jpaa.2026.108330,问题来源,论文
+Peak多项式最后实根：原题来源,2014,Sara Billey; Matthew Fahrbach; Alan Talmage,Experimental Mathematics,https://doi.org/10.1080/10586458.2015.1051193,问题来源,论文
+Karp二阶变换实根性：原题来源,2012,Dmitry B. Karp,arXiv；后续问题集重述,https://arxiv.org/abs/1203.1482,问题来源,预印本
+Gap-five Gaussian商正性：原题来源,2025,Mona Gatzweiler; Christian Krattenthaler,The Ramanujan Journal,https://doi.org/10.1007/s11139-025-01285-2,问题来源,论文
+Hurwitz多项式与大亏格展开：原题来源,2023,Xavier Coulter; Norman Do; Ellena Moskovsky,Canadian Journal of Mathematics,https://doi.org/10.4153/S0008414X25101168,问题来源,论文
+最终无限对数凹性：原题来源,2014,Luis A. Medina; Armin Straub,Annals of Combinatorics,https://arxiv.org/abs/1405.1765,问题来源,论文
+Stanton十一项W正性：原题来源,,D. Stanton,未标日期的作者手稿,https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf,问题来源,未标日期手稿
+单位平移后的无界振荡：原题来源,2000,Jenny Alvarez; Miguel Amadis; Leobardo Rosales,SIMU技术报告（年份经后文书目佐证）,https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf,问题来源,间接核年的技术报告
+Hoggatt行和矩分类：原题来源,2026,Jianxi Mao; Wenle Shi,arXiv,https://arxiv.org/abs/2607.01582,问题来源,预印本
+Narayana格点和：原题来源,2021,Colin Defant,Fertilitopes / arXiv固定版,https://arxiv.org/abs/2102.11836,问题来源,预印本
+Peak与X-descent增长率谱：原题来源,2024,Mohamed Omar; Justin M. Troyka,European Journal of Combinatorics,https://doi.org/10.1016/j.ejc.2025.104246,问题来源,论文
+固定长度fertility反例：原题来源,2024,Jurgis Kemeklis,arXiv,https://arxiv.org/abs/2408.05378,问题来源,预印本
+Clique-join支配多项式：原题来源,2025,Bilal Ahmad Rather,Journal of Combinatorial Mathematics and Combinatorial Computing,https://doi.org/10.61091/jcmcc126-19,问题来源,论文
+Unique maximum independent sets in graphs on monomials of a fixed degree,2021,John Machacek,Procedia Computer Science 195; LAGOS 2021,https://arxiv.org/abs/2010.11112,Howroyd：3整除分支,相关研究文献
+Chemical graph extremal case n=0 mod4,2026,Darko Dimitrov,Discrete Mathematics Letters 18,https://doi.org/10.47443/dml.2026.041,化学图：已知部分；作者表未全枚举,相关研究文献
+A simple algorithm for expanding a power series as a continued fraction,2023,Alan D. Sokal,Expositiones Mathematicae,https://doi.org/10.1016/j.exmath.2022.12.001,Lecture Hall通用工具,相关研究文献
+Combinatorial aspects of continued fractions,1980,Philippe Flajolet,Discrete Mathematics,https://algo.inria.fr/flajolet/Publications/Flajolet80b.pdf,Lecture Hall经典工具,相关研究文献
+Triangle-free regular graphs,1991,A. F. Sidorenko,Discrete Mathematics,https://doi.org/10.1016/0012-365X(91)90114-H,A-图既有偶度族,相关研究文献
+Triangle-free graphs whose independence number equals the degree,2010,Stephan Brandt,Discrete Mathematics,https://doi.org/10.1016/j.disc.2009.05.021,A-图比例构造,相关研究文献
+Chorded cycles in Chvátal–Erdős graphs,2026,Allan Bickle; Megan Cream; Ronald J. Gould,Discrete Mathematics 350(2027); online2026,https://doi.org/10.1016/j.disc.2026.115336,A-图后续端点结果,相关研究文献
+"Monomial ideals, almost complete intersections and the Weak Lefschetz Property",2011,Juan C. Migliore; Rosa M. Miró-Roig; Uwe Nagel,Transactions of the AMS,https://arxiv.org/abs/0811.1023,q-rook相关代数背景,相关研究文献
+Monomial Almost Complete Intersections and the Strong Lefschetz Property,2025,Bek Chase; Filip Jonsson Kling,arXiv,https://arxiv.org/abs/2507.18516,q-rook相关SLP工作,相关研究文献
+Hankel determinants for convolution powers of Catalan numbers,2019,Ying Wang; Guoce Xin,Discrete Mathematics,https://arxiv.org/abs/1811.00248,Cigler已知小参数,相关研究文献
+"Catalan numbers, Hankel determinants and Fibonacci polynomials",2018,Johann Cigler,arXiv,https://arxiv.org/abs/1801.05608,Cigler邻近恒等式,相关研究文献
+Hankel determinants of linear combinations of moments of orthogonal polynomials II,2021,Christian Krattenthaler,The Ramanujan Journal,https://doi.org/10.1007/s11139-021-00514-8,经典行列式工具,相关研究文献
+Hankel Determinants for Convolution Powers of Narayana Polynomials,2026,Guo-Niu Han,Electronic Journal of Combinatorics 33(2) P2.42,https://doi.org/10.37236/14995,邻近偏移公式,相关研究文献
+Hankel determinants of Catalan-like sequences,2026,Shane Chern; Wenle Shi,arXiv,https://arxiv.org/abs/2608.27208,邻近偏移0/1公式,相关研究文献
+"Cyclotomic generating functions, empty weighted complete intersections and positivity",2026,Mona Gatzweiler; Fabián Levicán-Santibáñez; Atsuro Yoshida,arXiv,https://arxiv.org/abs/2603.22226,Gaussian商通用判据,相关研究文献
+Apéry sets of shifted numerical monoids,2018,Christopher O’Neill; Roberto Pelayo,Advances in Applied Mathematics,https://doi.org/10.1016/j.aam.2018.01.005,半群背景,相关研究文献
+Canonical trace ideal and residue for numerical semigroup rings,2021,Jürgen Herzog; Takayuki Hibi; Dumitru I. Stamate,Semigroup Forum,https://doi.org/10.1007/s00233-021-10205-x,半群背景,相关研究文献
+"Parametric Presburger arithmetic: logic, combinatorics, and quasi-polynomial behavior",2017,Tristram Bogart; John Goodrick; Kevin Woods,Discrete Analysis,https://doi.org/10.19086/da.1254,半群相关通用结构,相关研究文献
+A proof of the peak polynomial positivity conjecture,2017,Alexander Diaz-Lopez; Pamela E. Harris; Erik Insko; Mohamed Omar,Journal of Combinatorial Theory Series A,https://arxiv.org/abs/1605.01708,Peak既有正性,相关研究文献
+Reflected Newton Transforms and Concavity of Peak-Polynomial Coefficients,2026,Alex Chengyu Li,Zenodo工作稿v3,https://doi.org/10.5281/zenodo.22832569,Peak邻近系数结果,相关研究文献
+"Open problems on polynomials, their zero distribution and related questions:2023",2023,Liudmyla Kryvonos; Dmitry B. Karp,问题集；仅列相关署名,https://arxiv.org/abs/2312.07754,Karp问题后续重述,相关研究文献
+A unified approach to infinite log-concavity of combinatorial sequences,2026,Matthew H. Y. Xie; Candice X. T. Zhang; Philip B. Zhang,arXiv,https://arxiv.org/abs/2610.12237,无限对数凹通用工具,相关研究文献
+Infinite log-concavity: developments and conjectures,2010,Peter R. W. McNamara; Bruce E. Sagan,Advances in Applied Mathematics,https://arxiv.org/abs/0808.1065,无限对数凹背景,相关研究文献
+On a conjecture by Hoggatt with extensions to Hoggatt sums and Hoggatt triangles,1989,Daniel C. Fielder; Cecil O. Alford,Fibonacci Quarterly,https://www.mathstat.dal.ca/FQ/Scanned/27-2/fielder.pdf,Hoggatt定义/索引,相关研究文献
+Analytic properties arising from the Baxter numbers,2026,Hanqian Fang; Candice X. T. Zhang; James J. Y. Zhao,Journal of Mathematical Analysis and Applications,https://doi.org/10.1016/j.jmaa.2026.130615,Baxter既有非Stieltjes结论,相关研究文献
+Log-convex and Stieltjes moment sequences,2016,Yi Wang; Bao-Xuan Zhu,Advances in Applied Mathematics,https://arxiv.org/abs/1612.04114,矩序列定义,相关研究文献
+Strong q-log-convexity of the d-Hoggatt polynomials,2026,Shane Chern; Wenle Shi,arXiv,https://arxiv.org/abs/2609.33732,Hoggatt后续多项式性质,相关研究文献
+A criterion for unimodality,1999,George Boros; Victor H. Moll,Electronic Journal of Combinatorics,https://doi.org/10.37236/1442,平移既有单峰判据,相关研究文献
+An extension of a criterion for unimodality,2001,Jenny Alvarez; Miguel Amadis; George Boros; Dagan Karp; Victor H. Moll; Leobardo Rosales,Electronic Journal of Combinatorics,https://doi.org/10.37236/1574,平移整数参数扩展,相关研究文献
+Proof of a conjecture on unimodality,2005,Yi Wang; Yeong-Nan Yeh,European Journal of Combinatorics,https://arxiv.org/abs/0809.1586,平移正实参数结果,相关研究文献
+q-Binomials and related symmetric unimodal polynomials,2018,Bryan Ek,作者稿,https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf,2000报告书目旁证,相关研究文献
+The importance of the Selberg integral,2008,Peter J. Forrester; S. Ole Warnaar,Bulletin of the AMS,https://arxiv.org/abs/0710.3981,Hardinian常数背景,相关研究文献
+Rectangular Hardinian Arrays,2024,Robert Dougherty-Bliss; George Spahn,ACM Communications in Computer Algebra;ISSAC2024 poster,https://doi.org/10.1145/3717582.3717589,Hardinian后续矩形工作,相关研究文献
+On the large genus of Hurwitz numbers,2026,Davide Accadia; Danilo Lewanski; Giulio Ruzza,arXiv,https://arxiv.org/abs/2604.12880,Hurwitz主阶框架,相关研究文献
+The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus,2025,Chenglang Yang,arXiv,https://arxiv.org/abs/2503.01920,Hurwitz普通单调主阶,相关研究文献

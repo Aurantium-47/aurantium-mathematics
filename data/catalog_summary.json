@@ -1,0 +1,39 @@
+{
+  "public_projects": 24,
+  "categories": {
+    "原题结论": 13,
+    "参数族与推进": 8,
+    "构造与分类": 3
+  },
+  "projects_with_Lean": 8,
+  "cloud_acceptance_closed_projects": 7,
+  "extension_groups": 8,
+  "counterexample_or_negative_certificate_projects": 7,
+  "bibliographic_records": 59,
+  "research_documents_excluding_OEIS": 58,
+  "named_author_strings_lower_bound": 101,
+  "bibliographic_count_note": "Bounded documented corpus of original sources/related work/background;not all global papers or all people who attempted these problems. Some et-al/edited-volume author lists are incomplete.",
+  "source_age_year_difference": {
+    "n": 22,
+    "minimum": 0,
+    "maximum": 14,
+    "mean": 4.5,
+    "median": 3.0
+  },
+  "verified_version_age_year_difference": {
+    "n": 22,
+    "minimum": 0,
+    "maximum": 14,
+    "mean": 4
+  },
+  "including_indirect_2000_report": {
+    "n": 23,
+    "minimum": 0,
+    "maximum": 26,
+    "mean": 5.434782608695652
+  },
+  "unknown_date": [
+    "Stanton author manuscript"
+  ],
+  "age_note": "2026 minus year,not exact elapsed years or proof of continuous unsolved status. Primary summary excludes undated Stanton and the indirectly authenticated2000 report;source first year does not prove the exact question was already in v1."
+}

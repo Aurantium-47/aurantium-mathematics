@@ -1,0 +1,201 @@
+{
+  "as_of": "2026-10-16T06:25:26+00:00",
+  "public_projects": 24,
+  "lean_projects": 8,
+  "extension_groups": 8,
+  "tokens": {
+    "input_tokens": 3973768697,
+    "cached_input_tokens": 3894307328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14700031,
+    "reasoning_output_tokens": 5103221,
+    "total_tokens": 3988468728
+  },
+  "uncached_input_tokens": 79461369,
+  "amortized_total_tokens_per_public_project": 166186197.0,
+  "amortized_uncached_input_plus_output_per_public_project": 3923391.6666666665,
+  "timing": {
+    "phase_role_estimates": {
+      "answer": {
+        "threads": 8,
+        "turns": 23,
+        "thread_hours": 3.605277777777778,
+        "tokens": {
+          "input_tokens": 58583310,
+          "cached_input_tokens": 55548032,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 336613,
+          "reasoning_output_tokens": 105969,
+          "total_tokens": 58919923
+        }
+      },
+      "coordination": {
+        "threads": 1,
+        "turns": 168,
+        "thread_hours": 48.945,
+        "tokens": {
+          "input_tokens": 1438909743,
+          "cached_input_tokens": 1419464320,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3375251,
+          "reasoning_output_tokens": 1414757,
+          "total_tokens": 1442284994
+        }
+      },
+      "lean_development": {
+        "threads": 24,
+        "turns": 305,
+        "thread_hours": 64.59166666666667,
+        "tokens": {
+          "input_tokens": 1722604807,
+          "cached_input_tokens": 1696507648,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6144233,
+          "reasoning_output_tokens": 2431438,
+          "total_tokens": 1728749040
+        }
+      },
+      "publication": {
+        "threads": 13,
+        "turns": 27,
+        "thread_hours": 2.6075,
+        "tokens": {
+          "input_tokens": 43929723,
+          "cached_input_tokens": 42487168,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 283306,
+          "reasoning_output_tokens": 48220,
+          "total_tokens": 44213029
+        }
+      },
+      "research": {
+        "threads": 23,
+        "turns": 42,
+        "thread_hours": 4.836111111111111,
+        "tokens": {
+          "input_tokens": 96858964,
+          "cached_input_tokens": 92181632,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 421387,
+          "reasoning_output_tokens": 143911,
+          "total_tokens": 97280351
+        }
+      },
+      "unclassified": {
+        "threads": 56,
+        "turns": 88,
+        "thread_hours": 10.368611111111111,
+        "tokens": {
+          "input_tokens": 207968727,
+          "cached_input_tokens": 199879168,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1106124,
+          "reasoning_output_tokens": 291949,
+          "total_tokens": 209074851
+        }
+      },
+      "verification": {
+        "threads": 135,
+        "turns": 233,
+        "thread_hours": 27.98,
+        "tokens": {
+          "input_tokens": 404913423,
+          "cached_input_tokens": 388239360,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3033117,
+          "reasoning_output_tokens": 666977,
+          "total_tokens": 407946540
+        }
+      }
+    },
+    "web_UI_displayed_runtime": {
+      "research_and_answer_combined": {
+        "samples": 29,
+        "total_hours": 16.871388888888887,
+        "mean_minutes": 34.906321839080455,
+        "median_minutes": 32.03333333333333,
+        "min_minutes": 25.533333333333335,
+        "max_minutes": 95.03333333333333
+      },
+      "verification": {
+        "samples": 2,
+        "total_hours": 0.6922222222222222,
+        "mean_minutes": 20.766666666666666,
+        "median_minutes": 20.766666666666666,
+        "min_minutes": 19.6,
+        "max_minutes": 21.933333333333334
+      }
+    },
+    "cloud_Lean_saved_API_jobs": [
+      {
+        "repo": "chemical-graph-sigma-extremizers",
+        "jobs": 15,
+        "runner_hours": 0.44416666666666665,
+        "success": 9,
+        "failure": 6
+      },
+      {
+        "repo": "fence-rowmotion-counterexample",
+        "jobs": 2,
+        "runner_hours": 0.20972222222222223,
+        "success": 1,
+        "failure": 1
+      },
+      {
+        "repo": "hardinian-array-asymptotics",
+        "jobs": 97,
+        "runner_hours": 2.888333333333333,
+        "success": 57,
+        "failure": 40
+      },
+      {
+        "repo": "howroyd-27-conjecture",
+        "jobs": 1,
+        "runner_hours": 0.06388888888888888,
+        "success": 1,
+        "failure": 0
+      },
+      {
+        "repo": "lecture-hall-polynomiality",
+        "jobs": 32,
+        "runner_hours": 0.6763888888888889,
+        "success": 22,
+        "failure": 10
+      },
+      {
+        "repo": "nonmixed-five-point-packing",
+        "jobs": 1,
+        "runner_hours": 0.4486111111111111,
+        "success": 1,
+        "failure": 0
+      },
+      {
+        "repo": "stern-polynomial-positivity",
+        "jobs": 2,
+        "runner_hours": 0.03388888888888889,
+        "success": 1,
+        "failure": 1
+      },
+      {
+        "repo": "triangle-free-circulant-existence",
+        "jobs": 29,
+        "runner_hours": 0.5461111111111111,
+        "success": 18,
+        "failure": 11
+      }
+    ],
+    "cloud_Lean_jobs_count": 179,
+    "cloud_Lean_total_runner_hours": 5.311111111111111,
+    "cloud_Lean_covered_projects": 8,
+    "parallel_thread_hours": 162.93416666666667,
+    "union_active_wall_hours": 60.494166666666665,
+    "calendar_first_to_last_hours": 110.34388888888888,
+    "calendar_first": "2026-10-11T16:02:14+00:00",
+    "calendar_last": "2026-10-16T06:22:52+00:00",
+    "phase_warning": "Role-labelled thread active durations;author web runtime includes research+answer and cannot be separated retrospectively;cloud runtime overlaps Lean development and must not be added as sequential wall time."
+  },
+  "methodology": "METHODS.md",
+  "pro_100_weekly_fraction": null,
+  "pro_200_weekly_fraction": null,
+  "weekly_fraction_reason": "No fixed public token/week denominator; account snapshots cannot isolate this campaign."
+}
