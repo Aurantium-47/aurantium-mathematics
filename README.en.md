@@ -10,7 +10,17 @@
 
 ---
 
-This collection brings together 24 research projects, eight with Lean formalization. The emphasis is on the mathematical question, the gap left by earlier results, and the precise theorem or counterexample established here.
+This collection brings together AI-assisted research in combinatorics, graph theory and polynomials: all-parameter proofs, exact counterexamples and structural extensions.
+
+| Public research projects | Projects with Lean results | Extension groups |
+| :---: | :---: | :---: |
+| **24** | **8** | **7** |
+
+**Highlights:** the remaining cases of Howroyd’s 2018 classification problem; all-index Lecture Hall polynomiality with SAGBI and toric-degeneration extensions; chemical-graph degree extremizers for every n ≥ 7; a 237-step fence-rowmotion counterexample; and a sharp 23-colour bound for K6 clique chains.
+
+**Mathematical areas:** extremal graph theory, algebraic combinatorics, commutative algebra, real-rootedness and interlacing, enumerative geometry.
+
+The project entries below connect each result to its original question, earlier literature, proof and verification materials.
 
 ## Selected problems
 
