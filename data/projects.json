@@ -311,17 +311,19 @@
       "Dmitry B. Karp"
     ],
     "source_venue": "arXiv；后续问题集重述",
-    "result_class": "参数族与推进",
+    "result_class": "文献对照",
     "result": "正、满支撑的二阶Pochhammer变换负实根性及残余根间距",
-    "verification": "证明与精确核查",
-    "extension_group": true,
+    "verification": "已有相关公开证明；贡献对照中",
+    "extension_group": false,
     "extension_chain": "二阶负实根 → 残余因子根定位/间距 → 对称权重充分条件",
     "source_kind": "预印本",
     "url": "https://github.com/Aurantium-47/karp-order-two-real-rootedness",
     "source_age_years": 14,
     "verified_version_age_years": 14,
     "age_stat_primary": true,
-    "counterexample_component": false
+    "counterexample_component": false,
+    "publication_note": "Zweiman (2026-10-10), arXiv:2610.18895, Theorem 1.3. 不列入首解或已确认新增扩展统计。",
+    "extension_review_pending": true
   },
   {
     "title": "Gap-five Gaussian商正性",

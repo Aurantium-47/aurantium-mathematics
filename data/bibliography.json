@@ -708,5 +708,16 @@
     "url": "https://arxiv.org/abs/2503.01920",
     "role": "Hurwitz普通单调主阶",
     "kind": "相关研究文献"
+  },
+  {
+    "title": "A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series",
+    "year": 2026,
+    "authors": [
+      "Henry Zweiman"
+    ],
+    "venue": "arXiv:2610.18895v1",
+    "url": "https://arxiv.org/abs/2610.18895",
+    "role": "Karp：2026-10-10公开证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中",
+    "kind": "相关研究文献"
   }
 ]

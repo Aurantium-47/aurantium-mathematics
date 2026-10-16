@@ -2,16 +2,17 @@
   "public_projects": 24,
   "categories": {
     "原题结论": 13,
-    "参数族与推进": 8,
+    "参数族与推进": 7,
+    "文献对照": 1,
     "构造与分类": 3
   },
   "projects_with_Lean": 8,
   "cloud_acceptance_closed_projects": 7,
-  "extension_groups": 8,
+  "extension_groups": 7,
   "counterexample_or_negative_certificate_projects": 7,
-  "bibliographic_records": 59,
-  "research_documents_excluding_OEIS": 58,
-  "named_author_strings_lower_bound": 101,
+  "bibliographic_records": 60,
+  "research_documents_excluding_OEIS": 59,
+  "named_author_strings_lower_bound": 102,
   "bibliographic_count_note": "Bounded documented corpus of original sources/related work/background;not all global papers or all people who attempted these problems. Some et-al/edited-volume author lists are incomplete.",
   "source_age_year_difference": {
     "n": 22,
@@ -35,5 +36,7 @@
   "unknown_date": [
     "Stanton author manuscript"
   ],
-  "age_note": "2026 minus year,not exact elapsed years or proof of continuous unsolved status. Primary summary excludes undated Stanton and the indirectly authenticated2000 report;source first year does not prove the exact question was already in v1."
+  "age_note": "2026 minus year,not exact elapsed years or proof of continuous unsolved status. Primary summary excludes undated Stanton and the indirectly authenticated2000 report;source first year does not prove the exact question was already in v1.",
+  "extension_groups_pending_comparison": 1,
+  "literature_updated": "2026-10-17"
 }
