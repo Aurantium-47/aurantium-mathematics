@@ -1,0 +1,757 @@
+{
+  "as_of": "2026-10-17",
+  "direct_records": 44,
+  "listed_researcher_names": 77,
+  "scope": "Authors listed on original problem sources and directly related studies; excludes records used only as general tools, definitions or broad background. Includes original proposers and studies of directly related objects; does not measure failed attempts or the complete worldwide researcher population.",
+  "selected_records": [
+    {
+      "bibliography_index": 1,
+      "title": "Howroyd 27集分类：原题来源",
+      "year": 2018,
+      "authors": [
+        "Andrew Howroyd"
+      ],
+      "venue": "OEIS A297557",
+      "url": "https://oeis.org/A297557",
+      "role": "问题来源",
+      "kind": "OEIS原始提问"
+    },
+    {
+      "bibliography_index": 2,
+      "title": "化学图极值度数分类：原题来源",
+      "year": 2024,
+      "authors": [
+        "Martin Knor",
+        "Riste Škrekovski",
+        "Slobodan Filipovski",
+        "Darko Dimitrov"
+      ],
+      "venue": "Applied Mathematics and Computation",
+      "url": "https://arxiv.org/abs/2411.01530",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 3,
+      "title": "Stern多项式正性：原题来源",
+      "year": 2019,
+      "authors": [
+        "Maciej Ulas"
+      ],
+      "venue": "Publicationes Mathematicae Debrecen / arXiv固定版",
+      "url": "https://arxiv.org/abs/1909.10844",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 4,
+      "title": "Hardinian数组渐近：原题来源",
+      "year": 2023,
+      "authors": [
+        "Robert Dougherty-Bliss",
+        "Manuel Kauers"
+      ],
+      "venue": "Electronic Journal of Combinatorics",
+      "url": "https://doi.org/10.37236/12358",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 5,
+      "title": "无三角形循环图存在性：原题来源",
+      "year": 2020,
+      "authors": [
+        "S. Masih Ayat",
+        "S. Majid Ayat",
+        "Meysam Ghahramani"
+      ],
+      "venue": "AIMS Mathematics",
+      "url": "https://doi.org/10.3934/math.2020242",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 6,
+      "title": "五点集合装填密度：原题来源",
+      "year": 2024,
+      "authors": [
+        "Alexander Natalchenko",
+        "Arsenii Sagdeev"
+      ],
+      "venue": "Journal of Graph Theory",
+      "url": "https://doi.org/10.1002/jgt.23269",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 7,
+      "title": "Lecture Hall多项式与退化：原题来源",
+      "year": 2018,
+      "authors": [
+        "Lukas Katthän"
+      ],
+      "venue": "2018 Osaka Lattice Polytopes Workshop / arXiv",
+      "url": "https://arxiv.org/abs/1809.01377",
+      "role": "问题来源",
+      "kind": "会议稿"
+    },
+    {
+      "bibliography_index": 8,
+      "title": "Fence行运动反例：原题来源",
+      "year": 2021,
+      "authors": [
+        "Sergi Elizalde",
+        "Matthew Plante",
+        "Tom Roby",
+        "Bruce E. Sagan"
+      ],
+      "venue": "Algebraic Combinatorics",
+      "url": "https://doi.org/10.5802/alco.256",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 9,
+      "title": "K6链装填着色：原题来源",
+      "year": 2025,
+      "authors": [
+        "Hanna Furmańczyk",
+        "Didem Gözüpek",
+        "Sibel Özkan"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2511.12761",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 10,
+      "title": "q-rook与嵌套盒单峰性：原题来源",
+      "year": 2024,
+      "authors": [
+        "Joel Brewster Lewis",
+        "Alejandro H. Morales"
+      ],
+      "venue": "Experimental Mathematics / arXiv固定版",
+      "url": "https://arxiv.org/abs/2410.19714",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 11,
+      "title": "Catalan幂Hankel精确次数：原题来源",
+      "year": 2023,
+      "authors": [
+        "Johann Cigler"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2308.07642",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 12,
+      "title": "数值半群端点残差：原题来源",
+      "year": 2026,
+      "authors": [
+        "Dumitru I. Stamate",
+        "Francesco Strazzanti"
+      ],
+      "venue": "Journal of Pure and Applied Algebra",
+      "url": "https://doi.org/10.1016/j.jpaa.2026.108330",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 13,
+      "title": "Peak多项式最后实根：原题来源",
+      "year": 2014,
+      "authors": [
+        "Sara Billey",
+        "Matthew Fahrbach",
+        "Alan Talmage"
+      ],
+      "venue": "Experimental Mathematics",
+      "url": "https://doi.org/10.1080/10586458.2015.1051193",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 14,
+      "title": "Karp二阶变换实根性：原题来源",
+      "year": 2012,
+      "authors": [
+        "Dmitry B. Karp"
+      ],
+      "venue": "arXiv；后续问题集重述",
+      "url": "https://arxiv.org/abs/1203.1482",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 15,
+      "title": "Gap-five Gaussian商正性：原题来源",
+      "year": 2025,
+      "authors": [
+        "Mona Gatzweiler",
+        "Christian Krattenthaler"
+      ],
+      "venue": "The Ramanujan Journal",
+      "url": "https://doi.org/10.1007/s11139-025-01285-2",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 16,
+      "title": "Hurwitz多项式与大亏格展开：原题来源",
+      "year": 2023,
+      "authors": [
+        "Xavier Coulter",
+        "Norman Do",
+        "Ellena Moskovsky"
+      ],
+      "venue": "Canadian Journal of Mathematics",
+      "url": "https://doi.org/10.4153/S0008414X25101168",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 17,
+      "title": "最终无限对数凹性：原题来源",
+      "year": 2014,
+      "authors": [
+        "Luis A. Medina",
+        "Armin Straub"
+      ],
+      "venue": "Annals of Combinatorics",
+      "url": "https://arxiv.org/abs/1405.1765",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 18,
+      "title": "Stanton十一项W正性：原题来源",
+      "year": null,
+      "authors": [
+        "D. Stanton"
+      ],
+      "venue": "未标日期的作者手稿",
+      "url": "https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf",
+      "role": "问题来源",
+      "kind": "未标日期手稿"
+    },
+    {
+      "bibliography_index": 19,
+      "title": "单位平移后的无界振荡：原题来源",
+      "year": 2000,
+      "authors": [
+        "Jenny Alvarez",
+        "Miguel Amadis",
+        "Leobardo Rosales"
+      ],
+      "venue": "SIMU技术报告（年份经后文书目佐证）",
+      "url": "https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf",
+      "role": "问题来源",
+      "kind": "间接核年的技术报告"
+    },
+    {
+      "bibliography_index": 20,
+      "title": "Hoggatt行和矩分类：原题来源",
+      "year": 2026,
+      "authors": [
+        "Jianxi Mao",
+        "Wenle Shi"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2607.01582",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 21,
+      "title": "Narayana格点和：原题来源",
+      "year": 2021,
+      "authors": [
+        "Colin Defant"
+      ],
+      "venue": "Fertilitopes / arXiv固定版",
+      "url": "https://arxiv.org/abs/2102.11836",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 22,
+      "title": "Peak与X-descent增长率谱：原题来源",
+      "year": 2024,
+      "authors": [
+        "Mohamed Omar",
+        "Justin M. Troyka"
+      ],
+      "venue": "European Journal of Combinatorics",
+      "url": "https://doi.org/10.1016/j.ejc.2025.104246",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 23,
+      "title": "固定长度fertility反例：原题来源",
+      "year": 2024,
+      "authors": [
+        "Jurgis Kemeklis"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2408.05378",
+      "role": "问题来源",
+      "kind": "预印本"
+    },
+    {
+      "bibliography_index": 24,
+      "title": "Clique-join支配多项式：原题来源",
+      "year": 2025,
+      "authors": [
+        "Bilal Ahmad Rather"
+      ],
+      "venue": "Journal of Combinatorial Mathematics and Combinatorial Computing",
+      "url": "https://doi.org/10.61091/jcmcc126-19",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 25,
+      "title": "Unique maximum independent sets in graphs on monomials of a fixed degree",
+      "year": 2021,
+      "authors": [
+        "John Machacek"
+      ],
+      "venue": "Procedia Computer Science 195; LAGOS 2021",
+      "url": "https://arxiv.org/abs/2010.11112",
+      "role": "Howroyd：3整除分支",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 26,
+      "title": "Chemical graph extremal case n=0 mod4",
+      "year": 2026,
+      "authors": [
+        "Darko Dimitrov"
+      ],
+      "venue": "Discrete Mathematics Letters 18",
+      "url": "https://doi.org/10.47443/dml.2026.041",
+      "role": "化学图：已知部分；作者表未全枚举",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 29,
+      "title": "Triangle-free regular graphs",
+      "year": 1991,
+      "authors": [
+        "A. F. Sidorenko"
+      ],
+      "venue": "Discrete Mathematics",
+      "url": "https://doi.org/10.1016/0012-365X(91)90114-H",
+      "role": "A-图既有偶度族",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 30,
+      "title": "Triangle-free graphs whose independence number equals the degree",
+      "year": 2010,
+      "authors": [
+        "Stephan Brandt"
+      ],
+      "venue": "Discrete Mathematics",
+      "url": "https://doi.org/10.1016/j.disc.2009.05.021",
+      "role": "A-图比例构造",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 31,
+      "title": "Chorded cycles in Chvátal–Erdős graphs",
+      "year": 2026,
+      "authors": [
+        "Allan Bickle",
+        "Megan Cream",
+        "Ronald J. Gould"
+      ],
+      "venue": "Discrete Mathematics 350(2027); online2026",
+      "url": "https://doi.org/10.1016/j.disc.2026.115336",
+      "role": "A-图后续端点结果",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 34,
+      "title": "Hankel determinants for convolution powers of Catalan numbers",
+      "year": 2019,
+      "authors": [
+        "Ying Wang",
+        "Guoce Xin"
+      ],
+      "venue": "Discrete Mathematics",
+      "url": "https://arxiv.org/abs/1811.00248",
+      "role": "Cigler已知小参数",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 35,
+      "title": "Catalan numbers, Hankel determinants and Fibonacci polynomials",
+      "year": 2018,
+      "authors": [
+        "Johann Cigler"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1801.05608",
+      "role": "Cigler邻近恒等式",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 37,
+      "title": "Hankel Determinants for Convolution Powers of Narayana Polynomials",
+      "year": 2026,
+      "authors": [
+        "Guo-Niu Han"
+      ],
+      "venue": "Electronic Journal of Combinatorics 33(2) P2.42",
+      "url": "https://doi.org/10.37236/14995",
+      "role": "邻近偏移公式",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 38,
+      "title": "Hankel determinants of Catalan-like sequences",
+      "year": 2026,
+      "authors": [
+        "Shane Chern",
+        "Wenle Shi"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2608.27208",
+      "role": "邻近偏移0/1公式",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 43,
+      "title": "A proof of the peak polynomial positivity conjecture",
+      "year": 2017,
+      "authors": [
+        "Alexander Diaz-Lopez",
+        "Pamela E. Harris",
+        "Erik Insko",
+        "Mohamed Omar"
+      ],
+      "venue": "Journal of Combinatorial Theory Series A",
+      "url": "https://arxiv.org/abs/1605.01708",
+      "role": "Peak既有正性",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 44,
+      "title": "Reflected Newton Transforms and Concavity of Peak-Polynomial Coefficients",
+      "year": 2026,
+      "authors": [
+        "Alex Chengyu Li"
+      ],
+      "venue": "Zenodo工作稿v3",
+      "url": "https://doi.org/10.5281/zenodo.22832569",
+      "role": "Peak邻近系数结果",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 47,
+      "title": "Infinite log-concavity: developments and conjectures",
+      "year": 2010,
+      "authors": [
+        "Peter R. W. McNamara",
+        "Bruce E. Sagan"
+      ],
+      "venue": "Advances in Applied Mathematics",
+      "url": "https://arxiv.org/abs/0808.1065",
+      "role": "无限对数凹背景",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 49,
+      "title": "Analytic properties arising from the Baxter numbers",
+      "year": 2026,
+      "authors": [
+        "Hanqian Fang",
+        "Candice X. T. Zhang",
+        "James J. Y. Zhao"
+      ],
+      "venue": "Journal of Mathematical Analysis and Applications",
+      "url": "https://doi.org/10.1016/j.jmaa.2026.130615",
+      "role": "Baxter既有非Stieltjes结论",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 52,
+      "title": "A criterion for unimodality",
+      "year": 1999,
+      "authors": [
+        "George Boros",
+        "Victor H. Moll"
+      ],
+      "venue": "Electronic Journal of Combinatorics",
+      "url": "https://doi.org/10.37236/1442",
+      "role": "平移既有单峰判据",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 53,
+      "title": "An extension of a criterion for unimodality",
+      "year": 2001,
+      "authors": [
+        "Jenny Alvarez",
+        "Miguel Amadis",
+        "George Boros",
+        "Dagan Karp",
+        "Victor H. Moll",
+        "Leobardo Rosales"
+      ],
+      "venue": "Electronic Journal of Combinatorics",
+      "url": "https://doi.org/10.37236/1574",
+      "role": "平移整数参数扩展",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 54,
+      "title": "Proof of a conjecture on unimodality",
+      "year": 2005,
+      "authors": [
+        "Yi Wang",
+        "Yeong-Nan Yeh"
+      ],
+      "venue": "European Journal of Combinatorics",
+      "url": "https://arxiv.org/abs/0809.1586",
+      "role": "平移正实参数结果",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 57,
+      "title": "Rectangular Hardinian Arrays",
+      "year": 2024,
+      "authors": [
+        "Robert Dougherty-Bliss",
+        "George Spahn"
+      ],
+      "venue": "ACM Communications in Computer Algebra;ISSAC2024 poster",
+      "url": "https://doi.org/10.1145/3717582.3717589",
+      "role": "Hardinian后续矩形工作",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 58,
+      "title": "On the large genus of Hurwitz numbers",
+      "year": 2026,
+      "authors": [
+        "Davide Accadia",
+        "Danilo Lewanski",
+        "Giulio Ruzza"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2604.12880",
+      "role": "Hurwitz主阶框架",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 59,
+      "title": "The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus",
+      "year": 2025,
+      "authors": [
+        "Chenglang Yang"
+      ],
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2503.01920",
+      "role": "Hurwitz普通单调主阶",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 60,
+      "title": "A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series",
+      "year": 2026,
+      "authors": [
+        "Henry Zweiman"
+      ],
+      "venue": "arXiv:2610.18895v1",
+      "url": "https://arxiv.org/abs/2610.18895",
+      "role": "Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中",
+      "kind": "相关研究文献"
+    }
+  ],
+  "excluded_records": [
+    {
+      "bibliography_index": 27,
+      "title": "A simple algorithm for expanding a power series as a continued fraction",
+      "role": "Lecture Hall通用工具",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 28,
+      "title": "Combinatorial aspects of continued fractions",
+      "role": "Lecture Hall经典工具",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 32,
+      "title": "Monomial ideals, almost complete intersections and the Weak Lefschetz Property",
+      "role": "q-rook相关代数背景",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 33,
+      "title": "Monomial Almost Complete Intersections and the Strong Lefschetz Property",
+      "role": "q-rook相关SLP工作",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 36,
+      "title": "Hankel determinants of linear combinations of moments of orthogonal polynomials II",
+      "role": "经典行列式工具",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 39,
+      "title": "Cyclotomic generating functions, empty weighted complete intersections and positivity",
+      "role": "Gaussian商通用判据",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 40,
+      "title": "Apéry sets of shifted numerical monoids",
+      "role": "半群背景",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 41,
+      "title": "Canonical trace ideal and residue for numerical semigroup rings",
+      "role": "半群背景",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 42,
+      "title": "Parametric Presburger arithmetic: logic, combinatorics, and quasi-polynomial behavior",
+      "role": "半群相关通用结构",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 45,
+      "title": "Open problems on polynomials, their zero distribution and related questions:2023",
+      "role": "Karp问题后续重述",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 46,
+      "title": "A unified approach to infinite log-concavity of combinatorial sequences",
+      "role": "无限对数凹通用工具",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 48,
+      "title": "On a conjecture by Hoggatt with extensions to Hoggatt sums and Hoggatt triangles",
+      "role": "Hoggatt定义/索引",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 50,
+      "title": "Log-convex and Stieltjes moment sequences",
+      "role": "矩序列定义",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 51,
+      "title": "Strong q-log-convexity of the d-Hoggatt polynomials",
+      "role": "Hoggatt后续多项式性质",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 55,
+      "title": "q-Binomials and related symmetric unimodal polynomials",
+      "role": "2000报告书目旁证",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 56,
+      "title": "The importance of the Selberg integral",
+      "role": "Hardinian常数背景",
+      "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    }
+  ],
+  "researcher_names": [
+    "A. F. Sidorenko",
+    "Alan Talmage",
+    "Alejandro H. Morales",
+    "Alex Chengyu Li",
+    "Alexander Diaz-Lopez",
+    "Alexander Natalchenko",
+    "Allan Bickle",
+    "Andrew Howroyd",
+    "Armin Straub",
+    "Arsenii Sagdeev",
+    "Bilal Ahmad Rather",
+    "Bruce E. Sagan",
+    "Candice X. T. Zhang",
+    "Chenglang Yang",
+    "Christian Krattenthaler",
+    "Colin Defant",
+    "D. Stanton",
+    "Dagan Karp",
+    "Danilo Lewanski",
+    "Darko Dimitrov",
+    "Davide Accadia",
+    "Didem Gözüpek",
+    "Dmitry B. Karp",
+    "Dumitru I. Stamate",
+    "Ellena Moskovsky",
+    "Erik Insko",
+    "Francesco Strazzanti",
+    "George Boros",
+    "George Spahn",
+    "Giulio Ruzza",
+    "Guo-Niu Han",
+    "Guoce Xin",
+    "Hanna Furmańczyk",
+    "Hanqian Fang",
+    "Henry Zweiman",
+    "James J. Y. Zhao",
+    "Jenny Alvarez",
+    "Jianxi Mao",
+    "Joel Brewster Lewis",
+    "Johann Cigler",
+    "John Machacek",
+    "Jurgis Kemeklis",
+    "Justin M. Troyka",
+    "Leobardo Rosales",
+    "Luis A. Medina",
+    "Lukas Katthän",
+    "Maciej Ulas",
+    "Manuel Kauers",
+    "Martin Knor",
+    "Matthew Fahrbach",
+    "Matthew Plante",
+    "Megan Cream",
+    "Meysam Ghahramani",
+    "Miguel Amadis",
+    "Mohamed Omar",
+    "Mona Gatzweiler",
+    "Norman Do",
+    "Pamela E. Harris",
+    "Peter R. W. McNamara",
+    "Riste Škrekovski",
+    "Robert Dougherty-Bliss",
+    "Ronald J. Gould",
+    "S. Majid Ayat",
+    "S. Masih Ayat",
+    "Sara Billey",
+    "Sergi Elizalde",
+    "Shane Chern",
+    "Sibel Özkan",
+    "Slobodan Filipovski",
+    "Stephan Brandt",
+    "Tom Roby",
+    "Victor H. Moll",
+    "Wenle Shi",
+    "Xavier Coulter",
+    "Yeong-Nan Yeh",
+    "Yi Wang",
+    "Ying Wang"
+  ]
+}

@@ -22,5 +22,22 @@
     "mean": 4.5
   },
   "age_measure": "2026 minus first source year; literature age, not continuous unsolved duration; includes the Karp parallel-treatment source. Undated Stanton and indirectly dated 2000 report excluded.",
-  "author_measure": "Distinct names listed in this bibliography, not a count of unsuccessful attempts; incomplete author lists and unresolved name disambiguation are documented in METHODS.md."
+  "author_measure": "Distinct names listed in this bibliography, not a count of unsuccessful attempts; incomplete author lists and unresolved name disambiguation are documented in METHODS.md.",
+  "prior_researcher_names": 77,
+  "prior_research_records": 44,
+  "prior_research_scope": "Original question sources and directly related studies, with general tools and background excluded; see prior_research_coverage.json.",
+  "displayed_metric_count": 9,
+  "displayed_metrics": [
+    "research_families",
+    "original_target_answers",
+    "partial_results",
+    "extension_families",
+    "lean_families",
+    "journal_problem_sources",
+    "prior_researcher_names",
+    "bibliographic_records",
+    "source_age_year_difference_range"
+  ],
+  "partial_results_display_label": "原题研究进展 / Progress on original questions",
+  "source_age_display": "Range only; mean omitted from the overview at user request."
 }
