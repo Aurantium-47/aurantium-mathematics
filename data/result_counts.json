@@ -38,5 +38,20 @@
   "extension_groups": 7,
   "result_families": 24,
   "family_grouping": "One core-question group per listed project; principal result, supporting arguments and extensions remain in that group.",
-  "families_with_extensions": 7
+  "families_with_extensions": 7,
+  "partial_results_on_broader_questions": [
+    "hardinian-array-asymptotics",
+    "nonmixed-five-point-packing",
+    "gap-five-gaussian-quotients",
+    "hurwitz-single-cycle-genera-two-three",
+    "eventual-infinite-log-concavity",
+    "stanton-eleven-entry-w-positivity",
+    "clique-join-domination-polynomials"
+  ],
+  "partial_results_also_with_extensions": [
+    "eventual-infinite-log-concavity",
+    "hurwitz-single-cycle-genera-two-three"
+  ],
+  "partial_results_meaning": "Particular cases or partial conclusions for broader original questions; does not mean only post-solution extensions.",
+  "extension_count_meaning": "Families with subsequent generalizations or constructions; overlaps partial results and does not imply the full original question was settled."
 }

@@ -16,7 +16,9 @@ This collection organizes AI-assisted research into **24 result families**, each
 | :---: | :---: | :---: | :---: |
 | **24** | **13** | **8** | **7** |
 
-The primary-result breakdown is 10 affirmative target results, 3 counterexample-focused results, 7 further-progress projects, 3 construction/classification projects, and 1 parallel treatment. Seven families include subsequent extensions, and eight contain Lean results.
+The primary-result breakdown is 10 affirmative target results, 3 counterexample-focused results, 7 projects establishing **partial results on broader original questions** (settling particular cases while the full questions remain open), 3 construction/classification projects, and 1 parallel treatment.
+
+Seven families also include extensions beyond their initial results, such as more general theorems or new constructions. This overlaps the partial-results category: an extension does not require the broader original question to have been fully settled. Eight families contain Lean results.
 
 ## From earlier work to the present results
 
