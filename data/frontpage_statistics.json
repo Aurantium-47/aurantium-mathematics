@@ -1,0 +1,26 @@
+{
+  "research_families": 24,
+  "original_target_answers": 13,
+  "affirmative_results": 10,
+  "counterexample_focus": 3,
+  "partial_results": 7,
+  "extension_families": 7,
+  "lean_families": 8,
+  "lean_source_files": 189,
+  "journal_problem_sources": 14,
+  "bibliographic_records": 60,
+  "primary_source_author_names": 48,
+  "all_listed_author_names": 102,
+  "dated_sources": 22,
+  "source_years": [
+    2012,
+    2026
+  ],
+  "source_age_year_difference": {
+    "min": 0,
+    "max": 14,
+    "mean": 4.5
+  },
+  "age_measure": "2026 minus first source year; literature age, not continuous unsolved duration; includes the Karp parallel-treatment source. Undated Stanton and indirectly dated 2000 report excluded.",
+  "author_measure": "Distinct names listed in this bibliography, not a count of unsuccessful attempts; incomplete author lists and unresolved name disambiguation are documented in METHODS.md."
+}

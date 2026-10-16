@@ -10,13 +10,38 @@
 
 ---
 
-我在AI辅助下开展的数学研究，已整理为**24组研究成果**：给出**10项原题的肯定解答、3项反例**，并在另外**7项原问题上取得部分结果**。
+我在AI辅助下开展的数学研究，已整理为**24组成果**。其中**13项原题得到解答，7项取得部分结果**；另有构造、分类与同题研究。**7组工作继续做出了推广，8组含Lean形式化成果。**
 
-其中**7组工作进一步做出了推广**，涵盖更广的对象、完整参数范围和更强的结论；**8组已有Lean形式化成果**。
+<table width="100%">
+<tbody>
+<tr>
+<td width="33%" align="center"><h3>24</h3><strong>研究成果组</strong><br><sub>按核心问题组织</sub></td>
+<td width="33%" align="center"><h3>13</h3><strong>原题得到解答</strong><br><sub>10项肯定结论 · 3项反例</sub></td>
+<td width="33%" align="center"><h3>7</h3><strong>原问题的部分结果</strong><br><sub>证明若干情形</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>7</h3><strong>包含进一步推广</strong><br><sub>扩大对象与参数范围</sub></td>
+<td width="33%" align="center"><h3>8</h3><strong>含Lean形式化成果</strong><br><sub>具体命题由内核检查</sub></td>
+<td width="33%" align="center"><h3>189</h3><strong>Lean源文件</strong><br><sub>8个项目的固定公开版本</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>14</h3><strong>原题来自专业期刊</strong><br><sub>其余见会议、OEIS及预印本等</sub></td>
+<td width="33%" align="center"><h3>60</h3><strong>问题来源与相关文献</strong><br><sub>原题、后续研究及经典工具</sub></td>
+<td width="33%" align="center"><h3>48</h3><strong>原题文献作者</strong><br><sub>当前书目已列出的姓名</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>102</h3><strong>原题及相关文献作者</strong><br><sub>按已列姓名去重</sub></td>
+<td width="33%" align="center"><h3>0—14年</h3><strong>来源文献距今</strong><br><sub>22项可定年来源 · 2012—2026</sub></td>
+<td width="33%" align="center"><h3>4.5年</h3><strong>来源文献平均距今</strong><br><sub>按2026年与首发年份之差</sub></td>
+</tr>
+</tbody>
+</table>
 
-| 研究成果组 | 含进一步推广 | 含Lean形式化 |
-| :---: | :---: | :---: |
-| **24** | **7** | **8** |
+**涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
+
+**方法与工具：** 行列式与生成函数 · SAGBI基与toric退化 · 根交错与正性 · 精确证书 · Lean 4 / mathlib · Python / SymPy · C++17
+
+<sub>年代按22项可定年来源的首发年份统计；作者人数按当前书目已列姓名去重。[统计口径与逐项来源](METHODS.md)</sub>
 
 ## 推广成果
 

@@ -10,13 +10,38 @@
 
 ---
 
-My AI-assisted mathematical research is organized into **24 result families**, including **10 affirmative target results, 3 counterexample-focused results**, and **partial results on 7 further questions**.
+My AI-assisted mathematical research is organized into **24 result families**: **13 original targets answered and partial results on 7 further questions**, alongside constructions, classifications and a parallel treatment. **Seven families include extensions; eight include Lean formalization.**
 
-**Seven families develop further extensions**, covering broader objects, parameter ranges or stronger conclusions. **Eight families include Lean formalization.**
+<table width="100%">
+<tbody>
+<tr>
+<td width="33%" align="center"><h3>24</h3><strong>Result families</strong><br><sub>Organized by core question</sub></td>
+<td width="33%" align="center"><h3>13</h3><strong>Original targets answered</strong><br><sub>10 affirmative · 3 counterexamples</sub></td>
+<td width="33%" align="center"><h3>7</h3><strong>Partial-result projects</strong><br><sub>Particular cases established</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>7</h3><strong>Families with extensions</strong><br><sub>Broader objects and parameters</sub></td>
+<td width="33%" align="center"><h3>8</h3><strong>Families with Lean results</strong><br><sub>Covered statements kernel-checked</sub></td>
+<td width="33%" align="center"><h3>189</h3><strong>Lean source files</strong><br><sub>Eight fixed public project versions</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>14</h3><strong>Journal problem sources</strong><br><sub>Other sources include proceedings and preprints</sub></td>
+<td width="33%" align="center"><h3>60</h3><strong>Bibliographic records</strong><br><sub>Original questions, related work and tools</sub></td>
+<td width="33%" align="center"><h3>48</h3><strong>Original-source author names</strong><br><sub>Names currently listed in the bibliography</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><h3>102</h3><strong>Source and related-work author names</strong><br><sub>Distinct listed names</sub></td>
+<td width="33%" align="center"><h3>0–14 years</h3><strong>Age of source literature</strong><br><sub>22 dated sources · 2012–2026</sub></td>
+<td width="33%" align="center"><h3>4.5 years</h3><strong>Mean age of source literature</strong><br><sub>2026 minus first source year</sub></td>
+</tr>
+</tbody>
+</table>
 
-| Result families | With further extensions | With Lean results |
-| :---: | :---: | :---: |
-| **24** | **7** | **8** |
+**Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
+
+**Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
+
+<sub>Source ages use the first publication years of 22 dated records. Author counts cover distinct names currently listed in the bibliography. [Definitions and sources](METHODS.md)</sub>
 
 ## Extensions
 
