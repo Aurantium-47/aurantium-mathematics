@@ -2,42 +2,94 @@
 
 # Aurantium · Mathematics
 
-**组合数学、图论与多项式中的证明、反例和推广**
+**数学研究成果 · 证明、反例与推广**
 
-[中文](README.md) · [English](README.en.md) · [Lean源码](formalizations/README.md) · [研究背景](REPORT.zh.md) · [文献目录](SOURCES.md)
+[中文](README.md) · [English](README.en.md) · [Lean源码](formalizations/README.md) · [论文背景](REPORT.zh.md) · [参考文献](SOURCES.md)
 
 </div>
 
 ---
 
-我在AI辅助下，围绕已有论文和公开问题开展研究，按核心问题整理成**24组研究成果（result families）**。同一问题的主结果、配套证明与后续推广归在一组，并提供论文、精确证书和形式化源码。
+我在AI辅助下开展的数学研究，已整理为**24组研究成果**：给出**10项原题的肯定解答、3项反例**，并在另外**7项原问题上取得部分结果**。
 
-| 研究成果组 | 给出原题结论 | 含Lean形式化成果 | 原题之外继续推广 |
-| :---: | :---: | :---: | :---: |
-| **24组** | **13项** | **8组** | **7组** |
+其中**7组工作进一步做出了推广**，涵盖更广的对象、完整参数范围和更强的结论；**8组已有Lean形式化成果**。
 
-其中，**10项给出原题的肯定结论，3项以反例回答原题，另7项取得原问题的部分结果——证明了若干情形，完整原题仍有待解决**；另有3项构造或分类、1项同题研究。
+| 研究成果组 | 含进一步推广 | 含Lean形式化 |
+| :---: | :---: | :---: |
+| **24** | **7** | **8** |
 
-**7组推广**则指在已有结论之外继续得到更一般的定理或新构造，其中部分工作也属于上述“部分结果”。推广与完整解决原题分别统计；8组形式化也分布在这些成果中。
+## 推广成果
 
-## 前人完成了什么，我补上了什么
+| 项目 | 原题之外做到了什么 |
+| --- | --- |
+| [Lecture Hall](https://github.com/Aurantium-47/lecture-hall-polynomiality) | **任意长度的证明＋一组结构定理**：进一步给出系数公式、单项式数量、代数基和退化结构 |
+| [K6链着色](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring) | **一个反例→整个家族的正确锐界**：排除22色，再证明所有链都能用23色，长链的精确答案就是23 |
+| [q-rook单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | **特定棋盘→任意维度**：推广到嵌套盒乘积差的一般结论，并得到相关代数推论 |
+| [数值半群](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | **存在规律→明确公式与有效界**：算出斜率、修正项和成立范围，并覆盖正负伸缩 |
+| [Hurwitz多项式](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | **从g=2扩展到g=3、4**，继续得到更一般情形的精细展开、根修正与定量界 |
+| [无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | **三项式→一般正系数多项式**：证明足够高次幂上的统一结论，并进一步细化参数增长情形 |
+| [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | **两个反例→一般判据**：从否定实例进一步提炼出适用于更广对象的统一充分条件 |
 
-| 项目与来源 | 已有研究做到哪里 | 本项目增加了什么 |
+## 代表结果
+
+| 项目 | 已有研究 | 本研究的结果 |
 | --- | --- | --- |
-| [Howroyd · 2018](https://oeis.org/A297557)；后续发表于LAGOS 2021 | 已证明三类余数情形中的一类 | **补齐另外两类**，给出27集分支的完整分类与Lean证明 |
-| [Lecture Hall · 2018](https://arxiv.org/abs/1809.01377)；大阪格点多面体研讨会 | 原文计算验证到长度12，提出普遍猜想 | **证明任意长度成立**；再得到系数公式、代数基与退化等推广 |
-| [化学图极值](https://doi.org/10.1016/j.amc.2024.129199)；Applied Mathematics and Computation | 后续论文报告了一个模4余类 | **覆盖全部4个余类、所有n≥7**，同时证明可实现性；有Lean |
-| [Peak多项式](https://arxiv.org/abs/1410.8506)；Experimental Mathematics，2016 | 后续工作覆盖部分区间与系数性质 | **补齐剩余区间的符号论证**，完成指定的最后实根结论 |
-| [Fence行运动](https://arxiv.org/abs/2108.12443)；Algebraic Combinatorics | 原题猜测轨道平均值恒定 | 用**237步完整轨道**给出反例，并完成Lean内核核验 |
-| [K6链着色](https://arxiv.org/abs/2511.12761)；2025年预印本 | 原文猜测统一22色足够 | 找到**450顶点反例**，并证明**23是正确统一锐界** |
+| **Howroyd · 2018年提出** | 三类余数情形中的一类已有证明 | **补齐另外两类，完成27集分支的完整分类**；与已知结果合并覆盖全部三类 |
+| **Lecture Hall · 2018年提出** | 原文计算验证到长度12 | **证明任意长度成立**，并继续发展出上述一组推广成果 |
+| **化学图极值** | 后续论文覆盖一个模4余类 | **覆盖全部四类、所有n≥7**，同时证明每种极值分布都可实现 |
+| **Peak多项式** | 部分区间和系数性质已有结果 | **补齐剩余区间的符号论证**，完成指定的最后实根结论 |
+| **Fence行运动** | 原题预测轨道平均值恒定 | **构造237步完整轨道，否定原断言**；反例已由Lean内核核验 |
+| **K6链着色** | 原文提出统一22色上界 | **450顶点反例＋全家族23色锐界**，附1664万余条精确证书记录 |
 
-**原题出处与研究积累：** 目录包含60条问题来源及相关文献。原题载体涵盖Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Algebraic Combinatorics、Canadian Journal of Mathematics等专业期刊，以及OEIS和研究预印本。具体命题、前人结果与引用见[研究背景](REPORT.zh.md)和[文献目录](SOURCES.md)。
+## 论文出处
 
-总库收录[8个项目的189个Lean源文件](formalizations/README.md)，保留原项目配置和固定版本。研究覆盖图论、组合数学、多项式、交换代数与渐近分析。
+原题及相关研究见于 **Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Algebraic Combinatorics、Canadian Journal of Mathematics、Journal of Pure and Applied Algebra** 等专业期刊，以及LAGOS会议论文集、OEIS和研究预印本。
 
-**验证与交付：** 按项目提供原题与已有文献对照、证明检查、精确计算或有限证书核验；8个项目进一步提供Lean形式化成果。论文、代码、依赖锁与相关验证记录可从各项目查看。
+例如，Howroyd问题有2018年的明确提问和Machacek的部分证明；Lecture Hall来自Katthän的2018年论文；Peak项目对应2016年正式发表论文中的具体猜想。目录整理了**60条问题来源与相关文献**，每项成果均链接原题和前人工作。
 
----
+## 论文与代码
+
+- **[24个项目](#全部项目)**：具体命题、证明与项目说明。
+- **[8个Lean项目、189个源文件](formalizations/README.md)**：收录固定公开版本及原依赖配置。
+- **[证明与验证材料](METHODS.md)**：原题与文献对照、证明检查、精确计算或有限证书核验。
+- **[参考文献](SOURCES.md)**：原论文、相关研究及各自的关系。
+
+## 全部项目
+
+<details>
+<summary><strong>展开全部24个项目</strong></summary>
+
+| 项目 | 已形成的结果 | 验证与文献状态 |
+| --- | --- | --- |
+| [Howroyd 27集分类](https://github.com/Aurantium-47/howroyd-27-conjecture) | 证明剩余两个模3余类均恰有27个最大独立集，并给出分类 | Lean |
+| [化学图极值度数分类](https://github.com/Aurantium-47/chemical-graph-sigma-extremizers) | 对所有n≥7完成Conjecture 10的极值度数重数分类与可实现性 | Lean |
+| [Stern多项式正性](https://github.com/Aurantium-47/stern-polynomial-positivity) | 全参数正性；另以B183否定单调性条款 | Lean |
+| [Hardinian数组渐近](https://github.com/Aurantium-47/hardinian-array-asymptotics) | r=2、3渐近式；r=2及高阶核展开已形式化，全r衔接暂存 | Lean子结果 |
+| [无三角形循环图存在性](https://github.com/Aurantium-47/triangle-free-circulant-existence) | 覆盖每个k≥1及6k+2≤n≤8k的全部偶数n，给出明确构造 | Lean |
+| [五点集合装填密度](https://github.com/Aurantium-47/nonmixed-five-point-packing) | k=m=2、任意互素正参数及非周期中心集的精确密度 | Lean；后续云日志验收悬项 |
+| [Lecture Hall多项式与退化](https://github.com/Aurantium-47/lecture-hall-polynomiality) | 全下标多项式性、signed Dyck识别；SAGBI基与平坦退化扩展 | Lean核心 |
+| [Fence行运动反例](https://github.com/Aurantium-47/fence-rowmotion-counterexample) | 32元素fence上237态完整轨道，均值1258/79，否定5.4(b) | Lean |
+| [K6链装填着色](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring) | H75否定22色上界；所有链统一23色，t≥75达到23 | 精确证书 |
+| [q-rook与嵌套盒单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | 所有非空Ferrers板near-full q-rook多项式单峰 | 证明与精确核查 |
+| [Catalan幂Hankel精确次数](https://github.com/Aurantium-47/even-catalan-hankel-degrees) | 所有j≥1、k≥2j−1的两个指定余类，精确次数(2j−1)(k−j) | 证明与精确核查 |
+| [数值半群端点残差](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | 平移族最终仿射；显式斜率、修正项与有效阈值 | 证明与精确核查 |
+| [Peak多项式最后实根](https://github.com/Aurantium-47/peak-polynomial-last-real-root) | 对任意可容许峰集，完成倒数第二峰之后整个实区间的符号与最后实根结论 | 证明与精确核查 |
+| [Karp二阶变换实根性](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | 正、满支撑的二阶Pochhammer变换负实根性及残余根间距 | 已有相关公开证明；贡献对照中 |
+| [Gap-five Gaussian商正性](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | gap=5、k≥8、n≥2k：多项式性蕴含系数非负；与已知边界合并覆盖k≥5 | 证明与符号证书 |
+| [Hurwitz多项式与大亏格展开](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | g=2、3、4单周期全次数实根/交错；一般profile有效大亏格精细项 | 证明与精确核查 |
+| [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | 固定严格正满支撑多项式的充分大整数幂无限对数凹；三项式与增长深度细化 | 证明与精确证书 |
+| [Stanton十一项W正性](https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity) | 对所有可容许对称11项向量证明W正性，A无上界 | 证明与精确证书 |
+| [单位平移后的无界振荡](https://github.com/Aurantium-47/unit-translation-coefficient-oscillation) | 显式递归构造：正非增整数系数经x→x+1后可出现任意多次相邻差符号变化 | 构造证明 |
+| [Hoggatt行和矩分类](https://github.com/Aurantium-47/hoggatt-row-sum-moments) | 数值行和的Stieltjes矩分类、显式测度及行列式证书；保留Baxter既有结论归属 | 证明与精确证书 |
+| [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | 两个多面体反例及普遍excess≤3实根性充分条件 | 证明与精确证书 |
+| [Peak与X-descent增长率谱](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates) | 构造实现峰集增长率整个区间及可同时选择X/I时的[0,1]谱 | 构造证明 |
+| [固定长度fertility反例](https://github.com/Aurantium-47/fixed-length-fertility-counterexample) | 长度9完整枚举362880个排列，fertility谱缺55，否定固定长度包含猜想 | 穷举证书与证明 |
+| [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 两blade全参数超对数凹；三blade有限及无限族反例 | 证明与精确核查 |
+
+</details>
+
+<details>
+<summary><strong>研究背景与数学细节</strong></summary>
 
 ## 重点成果及其研究沿革
 
@@ -135,51 +187,12 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 原题涉及**Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Canadian Journal of Mathematics、Algebraic Combinatorics、Electronic Journal of Combinatorics、Journal of Pure and Applied Algebra**等专业期刊。分区按明确版次列在[研究背景](REPORT.zh.md)，成果本文的发布状态见各项目。
 
-## 从单个问题到成果组
-
-其中7组成果在回答原目标后，继续得到更一般的结论、完整分类或更强的定量结果。
-
-| 成果组 | 原问题之外的延伸 |
-| --- | --- |
-| [Lecture Hall多项式与退化](https://github.com/Aurantium-47/lecture-hall-polynomiality) | 多项式性 → 显式系数/单项式计数 → SAGBI基与toric退化 |
-| [K6链装填着色](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring) | 有限反例 → 全族锐23色上界及长链精确值 |
-| [q-rook与嵌套盒单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | near-full q-rook → 任意维嵌套盒乘积差单峰 → Hilbert函数推论 |
-| [数值半群端点残差](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | 最终仿射 → 端点斜率公式 → 正负伸缩与有效界 |
-| [Hurwitz多项式与大亏格展开](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | g2 → g3/g4 → 一般profile二项展开、根修正与有效界 |
-| [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | 三项式尾部 → 一般严格正多项式幂 → 增长深度曲率 |
-| [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | 两个否定实例 → 任意有限格点多重集的锐excess界 |
-
-**Karp同题研究：对方先行提交，本项目保留Beta矩证明路线。** Zweiman的arXiv提交记录比本项目Release早约三天。主结果重合；本稿另有Beta积分推导、一般正参数变换引理及对称权重推论，暂不计入上述7组扩展。[时间线与逐项比较](KARP_COMPARISON.md)
+</details>
 
 <details>
-<summary><strong>展开全部24个项目</strong></summary>
+<summary><strong>Karp同题研究与时间线</strong></summary>
 
-| 项目 | 已形成的结果 | 验证与文献状态 |
-| --- | --- | --- |
-| [Howroyd 27集分类](https://github.com/Aurantium-47/howroyd-27-conjecture) | 证明剩余两个模3余类均恰有27个最大独立集，并给出分类 | Lean |
-| [化学图极值度数分类](https://github.com/Aurantium-47/chemical-graph-sigma-extremizers) | 对所有n≥7完成Conjecture 10的极值度数重数分类与可实现性 | Lean |
-| [Stern多项式正性](https://github.com/Aurantium-47/stern-polynomial-positivity) | 全参数正性；另以B183否定单调性条款 | Lean |
-| [Hardinian数组渐近](https://github.com/Aurantium-47/hardinian-array-asymptotics) | r=2、3渐近式；r=2及高阶核展开已形式化，全r衔接暂存 | Lean子结果 |
-| [无三角形循环图存在性](https://github.com/Aurantium-47/triangle-free-circulant-existence) | 覆盖每个k≥1及6k+2≤n≤8k的全部偶数n，给出明确构造 | Lean |
-| [五点集合装填密度](https://github.com/Aurantium-47/nonmixed-five-point-packing) | k=m=2、任意互素正参数及非周期中心集的精确密度 | Lean；后续云日志验收悬项 |
-| [Lecture Hall多项式与退化](https://github.com/Aurantium-47/lecture-hall-polynomiality) | 全下标多项式性、signed Dyck识别；SAGBI基与平坦退化扩展 | Lean核心 |
-| [Fence行运动反例](https://github.com/Aurantium-47/fence-rowmotion-counterexample) | 32元素fence上237态完整轨道，均值1258/79，否定5.4(b) | Lean |
-| [K6链装填着色](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring) | H75否定22色上界；所有链统一23色，t≥75达到23 | 精确证书 |
-| [q-rook与嵌套盒单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | 所有非空Ferrers板near-full q-rook多项式单峰 | 证明与精确核查 |
-| [Catalan幂Hankel精确次数](https://github.com/Aurantium-47/even-catalan-hankel-degrees) | 所有j≥1、k≥2j−1的两个指定余类，精确次数(2j−1)(k−j) | 证明与精确核查 |
-| [数值半群端点残差](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | 平移族最终仿射；显式斜率、修正项与有效阈值 | 证明与精确核查 |
-| [Peak多项式最后实根](https://github.com/Aurantium-47/peak-polynomial-last-real-root) | 对任意可容许峰集，完成倒数第二峰之后整个实区间的符号与最后实根结论 | 证明与精确核查 |
-| [Karp二阶变换实根性](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | 正、满支撑的二阶Pochhammer变换负实根性及残余根间距 | 已有相关公开证明；贡献对照中 |
-| [Gap-five Gaussian商正性](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | gap=5、k≥8、n≥2k：多项式性蕴含系数非负；与已知边界合并覆盖k≥5 | 证明与符号证书 |
-| [Hurwitz多项式与大亏格展开](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | g=2、3、4单周期全次数实根/交错；一般profile有效大亏格精细项 | 证明与精确核查 |
-| [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | 固定严格正满支撑多项式的充分大整数幂无限对数凹；三项式与增长深度细化 | 证明与精确证书 |
-| [Stanton十一项W正性](https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity) | 对所有可容许对称11项向量证明W正性，A无上界 | 证明与精确证书 |
-| [单位平移后的无界振荡](https://github.com/Aurantium-47/unit-translation-coefficient-oscillation) | 显式递归构造：正非增整数系数经x→x+1后可出现任意多次相邻差符号变化 | 构造证明 |
-| [Hoggatt行和矩分类](https://github.com/Aurantium-47/hoggatt-row-sum-moments) | 数值行和的Stieltjes矩分类、显式测度及行列式证书；保留Baxter既有结论归属 | 证明与精确证书 |
-| [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | 两个多面体反例及普遍excess≤3实根性充分条件 | 证明与精确证书 |
-| [Peak与X-descent增长率谱](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates) | 构造实现峰集增长率整个区间及可同时选择X/I时的[0,1]谱 | 构造证明 |
-| [固定长度fertility反例](https://github.com/Aurantium-47/fixed-length-fertility-counterexample) | 长度9完整枚举362880个排列，fertility谱缺55，否定固定长度包含猜想 | 穷举证书与证明 |
-| [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 两blade全参数超对数凹；三blade有限及无限族反例 | 证明与精确核查 |
+**Karp同题研究：对方先行提交，本项目保留Beta矩证明路线。** Zweiman的arXiv提交记录比本项目Release早约三天。主结果重合；本稿另有Beta积分推导、一般正参数变换引理及对称权重推论，暂不计入上述7组扩展。[时间线与逐项比较](KARP_COMPARISON.md)
 
 </details>
 
