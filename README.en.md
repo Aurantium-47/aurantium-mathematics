@@ -4,7 +4,7 @@
 
 **Proofs, counterexamples, and extensions in combinatorics, graphs, and polynomials**
 
-[中文](README.md) · [English](README.en.md) · [Research background](REPORT.zh.md) · [References](SOURCES.md)
+[中文](README.md) · [English](README.en.md) · [Lean sources](formalizations/README.md) · [Research background](REPORT.zh.md) · [References](SOURCES.md)
 
 </div>
 
@@ -15,6 +15,8 @@ This collection brings together AI-assisted research in combinatorics, graph the
 | Public research projects | Projects with Lean results | Extension groups |
 | :---: | :---: | :---: |
 | **24** | **8** | **7** |
+
+By primary result, the collection contains 10 affirmative target projects, 3 counterexample-focused projects, 7 further-progress projects, 3 construction/classification projects, and 1 parallel treatment. The repository includes [189 Lean source files from eight fixed public versions](formalizations/README.md).
 
 **Highlights:** the remaining cases of Howroyd’s 2018 classification problem; all-index Lecture Hall polynomiality with SAGBI and toric-degeneration extensions; chemical-graph degree extremizers for every n ≥ 7; a 237-step fence-rowmotion counterexample; and a sharp 23-colour bound for K6 clique chains.
 

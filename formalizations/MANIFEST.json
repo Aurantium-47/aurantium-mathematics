@@ -1,0 +1,1793 @@
+{
+  "snapshot_date": "2026-10-17",
+  "projects": 8,
+  "lean_files": 189,
+  "source_config_rights_files": 216,
+  "fresh_build_performed": false,
+  "repositories": [
+    {
+      "repository": "Aurantium-47/howroyd-27-conjecture",
+      "commit": "52182e62322e190b06562aa4a4b86d8491260c10",
+      "source_root": "lean",
+      "files": [
+        {
+          "path": "lean/Howroyd.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd.lean",
+          "git_blob": "3ceec1d71fa1770da97da0183eb12bb25112e76d",
+          "bytes": 20,
+          "sha256": "58cd2e93d048b03bf7bceeba868a0d75dd4481b995f0a21c983ba5776dd28e8e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Assembly.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Assembly.lean",
+          "git_blob": "2a26150b3896b680343c6c453a7c5eb62203f5e6",
+          "bytes": 8204,
+          "sha256": "93e1298219fd9876427d0661e91f5d17d3203f2556fca32f7de6489272e4cab9",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Audit.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Audit.lean",
+          "git_blob": "53705e315274b07398a660d9809d5e213aa0e2f5",
+          "bytes": 1451,
+          "sha256": "5d4970b3fab5975c5af40c988bab0c11329ed03a34560bb42abc592e2517bde6",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Balancing.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Balancing.lean",
+          "git_blob": "69d621a875f5e522277071bd72808359bd3470f9",
+          "bytes": 9025,
+          "sha256": "984a57c3449b0fc33d5b0bb3c80a9ef8b33806134ef8f2066413ad9525fb8ede",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Basic.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Basic.lean",
+          "git_blob": "ed6985928a651110f50fb575cd1d93f1cd3e1ad8",
+          "bytes": 3204,
+          "sha256": "d14b104a8610f55547ea0d1a9b332764bd1a80550e8bccedc408c571142f9272",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Body.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Body.lean",
+          "git_blob": "08ac850c3d4a0919323dcc2cdf3069a72f70d930",
+          "bytes": 3871,
+          "sha256": "9c8785f9d13789c6482f63f2bad7eca9e756bc7f1931ce1ef5310483817d01e4",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Classification.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Classification.lean",
+          "git_blob": "270946ded1783f74663b8b4ed1b18e0ac198f3a2",
+          "bytes": 6806,
+          "sha256": "5c89c9401bc897d3f192a1141a82778d73577617ae09c8a40978f27485f985a9",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Color.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Color.lean",
+          "git_blob": "a6ec8f65b7465aa638bc0151e3e5a845052eb8ad",
+          "bytes": 1791,
+          "sha256": "c0e42951a1f685ec3d281e9aff8227655cc7eafde57ddb4e5e9629202aa8ce01",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Corner.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Corner.lean",
+          "git_blob": "8d769fbffc1bede3d22139082d77f292a298b787",
+          "bytes": 8639,
+          "sha256": "a1dc8b7da58fb3444dc96132b8199b7376a9479be79540ba209b6698820284ac",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/CornerExtraction.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/CornerExtraction.lean",
+          "git_blob": "5def4ec25b280b7ee98c7acde12dc1ac59df3285",
+          "bytes": 5524,
+          "sha256": "d7ffcd86d22451073edbac4cb11508782fff3f301666d0247ca5a4dfdc10b0b7",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/CornerGeometry.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/CornerGeometry.lean",
+          "git_blob": "dd3fd1bc604b5a1d4be1af40b6cb984e21c96fd3",
+          "bytes": 6198,
+          "sha256": "9cad389355068bdfd7e3643bb532f02022cc708f66f06bdb939c33ce10e3f349",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/CornerGeometryAudit.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/CornerGeometryAudit.lean",
+          "git_blob": "2191c253cfe7b1dc6db81babd3e0b6b4ace1dcbb",
+          "bytes": 452,
+          "sha256": "5c1b37e5200ee4561f9aac484a60e8bfe4bfdca2a7ebc0771f4e0d1342b3a095",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/CornerProducts.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/CornerProducts.lean",
+          "git_blob": "aa69f98fd1ac518f0944403b15ce238e378caa7d",
+          "bytes": 3671,
+          "sha256": "ccba064377f75562f3ba33fe99b32c8a4b984ef68b08f25ccb1f4925991d2ae1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Counting.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Counting.lean",
+          "git_blob": "c49b5f5ef8b7bbacb10f27268f529ba661291988",
+          "bytes": 2199,
+          "sha256": "f788d222c831c264241358789e6428d61aa0a4b8afd9489dd9832f5ecd9ff17b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/CoverBase.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/CoverBase.lean",
+          "git_blob": "892025d45a38a8307ff1e5ecfe50979cffb516ab",
+          "bytes": 502,
+          "sha256": "2f571a69eb330cf41cc16376511a04c57f8ae19a55386c9a21db0ad060bd863b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/ExactCover.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/ExactCover.lean",
+          "git_blob": "0a3c0e034cbdb4dccead6f00c016a9a845963a8c",
+          "bytes": 2380,
+          "sha256": "46c295b7885849781c8d5b9f41f2de69980dd3ef6a3ef94a48e25cd116f0832e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Geometry.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Geometry.lean",
+          "git_blob": "c7c9c7d37db78d4343fa05f06cdfc9b3a88a725a",
+          "bytes": 7419,
+          "sha256": "142a13e3aadbc5449b1f2643d3e6cbca57b1d1ddfdbed1746875b15f9921dcb6",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/GeometryAudit.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/GeometryAudit.lean",
+          "git_blob": "c3f5a79f0a445a3213917b56fd806f2f6cd74535",
+          "bytes": 809,
+          "sha256": "8783bc7a52a4b1def1088cd577f691b1cb68e3c58c94c193038eefdf60d199f7",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/LocalCover.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/LocalCover.lean",
+          "git_blob": "3aeecc17e3bb65b978e4841d0078d64d9550627b",
+          "bytes": 3291,
+          "sha256": "5144cf782056925fdb5d353c42a14be6965cff536474fe11c32da83adecc523e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Main.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Main.lean",
+          "git_blob": "c2d23fd4a247dc9541e526b59f813dd8025242db",
+          "bytes": 2189,
+          "sha256": "ad9e8aefd54c82c61eda5edeeb78ad480670ae141302dcb688d56e653e6b0c78",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/PositiveWeights.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/PositiveWeights.lean",
+          "git_blob": "8d5ed481d47f8cd17888fa7314fe1b510651c083",
+          "bytes": 5758,
+          "sha256": "00e0e21d32f8f90dc0c91bf6b5846c536966d52d2fe5b4a3c36dc3629b47d846",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Propagation.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Propagation.lean",
+          "git_blob": "f2c836d1f1147793e611b7a2fe1482f60cf3d5bb",
+          "bytes": 4706,
+          "sha256": "e498f395892a23a7d9bb13e9b84b53506ee57991a1037d8bf6007e04a97dbaa8",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Saturation.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Saturation.lean",
+          "git_blob": "456e9bfdc019b1257e46c56518b77af86ad413f7",
+          "bytes": 5689,
+          "sha256": "12e7b849b444e3055df2c10029e992dc35f874b39e6cf87e6acd9b851a3de378",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/SemanticAudit.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/SemanticAudit.lean",
+          "git_blob": "52d1d636b2ff8aa575d9bcb5d4dee7566bd667b6",
+          "bytes": 1272,
+          "sha256": "2fb35b50bedd54fc78b635abc72a6d62bafcadc27114df929f6c0083f93d9946",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Howroyd/Weights.lean",
+          "destination": "formalizations/howroyd-27-conjecture/lean/Howroyd/Weights.lean",
+          "git_blob": "28b1be0a3b48282374b43e6e5d25d28cf8e38d7c",
+          "bytes": 4996,
+          "sha256": "262731331fe184aa24af6c839ebb082d1acde9f097d4ad422da2bab766636336",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lake-manifest.json",
+          "destination": "formalizations/howroyd-27-conjecture/lean/lake-manifest.json",
+          "git_blob": "3d1086dd8d8285cdad34830520641cbd88fd8914",
+          "bytes": 3597,
+          "sha256": "cc03337f863f095b1b07e21a12249516b006455c076a211c8228b3dc08b5a3de",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lakefile.toml",
+          "destination": "formalizations/howroyd-27-conjecture/lean/lakefile.toml",
+          "git_blob": "d3dada26318611364f2e825fc767dc90e128acc2",
+          "bytes": 247,
+          "sha256": "202cf2cfb977ca26ca1f80db2038ee836f9dc9514aa9f70c40d6cd1faaf59f9d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lean-toolchain",
+          "destination": "formalizations/howroyd-27-conjecture/lean/lean-toolchain",
+          "git_blob": "7aff471fcd38615c432b53e381902a76fd305ba5",
+          "bytes": 26,
+          "sha256": "f28855f24b5253d7e8949f38027066a06cdde238520086d421ba7ad24c27a691",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/chemical-graph-sigma-extremizers",
+      "commit": "0a4b3f998d58ddff8358491ef97e1649fdff20a5",
+      "source_root": "lean-candidate",
+      "files": [
+        {
+          "path": "lean-candidate/W03/BaseCertificates.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/BaseCertificates.lean",
+          "git_blob": "9670ad4a814db9f2de6d30dead637816710fded4",
+          "bytes": 8465,
+          "sha256": "f93d1afd130cacf011992907ba458f773899c8379f2df5039fc23aac1b169f26",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/BaseGraphs.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/BaseGraphs.lean",
+          "git_blob": "3d2e127196633cd0b95cab66655f7cad4387820f",
+          "bytes": 3555,
+          "sha256": "c1c079f0b3c43f0dd5264cf0f3c217c9a6296e7bb1192f14b18bf26d67d25d76",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/Conjecture10.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/Conjecture10.lean",
+          "git_blob": "e25c3e4337502fa7466dbb49da159f227324277c",
+          "bytes": 4814,
+          "sha256": "26317f8c46f5dd2fca85c017fcd96464542650779e7a2a0c3c8f47f022f686ca",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/ExtensionCounts.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/ExtensionCounts.lean",
+          "git_blob": "48b9f604bd11633e4f473189d50c264751ba46be",
+          "bytes": 2175,
+          "sha256": "3e149b241fd05625d31f8510320248769f291fd566c4d519aee5bd18c206d470",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/FinalCoordinates.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/FinalCoordinates.lean",
+          "git_blob": "5dda644cf0e364db81efafa00a2453ae7a1b56e0",
+          "bytes": 10262,
+          "sha256": "0aa5775b3a859a769418398c82a8131c606325ec979590ec7efdfda971486b04",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/FiniteExtension.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/FiniteExtension.lean",
+          "git_blob": "a23a714e25301b7afda0657bb9b7c3be2afb8ea6",
+          "bytes": 4369,
+          "sha256": "74c60291f32189e9a2d7599e67d1c49a623acf9fde42a6115ad42f154b133413",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/FourVertexExtension.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/FourVertexExtension.lean",
+          "git_blob": "b8b08bbba67772eba50b5cdb68251b43a6996e13",
+          "bytes": 6916,
+          "sha256": "6c21281db6d0163705fe6e6a634a17f52cc4694a5cd136dfeb7766cfb8eede90",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/FourVertexExtensionConnected.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/FourVertexExtensionConnected.lean",
+          "git_blob": "d93cabb76d8d8c3ce5bd372c642915e56c92f36d",
+          "bytes": 3529,
+          "sha256": "4dd9e309ab1af8c3fb5ba36e14d9c4ef96f7f0764d0e16663f8d7fe9c7cb1d52",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/IndexDecomposition.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/IndexDecomposition.lean",
+          "git_blob": "18bb811396567816e79cd6cb82ecb66ea7304a8a",
+          "bytes": 2190,
+          "sha256": "d35f70167dc11bd631abf57ea12ae4a557166fb0a7cd6ccee696f148e4f3443d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/PairCounting.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/PairCounting.lean",
+          "git_blob": "fc9f0df8d88f880b2ffe7feb4eb8a2bda99bf18d",
+          "bytes": 5501,
+          "sha256": "aef5b90f561e50388c67cfb1aca50025518a331cb4c2b92493d014e70de05ba0",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/ParityComparison.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/ParityComparison.lean",
+          "git_blob": "5595d491325a168c52d3b909ef81a3653caf50da",
+          "bytes": 9625,
+          "sha256": "cf1f7836203d9a1abfe05c9798529952a3b9b320d5982ca3664611cedd56ecbf",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/ParityParabola.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/ParityParabola.lean",
+          "git_blob": "2fb752b4d0ef416de8d5e1d3f99b60911feac2d4",
+          "bytes": 6603,
+          "sha256": "e4f488a3adc344f3d4a9c13ba02b191c528775505bd85075c2f6288f03ca6e5d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/ParityPenalty.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/ParityPenalty.lean",
+          "git_blob": "ff125db6e5411065b2c633bb505e44edd481eecb",
+          "bytes": 12232,
+          "sha256": "caa73a8b3469e33579bb199cf1af2632c63624f5dc7a5f3d472afe58801caa93",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/PenaltyComparison.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/PenaltyComparison.lean",
+          "git_blob": "7ad8023409e0e99a8610a185bedaa3e437070913",
+          "bytes": 4039,
+          "sha256": "68ce4fad34901fe101af862bbe9e7e5a9f6e95446c46804efa72a97e21975b05",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/PowerBounds.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/PowerBounds.lean",
+          "git_blob": "ea1929281854494a9919eed0d6350bd6d8b305c8",
+          "bytes": 3923,
+          "sha256": "2d36442742503699abc768b676e5e6d951a3c17fe81c89f32a93dc1e443d5c45",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/ProfileConstraints.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/ProfileConstraints.lean",
+          "git_blob": "92a57202014af0a69e124b801dce992794ac8ab9",
+          "bytes": 4100,
+          "sha256": "66c140f274be05cbad27c840fdc920d8aa11bb0792dfa72792180825b83a7d12",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/RealizationIteration.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/RealizationIteration.lean",
+          "git_blob": "65e15d29d2c3abe56845e69ef373de5421f76d19",
+          "bytes": 1600,
+          "sha256": "8ad6262bcf8b0d5c06757c85c4515e5ecd63f7591f769f3c96c61552f0591fb2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/TotalIndex.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/TotalIndex.lean",
+          "git_blob": "516313fd8326651e7e888a44223975006b1f8a6c",
+          "bytes": 2106,
+          "sha256": "a45bf06251ab60c6382ee20a3a7ba82ef2498f4216f0c1d703ba15c084513823",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W03/WinnerRealization.lean",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/W03/WinnerRealization.lean",
+          "git_blob": "2170ddb7e140b0b84af5131247c41035236c23b3",
+          "bytes": 4298,
+          "sha256": "f59f202b0a73b180ec9fda8ac52c8e66a70d3604d26bad5365fccab65f1b7bb1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lake-manifest.json",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/lake-manifest.json",
+          "git_blob": "412c481a4270ceab3fd8d7157a8756804ac934be",
+          "bytes": 3648,
+          "sha256": "7d63750392d2e1501fdc587db7dfe7c4a6a59ce68d83b492feb340863f309269",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lakefile.toml",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/lakefile.toml",
+          "git_blob": "e4cf849fdf752ce8533a2c1462b088eeca021956",
+          "bytes": 310,
+          "sha256": "0e605495d5cbd33390d3f84dc0a9761f46503b7153f2407d7d28e26ee8ade1e3",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lean-toolchain",
+          "destination": "formalizations/chemical-graph-sigma-extremizers/lean-candidate/lean-toolchain",
+          "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+          "bytes": 25,
+          "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/stern-polynomial-positivity",
+      "commit": "0c76833b6dda53dd85247b1112c6495d133e6e46",
+      "source_root": "lean",
+      "files": [
+        {
+          "path": "lean/Audit.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Audit.lean",
+          "git_blob": "136d94f4b1df16bf3d56ba5f3bd65971db73feaf",
+          "bytes": 1452,
+          "sha256": "025ecc6d608eaa2119a22bb2df5a5ee20091a3391852e89712c91e02a1a6c51c",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern.lean",
+          "git_blob": "34b6b6692d2b2d38cc8e11c5d3ff870383cb32ec",
+          "bytes": 115,
+          "sha256": "0085e7c3bd47de351a1366535f948dc778d6557a379e48f088a7772dd769a2fa",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern/Basic.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern/Basic.lean",
+          "git_blob": "355abe27827dce2e688dfef2e4af7610b32ea14c",
+          "bytes": 4512,
+          "sha256": "3c4d17907bce349366e00425a190c4e691d9789af2a90bf50f714ca3cc59cce2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern/Counterexample.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern/Counterexample.lean",
+          "git_blob": "2124beebf54346dc98da7543827ba714f7ba5acf",
+          "bytes": 5603,
+          "sha256": "533ac0ff6fc49680e10d9a253d6e68946cab579cce05930f8a0668bef21229f6",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern/Index.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern/Index.lean",
+          "git_blob": "c39ccfccb00bef038c0fc5e7684bb0662fe692b0",
+          "bytes": 1484,
+          "sha256": "7cb56cf378867cf29494ff9bc5376ad21ab767ecb3ba332b07a13e50de37a220",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern/Polynomial.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern/Polynomial.lean",
+          "git_blob": "2513d50aec0c9036d9a2a3a502da5daa9d36be32",
+          "bytes": 1102,
+          "sha256": "3ae57205b4b84ca98ff06d93fdab79a4ebf63a54168a299b72b08eef613da0c1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/Stern/Positivity.lean",
+          "destination": "formalizations/stern-polynomial-positivity/lean/Stern/Positivity.lean",
+          "git_blob": "5a411ec6c19bdab88b57efd7037d8d0406852e8e",
+          "bytes": 3103,
+          "sha256": "82c7977d657e11232a62ad53c4884e9fd2365d1a64f203a8471176898e9459d5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lake-manifest.json",
+          "destination": "formalizations/stern-polynomial-positivity/lean/lake-manifest.json",
+          "git_blob": "7a0dbf8a1b876a5475ae6f2860bbc2c86dc166de",
+          "bytes": 3597,
+          "sha256": "7d386444a35b1925db7cf468e771579e3cd7e473dc5eb4c69048d284a5581977",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lakefile.toml",
+          "destination": "formalizations/stern-polynomial-positivity/lean/lakefile.toml",
+          "git_blob": "59eeae49a34ef9c3d96958fd3c1ad29c52ef616b",
+          "bytes": 240,
+          "sha256": "9eacbd0e93ee58bcf79ba7540809705dd3dd47dbde19b00dcef494c395e2e7c4",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean/lean-toolchain",
+          "destination": "formalizations/stern-polynomial-positivity/lean/lean-toolchain",
+          "git_blob": "7aff471fcd38615c432b53e381902a76fd305ba5",
+          "bytes": 26,
+          "sha256": "f28855f24b5253d7e8949f38027066a06cdde238520086d421ba7ad24c27a691",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/hardinian-array-asymptotics",
+      "commit": "477fcff33df19d5f752f9748d8596b31da15c81b",
+      "source_root": "lean-kernel",
+      "files": [
+        {
+          "path": "RIGHTS.md",
+          "destination": "formalizations/hardinian-array-asymptotics/RIGHTS.md",
+          "git_blob": "94d99f4817c64270b3f7d4c05ef7b3c21cb145c1",
+          "bytes": 825,
+          "sha256": "fed3050997e15c6d3b72eb686b21af5cf51f4f5b2da3c3d214ff2d9f7d56fbe2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/ArrayDeterminantAssembly.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/ArrayDeterminantAssembly.lean",
+          "git_blob": "bb19ba5c3cd985127573774e95c977bfe79d9f60",
+          "bytes": 4116,
+          "sha256": "11c063888090aebf43b8656c76960d2f7051f0523275c91d48d19d0ee7d2c8ab",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/ArrayEncoding.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/ArrayEncoding.lean",
+          "git_blob": "6020b2878ca0e8c4a3bc2f43f1b6a70fd9bc9f3d",
+          "bytes": 6918,
+          "sha256": "18adbb685d35c9f37b4e1e411107d525073c85b03676192dda6377426da6e4e0",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/BinomialMass.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/BinomialMass.lean",
+          "git_blob": "4054c68cf5a91928f209f06b1e132677b07c8e87",
+          "bytes": 3248,
+          "sha256": "fdd93513358abc6fa8c171232379ca22f121fb4065fb3529add61b3d389df34e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/CanonicalBadFamilySwap.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/CanonicalBadFamilySwap.lean",
+          "git_blob": "341895919b751c8fbec918685cba3e3100b4459c",
+          "bytes": 14276,
+          "sha256": "a81f4211218e46622c3b5436f035198e53a9391646aa5670cede33ad20e51d63",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/CentralMassLimit.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/CentralMassLimit.lean",
+          "git_blob": "16addeb70775820392274de702cea130f9894448",
+          "bytes": 3851,
+          "sha256": "a3bdb565c1de4520b77f2c36d743044fdba2288d401339c14d721cfa1f318607",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/CentralMassWallis.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/CentralMassWallis.lean",
+          "git_blob": "78fc45b72167d4fe0b40254feed111769b238ea6",
+          "bytes": 3276,
+          "sha256": "642c4c29e14a8bac33596183d9bbf26fbac5c728f2ee13258809650a64a9002b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/ComplementaryJacobiTwo.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/ComplementaryJacobiTwo.lean",
+          "git_blob": "6dd558396cc75b88e70f7b2134f57b15d4647787",
+          "bytes": 8125,
+          "sha256": "0026a801d9300e37041ebe6cd8d8459ddd0803947e751cc5d8b86d9f822f7c23",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/ComplementaryMinorTwo.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/ComplementaryMinorTwo.lean",
+          "git_blob": "271fc1400951447508eb5c6331a2b7d7374f7bd7",
+          "bytes": 7681,
+          "sha256": "019822fb3edf7fbd95b1afc7e9bd963d0b7f8f0a5d78325309e1388bac94544d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/CutBoundary.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/CutBoundary.lean",
+          "git_blob": "4565f82b75ba1a94374c6c503be9aff9e925b04d",
+          "bytes": 8197,
+          "sha256": "210c78424ed51873b5ad7a314cf809fc36e30cb4af33106d3abc4dea14dd1bc3",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/CutPathCore.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/CutPathCore.lean",
+          "git_blob": "152d362c9b1e0945361d3eff84331fcb5c5b667d",
+          "bytes": 9260,
+          "sha256": "5c7c641b0a56491189142b1c08ff0de0ebcee2c5a52813bb4936067c20b38e4f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/EndpointFibers.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/EndpointFibers.lean",
+          "git_blob": "635ddd67696126a6ba9feff53b8a69ca80aee0aa",
+          "bytes": 7241,
+          "sha256": "f7a7a6c2c604a9f0a45dc03621f6a4b2281b980a5bd4b4b2e0a8d828ebb245dc",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/EndpointOmissions.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/EndpointOmissions.lean",
+          "git_blob": "0bdab97b1573557e39f624b4dc14d1ce111ac62d",
+          "bytes": 5693,
+          "sha256": "75bfa44db4ed09305faf7f005574586dc704d96cafcf38cc968189688bbe4a0d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/FiniteKernelScaling.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/FiniteKernelScaling.lean",
+          "git_blob": "ff7f64b2b8e23b12d1850802421c5a627159cb2d",
+          "bytes": 5902,
+          "sha256": "ea80e53a050b3ed946c3b1d8473ea0c216c8880b9255899afa31a92660985a1e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/GridPathCount.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/GridPathCount.lean",
+          "git_blob": "2a09906987bb655fa50f6cb8a5589b2575c8d1fc",
+          "bytes": 7849,
+          "sha256": "b44b4508da237079847f715881d2dd7df374146acf67c17597a5d74e0cd0c055",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/GridPathSeparation.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/GridPathSeparation.lean",
+          "git_blob": "553c224cb2a0f8d2d56c1c6b83b866d116bacf0a",
+          "bytes": 4765,
+          "sha256": "30c4066726d29d9067dae81121c327da0c34eed77f9055a3e738dd025539cda4",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/GridPathSplice.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/GridPathSplice.lean",
+          "git_blob": "d9eb185242e375971976ac3122bf273fde013dfe",
+          "bytes": 10663,
+          "sha256": "30d71670fdfdafa191c3f578816b6fca01becb0083a63f3e4b86361036515e81",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/IntervalKernel.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/IntervalKernel.lean",
+          "git_blob": "e01a10c146777e9738440807d72df0c42c45252e",
+          "bytes": 4686,
+          "sha256": "9d61688ae12ee265af3c961f1882275a9b053bab1079643462d7ad90e8cc32a0",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/KernelError.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/KernelError.lean",
+          "git_blob": "0d4a1f4d1f6ee047c16d4e9c34989c0038547e76",
+          "bytes": 3961,
+          "sha256": "a4e11f5c23f734204703c23a21c0cb44c95544e5808653a73a67ae662e5edf4f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/KernelGlobalDomination.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/KernelGlobalDomination.lean",
+          "git_blob": "fca457a7dc40baba7947dcd148f8a6a6a5d5eb04",
+          "bytes": 5563,
+          "sha256": "29642920e865d53557b441467b48cc5c766044212b86cfcdaca37df6dd2b173f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/KernelWeightedLimit.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/KernelWeightedLimit.lean",
+          "git_blob": "b5ba13dd8958423ad6b227d08f43d2d43b7a2193",
+          "bytes": 7245,
+          "sha256": "8297f08bd66cf3850e5cb888d07070b2ce308b7eea46d61dc45f3b589fa73430",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/LogWindowRelative.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/LogWindowRelative.lean",
+          "git_blob": "0bf054d3ed1824ec6380c634241a9921670e28bb",
+          "bytes": 3597,
+          "sha256": "29776872edda2527d8ff9cbd42607834c4509199c026b510b67b9346abaee62e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/MarkedPathFamilySwap.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/MarkedPathFamilySwap.lean",
+          "git_blob": "133f898f1040f85c78e7e88d46b48b1a10e1d2b8",
+          "bytes": 15773,
+          "sha256": "b8338a3437fe8bf426a07b4ec2463ef4de918e1d3132e934a11b8487c68c4be1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/NonintersectingSignedFamily.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/NonintersectingSignedFamily.lean",
+          "git_blob": "11534d31fdb787826af015852b431c5dd734915b",
+          "bytes": 7805,
+          "sha256": "aec7bdbace3f7e7a2066736faf614990bdfae48f978c90c46fb1333173dc477d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/NormalizedKernel.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/NormalizedKernel.lean",
+          "git_blob": "972a68cc1e3d83087d03f176a9cf49344e50ce66",
+          "bytes": 2404,
+          "sha256": "46d7674cfad068df50adb496bb99f59a6fa115cb526fbef3083238498ac2c94e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalBinetSquare.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalBinetSquare.lean",
+          "git_blob": "2ccc4e78c60fd744961791915193d8e172406d84",
+          "bytes": 4986,
+          "sha256": "a9fb33b783c892588d274b8da61992d4c61e16b770090e76d1d482cd34583a25",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalComplementaryMinor.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalComplementaryMinor.lean",
+          "git_blob": "5faeedb78bafe0f12db7e17f47a417ec4313048a",
+          "bytes": 1637,
+          "sha256": "cda542b78ad9ab405fc71889d96b788971092de6b862e58c8ae3470e9c0e109b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalConvolution.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalConvolution.lean",
+          "git_blob": "10dc6aaf4683558e8aac67dbf57b6a1ca5378021",
+          "bytes": 5599,
+          "sha256": "eee1622abe0ff8f33b1cb91c5394132e0e014a31e00622e5b4594a66260a6b3c",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalIntervalConvolution.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalIntervalConvolution.lean",
+          "git_blob": "06613dfe66e253881372fe943bc73a91dc367e59",
+          "bytes": 6157,
+          "sha256": "fea00c069073e69c6f8426cedc3d91ebf832a41bb1b31a787a19ed8b66d8fe0d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalKernelCast.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalKernelCast.lean",
+          "git_blob": "ace2292c285106c0a9cde721d50d818fc8c6c651",
+          "bytes": 1805,
+          "sha256": "0eb15fd6348f8331edb84195a31be8b10f018ac3c265bab056e6df450468c766",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalMatrices.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalMatrices.lean",
+          "git_blob": "6485282f3357183c2da4ad6041b54840b629aaca",
+          "bytes": 4682,
+          "sha256": "ffc8fe52640c2a3bb22a4dcda85f10a5c28106d7de1013c9242e614d08e5bbc8",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/PascalWInterval.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/PascalWInterval.lean",
+          "git_blob": "53ac9b2c054a7c6cf7ca4cd625c182d60802175e",
+          "bytes": 5131,
+          "sha256": "c7ecd42aed4d9ef9d2aee0698b271baf4d21525c0ee97909ed475056d3b05bb5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/R2Asymptotic.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/R2Asymptotic.lean",
+          "git_blob": "85afc1d4335ead52e4c1b224e87ed8e2601f4b1c",
+          "bytes": 2703,
+          "sha256": "8e27ac341521c8a01139c37a4901726f88eee41c423c04ff66ee9a06e91cbf21",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/R2FiniteAssembly.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/R2FiniteAssembly.lean",
+          "git_blob": "19335a79c48df22e2960da7b34a839ad7d77afa4",
+          "bytes": 1802,
+          "sha256": "49d21383140248e0e2c66407ff8adfa582f106384d8fd32f029d8296c7f5a55c",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/RectangularBinetTwo.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/RectangularBinetTwo.lean",
+          "git_blob": "c6b82970ef6baac08646f994b16725391ad96698",
+          "bytes": 4128,
+          "sha256": "9ef6ddd6109174e72b28eea71fa3bf9ad56dece94160327d80189d51352e8e43",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/SeparatedCuts.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/SeparatedCuts.lean",
+          "git_blob": "9da13cdafe4268da30c067bee8912bf5e9b7613c",
+          "bytes": 8417,
+          "sha256": "0bb10b23c4d97205c2802db99a75874dbd6c7fa7a4baa070062b227e9c4767e5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/SeparatedPathFamily.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/SeparatedPathFamily.lean",
+          "git_blob": "fc972e12227c4c2d81896aacea871063b36e0ca6",
+          "bytes": 5674,
+          "sha256": "a836246270fb33f69214596ef57cfeb3cb931f845e423e4741d9d0764c62252e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/SignedCancellationLGV.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/SignedCancellationLGV.lean",
+          "git_blob": "9d5355d909f7dfe9fd174c58423aa631e52c59cb",
+          "bytes": 4439,
+          "sha256": "bc7673f04b914d0e0476d158a38db477882a852cc954ce4848b1da7aa0a2da00",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/SignedPathFamilyExpansion.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/SignedPathFamilyExpansion.lean",
+          "git_blob": "4ffde9083d04eba117aabb255a31dd2c32c8cca8",
+          "bytes": 4621,
+          "sha256": "f5ab8d9f1e0650a9f3672572799dbc646febf9531d0cecb27755d138010c71eb",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/TwoSetOrdered.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/TwoSetOrdered.lean",
+          "git_blob": "ae7d2f1f4489e39f97c7a44b8217431565b6d99b",
+          "bytes": 2636,
+          "sha256": "f18cd4bd727260d7917ecbad1bbcf2e1e99014e55d645c3fc65f263fe7bbd852",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/Hardinian/UniformCentralScaling.lean",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/Hardinian/UniformCentralScaling.lean",
+          "git_blob": "0a5ea8f99667257332341752c79bd1a39b1fffa8",
+          "bytes": 6148,
+          "sha256": "67986452b742042864337b31aaca46da963fa23c085d70962c377812b6781894",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/lake-manifest.json",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/lake-manifest.json",
+          "git_blob": "7e9ba436a4138db48e4bff1f30245e2ff6a21d63",
+          "bytes": 3639,
+          "sha256": "e92da7f1c0b34814a1dd9612b7e7acd5975f160e684aa083155a90f508f0c399",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/lakefile.toml",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/lakefile.toml",
+          "git_blob": "8e4a8d89976d728e14d940987290762ab0ecf859",
+          "bytes": 325,
+          "sha256": "0cc96780cc0c6d8becc99ab339c8aefa57035cf12e09f80c18b4d0c977eeb6ab",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-kernel/lean-toolchain",
+          "destination": "formalizations/hardinian-array-asymptotics/lean-kernel/lean-toolchain",
+          "git_blob": "7aff471fcd38615c432b53e381902a76fd305ba5",
+          "bytes": 26,
+          "sha256": "f28855f24b5253d7e8949f38027066a06cdde238520086d421ba7ad24c27a691",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/triangle-free-circulant-existence",
+      "commit": "bdec620e59522608820113076b1753c7c53a13fd",
+      "source_root": "lean-candidate",
+      "files": [
+        {
+          "path": "RIGHTS_AND_LICENSE.md",
+          "destination": "formalizations/triangle-free-circulant-existence/RIGHTS_AND_LICENSE.md",
+          "git_blob": "4b275b08354fde64802c16157730df59a1959d54",
+          "bytes": 905,
+          "sha256": "29f740e58249e442f842d3017addc1a20aae17099044eed2a4ea2214a7da6221",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/ImportProbe.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/ImportProbe.lean",
+          "git_blob": "b2220bd852d1e378873b835b617b73a0d6fdf60a",
+          "bytes": 312,
+          "sha256": "cf1539588c915deb5b9811e8d37b9e0e90a2c27e6f2fc4db9b7c4472729f329f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/CircularGaps.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/CircularGaps.lean",
+          "git_blob": "b4b75276e2e54bef4c705544107067619bc5ce1c",
+          "bytes": 883,
+          "sha256": "a06b81628fc95bdd04735335957f6db25d1a02269253755ef0e7cf8dfdd81328",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/CyclicInterval.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/CyclicInterval.lean",
+          "git_blob": "b5b08d387903e2630bb79f41eb835bf39dd49775",
+          "bytes": 2822,
+          "sha256": "04ede15fe17c9aaab22db96ee444be4ca485de66941c6a181910d8b3bc856ac6",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/CyclicStep.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/CyclicStep.lean",
+          "git_blob": "1bba38e093e021c64b63500a7f9dd30e14fd85e9",
+          "bytes": 1599,
+          "sha256": "dbf7a3e348c7d262bd9fc12c1ba8c354d034ba10356948e7159538232d38abe6",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/Existence.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/Existence.lean",
+          "git_blob": "0c3eae419b12098fa26e51b226ccccfc9ca3c5f9",
+          "bytes": 3054,
+          "sha256": "68cbd8e9abf18c0ba9d0a0b935d50830a784910d04dc95a14e2482813a7cfdf2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/FinsetEnumeration.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/FinsetEnumeration.lean",
+          "git_blob": "037741f4ee049a02238d7ed5ab6c61a2ac1c8a0f",
+          "bytes": 4204,
+          "sha256": "30cd962aa0542900bab770dedd8e8e9e26ecc02d5eef73a01cebccdb95743b00",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/FirstConnectionCard.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/FirstConnectionCard.lean",
+          "git_blob": "e6294c43b5a39f72d604e19b5ea2f29fc97ca7c7",
+          "bytes": 4383,
+          "sha256": "d523587e1b2876cd38bbdf46ee05a3504c468924def7ff7ca03ed3a615558988",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/FirstConstruction.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/FirstConstruction.lean",
+          "git_blob": "0f1c3edf690ad1339cf23de3f5c6e057730f0995",
+          "bytes": 4314,
+          "sha256": "8c884d5836df61c6ca5802382b0d629751d457fab22489e51a787d7a416045e8",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/FirstIndependentBound.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/FirstIndependentBound.lean",
+          "git_blob": "52c324f0000a31644089082ca7c7746579f78e33",
+          "bytes": 4193,
+          "sha256": "1086f13a6d1d80adfe92d29776d869b4c1b489fdd756cce76f2ecbb6a2ae08d3",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/FirstTriangleFree.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/FirstTriangleFree.lean",
+          "git_blob": "3337e903818a3dd4154eddde5b766f06c0320173",
+          "bytes": 5227,
+          "sha256": "abde1bba6a2a67e2de21b816a4d47adaebee907217b203b0d1e1921df2b94a51",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/GapBound.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/GapBound.lean",
+          "git_blob": "f89474fdedc82c586746775af1b22b54208703ce",
+          "bytes": 2494,
+          "sha256": "9eb377ec23d4ae8063807fff14d15523021bcbb2accaaf70bd58e7002dd04275",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/GraphGap.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/GraphGap.lean",
+          "git_blob": "f385c24d6ca93493cc972bf90faa90fa67e23d10",
+          "bytes": 3481,
+          "sha256": "dd45e696a66ab6e63022b927f6e148f8ca2f57a133f303ef3506249de563eddc",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/ParityCircularGaps.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/ParityCircularGaps.lean",
+          "git_blob": "fd0e63b7a9e1a41505f2da0ba7b9a059c7170820",
+          "bytes": 3573,
+          "sha256": "115cb3bac90b54852fc7b8cf9203efac9ae20081d87dc8df42edb6c998fece20",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SecondConnectionCard.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SecondConnectionCard.lean",
+          "git_blob": "868fed647f4b243b0f7cb51300c3a731a0248f9a",
+          "bytes": 7663,
+          "sha256": "98fa1ddba19959c9924d8b982cc075fc34e5c41f45846d6611ebe817cc89361a",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SecondCyclic.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SecondCyclic.lean",
+          "git_blob": "8646ba23632ca9044e8f898569836672a8abd537",
+          "bytes": 5753,
+          "sha256": "5def6a2ed872e4bac331c80e5f3eded254bdd354323bc10e0ff3fdb6a0f1d3c7",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SecondIndependent.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SecondIndependent.lean",
+          "git_blob": "c09ba2ca409be9bd2841e441688efa6e205ba2a9",
+          "bytes": 9324,
+          "sha256": "6881d02ff9f90d4df037faffab15ec26ba70c7ac1e08c50f33e511a5c87f1ff0",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SecondMixedBridge.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SecondMixedBridge.lean",
+          "git_blob": "05f16f3c7adb7a1ac3c0c87564ec5da7ce1c55c4",
+          "bytes": 5549,
+          "sha256": "d0bc827dc88bb731e14ffa22835ccf712feace3f435886614b8c47d6a3735036",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SecondTriangleFree.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SecondTriangleFree.lean",
+          "git_blob": "1134d65c84d297b5a50efe248fee6f046d26d866",
+          "bytes": 5689,
+          "sha256": "0fb2349b88bd93a8abf418d2b165838c77e991aa1cd32bd4a9d0994ee251be32",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W16/SortedCircularGaps.lean",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/W16/SortedCircularGaps.lean",
+          "git_blob": "835c8af18cbef50851452f0da9280d31889045a8",
+          "bytes": 1835,
+          "sha256": "231205bf0240737a1783297f3a037a40121d4826df851b7163e4faf4e694ad2b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lake-manifest.json",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/lake-manifest.json",
+          "git_blob": "474ad9003df823c62a205304d6f5f0f7bf1bdd81",
+          "bytes": 3640,
+          "sha256": "4c20a46d3c85a50c3b0d515d9aa6b6813a6e0e8e6ebc0bf87c8ad8b03570e1ea",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lakefile.toml",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/lakefile.toml",
+          "git_blob": "dcf32729f1ed0b0249f52a00a421412ffe179cff",
+          "bytes": 280,
+          "sha256": "7b8ad36db96f180a8661e2c75be0942a2e2f2614fbd131b8a30ec2599425e6e5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lean-toolchain",
+          "destination": "formalizations/triangle-free-circulant-existence/lean-candidate/lean-toolchain",
+          "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+          "bytes": 25,
+          "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/nonmixed-five-point-packing",
+      "commit": "2c771bb0ac22af8d50eced1da63f5e04202e62dc",
+      "source_root": "formalization",
+      "files": [
+        {
+          "path": "formalization/W01.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01.lean",
+          "git_blob": "f1d26a20d447cf77852908ab4ceaad9c730e7f20",
+          "bytes": 16,
+          "sha256": "fa5fe5a71726625314e915809e9238e7b96e53c823db8e8e09aa87db2b4143e9",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Arithmetic.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Arithmetic.lean",
+          "git_blob": "27228ba925eb162895a9a177a52a1ec4f49762fc",
+          "bytes": 4899,
+          "sha256": "c92166043fbe31734d25390845767397a88777bf0b72e7f92ad3cf55a20c8066",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Basic.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Basic.lean",
+          "git_blob": "8abf633620da354ba3a6b46eb97c439c49e60d08",
+          "bytes": 7874,
+          "sha256": "5fd27b9bcd502b73dc7e42819f643f1f2540e1a50e5f49df03ce241dbafec092",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Density.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Density.lean",
+          "git_blob": "641a9fcf792b8f1471e7f154f277aaaae0bd2283",
+          "bytes": 5680,
+          "sha256": "0d7b3288dfd2d3d5dad40b99ee28ab3a38ba5e2b28b4fe9f7256ec7a9f4d4899",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Equality.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Equality.lean",
+          "git_blob": "7a4a37719f72bd035c23cfefb786c1f8df7fc9c1",
+          "bytes": 8558,
+          "sha256": "f5d6e5c6c80bf96b335afe76505be5a85c62283439e582b34f4aee8dd0fa3a05",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Lower.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Lower.lean",
+          "git_blob": "30019905b3136b4f229539b711787e42804f1cd5",
+          "bytes": 5355,
+          "sha256": "520325d4ea107f8c0b50e62e163d2b253aad7590c57232c7c0e54165b4e65238",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/LowerCount.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/LowerCount.lean",
+          "git_blob": "5ab21566bf7fa61ded4e82f91eba093f4f291654",
+          "bytes": 5593,
+          "sha256": "bd509aae563daf2962b6b5a3c68e8246dc3ab15f7de15b00dd1d8f6234d232ad",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Main.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Main.lean",
+          "git_blob": "1ff36205e949f6ece7796a8c2b3c6876f3482a7b",
+          "bytes": 2836,
+          "sha256": "87afe1373a862b1cdb1808ff63c8b0b7a71ecb406ea863456cd4c6f843972c90",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/PathAverage.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/PathAverage.lean",
+          "git_blob": "afdd9047209d2bacfbd7577060965c8652857280",
+          "bytes": 7748,
+          "sha256": "0a732c656cdee53c46aa661c5f646ffd86684c09c95f92100477ab1203c88607",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/PeriodicDensity.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/PeriodicDensity.lean",
+          "git_blob": "acfb8c3a441c06e7245552c859fdea279f787fc3",
+          "bytes": 3590,
+          "sha256": "a821e522cb51fa4ed0a7de355aa0dd52c9063228d45c436eaf65ae2b5a510bd2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Upper.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Upper.lean",
+          "git_blob": "7f771cd9a8ed501a3bf727d0feeaffcf46481cea",
+          "bytes": 6415,
+          "sha256": "f8db333f9b2d471cd72a3ddb554cc2165e8f0f5a6aa47053abdcc6b8adc5cae5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/W01/Zero.lean",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/W01/Zero.lean",
+          "git_blob": "dbb9ed3e75d9ef88a983c11cf8abeb228b155019",
+          "bytes": 2957,
+          "sha256": "789cae904742f68e41e7f3ee14c61f3cec996487375fa543377f0dbfe2731a0e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/lake-manifest.json",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/lake-manifest.json",
+          "git_blob": "913ffeb5cda7703dfa3249ef1cb74fd993b2097c",
+          "bytes": 3593,
+          "sha256": "930d56820d26bc22587c64e42756dabd3ca855d5d885df7921598dfae775f651",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/lakefile.toml",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/lakefile.toml",
+          "git_blob": "8dded392817306251ed490a0348e1fc803d67810",
+          "bytes": 233,
+          "sha256": "2d97852f36794c78e327c4209ad5dce506704d0ead4b695747879c9fe64f6d00",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "formalization/lean-toolchain",
+          "destination": "formalizations/nonmixed-five-point-packing/formalization/lean-toolchain",
+          "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+          "bytes": 25,
+          "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/lecture-hall-polynomiality",
+      "commit": "d33c7b05d7c40844920c2339f4714fb16af386a0",
+      "source_root": "lean-candidate",
+      "files": [
+        {
+          "path": "RIGHTS.md",
+          "destination": "formalizations/lecture-hall-polynomiality/RIGHTS.md",
+          "git_blob": "a42d7a59db6cb0802b1bc91cc848eacdd8d63da0",
+          "bytes": 1515,
+          "sha256": "f138a529d4475a835e9ca225013b93dd2f6b8ba6fe5e6f99a35fc6d1d286e89a",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/ImportProbe.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/ImportProbe.lean",
+          "git_blob": "eabcf7cff792f36692dc73e4b2968cff3bf183ed",
+          "bytes": 507,
+          "sha256": "2c37940b0a2f99fc123035aba9b82569c3b21fd13be3b52ad59d6b3d1741a4eb",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/BandedPowers.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/BandedPowers.lean",
+          "git_blob": "a13fe4778012fc1abccc0fc9b9328581f24b4d7f",
+          "bytes": 2170,
+          "sha256": "777ea5ac532c2e704d6f1bffa526404bdebb35a435373e2511a2edbb83363b3e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/CanonicalHankel.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/CanonicalHankel.lean",
+          "git_blob": "904b6f2c5ea78dcb96b57b0590178c88530004a3",
+          "bytes": 3601,
+          "sha256": "8aef64b43316f8afff119e94ff35a65088974e7e69351d9cf1f77929c52035ba",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckContraction.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckContraction.lean",
+          "git_blob": "3e1662ef6679bb682f829d1f30c16bd93418336f",
+          "bytes": 6125,
+          "sha256": "db87e5ae54e4ce7cba23373d1ae64bd0be9fc0498673f73644172c2920cf58f7",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckMomentIdentification.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckMomentIdentification.lean",
+          "git_blob": "3a0f94728c0ac2012d3dda839c6b74fd9e80768c",
+          "bytes": 2841,
+          "sha256": "863fb00b2b12cbf733570e68d42381cdad1097287637b438ab43e16fe38d6e0d",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWalkEquiv.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWalkEquiv.lean",
+          "git_blob": "e35f4d54adee8c6e44f6fc4e507fe5e9c0c6a914",
+          "bytes": 1239,
+          "sha256": "ff7de13928ad9cfd0aaf1fa54023aa9dff3cc3003ccd14f66d326b045779e730",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWalkReadback.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWalkReadback.lean",
+          "git_blob": "642ea520c5e48ccf29a61f591633b61dca767c1c",
+          "bytes": 4838,
+          "sha256": "c772652e31a0c1cc30a7883c0cbd617ef8bf2dfde841cec70b2a3935bbcf8a45",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWalkSum.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWalkSum.lean",
+          "git_blob": "b3aa563ae174b3d6d426e55e773dadf007d7e1cb",
+          "bytes": 4337,
+          "sha256": "7f3eb63c01d03e882f599bd0f5a46448668ce0e4d430dc12d07802c9200ab937",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWeight.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWeight.lean",
+          "git_blob": "3be7c35a994f9247c0e8de7594d1c90da255e15e",
+          "bytes": 4921,
+          "sha256": "2e52ade5ad224ed52a5e2dd506dbfcada8c5982681b89ebc38fe73d56f0ae7fb",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWordEncoding.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWordEncoding.lean",
+          "git_blob": "bb2ec9dff0a24ecb044ee2069658bf00948b506c",
+          "bytes": 1654,
+          "sha256": "61557468f60427b7044346ff899227a87db9a730da6b406b52c626f702a2ebcd",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/DyckWordHeights.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/DyckWordHeights.lean",
+          "git_blob": "b58c747b43f07591d807ab7496c187823f695428",
+          "bytes": 4945,
+          "sha256": "31616560ea2cc6956537159bbcd950626b7e5481aabf9fcc750915c8c6ebb35a",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/FiniteHankel.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/FiniteHankel.lean",
+          "git_blob": "8dced428a909cb5431c0e1f479ce556a65060abd",
+          "bytes": 2384,
+          "sha256": "32f8125e76975430d2c3771e85df686d24e8de6db621069f067b5db046753d79",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/FiniteJacobi.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/FiniteJacobi.lean",
+          "git_blob": "f39783d2ba465abcb49924397b41bccadf948173",
+          "bytes": 2670,
+          "sha256": "c91a0a6a6c07553b4af848a232325b36b5873c86187a99b959f4c5f63d97f9b4",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/FractionSatisfies.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/FractionSatisfies.lean",
+          "git_blob": "247a3abbef8568b42f2df976b3435aff400b86bd",
+          "bytes": 4031,
+          "sha256": "0c69adb870a6b581a1ce91126f7121d0dad71d8aa69edf9aeb2b0b36ec8370d8",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/JacobiBalance.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/JacobiBalance.lean",
+          "git_blob": "31446098ba196d2a8838e3c8db923b9f55347ec7",
+          "bytes": 4219,
+          "sha256": "950a53bf3548307e90d8eb18b7ee4d9549a11f5cdd86d62bcb5de918139f6354",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/JacobiBidiagonal.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/JacobiBidiagonal.lean",
+          "git_blob": "83d22b7612e40db61394547d85199091c552e6eb",
+          "bytes": 5219,
+          "sha256": "3943b99967eb6f3c6ed6bbb22faa00b30f2ebaab0d23fe5ffd08c3174d25cbb2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/JacobiCutoff.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/JacobiCutoff.lean",
+          "git_blob": "ef78b0f30d59abd8aad38c8796b7d2cdd05a624c",
+          "bytes": 3678,
+          "sha256": "d3517765094adbd434f8c83e30ce7323d68a33cd0d700c486aa8a9d863baea34",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/JacobiMoments.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/JacobiMoments.lean",
+          "git_blob": "aaa341189138148514c8e4c0f9393fb8e9e79ab9",
+          "bytes": 4014,
+          "sha256": "9e5efa211dd440d15faed9f0e235b28edcaefb1f72ac301a3e03f86cdecb9e78",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/JacobiPolynomialWitness.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/JacobiPolynomialWitness.lean",
+          "git_blob": "59d5df31176a48f7b490279dfd726df332a0ec1b",
+          "bytes": 4389,
+          "sha256": "862b9385e5c4e2b56e66546c4347d70244be5da8e616b3d39fb4f745050891fe",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/PolynomialSatisfies.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/PolynomialSatisfies.lean",
+          "git_blob": "9f3d30046ed0a0136af24e0a3bc136b8069d8621",
+          "bytes": 3718,
+          "sha256": "d7c7d73cdf81d919ea62ce6a495111df1464a008bfd6daba17dbf4083dca8cae",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/PrescribedProducts.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/PrescribedProducts.lean",
+          "git_blob": "76a5e871074e9e8e23fe8f5c00bd9512b09705fd",
+          "bytes": 5753,
+          "sha256": "e5fe641345f0fbb5fab5eeb335b94e428b2f0e8dbebff68941160edbd9e280f1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/RationalCore.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/RationalCore.lean",
+          "git_blob": "70e31432ac41b71429de2194b10d9c02eb893503",
+          "bytes": 3464,
+          "sha256": "6d915ac2069cef91f5597c68992517853c0d1e904306a31e43f2b76f74b78b40",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/RationalTransport.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/RationalTransport.lean",
+          "git_blob": "a789e5a8fdeaf13a4f8ed238fee57d1ccca289e4",
+          "bytes": 3576,
+          "sha256": "6e5a44af0899ee15cb07e2638c901757e8a1804e910943fa710ed28fe8b97d3e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/SignedWeightProducts.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/SignedWeightProducts.lean",
+          "git_blob": "88c1ef4453d394d9864a83bbf7a4144c8735e4ba",
+          "bytes": 3844,
+          "sha256": "13f4f2a157e57ebc8c169ace01a7851965600cc6de8043f97ea849e1d1d441fc",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/ToeplitzCorner.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/ToeplitzCorner.lean",
+          "git_blob": "b3d0729b85b143a9d07513a17dcb2b2978274c92",
+          "bytes": 5254,
+          "sha256": "e7151b0dd764633bb253f91d8aa7dae5f7ff668f54659f79eedbf1fc3efbbdc2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/ToeplitzSign.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/ToeplitzSign.lean",
+          "git_blob": "0c3c5bafea82fc2462e206ee1dc0da89999f7688",
+          "bytes": 4109,
+          "sha256": "fdcedfd161cc6e20c4a34ac1b5d57aa0bdfb242047e772d5a19ced781a149db3",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/Uniqueness.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/Uniqueness.lean",
+          "git_blob": "7fccf68e67928d253710cd8ec5448978db3f1c2b",
+          "bytes": 3547,
+          "sha256": "ba9cc0936dde57ffc544ec156ecd239ec71fb00cbe38f57c689f4e814fd28713",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/W05/WalkDyckDecoding.lean",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/W05/WalkDyckDecoding.lean",
+          "git_blob": "f341b95eba3f87fcca0ffe0f2c3956b4db895ade",
+          "bytes": 4791,
+          "sha256": "e68db9b2d9f27f3ff721a5db1e8b28883f22219ee04a88f6eee3cbb401993d3e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lake-manifest.json",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/lake-manifest.json",
+          "git_blob": "5e643bf075a5fca92fe37079e71c45fa258a44f1",
+          "bytes": 3639,
+          "sha256": "9e3e2801dc4172b4eb3be9a58283a51b6a1d0bc2abaf190979c9821737e1524f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lakefile.toml",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/lakefile.toml",
+          "git_blob": "dad2a56f2694f8cd0965108d511dfa9274d5840d",
+          "bytes": 291,
+          "sha256": "3f334acb5dfbc277b0e084cbd5937f6e7670f9175a12fe9ce8ed499d800b3dbd",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "lean-candidate/lean-toolchain",
+          "destination": "formalizations/lecture-hall-polynomiality/lean-candidate/lean-toolchain",
+          "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+          "bytes": 25,
+          "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    },
+    {
+      "repository": "Aurantium-47/fence-rowmotion-counterexample",
+      "commit": "bef0bd6c10a44506888eb4cef7f1bd024262430b",
+      "source_root": "kernel-candidate",
+      "files": [
+        {
+          "path": "kernel-candidate/Audit.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/Audit.lean",
+          "git_blob": "c9352380b9c606faa25f4f75accd1ddd5a657dd9",
+          "bytes": 1227,
+          "sha256": "30d4e5c1eef068d26fb1aa76c254e5b89d8927b554edf18a548092330bd96440",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04.lean",
+          "git_blob": "603e42d4a89437c39523fe5cb732fee045c82509",
+          "bytes": 16,
+          "sha256": "779b2211231770800703c4d98e815a47583b4f23f425cd90c8a8f23d86944d43",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C00.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C00.lean",
+          "git_blob": "6a08962c857a1a7295fc79aec44fcf293adca86c",
+          "bytes": 3886,
+          "sha256": "5c3c135e41aa3510eb161df92a7dec2774f132876d5497eda358881ebe25f98f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C01.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C01.lean",
+          "git_blob": "4b70cdb8b300a2d059ff403df414e68b25570618",
+          "bytes": 3778,
+          "sha256": "0d0ecefa75accebeb8145b1dcef4a945c9b7eed275b3a937a636da05bdcfa44b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C02.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C02.lean",
+          "git_blob": "c562075301ecc00b5daf18a0107257cea96100e2",
+          "bytes": 4080,
+          "sha256": "3d3bd8e90008f8043c690e1943b0c9bd6f445812e25d9750cfbcb730f6346cff",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C03.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C03.lean",
+          "git_blob": "85f38381923fe144d1e957101c31c2a142a4a5ec",
+          "bytes": 3870,
+          "sha256": "3a1ad200eeb5eb387ee4ae354106c908e2e7caf4b98336a165acfe4b7e664132",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C04.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C04.lean",
+          "git_blob": "14ff3eb9a854dcab6ffb5fca0bf519beba77c66c",
+          "bytes": 4107,
+          "sha256": "3193f896a901a03140281e786e083c4f5385ecd71520654c30635e3e7fb73737",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C05.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C05.lean",
+          "git_blob": "05826de35d8a17eadcb69b63b62f3877675117a5",
+          "bytes": 3889,
+          "sha256": "842a736a6cf286a67ebd772c3bd15211cb541acb8631a948aa2515871f070439",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C06.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C06.lean",
+          "git_blob": "4707bada5edad25cd76f6c280071cb9d135bb75a",
+          "bytes": 3896,
+          "sha256": "1879bf8053855aabe298d395cc23eccac00980c320473056d8bbea430d44d011",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C07.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C07.lean",
+          "git_blob": "fa38a30aa94a86b6818a833f6e8e8de222a3eea4",
+          "bytes": 4136,
+          "sha256": "4d4d5f33ab004642fad6dc8136670abe4b5814b09c1dbf1f3acd7f92a9cf38cd",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C08.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C08.lean",
+          "git_blob": "98a549280211342d51ccf691b3a61dc016c76a72",
+          "bytes": 3919,
+          "sha256": "e17e34a6b317aae077f6db9191d6faecfe04cacfe984d1623418e27ae58a54f4",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C09.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C09.lean",
+          "git_blob": "717fb21e2c8be1b8f2c28b2d4be44e873cc5cf46",
+          "bytes": 4149,
+          "sha256": "b91c4d7ba7a4c3cca57bc239baaeb878c2833821f2f964dd67a78d4349301526",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C10.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C10.lean",
+          "git_blob": "ce768f59157d9e626809008eaea6ca425a7938cf",
+          "bytes": 3967,
+          "sha256": "cc246b230da5fbd8f8bd8de6833741d19f87c09839201a46d07c94e3144e93d2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C11.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C11.lean",
+          "git_blob": "0f43e68c033c3af0d1cbc70399df113444f307dc",
+          "bytes": 4010,
+          "sha256": "c217d7e6f6fdce6ba04d32e48887fe936fd4f33df04282052ef376fc89610565",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C12.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C12.lean",
+          "git_blob": "0e89e74b9842209f09540a3091222055b894e29c",
+          "bytes": 3868,
+          "sha256": "ea172d88d89dd1858c377bd923750d1dc5cb384b92e5ec3aeda648c64e698fc3",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C13.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C13.lean",
+          "git_blob": "fc8cbcddf581298a7b85d9e3e8ac20481849945d",
+          "bytes": 3891,
+          "sha256": "f62629246bcbce8d89f129f52c5385aae59f879a8e3f007e8124232425729cb7",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C14.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C14.lean",
+          "git_blob": "ddf91160f0b0daeddb421687ebdc21c62a2d5f11",
+          "bytes": 3936,
+          "sha256": "ce41c58ee3a0e57c671f7d2946f371a42740b1703905cf535aa16d1f9ad916a5",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C15.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C15.lean",
+          "git_blob": "1b4c4d407a7d8890083907e92d723f2170d97768",
+          "bytes": 4142,
+          "sha256": "c01d44734c81361b01f9816e9e55b209ccdbf10fea480ae190130a9c5a38f84c",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C16.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C16.lean",
+          "git_blob": "33d757417ec304f016a02b99a3e29f3eb93f2115",
+          "bytes": 4111,
+          "sha256": "e9e46ef7235264dd0a6c30cdf88e573eb08758e314f9765c40cc2a9e28f1c360",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C17.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C17.lean",
+          "git_blob": "ff0ea8a97f2e1443ef7447575d543bdfb3f22ceb",
+          "bytes": 4174,
+          "sha256": "f221cf8afe39276773f45c644f62f06e02fffb311519581b6f33e1b6a879c22c",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C18.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C18.lean",
+          "git_blob": "3f4b9d969c2181394b9121749a776e2b5898a641",
+          "bytes": 3915,
+          "sha256": "cae07fcc0e9be1f82d1895e5c1835c9b243ad2afcd93ddbdfae081ed3731c0f0",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C19.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C19.lean",
+          "git_blob": "60f90f521e98891d52942a7c3bb85d56e55276cc",
+          "bytes": 3886,
+          "sha256": "0513410cfb851db27dbdfa708b50b3c6e672c996764b0999efeebcdbc885ed45",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C20.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C20.lean",
+          "git_blob": "1d0e69557c18c0d74abce5a45949f9fb9bbbd917",
+          "bytes": 4003,
+          "sha256": "8947ac51bca15b69483acd4b95f5b1586273f5599cf2eaa7cb5866bdb7aa3150",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C21.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C21.lean",
+          "git_blob": "750de58bf1b780e67e5d67d3f245c1bdbc28a3af",
+          "bytes": 4155,
+          "sha256": "8d2409d77cebe4b080017babda461385632af6e6a9ed44561bfdd4cfbb51da37",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C22.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C22.lean",
+          "git_blob": "bb86523d3ec7c8de7cc32471fcba69db19806c73",
+          "bytes": 3947,
+          "sha256": "52c373c5f288e3ec83a212b3621882ebc3b8870e2a1995007c7c1349abb194a1",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C23.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C23.lean",
+          "git_blob": "b50fbc1105141ccc4fa5b3763dfbdd3cfda53020",
+          "bytes": 3908,
+          "sha256": "186d78363430e4632f3e2cd253a4d2c5161e3ad756d33e374ebe24d9591c6c86",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C24.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C24.lean",
+          "git_blob": "6664d08080600aa09528fbb2df7594ab31d69bfa",
+          "bytes": 3879,
+          "sha256": "8db267281dbc29ec6558eeac2cf32711c75c9506ef59792601e1d9b1a31b8f85",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C25.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C25.lean",
+          "git_blob": "7c6a6004965d4065b247db5472cbb3e2d85a37cd",
+          "bytes": 3813,
+          "sha256": "e6ddb29986f0dd28c47a4dc32c22ba5567216a474ec57aac80bc44dc51f74d2e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C26.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C26.lean",
+          "git_blob": "ced75326bf4a3a0dcb310c020b84d52bf48ce43a",
+          "bytes": 4132,
+          "sha256": "119211d1a621dca229c35617a327c3b46668ac80802b7509b99db06209f6c13b",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C27.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C27.lean",
+          "git_blob": "2dce061d7560c8ba10c3065fc277c1f519f27f0d",
+          "bytes": 4033,
+          "sha256": "306ae75b3745fc2f449efebca7e44810ae88bc766d4bddf46a94f52b92cff633",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C28.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C28.lean",
+          "git_blob": "9a144ee803f890b280e5ed5e42b05134097c91d9",
+          "bytes": 3957,
+          "sha256": "df95c35dcf9190226dfb1ffb57e880a78d3e5a1610b816a63eacc4060ab7e05e",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelCert/C29.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelCert/C29.lean",
+          "git_blob": "8d156a8b8588aef154044ed866a7e0c8bc78bfe5",
+          "bytes": 2548,
+          "sha256": "75b908e427a74e0c45688d12aa5934e85ce8213910c8910b740f67d3e6275edf",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/KernelData.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/KernelData.lean",
+          "git_blob": "ff5c2d2e977846a79fd6f27bcf002bf0d0454430",
+          "bytes": 25690,
+          "sha256": "6c4d6ac23af57b3e493b9c1a99ab65df1fba0e8d99b1d73bd36a290214f7c2f2",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/Main.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/Main.lean",
+          "git_blob": "46f9be47fee259612bef811d6708867f2d49c421",
+          "bytes": 5034,
+          "sha256": "4d2c729be65710b3cbf51e7f3c3e8314ae3f8defc2db4b05847e7c513e246afd",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/Orbit.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/Orbit.lean",
+          "git_blob": "9117509416b1206405c9b135f286832a6607d9f2",
+          "bytes": 9660,
+          "sha256": "8e1461c1093f4481ec66b531076f6c3eeac73722730039259eb86833a2e4e17f",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/Poset.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/Poset.lean",
+          "git_blob": "edd931df20df46de593d7a4b11b0b2dc93f6ac61",
+          "bytes": 7332,
+          "sha256": "1fa0d7b4d6b66f2c930bbcf989dfb99ecb259189917b0d4fdf1955df56d15563",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/Rowmotion.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/Rowmotion.lean",
+          "git_blob": "14bc00601fb0b7189113c4ab1c1e205685bf6a0e",
+          "bytes": 2765,
+          "sha256": "31b718a090c37f4d662f649b582fe325cf09f6c8152082e52031bf7b725d0210",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/SmokeData.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/SmokeData.lean",
+          "git_blob": "0a6173a27ba5f467098d01c3cca7d6ac9d84d29e",
+          "bytes": 465,
+          "sha256": "bb8648455dfcd56b43bfe5f5da5c6083125c648d7f17fdecc0e5cb8aaa61d9c8",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/W04/SmokeLiteral.lean",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/W04/SmokeLiteral.lean",
+          "git_blob": "f2d1d02dcdd71072c2e6b13ad6db13201dae196f",
+          "bytes": 693,
+          "sha256": "d4a925501029308440448d4983ab3d1d1151f0e4cef56b39a441bc225e685815",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/lake-manifest.json",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/lake-manifest.json",
+          "git_blob": "7c6de6d856496c7450ba7fd67a026cc48c5decce",
+          "bytes": 3632,
+          "sha256": "a0ff41bd0fd3e2f23b7be722836bbc745e39a77dfce488635b5e58b07bab8a68",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/lakefile.toml",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/lakefile.toml",
+          "git_blob": "9d6111effa7a156afb38c50f35f71ab727ba4a24",
+          "bytes": 272,
+          "sha256": "652ef2238547ac3eb06dc8c40eeed853dc401ff9231532e439ca89fafe7698cf",
+          "byte_source": "raw_worktree"
+        },
+        {
+          "path": "kernel-candidate/lean-toolchain",
+          "destination": "formalizations/fence-rowmotion-counterexample/kernel-candidate/lean-toolchain",
+          "git_blob": "7aca1d8a939cc24c413eddd793671cdce7070b74",
+          "bytes": 25,
+          "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+          "byte_source": "raw_worktree"
+        }
+      ]
+    }
+  ]
+}

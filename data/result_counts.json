@@ -1,0 +1,39 @@
+{
+  "unit": "project classified by main result; secondary results may overlap",
+  "affirmative_original_targets": [
+    "howroyd-27-conjecture",
+    "chemical-graph-sigma-extremizers",
+    "stern-polynomial-positivity",
+    "triangle-free-circulant-existence",
+    "lecture-hall-polynomiality",
+    "rook-polynomial-unimodality",
+    "even-catalan-hankel-degrees",
+    "numerical-semigroup-endpoint-residues",
+    "peak-polynomial-last-real-root",
+    "peak-and-x-descent-growth-rates"
+  ],
+  "counterexample_focus_projects": [
+    "fence-rowmotion-counterexample",
+    "k6-clique-chain-packing-coloring",
+    "fixed-length-fertility-counterexample"
+  ],
+  "further_progress": [
+    "hardinian-array-asymptotics",
+    "nonmixed-five-point-packing",
+    "gap-five-gaussian-quotients",
+    "hurwitz-single-cycle-genera-two-three",
+    "eventual-infinite-log-concavity",
+    "stanton-eleven-entry-w-positivity",
+    "clique-join-domination-polynomials"
+  ],
+  "construction_or_classification": [
+    "unit-translation-coefficient-oscillation",
+    "hoggatt-row-sum-moments",
+    "narayana-polytope-counterexamples"
+  ],
+  "parallel_treatment": [
+    "karp-order-two-real-rootedness"
+  ],
+  "lean_projects": 8,
+  "extension_groups": 7
+}
