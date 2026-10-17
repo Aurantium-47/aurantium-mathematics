@@ -10,7 +10,7 @@
 
 ---
 
-我在AI辅助下，证明了**Lecture Hall多项式性猜想、Catalan卷积幂的Hankel行列式次数猜想**等，并给出反例、分类和推广。现已整理为**24个成果组**。
+组合数学、图论、多项式与渐近分析的研究成果集，收录**24组成果**。代表结果包括**Lecture Hall多项式性猜想的证明、Catalan卷积幂Hankel行列式的精确次数公式，以及K6链装填着色的23色锐界**。
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.minimal.mobile.zh.png">

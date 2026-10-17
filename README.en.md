@@ -10,7 +10,7 @@
 
 ---
 
-With AI assistance, I have proved **the Lecture Hall polynomiality conjecture and the degree conjecture for Catalan-power Hankel determinants**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
+A collection of **24 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Lecture Hall polynomiality conjecture, exact degree formulas for Catalan-power Hankel determinants, and the sharp uniform bound of 23 colours for K6 chains**.
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.minimal.mobile.en.png">
