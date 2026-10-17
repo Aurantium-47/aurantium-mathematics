@@ -13,8 +13,8 @@
 With AI assistance, I have proved **the Lecture Hall polynomiality conjecture and the degree conjecture for Catalan-power Hankel determinants**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-dashboard.named.mobile.en.png">
-  <img src="assets/research-dashboard.named.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.minimal.mobile.en.png">
+  <img src="assets/research-overview.minimal.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics

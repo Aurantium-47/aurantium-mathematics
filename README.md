@@ -13,8 +13,8 @@
 我在AI辅助下，证明了**Lecture Hall多项式性猜想、Catalan卷积幂的Hankel行列式次数猜想**等，并给出反例、分类和推广。现已整理为**24个成果组**。
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-dashboard.named.mobile.zh.png">
-  <img src="assets/research-dashboard.named.zh.png" alt="24组数学成果；13项原题解答；7组推广；8组含Lean形式化。主要目标分为13项原题解答、7项部分解答、3项构造或分类、1项同题研究。代表成果为Lecture Hall、Catalan幂Hankel与K6链。研究背景：77位已列相关研究者、14项期刊原题，原题年代2012—2026。" width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.minimal.mobile.zh.png">
+  <img src="assets/research-overview.minimal.zh.png" alt="24组数学成果；13项原题解答；7组推广；8组含Lean形式化。主要目标分为13项原题解答、7项部分解答、3项构造或分类、1项同题研究。代表成果为Lecture Hall、Catalan幂Hankel与K6链。研究背景：77位已列相关研究者、14项期刊原题，原题年代2012—2026。" width="1600">
 </picture>
 
 **涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
