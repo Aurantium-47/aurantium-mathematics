@@ -26,7 +26,7 @@
   "prior_researcher_names": 77,
   "prior_research_records": 44,
   "prior_research_scope": "Original question sources and directly related studies, with general tools and background excluded; see prior_research_coverage.json.",
-  "displayed_metric_count": 9,
+  "displayed_metric_count": 8,
   "displayed_metrics": [
     "research_families",
     "original_target_answers",
@@ -35,9 +35,28 @@
     "lean_families",
     "journal_problem_sources",
     "prior_researcher_names",
-    "bibliographic_records",
-    "source_age_year_difference_range"
+    "source_year_range"
   ],
-  "partial_results_display_label": "原题研究进展 / Progress on original questions",
-  "source_age_display": "Range only; mean omitted from the overview at user request."
+  "partial_results_display_label": "原题的部分解答 / Partial answers to further questions",
+  "source_age_display": "Original-source years 2012–2026; a 14-year year-difference span. Not a claim of continuous unresolved duration.",
+  "display_labels": {
+    "research_families": "数学成果组",
+    "extension_families": "推广成果",
+    "prior_researcher_names": "前人研究者",
+    "source_year_range": "原题年代"
+  },
+  "representative_conjectures": [
+    {
+      "author": "Ulas",
+      "number": "4.4"
+    },
+    {
+      "author": "Katthän",
+      "number": "3.4"
+    },
+    {
+      "author": "Cigler",
+      "number": "6"
+    }
+  ]
 }

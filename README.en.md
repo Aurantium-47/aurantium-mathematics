@@ -10,33 +10,15 @@
 
 ---
 
-My AI-assisted mathematical research is organized into **24 result families**: **13 original targets answered and progress on 7 further questions**, alongside constructions, classifications and a parallel treatment. **Seven families include extensions; eight include Lean formalization.**
+With AI assistance, I have proved **Ulas’s Conjecture 4.4, Katthän’s Conjecture 3.4 and Conjecture 6 in Cigler’s paper**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="278" align="center"><h3>24</h3><strong>Result families</strong><br><sub>Organized by core question</sub></td>
-<td width="278" align="center"><h3>13</h3><strong>Original targets answered</strong><br><sub>10 affirmative · 3 counterexamples</sub></td>
-<td width="278" align="center"><h3>7</h3><strong>Progress on original questions</strong><br><sub>Broader proved cases or stronger conclusions</sub></td>
-</tr>
-<tr>
-<td width="278" align="center"><h3>7</h3><strong>Families with extensions</strong><br><sub>More general objects or parameter ranges</sub></td>
-<td width="278" align="center"><h3>8</h3><strong>Families with Lean results</strong><br><sub>Covered statements kernel-checked</sub></td>
-<td width="278" align="center"><h3>14</h3><strong>Journal problem sources</strong><br><sub>Research targets have published sources</sub></td>
-</tr>
-<tr>
-<td width="278" align="center"><h3>77</h3><strong>Prior researchers documented</strong><br><sub>Authors of source and directly related studies</sub></td>
-<td width="278" align="center"><h3>60</h3><strong>Bibliographic records</strong><br><sub>44 records used for the researcher count</sub></td>
-<td width="278" align="center"><h3>0–14 years</h3><strong>Age of source literature</strong><br><sub>22 dated sources · 2012–2026</sub></td>
-</tr>
-</tbody>
-</table>
+![24 result families; 13 original targets answered; 7 families with generalizations; 7 further questions with partial answers; 8 Lean projects; 14 journal sources; 77 documented prior researchers; original-source years 2012–2026.](assets/research-overview.en.png)
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
 **Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
 
-<sub>The 77 documented researchers and 44 corresponding records are listed in [Prior research](PRIOR_RESEARCH.md). Progress includes broader proved cases or stronger conclusions; each project states its remaining scope. [Statistical definitions](METHODS.md)</sub>
+[Original conjecture numbers and results](CONJECTURES.md) · [The 77 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
 ## Extensions
 

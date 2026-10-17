@@ -10,33 +10,15 @@
 
 ---
 
-我在AI辅助下开展的数学研究，已整理为**24组成果**。其中**13项原题得到解答，另7项原题研究取得进展**；另有构造、分类与同题研究。**7组工作继续做出了推广，8组含Lean形式化成果。**
+我在AI辅助下，证明了**Ulas猜想4.4、Katthän猜想3.4、Cigler文中猜想6**等，并给出反例、分类和进一步的推广。现已按核心问题整理为**24个成果组**。
 
-<table width="100%">
-<tbody>
-<tr>
-<td width="278" align="center"><h3>24</h3><strong>研究成果组</strong><br><sub>按核心问题组织</sub></td>
-<td width="278" align="center"><h3>13</h3><strong>原题得到解答</strong><br><sub>10项肯定结论 · 3项反例</sub></td>
-<td width="278" align="center"><h3>7</h3><strong>原题研究进展</strong><br><sub>拓展证明范围、加强已有结论</sub></td>
-</tr>
-<tr>
-<td width="278" align="center"><h3>7</h3><strong>包含进一步推广</strong><br><sub>更一般的对象与参数范围</sub></td>
-<td width="278" align="center"><h3>8</h3><strong>含Lean形式化成果</strong><br><sub>具体命题由内核检查</sub></td>
-<td width="278" align="center"><h3>14</h3><strong>原题来自专业期刊</strong><br><sub>研究目标有明确论文出处</sub></td>
-</tr>
-<tr>
-<td width="278" align="center"><h3>77</h3><strong>前人研究者</strong><br><sub>已整理的原题及直接相关研究作者</sub></td>
-<td width="278" align="center"><h3>60</h3><strong>问题来源与相关文献</strong><br><sub>其中44条计入研究者人数</sub></td>
-<td width="278" align="center"><h3>0—14年</h3><strong>来源文献距今</strong><br><sub>22项可定年来源 · 2012—2026</sub></td>
-</tr>
-</tbody>
-</table>
+![24组数学成果；13项原题得到解答；7组推广成果；另7项原题获部分解答；8组含Lean形式化；14项原题发表于期刊；77位已列前人研究者；原题年代2012—2026。](assets/research-overview.zh.png)
 
 **涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
 
 **方法与工具：** 行列式与生成函数 · SAGBI基与toric退化 · 根交错与正性 · 精确证书 · Lean 4 / mathlib · Python / SymPy · C++17
 
-<sub>77位研究者及其44条对应文献见[前人研究](PRIOR_RESEARCH.md)；“原题研究进展”包括证明更多情形和加强已有结论，覆盖范围见各项目。年代统计见[统计说明](METHODS.md)。</sub>
+[原论文中的猜想编号与本研究结论](CONJECTURES.md) · [77位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
 ## 推广成果
 
@@ -55,10 +37,10 @@
 | 项目 | 已有研究 | 本研究的结果 |
 | --- | --- | --- |
 | **Howroyd · 2018年提出** | 三类余数情形中的一类已有证明 | **补齐另外两类，完成27集分支的完整分类**；与已知结果合并覆盖全部三类 |
-| **Lecture Hall · 2018年提出** | 原文计算验证到长度12 | **证明任意长度成立**，并继续发展出上述一组推广成果 |
-| **化学图极值** | 后续论文覆盖一个模4余类 | **覆盖全部四类、所有n≥7**，同时证明每种极值分布都可实现 |
-| **Peak多项式** | 部分区间和系数性质已有结果 | **补齐剩余区间的符号论证**，完成指定的最后实根结论 |
-| **Fence行运动** | 原题预测轨道平均值恒定 | **构造237步完整轨道，否定原断言**；反例已由Lean内核核验 |
+| **Katthän 猜想3.4 · 2018** | 原文计算验证到长度12 | **证明任意长度成立**，并继续发展出上述一组推广成果 |
+| **Knor等 · 猜想10** | 后续论文覆盖一个模4余类 | **覆盖全部四类、所有n≥7**，同时证明每种极值分布都可实现 |
+| **Billey等 · 猜想6.6** | 部分区间和系数性质已有结果 | **补齐剩余区间的符号论证**，完成指定的最后实根结论 |
+| **Fence · 猜想5.4(b)** | 原题预测轨道平均值恒定 | **构造237步完整轨道，否定原断言**；反例已由Lean内核核验 |
 | **K6链着色** | 原文提出统一22色上界 | **450顶点反例＋全家族23色锐界**，附1664万余条精确证书记录 |
 
 ## 论文出处
@@ -83,17 +65,17 @@
 | --- | --- | --- |
 | [Howroyd 27集分类](https://github.com/Aurantium-47/howroyd-27-conjecture) | 证明剩余两个模3余类均恰有27个最大独立集，并给出分类 | Lean |
 | [化学图极值度数分类](https://github.com/Aurantium-47/chemical-graph-sigma-extremizers) | 对所有n≥7完成Conjecture 10的极值度数重数分类与可实现性 | Lean |
-| [Stern多项式正性](https://github.com/Aurantium-47/stern-polynomial-positivity) | 全参数正性；另以B183否定单调性条款 | Lean |
+| [Ulas猜想4.4 · Stern多项式](https://github.com/Aurantium-47/stern-polynomial-positivity) | 全参数正性；另以B183否定单调性条款 | Lean |
 | [Hardinian数组渐近](https://github.com/Aurantium-47/hardinian-array-asymptotics) | r=2、3渐近式；r=2及高阶核展开已形式化，全r衔接暂存 | Lean子结果 |
 | [无三角形循环图存在性](https://github.com/Aurantium-47/triangle-free-circulant-existence) | 覆盖每个k≥1及6k+2≤n≤8k的全部偶数n，给出明确构造 | Lean |
 | [五点集合装填密度](https://github.com/Aurantium-47/nonmixed-five-point-packing) | k=m=2、任意互素正参数及非周期中心集的精确密度 | Lean；后续云日志验收悬项 |
-| [Lecture Hall多项式与退化](https://github.com/Aurantium-47/lecture-hall-polynomiality) | 全下标多项式性、signed Dyck识别；SAGBI基与平坦退化扩展 | Lean核心 |
+| [Katthän猜想3.4 · Lecture Hall](https://github.com/Aurantium-47/lecture-hall-polynomiality) | 全下标多项式性、signed Dyck识别；SAGBI基与平坦退化扩展 | Lean核心 |
 | [Fence行运动反例](https://github.com/Aurantium-47/fence-rowmotion-counterexample) | 32元素fence上237态完整轨道，均值1258/79，否定5.4(b) | Lean |
 | [K6链装填着色](https://github.com/Aurantium-47/k6-clique-chain-packing-coloring) | H75否定22色上界；所有链统一23色，t≥75达到23 | 精确证书 |
 | [q-rook与嵌套盒单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | 所有非空Ferrers板near-full q-rook多项式单峰 | 证明与精确核查 |
-| [Catalan幂Hankel精确次数](https://github.com/Aurantium-47/even-catalan-hankel-degrees) | 所有j≥1、k≥2j−1的两个指定余类，精确次数(2j−1)(k−j) | 证明与精确核查 |
+| [Cigler猜想6 · Catalan幂Hankel次数](https://github.com/Aurantium-47/even-catalan-hankel-degrees) | 所有j≥1、k≥2j−1的两个指定余类，精确次数(2j−1)(k−j) | 证明与精确核查 |
 | [数值半群端点残差](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | 平移族最终仿射；显式斜率、修正项与有效阈值 | 证明与精确核查 |
-| [Peak多项式最后实根](https://github.com/Aurantium-47/peak-polynomial-last-real-root) | 对任意可容许峰集，完成倒数第二峰之后整个实区间的符号与最后实根结论 | 证明与精确核查 |
+| [Billey等猜想6.6 · Peak最后实根](https://github.com/Aurantium-47/peak-polynomial-last-real-root) | 对任意可容许峰集，完成倒数第二峰之后整个实区间的符号与最后实根结论 | 证明与精确核查 |
 | [Karp二阶变换实根性](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | 正、满支撑的二阶Pochhammer变换负实根性及残余根间距 | 已有相关公开证明；贡献对照中 |
 | [Gap-five Gaussian商正性](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | gap=5、k≥8、n≥2k：多项式性蕴含系数非负；与已知边界合并覆盖k≥5 | 证明与符号证书 |
 | [Hurwitz多项式与大亏格展开](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | g=2、3、4单周期全次数实根/交错；一般profile有效大亏格精细项 | 证明与精确核查 |
