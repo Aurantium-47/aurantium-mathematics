@@ -4,9 +4,9 @@
 
 | 原文中的猜想 | 本研究给出的结果 | 原文与证明 |
 | --- | --- | --- |
-| **Ulas 猜想 4.4** | 证明指定Stern多项式族对所有自然数下标、所有实数变量严格为正，从而没有实根 | [Ulas原文，第16页](https://arxiv.org/pdf/1909.10844v1#page=16) · [证明与Lean源码](https://github.com/Aurantium-47/stern-polynomial-positivity) |
 | **Katthän 猜想 3.4** | 证明每个Lecture Hall递归有理函数都是多项式，覆盖任意长度；原文计算验证到12 | [Katthän原文，第4—5页](https://arxiv.org/pdf/1809.01377#page=4) · [证明与推广](https://github.com/Aurantium-47/lecture-hall-polynomiality) |
 | **Cigler文中猜想 6** | 对原文指定的两个余类，证明所有j≥1、k≥2j−1的精确次数公式；从有限特例推广到整个参数范围 | [Cigler原文，第4页，式(19)](https://arxiv.org/pdf/2308.07642v2#page=4) · [完整证明](https://github.com/Aurantium-47/even-catalan-hankel-degrees) |
+| **Ulas 猜想 4.4** | 证明指定Stern多项式族对所有自然数下标、所有实数变量严格为正，从而没有实根 | [Ulas原文，第16页](https://arxiv.org/pdf/1909.10844v1#page=16) · [证明与Lean源码](https://github.com/Aurantium-47/stern-polynomial-positivity) |
 | **Billey–Fahrbach–Talmage 猜想 6.6** | 证明指定最后实根结论，补齐剩余非整数区间的符号论证 | [原文，第19页](https://arxiv.org/pdf/1410.8506#page=19) · [证明及前人成果对照](https://github.com/Aurantium-47/peak-polynomial-last-real-root) |
 
 Cigler在猜想6的标题中注明其与Wang–Xin猜想10的关系。本研究采用Cigler式(19)明确写出的参数范围，保留这一来源归属。

@@ -10,15 +10,27 @@
 
 ---
 
-With AI assistance, I have proved **Ulas’s Conjecture 4.4, Katthän’s Conjecture 3.4 and Conjecture 6 in Cigler’s paper**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
+With AI assistance, I have proved **Katthän’s Lecture Hall polynomiality conjecture (Conjecture 3.4) and Conjecture 6 in Cigler’s paper**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
 
-![24 result families; 13 original targets answered; 7 families with generalizations; 7 further questions with partial answers; 8 Lean projects; 14 journal sources; 77 documented prior researchers; original-source years 2012–2026.](assets/research-overview.en.png)
+![24 result families; 13 original targets answered; 7 families with generalizations; Lecture Hall: length 12 to every length; chemical graphs: one residue class to all four; 8 Lean projects; 7 further questions with partial answers. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026.](assets/research-overview.en.png)
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
 **Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
 
 [Original conjecture numbers and results](CONJECTURES.md) · [The 77 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
+
+## Selected results
+
+| Original target | Previous work | Result presented here |
+| --- | --- | --- |
+| **Lecture Hall · Katthän’s Conjecture 3.4 (2018)** | Computations through length 12 | **Polynomiality at every index**, followed by coefficient formulas and algebraic-structure theorems |
+| **Catalan-power Hankel determinants · Conjecture 6 in Cigler (2023)** | Several finite parameter specializations were known | **Exact degrees throughout the full stated two-parameter range**, for j≥1 and k≥2j−1 at the specified offsets |
+| **K6 clique chains · Conjecture 2 of Furmańczyk et al. (2025)** | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with equality for long chains |
+| **Howroyd’s counting conjecture (2018)** | One of three classes modulo three was settled | **The other two classes and a full classification of the 27-set branches** |
+| **Chemical graphs · Conjecture 10 of Knor et al. (2024)** | Later work covered one class modulo four | **All four classes for every n≥7**, with realizability |
+| **Peak polynomials · Conjecture 6.6 of Billey et al.** | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
+| **Fence rowmotion · Conjecture 5.4(b) of Elizalde et al.** | A conjectured invariant orbit average | **A 237-step counterexample orbit**, kernel-checked in Lean |
 
 ## Extensions
 
@@ -31,17 +43,6 @@ With AI assistance, I have proved **Ulas’s Conjecture 4.4, Katthän’s Conjec
 | [Hurwitz polynomials](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | **Genus two to genera three and four**, followed by refined asymptotic expansions, root corrections and effective bounds |
 | [Infinite log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | **Trinomials to general strictly positive polynomials:** a sufficiently-high-power theorem and growing-depth refinements |
 | [Narayana lattice sums](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | **Two counterexamples to a general criterion:** a sufficient condition covering a broader class of objects |
-
-## Selected results
-
-| Project | Previous work | Result presented here |
-| --- | --- | --- |
-| Howroyd, posed in 2018 | One residue class was settled | **The remaining two classes**, an explicit 27-set classification and a Lean proof |
-| Lecture Hall, posed in 2018 | Computations through length 12 | **Polynomiality at every index**, followed by further structural theorems |
-| Chemical graphs | Later work covered one class modulo four | **All four classes for every n ≥ 7**, with realizability and Lean formalization |
-| Peak polynomials | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
-| Fence rowmotion | A conjectured invariant orbit average | **A 237-step counterexample orbit**, kernel-checked in Lean |
-| K6 clique chains | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with an exact rank certificate |
 
 ## Sources and artifacts
 
@@ -69,7 +70,7 @@ The [Lean collection](formalizations/README.md) contains 189 source files from e
 | [even-catalan-hankel-degrees](https://github.com/Aurantium-47/even-catalan-hankel-degrees) | Written proof / exact verification |
 | [numerical-semigroup-endpoint-residues](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | Written proof / exact verification |
 | [peak-polynomial-last-real-root](https://github.com/Aurantium-47/peak-polynomial-last-real-root) | Written proof / exact verification |
-| [karp-order-two-real-rootedness](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | Literature comparison in progress |
+| [karp-order-two-real-rootedness](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | Alternative proof route; comparison with the earlier submission documented |
 | [gap-five-gaussian-quotients](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | Written proof / exact verification |
 | [hurwitz-single-cycle-genera-two-three](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | Written proof / exact verification |
 | [eventual-infinite-log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | Written proof / exact verification |

@@ -58,5 +58,41 @@
       "author": "Cigler",
       "number": "6"
     }
-  ]
+  ],
+  "headline_metrics": [
+    "research_families",
+    "original_target_answers",
+    "extension_families"
+  ],
+  "background_metrics": [
+    "prior_researcher_names",
+    "journal_problem_sources",
+    "source_year_range"
+  ],
+  "scope_comparisons": [
+    {
+      "project": "lecture-hall-polynomiality",
+      "source": "Katthän 2018, Conjecture 3.4",
+      "previous": "Computational verification through length 12",
+      "present": "Proof at every length",
+      "display": "12 → ∞"
+    },
+    {
+      "project": "chemical-graph-sigma-extremizers",
+      "source": "Knor et al., Conjecture 10; later divisible-by-4 result",
+      "previous": "One residue class modulo four",
+      "present": "All four classes, every n≥7, with realizability",
+      "display": "1 → 4"
+    }
+  ],
+  "editorial_feature_order": [
+    "lecture-hall-polynomiality",
+    "even-catalan-hankel-degrees",
+    "k6-clique-chain-packing-coloring",
+    "howroyd-27-conjecture",
+    "chemical-graph-sigma-extremizers",
+    "peak-polynomial-last-real-root",
+    "fence-rowmotion-counterexample"
+  ],
+  "feature_order_note": "Editorial order emphasizing completeness, scope and extensions; not an objective ranking of mathematical importance or difficulty."
 }
