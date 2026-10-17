@@ -12,7 +12,10 @@
 
 With AI assistance, I have proved **Katthän’s Lecture Hall polynomiality conjecture (Conjecture 3.4) and Conjecture 6 in Cigler’s paper**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
 
-![24 result families; 13 original targets answered; 7 families with generalizations; Lecture Hall: length 12 to every length; chemical graphs: one residue class to all four; 8 Lean projects; 7 further questions with partial answers. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026.](assets/research-overview.en.png)
+<picture>
+  <source media="(max-width: 650px)" srcset="assets/research-dashboard.light.mobile.en.png">
+  <img src="assets/research-dashboard.light.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
+</picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
