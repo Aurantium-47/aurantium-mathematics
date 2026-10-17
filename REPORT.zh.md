@@ -88,7 +88,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面22项可定年来源相距0–14年，平均4年；这个量描述文献年代，项目的具体研究历史见上文。
 
-2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp问题来自2012年，但已有2026年10月10日提交的相关证明，故当前不作为“14年未解”案例。
+2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp二阶实根问题于2012年提出，本系列于2026年给出另一条证明；同期工作的先后记录另列。
 
 | 问题／项目 | 来源首年 | 采用版本年 | 截至2026年与采用版相距 | 出处 |
 | --- | --- | --- | --- | --- |
@@ -154,8 +154,8 @@ Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想�
 
 Hurwitz项目尤其连接了枚举几何和实根多项式：已有Coulter–Do–Moskovsky的定义与递推，以及Accadia–Lewanski–Ruzza的大亏格框架；本系列给出g=2、3、4单循环情形的全次数结果，并进一步整理有效二项展开、根修正与定量界。原有框架及直接推论继续归属前人。
 
-## 文献更新：Karp
+## Karp二阶实根猜想：另一条证明
 
-2026年10月17日核到Henry Zweiman的[A proof of Karp’s conjecture](https://arxiv.org/abs/2610.18895)，arXiv记录提交日期为10月10日。其Theorem 1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。保留现有证明材料，但按同题研究保留Beta矩证明路线与显式参数化引理，移出首解叙述与扩展成果组统计。详见[时间线与证明比较](KARP_COMPARISON.md)。
+2026年10月17日核到Henry Zweiman的[A proof of Karp’s conjecture](https://arxiv.org/abs/2610.18895)，arXiv记录提交日期为10月10日。其Theorem 1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。本项目通过Gauss–Lucas卷积、Bernstein多项式与Beta矩给出另一条证明，作为肯定结论计入成果；参数化引理的新增推广仍单独对照。详见[时间线与证明比较](KARP_COMPARISON.md)。
 
 统计与引用口径见[阅读说明](METHODS.md)。

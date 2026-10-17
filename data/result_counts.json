@@ -1,5 +1,5 @@
 {
-  "unit": "project classified by main result; secondary results may overlap",
+  "unit": "Each project has one primary result category: affirmative, counterexample, partial answer, or construction/classification. Parallel treatment is an overlapping provenance tag.",
   "affirmative_original_targets": [
     "howroyd-27-conjecture",
     "chemical-graph-sigma-extremizers",
@@ -10,7 +10,8 @@
     "even-catalan-hankel-degrees",
     "numerical-semigroup-endpoint-residues",
     "peak-polynomial-last-real-root",
-    "peak-and-x-descent-growth-rates"
+    "peak-and-x-descent-growth-rates",
+    "karp-order-two-real-rootedness"
   ],
   "counterexample_focus_projects": [
     "fence-rowmotion-counterexample",
@@ -53,5 +54,8 @@
     "hurwitz-single-cycle-genera-two-three"
   ],
   "partial_results_meaning": "Particular cases or partial conclusions for broader original questions; does not mean only post-solution extensions.",
-  "extension_count_meaning": "Families with subsequent generalizations or constructions; overlaps partial results and does not imply the full original question was settled."
+  "extension_count_meaning": "Families with subsequent generalizations or constructions; overlaps partial results and does not imply the full original question was settled.",
+  "alternative_proof_projects": [
+    "karp-order-two-real-rootedness"
+  ]
 }

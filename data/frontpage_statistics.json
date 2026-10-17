@@ -1,7 +1,7 @@
 {
   "research_families": 24,
-  "original_target_answers": 13,
-  "affirmative_results": 10,
+  "original_target_answers": 14,
+  "affirmative_results": 11,
   "counterexample_focus": 3,
   "partial_results": 7,
   "extension_families": 7,
@@ -35,7 +35,7 @@
     "lean_families",
     "journal_problem_sources",
     "prior_researcher_names",
-    "source_year_range"
+    "karp_timeline"
   ],
   "partial_results_display_label": "原题的部分解答 / Partial answers to further questions",
   "source_age_display": "Original-source years 2012–2026; a 14-year year-difference span. Not a claim of continuous unresolved duration.",
@@ -43,23 +43,23 @@
     "research_families": "数学成果组",
     "extension_families": "推广成果",
     "prior_researcher_names": "前人研究者",
-    "source_year_range": "原题年代"
+    "karp_timeline": "Karp二阶实根猜想：提出与本系列证明"
   },
   "representative_conjectures": [
     {
       "author": "Ulas",
       "number": "4.4",
-      "display_title": "Ulas的Stern多项式无实根猜想"
+      "display_title": "Ulas无实根猜想"
     },
     {
       "author": "Katthän",
       "number": "3.4",
-      "display_title": "Lecture Hall多项式性猜想"
+      "display_title": "Katthän多项式性猜想"
     },
     {
       "author": "Cigler",
       "number": "6",
-      "display_title": "Catalan卷积幂的Hankel行列式次数猜想"
+      "display_title": "Wang–Xin次数猜想"
     }
   ],
   "headline_metrics": [
@@ -70,7 +70,7 @@
   "background_metrics": [
     "prior_researcher_names",
     "journal_problem_sources",
-    "source_year_range"
+    "karp_timeline"
   ],
   "scope_comparisons": [
     {
@@ -106,5 +106,14 @@
     "scope of the contribution",
     "generalizations",
     "clarity for the intended audience"
-  ]
+  ],
+  "alternative_proof_projects": 1,
+  "karp_timeline": {
+    "proposed": 2012,
+    "proof_in_this_collection": 2026,
+    "display": "2012–2026",
+    "project": "karp-order-two-real-rootedness",
+    "label": "Karp二阶实根猜想",
+    "note": "本系列给出另一条证明；不表示首次证明。"
+  }
 }

@@ -10,11 +10,12 @@
 
 ---
 
-A collection of **24 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Lecture Hall polynomiality conjecture, exact degree formulas for Catalan-power Hankel determinants, and the sharp uniform bound of 23 colours for K6 chains**.
+A collection of **24 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
+
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-overview.minimal.mobile.en.png">
-  <img src="assets/research-overview.minimal.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.results.mobile.en.png">
+  <img src="assets/research-overview.results.en.png" alt="24 result families; 14 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 14 answers including 1 alternative proof, 7 partial answers and 3 constructions or classifications. Selected results: Katthän, Karp, Wang–Xin and K6 chains. Background: 77 documented researchers, 14 journal sources, Karp conjecture: proposed in 2012, another proof given here in 2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
@@ -27,12 +28,13 @@ A collection of **24 result families** in combinatorics, graph theory, polynomia
 
 | Original target | Previous work | Result presented here |
 | --- | --- | --- |
-| **Lecture Hall polynomiality conjecture**<br><sub>Katthän · 2018</sub> | Computations through length 12 | **Polynomiality at every index**, followed by coefficient formulas and algebraic-structure theorems |
-| **Degree conjecture for Catalan-power Hankel determinants**<br><sub>Wang–Xin · 2019; Cigler · 2023</sub> | Several finite parameter specializations were known | **Exact degrees throughout the full stated two-parameter range**, for j≥1 and k≥2j−1 at the specified offsets |
-| **Packing-colouring conjecture for K6 chains**<br><sub>Furmańczyk et al. · 2025</sub> | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with equality for long chains |
-| **Howroyd’s maximum-independent-set counting conjecture**<br><sub>2018</sub> | One of three classes modulo three was settled | **The other two classes and a full classification of the 27-set branches** |
+| **Katthän’s polynomiality conjecture**<br><sub>Lecture Hall polynomials · Katthän · 2018</sub> | Computations through length 12 | **Polynomiality at every index**, followed by coefficient formulas and algebraic-structure theorems |
+| **Karp’s second-order real-rootedness conjecture**<br><sub>Proposed in 2012 · another proof in 2026</sub> | A 2012 conjecture on real-rootedness; a proof was submitted in October 2026 | **A different proof via Gauss–Lucas convolution, Bernstein polynomials and Beta moments**, for the positive, full-support second-order target; [proof and comparison](KARP_COMPARISON.md) |
+| **Wang–Xin degree conjecture**<br><sub>Catalan-power Hankel determinants · Wang–Xin 2018 preprint / 2019 journal; Cigler’s 2023 formulation</sub> | Several finite parameter specializations were known | **Exact degrees throughout the full stated two-parameter range**, for j≥1 and k≥2j−1 at the specified offsets |
+| **K₆-chain packing-colouring conjecture**<br><sub>Furmańczyk et al. · 2025</sub> | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with equality for long chains |
+| **Howroyd’s conjecture**<br><sub>2018</sub> | One of three classes modulo three was settled | **The other two classes and a full classification of the 27-set branches** |
 | **Irregularity extremizers in chemical graphs**<br><sub>Knor et al. · 2024</sub> | Later work covered one class modulo four | **All four classes for every n≥7**, with realizability |
-| **Last-real-root conjecture for peak polynomials**<br><sub>Billey–Fahrbach–Talmage · 2016 journal edition</sub> | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
+| **Peak last-real-root conjecture**<br><sub>Billey–Fahrbach–Talmage · 2016 journal edition</sub> | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
 | **Orbit-average conjecture for fence rowmotion**<br><sub>Elizalde et al. · clause (b)</sub> | A conjectured invariant orbit average | **A 237-step counterexample orbit**, kernel-checked in Lean |
 
 ## Extensions
@@ -136,7 +138,7 @@ Concrete methods include Dyck paths, Stieltjes–Rogers polynomials, Toeplitz/Ha
 
 ## Literature and extensions
 
-The bibliography contains 24 problem-source records and 36 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is listed as a parallel treatment of a result submitted earlier by Zweiman: our manuscript retains a Beta-moment route, a parameterized transform lemma and a symmetric-weight corollary. The main target overlaps. See the [dated comparison](KARP_COMPARISON.md); these additions are not counted as a confirmed new extension group.
+The bibliography contains 24 problem-source records and 36 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is included among the affirmative results: our manuscript gives a different proof through Beta moments, Bernstein polynomials and Gauss–Lucas convolution. Zweiman submitted a proof of the same positive second-order target earlier in October 2026; the chronology and the relation between the routes are documented in [the comparison](KARP_COMPARISON.md).
 
 Problem dates and venue information are given in the [research background](REPORT.zh.md). Source dates describe the documented history; each project's exact contribution is stated separately.
 

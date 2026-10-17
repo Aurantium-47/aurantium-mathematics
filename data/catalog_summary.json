@@ -1,9 +1,8 @@
 {
   "public_projects": 24,
   "categories": {
-    "原题结论": 13,
+    "原题结论": 14,
     "参数族与推进": 7,
-    "文献对照": 1,
     "构造与分类": 3
   },
   "projects_with_Lean": 8,
@@ -38,5 +37,6 @@
   ],
   "age_note": "2026 minus year,not exact elapsed years or proof of continuous unsolved status. Primary summary excludes undated Stanton and the indirectly authenticated2000 report;source first year does not prove the exact question was already in v1.",
   "extension_groups_pending_comparison": 1,
-  "literature_updated": "2026-10-17"
+  "literature_updated": "2026-10-17",
+  "alternative_proof_projects": 1
 }
