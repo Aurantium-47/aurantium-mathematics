@@ -48,15 +48,18 @@
   "representative_conjectures": [
     {
       "author": "Ulas",
-      "number": "4.4"
+      "number": "4.4",
+      "display_title": "Ulas的Stern多项式无实根猜想"
     },
     {
       "author": "Katthän",
-      "number": "3.4"
+      "number": "3.4",
+      "display_title": "Lecture Hall多项式性猜想"
     },
     {
       "author": "Cigler",
-      "number": "6"
+      "number": "6",
+      "display_title": "Catalan卷积幂的Hankel行列式次数猜想"
     }
   ],
   "headline_metrics": [
@@ -94,5 +97,14 @@
     "peak-polynomial-last-real-root",
     "fence-rowmotion-counterexample"
   ],
-  "feature_order_note": "Editorial order emphasizing completeness, scope and extensions; not an objective ranking of mathematical importance or difficulty."
+  "feature_order_note": "Editorial order emphasizing completeness, scope and extensions; not an objective ranking of mathematical importance or difficulty.",
+  "display_title_note": "Descriptive titles based on the mathematical statements; original authors, versions and conjecture numbers remain in CONJECTURES.md.",
+  "editorial_priority_factors": [
+    "recognizability of the problem and mathematical objects",
+    "source history and age",
+    "prior research",
+    "scope of the contribution",
+    "generalizations",
+    "clarity for the intended audience"
+  ]
 }

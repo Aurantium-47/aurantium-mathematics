@@ -10,30 +10,30 @@
 
 ---
 
-With AI assistance, I have proved **Katthän’s Lecture Hall polynomiality conjecture (Conjecture 3.4) and Conjecture 6 in Cigler’s paper**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
+With AI assistance, I have proved **the Lecture Hall polynomiality conjecture and the degree conjecture for Catalan-power Hankel determinants**, alongside counterexamples, classifications and generalizations. The work is organized into **24 result families**.
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-dashboard.light.mobile.en.png">
-  <img src="assets/research-dashboard.light.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-dashboard.named.mobile.en.png">
+  <img src="assets/research-dashboard.named.en.png" alt="24 result families; 13 original targets answered; 7 families with generalizations; 8 with Lean results. Main-result categories: 13 answers, 7 partial answers, 3 constructions or classifications and 1 parallel treatment. Selected results: Lecture Hall, Catalan Hankel and K6 chains. Background: 77 documented researchers, 14 journal sources, original-source years 2012–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
 **Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
 
-[Original conjecture numbers and results](CONJECTURES.md) · [The 77 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
+[Conjecture names, original sources and results](CONJECTURES.md) · [The 77 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
 ## Selected results
 
 | Original target | Previous work | Result presented here |
 | --- | --- | --- |
-| **Lecture Hall · Katthän’s Conjecture 3.4 (2018)** | Computations through length 12 | **Polynomiality at every index**, followed by coefficient formulas and algebraic-structure theorems |
-| **Catalan-power Hankel determinants · Conjecture 6 in Cigler (2023)** | Several finite parameter specializations were known | **Exact degrees throughout the full stated two-parameter range**, for j≥1 and k≥2j−1 at the specified offsets |
-| **K6 clique chains · Conjecture 2 of Furmańczyk et al. (2025)** | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with equality for long chains |
-| **Howroyd’s counting conjecture (2018)** | One of three classes modulo three was settled | **The other two classes and a full classification of the 27-set branches** |
-| **Chemical graphs · Conjecture 10 of Knor et al. (2024)** | Later work covered one class modulo four | **All four classes for every n≥7**, with realizability |
-| **Peak polynomials · Conjecture 6.6 of Billey et al.** | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
-| **Fence rowmotion · Conjecture 5.4(b) of Elizalde et al.** | A conjectured invariant orbit average | **A 237-step counterexample orbit**, kernel-checked in Lean |
+| **Lecture Hall polynomiality conjecture**<br><sub>Katthän · 2018</sub> | Computations through length 12 | **Polynomiality at every index**, followed by coefficient formulas and algebraic-structure theorems |
+| **Degree conjecture for Catalan-power Hankel determinants**<br><sub>Wang–Xin · 2019; Cigler · 2023</sub> | Several finite parameter specializations were known | **Exact degrees throughout the full stated two-parameter range**, for j≥1 and k≥2j−1 at the specified offsets |
+| **Packing-colouring conjecture for K6 chains**<br><sub>Furmańczyk et al. · 2025</sub> | A proposed uniform 22-colour bound | **A 450-vertex counterexample and sharp bound 23**, with equality for long chains |
+| **Howroyd’s maximum-independent-set counting conjecture**<br><sub>2018</sub> | One of three classes modulo three was settled | **The other two classes and a full classification of the 27-set branches** |
+| **Irregularity extremizers in chemical graphs**<br><sub>Knor et al. · 2024</sub> | Later work covered one class modulo four | **All four classes for every n≥7**, with realizability |
+| **Last-real-root conjecture for peak polynomials**<br><sub>Billey–Fahrbach–Talmage · 2016 journal edition</sub> | Partial interval and coefficient results | **The remaining sign interval** for the specified last-real-root conclusion |
+| **Orbit-average conjecture for fence rowmotion**<br><sub>Elizalde et al. · clause (b)</sub> | A conjectured invariant orbit average | **A 237-step counterexample orbit**, kernel-checked in Lean |
 
 ## Extensions
 
