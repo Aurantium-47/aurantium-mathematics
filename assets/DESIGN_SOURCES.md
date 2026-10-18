@@ -1,6 +1,8 @@
 # 研究概览版式
 
-当前版本采用纯白背景、黑灰文字、开放网格与细分隔线，取消底座、圆角卡片、阴影和彩色徽标。排版借鉴[Apple Newsroom](https://www.apple.com/newsroom/2025/04/apple-surpasses-60-percent-reduction-in-global-greenhouse-gas-emissions/)的字体层次、左对齐与留白，没有使用Apple的代码、字体、商标或图像素材。
+当前版本采用纯白背景、深灰文字与朱红点缀。六个数字和短标签按开放网格排列，通过字号、留白和细线区分主次，不使用圆角卡片、阴影或辅助小字。
+
+排版参考[Swiss Design Skill](https://github.com/zeke/swiss-design-skill)（[MIT许可](https://github.com/zeke/swiss-design-skill/blob/main/LICENSE)）的单一强调色、网格和字体层次，以及[Swiss Grid Explorer](https://github.com/vicc3d/swiss-grid-explorer)的网格布局思路。图形由本项目独立绘制，没有复制示例图片或第三方组件代码。
 
 研究概览采用静态图片适配GitHub README，分别提供中英文桌面与手机版式。数值来自[data/frontpage_statistics.json](../data/frontpage_statistics.json)及[data/result_counts.json](../data/result_counts.json)。上一版参考的shadcn/ui许可文本保留于[shadcn-layout-LICENSE.txt](shadcn-layout-LICENSE.txt)。
 
