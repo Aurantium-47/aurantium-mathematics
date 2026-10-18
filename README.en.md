@@ -21,7 +21,7 @@ A collection of **24 result families** in combinatorics, graph theory, polynomia
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.swiss-classic.mobile.en.png">
-  <img src="assets/research-overview.swiss-classic.en.png" alt="24 result families; 14 original targets answered; 7 families with generalizations; 8 Lean formalization projects; 77 researchers in related work; question years 2012–2026." width="1600">
+  <img src="assets/research-overview.swiss-classic.en.png" alt="24 result families; 14 original targets answered; 7 families with generalizations; 8 Lean formalization projects; 77 prior researchers; question years 2012–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics

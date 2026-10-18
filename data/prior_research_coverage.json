@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "direct_records": 44,
   "listed_researcher_names": 77,
   "scope": "Authors listed on original problem sources and directly related studies; excludes records used only as general tools, definitions or broad background. Includes original proposers and studies of directly related objects; does not measure failed attempts or the complete worldwide researcher population.",
@@ -330,14 +330,17 @@
     },
     {
       "bibliography_index": 26,
-      "title": "Chemical graph extremal case n=0 mod4",
+      "title": "Modified Total Sigma-Irregularity in Chemical Graphs",
       "year": 2026,
       "authors": [
-        "Darko Dimitrov"
+        "Darko Dimitrov",
+        "Slobodan Filipovski",
+        "Martin Knor",
+        "Riste Škrekovski"
       ],
       "venue": "Discrete Mathematics Letters 18",
       "url": "https://doi.org/10.47443/dml.2026.041",
-      "role": "化学图：已知部分；作者表未全枚举",
+      "role": "化学图：已知部分",
       "kind": "相关研究文献"
     },
     {

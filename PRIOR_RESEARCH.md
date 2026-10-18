@@ -1,6 +1,6 @@
-# 前人研究者与对应文献
+# 前期研究者与对应文献
 
-当前整理到**77位前人研究者，涉及44条原题及直接相关研究记录**。包含问题提出者、原论文作者、已有特例和直接相关对象的研究作者。仅作为通用工具、定义或宽泛背景引用的文献，未计入这项人数。
+当前整理到**77位前期研究者，涉及44条原题及直接相关研究记录**。包含问题提出者、原论文作者、已有特例和直接相关对象的研究作者。仅作为通用工具、定义或宽泛背景引用的文献，未计入这项人数。
 
 这是当前文献整理覆盖到的人数；部分文献的完整作者表尚未展开，因此不作为全球总人数。也不把这些作者一概解释为“尝试同一猜想但失败”。
 
@@ -31,7 +31,7 @@
 | [固定长度fertility反例：原题来源](https://arxiv.org/abs/2408.05378) | Jurgis Kemeklis | 问题来源 |
 | [Clique-join支配多项式：原题来源](https://doi.org/10.61091/jcmcc126-19) | Bilal Ahmad Rather | 问题来源 |
 | [Unique maximum independent sets in graphs on monomials of a fixed degree](https://arxiv.org/abs/2010.11112) | John Machacek | Howroyd：3整除分支 |
-| [Chemical graph extremal case n=0 mod4](https://doi.org/10.47443/dml.2026.041) | Darko Dimitrov | 化学图：已知部分；作者表未全枚举 |
+| [Modified Total Sigma-Irregularity in Chemical Graphs](https://doi.org/10.47443/dml.2026.041) | Darko Dimitrov、Slobodan Filipovski、Martin Knor、Riste Škrekovski | 化学图：已知部分 |
 | [Triangle-free regular graphs](https://doi.org/10.1016/0012-365X(91)90114-H) | A. F. Sidorenko | A-图既有偶度族 |
 | [Triangle-free graphs whose independence number equals the degree](https://doi.org/10.1016/j.disc.2009.05.021) | Stephan Brandt | A-图比例构造 |
 | [Chorded cycles in Chvátal–Erdős graphs](https://doi.org/10.1016/j.disc.2026.115336) | Allan Bickle、Megan Cream、Ronald J. Gould | A-图后续端点结果 |

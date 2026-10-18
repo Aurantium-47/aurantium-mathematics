@@ -29,7 +29,7 @@
 | 23 | 固定长度fertility反例：原题来源 | 2024 | Jurgis Kemeklis | arXiv | 问题来源 | [来源](https://arxiv.org/abs/2408.05378) |
 | 24 | Clique-join支配多项式：原题来源 | 2025 | Bilal Ahmad Rather | Journal of Combinatorial Mathematics and Combinatorial Computing | 问题来源 | [来源](https://doi.org/10.61091/jcmcc126-19) |
 | 25 | Unique maximum independent sets in graphs on monomials of a fixed degree | 2021 | John Machacek | Procedia Computer Science 195; LAGOS 2021 | Howroyd：3整除分支 | [来源](https://arxiv.org/abs/2010.11112) |
-| 26 | Chemical graph extremal case n=0 mod4 | 2026 | Darko Dimitrov | Discrete Mathematics Letters 18 | 化学图：已知部分；作者表未全枚举 | [来源](https://doi.org/10.47443/dml.2026.041) |
+| 26 | Modified Total Sigma-Irregularity in Chemical Graphs | 2026 | Darko Dimitrov、Slobodan Filipovski、Martin Knor、Riste Škrekovski | Discrete Mathematics Letters 18 | 化学图：已知部分 | [来源](https://doi.org/10.47443/dml.2026.041) |
 | 27 | A simple algorithm for expanding a power series as a continued fraction | 2023 | Alan D. Sokal | Expositiones Mathematicae | Lecture Hall通用工具 | [来源](https://doi.org/10.1016/j.exmath.2022.12.001) |
 | 28 | Combinatorial aspects of continued fractions | 1980 | Philippe Flajolet | Discrete Mathematics | Lecture Hall经典工具 | [来源](https://algo.inria.fr/flajolet/Publications/Flajolet80b.pdf) |
 | 29 | Triangle-free regular graphs | 1991 | A. F. Sidorenko | Discrete Mathematics | A-图既有偶度族 | [来源](https://doi.org/10.1016/0012-365X(91)90114-H) |
