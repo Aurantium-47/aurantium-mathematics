@@ -8,9 +8,14 @@
 
 </div>
 
-<h3 align="center"><em>und ihr könnt sagen, ihr seid dabei gewesen.</em></h3>
-
 ---
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 650px)" srcset="assets/goethe-epigraph.mobile.svg">
+    <img src="assets/goethe-epigraph.svg" alt="und ihr könnt sagen, ihr seid dabei gewesen." width="920">
+  </picture>
+</p>
 
 组合数学、图论、多项式与渐近分析的研究成果集，收录**24组成果**。代表结果包括**Katthän多项式性猜想的证明、Wang–Xin次数猜想的精确公式、Karp二阶实根猜想的另一条证明，以及K₆链装填着色的23色锐界**。
 

@@ -8,9 +8,14 @@
 
 </div>
 
-<h3 align="center"><em>und ihr könnt sagen, ihr seid dabei gewesen.</em></h3>
-
 ---
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 650px)" srcset="assets/goethe-epigraph.mobile.svg">
+    <img src="assets/goethe-epigraph.svg" alt="und ihr könnt sagen, ihr seid dabei gewesen." width="920">
+  </picture>
+</p>
 
 A collection of **24 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
 
