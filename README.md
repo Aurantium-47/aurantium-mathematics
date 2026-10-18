@@ -14,8 +14,8 @@
 
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-overview.swiss.mobile.zh.png">
-  <img src="assets/research-overview.swiss.zh.png" alt="24组研究成果，14项原题解答，7组推广成果，8个Lean形式化项目，77位相关研究学者；问题提出年份2012—2026。" width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.swiss-classic.mobile.zh.png">
+  <img src="assets/research-overview.swiss-classic.zh.png" alt="24组研究成果，14项原题解答，7组推广成果，8个Lean形式化项目，77位相关研究学者；问题提出年份2012—2026。" width="1600">
 </picture>
 
 **涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
