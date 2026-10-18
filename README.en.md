@@ -1,9 +1,3 @@
-<br>
-
-<p align="center"><em>und ihr könnt sagen, ihr seid dabei gewesen.</em></p>
-
-<br>
-
 <div align="center">
 
 # Aurantium · Mathematics
@@ -13,6 +7,8 @@
 [中文](README.md) · [English](README.en.md) · [Lean sources](formalizations/README.md) · [Background](REPORT.zh.md) · [References](SOURCES.md)
 
 </div>
+
+<h3 align="center"><em>und ihr könnt sagen, ihr seid dabei gewesen.</em></h3>
 
 ---
 
