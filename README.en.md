@@ -1,3 +1,9 @@
+<br>
+
+<p align="center"><em>und ihr könnt sagen, ihr seid dabei gewesen.</em></p>
+
+<br>
+
 <div align="center">
 
 # Aurantium · Mathematics
