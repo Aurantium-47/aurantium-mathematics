@@ -1,19 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
+<html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aurantium · Mathematics</title>
-
-<meta name="generator" content="ARIS render-html (dashboard, v1)">
-<meta name="aris:source-path" content="REPORT.zh.md">
-<meta name="aris:source-sha256" content="96bf7f5c270d925537b1deb4413bfe03deb1796afa073a7891b58a92276e1114">
-<meta name="aris:generated-at" content="2026-10-17 16:39 UTC">
-
-<!-- offline mode: MathJax + highlight.js skipped; math and code blocks render as plain text -->
-
-<style>
-:root {
+<meta name="generator" content="scripts/render_report.py + Pandoc">
+<meta name="source-file" content="REPORT.zh.md"><meta name="source-sha256" content="5f04f6fdb5ef8a6e640b8a8dd46551b87b65afb9667d31134737e4646da0499d">
+<style>:root {
   --bg: #fdfcf7;
   --bg-soft: #f4f1ea;
   --bg-card: #ffffff;
@@ -300,86 +291,576 @@ footer.aris-footer a { color: var(--ink-muted); border-bottom: 1px dotted var(--
   body { background: white; }
   .card { box-shadow: none; }
 }
-</style>
-</head>
-<body>
-<div class="shell">
-
-<header class="hero">
-  <div class="eyebrow">问题沿革与数学贡献</div>
-  <h1>Aurantium · Mathematics</h1>
-  
-  
-  <div class="meta">
-    <span><strong>Source:</strong> <code>REPORT.zh.md</code></span>
-    <span><strong>SHA256:</strong> <code>f34a05f1d378</code></span>
-    <span><strong>Rendered:</strong> 2026-10-16 16:53 UTC</span>
-    
-  </div>
-</header>
-
-<h1 id="问题的来历前人的进展与本系列贡献">问题的来历、前人的进展与本系列贡献</h1>
-<p><a href="README.md">返回首页</a> · <a href="SOURCES.md">完整文献目录</a></p>
+</style></head><body><div class="shell">
+<h1
+id="问题的来历前人的进展与本系列贡献">问题的来历、前人的进展与本系列贡献</h1>
+<p><a href="README.md">返回首页</a> · <a
+href="SOURCES.md">完整文献目录</a></p>
+<h2 id="本次更新--2026年10月22日">本次更新 · 2026年10月22日</h2>
+<ul>
+<li><strong><a
+href="https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness">Zudilin
+B多项式实根性</a></strong>：2015年提出的全实参数观察，2016年SIGMA问题报告重述，2020年收入Springer论文集。证明所有实参数a、n≥2时Pₙᵃ(x)的零点非正，并给出非例外参数的严格负根、交错和定位。变量为x=t³；仅有部分Lean伴随，完整形式化未完成。</li>
+<li><strong><a
+href="https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample">正交部分和阈值反例</a></strong>：否定Koelink–Román–Zudilin于2024年提出、arXiv
+v2猜想3.4的单阈值断言。无限正交系统中的三次部分和，在t=1/3有三个实根、t=1/2却有非实根；进一步给出1、3、1、3的再入根数。期刊为Indagationes
+Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大反驳对象。</li>
+<li><strong><a
+href="https://github.com/Aurantium-47/clique-join-domination-polynomials">Clique-join全叶片单峰性</a></strong>：完成Rather在JCMCC（2025）问题中的单峰性部分。任意正核心、叶片数及大小均覆盖；N≥23解析证明，N≤22精确穷尽14,464组参数。四叶片更强结论与旧的两／三叶片结果保留在同一组，不重复计数；零点问题不宣称解决。</li>
+</ul>
+<p>以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。新增两个已公开项目使总数成为26组；全叶片升级不增加组数。17项主要目标解答不是17个本次新解猜想，其中clique-join只计已完整解决的单峰性子问题。</p>
 <h2 id="研究脉络">研究脉络</h2>
-<h3 id="01--howroyd为什么最大独立集恰好有27个">01 · Howroyd：为什么最大独立集恰好有27个？</h3>
-<p><strong>2018年提出 · 2021年出现部分证明 · 图论与代数组合 · Lean形式化</strong></p>
-<p>Andrew Howroyd于2018年1月1日在<a href="https://oeis.org/A297557">OEIS A297557</a>提出一个周期现象：三角网格的最大独立集数量，最终反复出现1、27、27。John Machacek随后证明可被3整除的分支具有唯一最大独立集，论文发表于<strong>LAGOS 2021会议论文集，Procedia Computer Science 195</strong>。<a href="https://arxiv.org/abs/2010.11112">前人论文</a></p>
-<p>本项目补齐另外两个余类，并给出全部最大独立集的结构分类。27来自三个背景色类，每一类对应9种角部延拓：<strong>3 × 9 = 27</strong>。因此，计算中出现的规律有了对所有允许参数成立的解释。相应27集定理已完成Lean形式化。</p>
-<p>→ <a href="https://github.com/Aurantium-47/howroyd-27-conjecture">证明、分类与精确证书</a></p>
-<h3 id="02--lecture-hall从2018年的多项式猜想到代数结构">02 · Lecture Hall：从2018年的多项式猜想到代数结构</h3>
-<p><strong>2018年提出 · 原文验证至长度12 · 多项式性、SAGBI基与toric退化</strong></p>
-<p>Lukas Katthän在<a href="https://arxiv.org/abs/1809.01377">The Lecture Hall Cone as a toric deformation</a>中提出两个相互关联的猜想：递归定义的Laurent多项式是否其实都是多项式，以及相应代数能否解释Lecture Hall锥的结构。原文报告了长度不超过12的计算验证，材料来自<strong>大阪大学2018年格点多面体研讨会</strong>。</p>
+<h3 id="01--howroyd为什么最大独立集恰好有27个">01 ·
+Howroyd：为什么最大独立集恰好有27个？</h3>
+<p><strong>2018年提出 · 2021年出现部分证明 · 图论与代数组合 ·
+Lean形式化</strong></p>
+<p>Andrew Howroyd于2018年1月1日在<a href="https://oeis.org/A297557">OEIS
+A297557</a>提出一个周期现象：三角网格的最大独立集数量，最终反复出现1、27、27。John
+Machacek随后证明可被3整除的分支具有唯一最大独立集，论文发表于<strong>LAGOS
+2021会议论文集，Procedia Computer Science 195</strong>。<a
+href="https://arxiv.org/abs/2010.11112">前人论文</a></p>
+<p>本项目补齐另外两个余类，并给出全部最大独立集的结构分类。27来自三个背景色类，每一类对应9种角部延拓：<strong>3
+× 9 =
+27</strong>。因此，计算中出现的规律有了对所有允许参数成立的解释。相应27集定理已完成Lean形式化。</p>
+<p>→ <a
+href="https://github.com/Aurantium-47/howroyd-27-conjecture">证明、分类与精确证书</a></p>
+<h3 id="02--lecture-hall从2018年的多项式猜想到代数结构">02 · Lecture
+Hall：从2018年的多项式猜想到代数结构</h3>
+<p><strong>2018年提出 · 原文验证至长度12 ·
+多项式性、SAGBI基与toric退化</strong></p>
+<p>Lukas Katthän在<a href="https://arxiv.org/abs/1809.01377">The Lecture
+Hall Cone as a toric
+deformation</a>中提出两个相互关联的猜想：递归定义的Laurent多项式是否其实都是多项式，以及相应代数能否解释Lecture
+Hall锥的结构。原文报告了长度不超过12的计算验证，材料来自<strong>大阪大学2018年格点多面体研讨会</strong>。</p>
 <p>本项目把特定递归序列识别为带符号Dyck路径的有限权重和，证明全下标多项式性；进一步给出最小单首SAGBI基、领先指数与Hilbert基的对应，以及到半群代数的平坦退化。核心多项式性和路径识别已有Lean证明，代数推广附有完整文字证明。</p>
-<p>这条研究线连接<strong>组合路径、行列式恒等式与交换代数</strong>。原题之外，Flajolet的连分数理论（Discrete Mathematics，1980）与Sokal的系统论述（Expositiones Mathematicae，2023）提供经典工具；三项文献的角色在项目中分别列明。</p>
-<p>→ <a href="https://github.com/Aurantium-47/lecture-hall-polynomiality">多项式证明与SAGBI推广</a></p>
-<h3 id="03--化学图极值把一个余类推进到所有规模">03 · 化学图极值：把一个余类推进到所有规模</h3>
-<p><strong>2024年原题 · 4位原作者 · Applied Mathematics and Computation · 全部n ≥ 7</strong></p>
-<p>Knor、Škrekovski、Filipovski与Dimitrov在<a href="https://doi.org/10.1016/j.amc.2024.129199">Extremizing antiregular graphs by modifying total σ-irregularity</a>中提出Conjecture 10：在最大度数不超过4的连通简单图中，哪些度数重数使指定的全点对不规则度达到最大？2026年<a href="https://doi.org/10.47443/dml.2026.041">Discrete Mathematics Letters后续论文</a>报告了顶点数可被4整除的情形。</p>
-<p>本项目覆盖<strong>所有n ≥ 7的四个模4余类</strong>，同时证明每个候选度数向量都可由连通简单图实现。结果给出完整的极值度数重数分类，包含两个容易遗漏的n ≡ 2分支，并完成原目标的Lean形式化。</p>
-<p>→ <a href="https://github.com/Aurantium-47/chemical-graph-sigma-extremizers">全参数分类与形式化证明</a></p>
-<h3 id="04--peak多项式排除一个完整实区间里的根">04 · Peak多项式：排除一个完整实区间里的根</h3>
-<p><strong>2014年预印本 · 2016年期刊版本 · Experimental Mathematics · 实代数与排列枚举</strong></p>
-<p>Billey、Fahrbach与Talmage研究排列的峰集所对应的多项式，其<a href="https://arxiv.org/abs/1410.8506">Coefficients and roots of peak polynomials</a>发表于<strong>Experimental Mathematics 25(2)，2016</strong>。本项目对应其Conjecture 6.6。后续有Diaz-Lopez、Harris、Insko与Omar的正性论文（<strong>JCTA，2017</strong>），以及Li于2026年的<a href="https://doi.org/10.5281/zenodo.22832569">系数研究稿</a>。</p>
-<p>本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间<strong>整个实区间 (a,m)</strong>的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。</p>
-<p>→ <a href="https://github.com/Aurantium-47/peak-polynomial-last-real-root">完整区间的符号论证</a></p>
-<h3 id="05--fence一个237步轨道改变命题的真假">05 · Fence：一个237步轨道改变命题的真假</h3>
-<p><strong>2021年预印本 · 2023年期刊论文 · 4位原作者 · Algebraic Combinatorics</strong></p>
-<p>Elizalde、Plante、Roby与Sagan在<a href="https://arxiv.org/abs/2108.12443">Rowmotion on fences</a>中研究偏序集上的组合动力系统。Conjecture 5.4(b)预测某类fence的序理想大小，在完整轨道上的平均值固定。</p>
+<p>这条研究线连接<strong>组合路径、行列式恒等式与交换代数</strong>。原题之外，Flajolet的连分数理论（Discrete
+Mathematics，1980）与Sokal的系统论述（Expositiones
+Mathematicae，2023）提供经典工具；三项文献的角色在项目中分别列明。</p>
+<p>→ <a
+href="https://github.com/Aurantium-47/lecture-hall-polynomiality">多项式证明与SAGBI推广</a></p>
+<h3 id="03--化学图极值把一个余类推进到所有规模">03 ·
+化学图极值：把一个余类推进到所有规模</h3>
+<p><strong>2024年原题 · 4位原作者 · Applied Mathematics and Computation
+· 全部n ≥ 7</strong></p>
+<p>Knor、Škrekovski、Filipovski与Dimitrov在<a
+href="https://doi.org/10.1016/j.amc.2024.129199">Extremizing antiregular
+graphs by modifying total σ-irregularity</a>中提出Conjecture
+10：在最大度数不超过4的连通简单图中，哪些度数重数使指定的全点对不规则度达到最大？2026年<a
+href="https://doi.org/10.47443/dml.2026.041">Discrete Mathematics
+Letters后续论文</a>报告了顶点数可被4整除的情形。</p>
+<p>本项目覆盖<strong>所有n ≥
+7的四个模4余类</strong>，同时证明每个候选度数向量都可由连通简单图实现。结果给出完整的极值度数重数分类，包含两个容易遗漏的n
+≡ 2分支，并完成原目标的Lean形式化。</p>
+<p>→ <a
+href="https://github.com/Aurantium-47/chemical-graph-sigma-extremizers">全参数分类与形式化证明</a></p>
+<h3 id="04--peak多项式排除一个完整实区间里的根">04 ·
+Peak多项式：排除一个完整实区间里的根</h3>
+<p><strong>2014年预印本 · 2016年期刊版本 · Experimental Mathematics ·
+实代数与排列枚举</strong></p>
+<p>Billey、Fahrbach与Talmage研究排列的峰集所对应的多项式，其<a
+href="https://arxiv.org/abs/1410.8506">Coefficients and roots of peak
+polynomials</a>发表于<strong>Experimental Mathematics
+25(2)，2016</strong>。本项目对应其Conjecture
+6.6。后续有Diaz-Lopez、Harris、Insko与Omar的正性论文（<strong>JCTA，2017</strong>），以及Li于2026年的<a
+href="https://doi.org/10.5281/zenodo.22832569">系数研究稿</a>。</p>
+<p>本项目给出自包含积分论证，控制倒数第二峰a与最后一峰m之间<strong>整个实区间
+(a,m)</strong>的符号，得到m是a之后唯一实根，且对峰的数量、位置和间距不设有限上限。与Li结果的比较中，新增分析集中在剩余的非整数区间(a,m−1)，已知右侧正性等结论保留原归属。</p>
+<p>→ <a
+href="https://github.com/Aurantium-47/peak-polynomial-last-real-root">完整区间的符号论证</a></p>
+<h3 id="05--fence一个237步轨道改变命题的真假">05 ·
+Fence：一个237步轨道改变命题的真假</h3>
+<p><strong>2021年预印本 · 2023年期刊论文 · 4位原作者 · Algebraic
+Combinatorics</strong></p>
+<p>Elizalde、Plante、Roby与Sagan在<a
+href="https://arxiv.org/abs/2108.12443">Rowmotion on
+fences</a>中研究偏序集上的组合动力系统。Conjecture
+5.4(b)预测某类fence的序理想大小，在完整轨道上的平均值固定。</p>
 <p>本项目构造32元素fence上的一个237步轨道，大小总和为3774，平均值为<strong>1258/79，而非16</strong>，从而否定该条断言。完整轨道及其最小周期均有证书，并由Lean内核核验。这个例子展示了反例的价值：一个可彻底检查的对象，足以划清一般规律的边界。</p>
-<p>→ <a href="https://github.com/Aurantium-47/fence-rowmotion-counterexample">反例、完整轨道与Lean证明</a></p>
-<h3 id="06--k6链用精确证书把22改成锐界23">06 · K6链：用精确证书把22改成锐界23</h3>
+<p>→ <a
+href="https://github.com/Aurantium-47/fence-rowmotion-counterexample">反例、完整轨道与Lean证明</a></p>
+<h3 id="06--k6链用精确证书把22改成锐界23">06 ·
+K6链：用精确证书把22改成锐界23</h3>
 <p><strong>2025年提出 · 3位原作者 · 图着色与有限状态证书</strong></p>
-<p>Furmańczyk、Gözüpek与Özkan在<a href="https://arxiv.org/abs/2511.12761">Packing coloring of graphs with long paths</a>中提出统一22色上界。这里同色顶点的距离限制随颜色编号增加，局部可行并不保证整条链可行。</p>
-<p>本项目给出450顶点、1199条边的H75，排除22色；再构造统一的23色周期方案，得到所有链的23色上界，并对t ≥ 75证明精确值为23。否定部分由<strong>16,646,562条秩证书记录</strong>支撑，配有Python与C++检查器。</p>
-<p>→ <a href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">锐界证明与可复核证书</a></p>
+<p>Furmańczyk、Gözüpek与Özkan在<a
+href="https://arxiv.org/abs/2511.12761">Packing coloring of graphs with
+long
+paths</a>中提出统一22色上界。这里同色顶点的距离限制随颜色编号增加，局部可行并不保证整条链可行。</p>
+<p>本项目给出450顶点、1199条边的H75，排除22色；再构造统一的23色周期方案，得到所有链的23色上界，并对t
+≥
+75证明精确值为23。否定部分由<strong>16,646,562条秩证书记录</strong>支撑，配有Python与C++检查器。</p>
+<p>→ <a
+href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">锐界证明与可复核证书</a></p>
 <h2 id="前人研究与论文出处">前人研究与论文出处</h2>
-<p>当前目录整理了<strong>24条问题来源、36条相关研究与工具文献，共60条记录</strong>，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。</p>
-<table><thead><tr><th>研究线</th><th>目录中的前人线索</th><th>发表载体</th></tr></thead><tbody><tr><td>Howroyd</td><td>原始OEIS提问；Machacek的可被3整除分支</td><td>OEIS；LAGOS 2021 / Procedia Computer Science</td></tr><tr><td>Lecture Hall</td><td>Katthän原题；Flajolet连分数理论；Sokal系统论述</td><td>Osaka研讨会材料；Discrete Mathematics；Expositiones Mathematicae</td></tr><tr><td>化学图</td><td>Knor等4位作者的原题；Dimitrov等人的一个模4余类结果</td><td>Applied Mathematics and Computation；Discrete Mathematics Letters</td></tr><tr><td>Peak多项式</td><td>Billey–Fahrbach–Talmage原题；Diaz-Lopez等4人的正性论文；Li的系数稿</td><td>Experimental Mathematics；JCTA；Zenodo研究稿</td></tr><tr><td>Hurwitz</td><td>Coulter–Do–Moskovsky原题；Accadia–Lewanski–Ruzza框架；Yang的相关渐近研究</td><td>Canadian Journal of Mathematics；两篇arXiv预印本</td></tr><tr><td>无三角形循环图</td><td>Ayat等原题；Sidorenko、Brandt的构造；Bickle–Cream–Gould的端点结果</td><td>AIMS Mathematics；Discrete Mathematics</td></tr></tbody></table>
-<p>这里既有对同一问题的推进，也有证明所使用的经典工具。逐篇关系、作者和DOI见<a href="SOURCES.md">文献目录</a>。</p>
-<p>原题涉及<strong>Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Canadian Journal of Mathematics、Algebraic Combinatorics、Electronic Journal of Combinatorics、Journal of Pure and Applied Algebra</strong>等专业期刊。分区按明确版次列在<a href="REPORT.zh.md">研究背景</a>，成果本文的发布状态见各项目。</p>
-<h2 id="24个项目的来源年代">24个项目的来源年代</h2>
-<p>Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面22项可定年来源相距0–14年，平均4年；这个量描述文献年代，项目的具体研究历史见上文。</p>
+<p>当前目录整理了<strong>26条问题来源、43条相关研究与工具文献，共69条记录</strong>，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。</p>
+<table>
+<thead>
+<tr class="header">
+<th>研究线</th>
+<th>目录中的前人线索</th>
+<th>发表载体</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Howroyd</td>
+<td>原始OEIS提问；Machacek的可被3整除分支</td>
+<td>OEIS；LAGOS 2021 / Procedia Computer Science</td>
+</tr>
+<tr class="even">
+<td>Lecture Hall</td>
+<td>Katthän原题；Flajolet连分数理论；Sokal系统论述</td>
+<td>Osaka研讨会材料；Discrete Mathematics；Expositiones
+Mathematicae</td>
+</tr>
+<tr class="odd">
+<td>化学图</td>
+<td>Knor等4位作者的原题；Dimitrov等人的一个模4余类结果</td>
+<td>Applied Mathematics and Computation；Discrete Mathematics
+Letters</td>
+</tr>
+<tr class="even">
+<td>Peak多项式</td>
+<td>Billey–Fahrbach–Talmage原题；Diaz-Lopez等4人的正性论文；Li的系数稿</td>
+<td>Experimental Mathematics；JCTA；Zenodo研究稿</td>
+</tr>
+<tr class="odd">
+<td>Hurwitz</td>
+<td>Coulter–Do–Moskovsky原题；Accadia–Lewanski–Ruzza框架；Yang的相关渐近研究</td>
+<td>Canadian Journal of Mathematics；两篇arXiv预印本</td>
+</tr>
+<tr class="even">
+<td>无三角形循环图</td>
+<td>Ayat等原题；Sidorenko、Brandt的构造；Bickle–Cream–Gould的端点结果</td>
+<td>AIMS Mathematics；Discrete Mathematics</td>
+</tr>
+</tbody>
+</table>
+<p>这里既有对同一问题的推进，也有证明所使用的经典工具。逐篇关系、作者和DOI见<a
+href="SOURCES.md">文献目录</a>。</p>
+<p>原题涉及<strong>Applied Mathematics and Computation、Experimental
+Mathematics、Journal of Graph Theory、Canadian Journal of
+Mathematics、Algebraic Combinatorics、Electronic Journal of
+Combinatorics、Journal of Pure and Applied
+Algebra</strong>等专业期刊。分区按明确版次列在<a
+href="REPORT.zh.md">研究背景</a>，成果本文的发布状态见各项目。</p>
+<h2 id="26个项目的来源年代">26个项目的来源年代</h2>
+<p>Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture
+Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面24项可定年来源相距0–14年，平均约4.08年；这个量描述文献年代，项目的具体研究历史见上文。</p>
 <p>2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp二阶实根问题于2012年提出，本系列于2026年给出另一条证明；同期工作的先后记录另列。</p>
-<table><thead><tr><th>问题／项目</th><th>来源首年</th><th>采用版本年</th><th>截至2026年与采用版相距</th><th>出处</th></tr></thead><tbody><tr><td><a href="https://github.com/Aurantium-47/howroyd-27-conjecture">Howroyd 27集分类</a></td><td>2018</td><td>2018</td><td>8年</td><td><a href="https://oeis.org/A297557">OEIS A297557</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/chemical-graph-sigma-extremizers">化学图极值度数分类</a></td><td>2024</td><td>2024</td><td>2年</td><td><a href="https://arxiv.org/abs/2411.01530">Applied Mathematics and Computation</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/stern-polynomial-positivity">Stern多项式正性</a></td><td>2019</td><td>2019</td><td>7年</td><td><a href="https://arxiv.org/abs/1909.10844">Publicationes Mathematicae Debrecen / arXiv固定版</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/hardinian-array-asymptotics">Hardinian数组渐近</a></td><td>2023</td><td>2024</td><td>2年</td><td><a href="https://doi.org/10.37236/12358">Electronic Journal of Combinatorics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/triangle-free-circulant-existence">无三角形循环图存在性</a></td><td>2020</td><td>2020</td><td>6年</td><td><a href="https://doi.org/10.3934/math.2020242">AIMS Mathematics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/nonmixed-five-point-packing">五点集合装填密度</a></td><td>2024</td><td>2025</td><td>1年</td><td><a href="https://doi.org/10.1002/jgt.23269">Journal of Graph Theory</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/lecture-hall-polynomiality">Lecture Hall多项式与退化</a></td><td>2018</td><td>2018</td><td>8年</td><td><a href="https://arxiv.org/abs/1809.01377">2018 Osaka Lattice Polytopes Workshop / arXiv</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/fence-rowmotion-counterexample">Fence行运动反例</a></td><td>2021</td><td>2023</td><td>3年</td><td><a href="https://doi.org/10.5802/alco.256">Algebraic Combinatorics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">K6链装填着色</a></td><td>2025</td><td>2025</td><td>1年</td><td><a href="https://arxiv.org/abs/2511.12761">arXiv</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/rook-polynomial-unimodality">q-rook与嵌套盒单峰性</a></td><td>2024</td><td>2026</td><td>0年</td><td><a href="https://arxiv.org/abs/2410.19714">Experimental Mathematics / arXiv固定版</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/even-catalan-hankel-degrees">Catalan幂Hankel精确次数</a></td><td>2023</td><td>2023</td><td>3年</td><td><a href="https://arxiv.org/abs/2308.07642">arXiv</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues">数值半群端点残差</a></td><td>2026</td><td>2026</td><td>0年</td><td><a href="https://doi.org/10.1016/j.jpaa.2026.108330">Journal of Pure and Applied Algebra</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/peak-polynomial-last-real-root">Peak多项式最后实根</a></td><td>2014</td><td>2016</td><td>10年</td><td><a href="https://doi.org/10.1080/10586458.2015.1051193">Experimental Mathematics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/karp-order-two-real-rootedness">Karp二阶变换实根性</a></td><td>2012</td><td>2012</td><td>14年</td><td><a href="https://arxiv.org/abs/1203.1482">arXiv；后续问题集重述</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/gap-five-gaussian-quotients">Gap-five Gaussian商正性</a></td><td>2025</td><td>2025</td><td>1年</td><td><a href="https://doi.org/10.1007/s11139-025-01285-2">The Ramanujan Journal</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three">Hurwitz多项式与大亏格展开</a></td><td>2023</td><td>2023</td><td>3年</td><td><a href="https://doi.org/10.4153/S0008414X25101168">Canadian Journal of Mathematics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/eventual-infinite-log-concavity">最终无限对数凹性</a></td><td>2014</td><td>2014</td><td>12年</td><td><a href="https://arxiv.org/abs/1405.1765">Annals of Combinatorics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity">Stanton十一项W正性</a></td><td>未定年</td><td>未定年</td><td>—</td><td><a href="https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf">未标日期的作者手稿</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/unit-translation-coefficient-oscillation">单位平移后的无界振荡</a></td><td>2000</td><td>2000</td><td>26年</td><td><a href="https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf">SIMU技术报告（年份经后文书目佐证）</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/hoggatt-row-sum-moments">Hoggatt行和矩分类</a></td><td>2026</td><td>2026</td><td>0年</td><td><a href="https://arxiv.org/abs/2607.01582">arXiv</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/narayana-polytope-counterexamples">Narayana格点和</a></td><td>2021</td><td>2023</td><td>3年</td><td><a href="https://arxiv.org/abs/2102.11836">Fertilitopes / arXiv固定版</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/peak-and-x-descent-growth-rates">Peak与X-descent增长率谱</a></td><td>2024</td><td>2025</td><td>1年</td><td><a href="https://doi.org/10.1016/j.ejc.2025.104246">European Journal of Combinatorics</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/fixed-length-fertility-counterexample">固定长度fertility反例</a></td><td>2024</td><td>2024</td><td>2年</td><td><a href="https://arxiv.org/abs/2408.05378">arXiv</a></td></tr><tr><td><a href="https://github.com/Aurantium-47/clique-join-domination-polynomials">Clique-join支配多项式</a></td><td>2025</td><td>2025</td><td>1年</td><td><a href="https://doi.org/10.61091/jcmcc126-19">Journal of Combinatorial Mathematics and Combinatorial Computing</a></td></tr></tbody></table>
+<table>
+<thead>
+<tr class="header">
+<th>问题／项目</th>
+<th>来源首年</th>
+<th>采用版本年</th>
+<th>截至2026年与采用版相距</th>
+<th>出处</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/howroyd-27-conjecture">Howroyd
+27集分类</a></td>
+<td>2018</td>
+<td>2018</td>
+<td>8年</td>
+<td><a href="https://oeis.org/A297557">OEIS A297557</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/chemical-graph-sigma-extremizers">化学图极值度数分类</a></td>
+<td>2024</td>
+<td>2024</td>
+<td>2年</td>
+<td><a href="https://arxiv.org/abs/2411.01530">Applied Mathematics and
+Computation</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/stern-polynomial-positivity">Stern多项式正性</a></td>
+<td>2019</td>
+<td>2019</td>
+<td>7年</td>
+<td><a href="https://arxiv.org/abs/1909.10844">Publicationes
+Mathematicae Debrecen / arXiv固定版</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/hardinian-array-asymptotics">Hardinian数组渐近</a></td>
+<td>2023</td>
+<td>2024</td>
+<td>2年</td>
+<td><a href="https://doi.org/10.37236/12358">Electronic Journal of
+Combinatorics</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/triangle-free-circulant-existence">无三角形循环图存在性</a></td>
+<td>2020</td>
+<td>2020</td>
+<td>6年</td>
+<td><a href="https://doi.org/10.3934/math.2020242">AIMS
+Mathematics</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/nonmixed-five-point-packing">五点集合装填密度</a></td>
+<td>2024</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://doi.org/10.1002/jgt.23269">Journal of Graph
+Theory</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/lecture-hall-polynomiality">Lecture
+Hall多项式与退化</a></td>
+<td>2018</td>
+<td>2018</td>
+<td>8年</td>
+<td><a href="https://arxiv.org/abs/1809.01377">2018 Osaka Lattice
+Polytopes Workshop / arXiv</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/fence-rowmotion-counterexample">Fence行运动反例</a></td>
+<td>2021</td>
+<td>2023</td>
+<td>3年</td>
+<td><a href="https://doi.org/10.5802/alco.256">Algebraic
+Combinatorics</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">K6链装填着色</a></td>
+<td>2025</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://arxiv.org/abs/2511.12761">arXiv</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/rook-polynomial-unimodality">q-rook与嵌套盒单峰性</a></td>
+<td>2024</td>
+<td>2026</td>
+<td>0年</td>
+<td><a href="https://arxiv.org/abs/2410.19714">Experimental Mathematics
+/ arXiv固定版</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/even-catalan-hankel-degrees">Catalan幂Hankel精确次数</a></td>
+<td>2023</td>
+<td>2023</td>
+<td>3年</td>
+<td><a href="https://arxiv.org/abs/2308.07642">arXiv</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues">数值半群端点残差</a></td>
+<td>2026</td>
+<td>2026</td>
+<td>0年</td>
+<td><a href="https://doi.org/10.1016/j.jpaa.2026.108330">Journal of Pure
+and Applied Algebra</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/peak-polynomial-last-real-root">Peak多项式最后实根</a></td>
+<td>2014</td>
+<td>2016</td>
+<td>10年</td>
+<td><a href="https://doi.org/10.1080/10586458.2015.1051193">Experimental
+Mathematics</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/karp-order-two-real-rootedness">Karp二阶变换实根性</a></td>
+<td>2012</td>
+<td>2012</td>
+<td>14年</td>
+<td><a
+href="https://arxiv.org/abs/1203.1482">arXiv；后续问题集重述</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/gap-five-gaussian-quotients">Gap-five
+Gaussian商正性</a></td>
+<td>2025</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://doi.org/10.1007/s11139-025-01285-2">The Ramanujan
+Journal</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three">Hurwitz多项式与大亏格展开</a></td>
+<td>2023</td>
+<td>2023</td>
+<td>3年</td>
+<td><a href="https://doi.org/10.4153/S0008414X25101168">Canadian Journal
+of Mathematics</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/eventual-infinite-log-concavity">最终无限对数凹性</a></td>
+<td>2014</td>
+<td>2014</td>
+<td>12年</td>
+<td><a href="https://arxiv.org/abs/1405.1765">Annals of
+Combinatorics</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity">Stanton十一项W正性</a></td>
+<td>未定年</td>
+<td>未定年</td>
+<td>—</td>
+<td><a
+href="https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf">未标日期的作者手稿</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/unit-translation-coefficient-oscillation">单位平移后的无界振荡</a></td>
+<td>2000</td>
+<td>2000</td>
+<td>26年</td>
+<td><a
+href="https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf">SIMU技术报告（年份经后文书目佐证）</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/hoggatt-row-sum-moments">Hoggatt行和矩分类</a></td>
+<td>2026</td>
+<td>2026</td>
+<td>0年</td>
+<td><a href="https://arxiv.org/abs/2607.01582">arXiv</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/narayana-polytope-counterexamples">Narayana格点和</a></td>
+<td>2021</td>
+<td>2023</td>
+<td>3年</td>
+<td><a href="https://arxiv.org/abs/2102.11836">Fertilitopes /
+arXiv固定版</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/peak-and-x-descent-growth-rates">Peak与X-descent增长率谱</a></td>
+<td>2024</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://doi.org/10.1016/j.ejc.2025.104246">European Journal
+of Combinatorics</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/fixed-length-fertility-counterexample">固定长度fertility反例</a></td>
+<td>2024</td>
+<td>2024</td>
+<td>2年</td>
+<td><a href="https://arxiv.org/abs/2408.05378">arXiv</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/clique-join-domination-polynomials">Clique-join支配多项式</a></td>
+<td>2025</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://doi.org/10.61091/jcmcc126-19">Journal of
+Combinatorial Mathematics and Combinatorial Computing</a></td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness">Zudilin
+B多项式实根性</a></td>
+<td>2015</td>
+<td>2017</td>
+<td>9年</td>
+<td><a
+href="https://arxiv.org/abs/1504.07696">Springer论文集2020；采用arXiv
+v2</a></td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample">正交部分和阈值反例</a></td>
+<td>2024</td>
+<td>2025</td>
+<td>1年</td>
+<td><a href="https://arxiv.org/abs/2409.00261v2">Indagationes
+Mathematicae；目标以arXiv v2为准</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="原题与后续论文的刊物记录">原题与后续论文的刊物记录</h2>
-<table><thead><tr><th>刊物</th><th>对应研究</th><th>中科院分区</th><th>JCR等记录</th><th>来源</th></tr></thead><tbody><tr><td>Applied Mathematics and Computation</td><td>化学图原题</td><td>2025大类数学2区；应用数学2区</td><td>Q1；公开索引，应用数学</td><td><a href="https://sci.justscience.cn/details.html?id=3903&amp;amp;sci=1">分区记录</a></td></tr><tr><td>AIMS Mathematics</td><td>循环图原题</td><td>2025大类数学3区</td><td>Q1；2024–25公开索引</td><td><a href="https://www.klxksci.com/sci/15468.html">分区记录</a></td></tr><tr><td>Experimental Mathematics</td><td>Peak原题；q-rook论文</td><td>2025大类数学3区（公开索引）</td><td>JCR-JIF 2025 Q3；SJR 2025 Q1</td><td><a href="https://www.iit.comillas.edu/publicacion/info_revista/en/980/Experimental_Mathematics">分区记录</a></td></tr><tr><td>Journal of Pure and Applied Algebra</td><td>数值半群原题</td><td>2025大类数学3区</td><td>分类／年份映射待确认</td><td><a href="https://www.iikx.com/sci/mathematics/14724.html">分区记录</a></td></tr><tr><td>Electronic Journal of Combinatorics</td><td>Hardinian原题、Catalan相关研究</td><td>2025大类数学3区；小类数学／应用数学4区</td><td>公开索引Q2／Q3；分类映射待确认</td><td><a href="https://sci.justscience.cn/details.html?id=7296&amp;amp;sci=1">分区记录</a></td></tr><tr><td>The Ramanujan Journal</td><td>gap-five原题；Hankel工具论文</td><td>2025大类数学3区</td><td>页面标2026 Q2；数学SCIE</td><td><a href="https://www.iikx.com/sci/mathematics/16674.html">分区记录</a></td></tr><tr><td>Journal of Combinatorial Theory, Series A</td><td>Peak后续正性论文</td><td>2025大类数学3区</td><td>本次未确认JCR版次</td><td><a href="https://www.xueshu.com/sci/44907/">分区记录</a></td></tr></tbody></table>
-<p>这些分区记录采用各来源标注的版次。Experimental Mathematics在大学记录中同时列出2025 JCR-JIF Q3与SJR Q1，两个体系分别保留。部分刊物的分类或年份尚未核清，表中不填猜测值。</p>
+<table>
+<thead>
+<tr class="header">
+<th>刊物</th>
+<th>对应研究</th>
+<th>中科院分区</th>
+<th>JCR等记录</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Applied Mathematics and Computation</td>
+<td>化学图原题</td>
+<td>2025大类数学2区；应用数学2区</td>
+<td>Q1；公开索引，应用数学</td>
+<td><a
+href="https://sci.justscience.cn/details.html?id=3903&amp;sci=1">分区记录</a></td>
+</tr>
+<tr class="even">
+<td>AIMS Mathematics</td>
+<td>循环图原题</td>
+<td>2025大类数学3区</td>
+<td>Q1；2024–25公开索引</td>
+<td><a href="https://www.klxksci.com/sci/15468.html">分区记录</a></td>
+</tr>
+<tr class="odd">
+<td>Experimental Mathematics</td>
+<td>Peak原题；q-rook论文</td>
+<td>2025大类数学3区（公开索引）</td>
+<td>JCR-JIF 2025 Q3；SJR 2025 Q1</td>
+<td><a
+href="https://www.iit.comillas.edu/publicacion/info_revista/en/980/Experimental_Mathematics">分区记录</a></td>
+</tr>
+<tr class="even">
+<td>Journal of Pure and Applied Algebra</td>
+<td>数值半群原题</td>
+<td>2025大类数学3区</td>
+<td>分类／年份映射待确认</td>
+<td><a
+href="https://www.iikx.com/sci/mathematics/14724.html">分区记录</a></td>
+</tr>
+<tr class="odd">
+<td>Electronic Journal of Combinatorics</td>
+<td>Hardinian原题、Catalan相关研究</td>
+<td>2025大类数学3区；小类数学／应用数学4区</td>
+<td>公开索引Q2／Q3；分类映射待确认</td>
+<td><a
+href="https://sci.justscience.cn/details.html?id=7296&amp;sci=1">分区记录</a></td>
+</tr>
+<tr class="even">
+<td>The Ramanujan Journal</td>
+<td>gap-five原题；Hankel工具论文</td>
+<td>2025大类数学3区</td>
+<td>页面标2026 Q2；数学SCIE</td>
+<td><a
+href="https://www.iikx.com/sci/mathematics/16674.html">分区记录</a></td>
+</tr>
+<tr class="odd">
+<td>Journal of Combinatorial Theory, Series A</td>
+<td>Peak后续正性论文</td>
+<td>2025大类数学3区</td>
+<td>本次未确认JCR版次</td>
+<td><a href="https://www.xueshu.com/sci/44907/">分区记录</a></td>
+</tr>
+</tbody>
+</table>
+<p>这些分区记录采用各来源标注的版次。Experimental
+Mathematics在大学记录中同时列出2025 JCR-JIF Q3与SJR
+Q1，两个体系分别保留。部分刊物的分类或年份尚未核清，表中不填猜测值。</p>
 <h2 id="数学内容与推广">数学内容与推广</h2>
-<table><thead><tr><th>研究领域</th><th>具体数学内容</th><th>代表项目</th></tr></thead><tbody><tr><td>代数组合 · Algebraic combinatorics</td><td>Dyck路径、Stieltjes–Rogers多项式、Toeplitz/Hankel行列式、连分数</td><td>Lecture Hall、Catalan、Hoggatt</td></tr><tr><td>交换代数与离散几何</td><td>SAGBI基、Hilbert基、半群代数、Ehrhart结构、toric退化</td><td>Lecture Hall、数值半群、q-rook</td></tr><tr><td>极值图论与组合优化</td><td>独立集、循环图、装填着色、度数极值、有限状态秩证书</td><td>Howroyd、化学图、K6链</td></tr><tr><td>实根多项式与正性</td><td>根交错、Pólya频率序列、系数单峰性、无限对数凹性</td><td>Peak、Hurwitz、q-rook、对数凹性</td></tr><tr><td>枚举几何与渐近分析</td><td>单调Hurwitz数、换位分解、大亏格展开、根渐近修正</td><td>Hurwitz、Hardinian</td></tr><tr><td>代数组合动力系统</td><td>偏序集、序理想、rowmotion、homomesy</td><td>Fence</td></tr></tbody></table>
-<table><thead><tr><th>成果组</th><th>原问题之外的延伸</th></tr></thead><tbody><tr><td><a href="https://github.com/Aurantium-47/lecture-hall-polynomiality">Lecture Hall多项式与退化</a></td><td>多项式性 → 显式系数/单项式计数 → SAGBI基与toric退化</td></tr><tr><td><a href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">K6链装填着色</a></td><td>有限反例 → 全族锐23色上界及长链精确值</td></tr><tr><td><a href="https://github.com/Aurantium-47/rook-polynomial-unimodality">q-rook与嵌套盒单峰性</a></td><td>near-full q-rook → 任意维嵌套盒乘积差单峰 → Hilbert函数推论</td></tr><tr><td><a href="https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues">数值半群端点残差</a></td><td>最终仿射 → 端点斜率公式 → 正负伸缩与有效界</td></tr><tr><td><a href="https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three">Hurwitz多项式与大亏格展开</a></td><td>g2 → g3/g4 → 一般profile二项展开、根修正与有效界</td></tr><tr><td><a href="https://github.com/Aurantium-47/eventual-infinite-log-concavity">最终无限对数凹性</a></td><td>三项式尾部 → 一般严格正多项式幂 → 增长深度曲率</td></tr><tr><td><a href="https://github.com/Aurantium-47/narayana-polytope-counterexamples">Narayana格点和</a></td><td>两个否定实例 → 任意有限格点多重集的锐excess界</td></tr></tbody></table>
+<table>
+<thead>
+<tr class="header">
+<th>研究领域</th>
+<th>具体数学内容</th>
+<th>代表项目</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>代数组合 · Algebraic combinatorics</td>
+<td>Dyck路径、Stieltjes–Rogers多项式、Toeplitz/Hankel行列式、连分数</td>
+<td>Lecture Hall、Catalan、Hoggatt</td>
+</tr>
+<tr class="even">
+<td>交换代数与离散几何</td>
+<td>SAGBI基、Hilbert基、半群代数、Ehrhart结构、toric退化</td>
+<td>Lecture Hall、数值半群、q-rook</td>
+</tr>
+<tr class="odd">
+<td>极值图论与组合优化</td>
+<td>独立集、循环图、装填着色、度数极值、有限状态秩证书</td>
+<td>Howroyd、化学图、K6链</td>
+</tr>
+<tr class="even">
+<td>实根多项式与正性</td>
+<td>根交错、Pólya频率序列、系数单峰性、无限对数凹性</td>
+<td>Peak、Hurwitz、q-rook、对数凹性</td>
+</tr>
+<tr class="odd">
+<td>枚举几何与渐近分析</td>
+<td>单调Hurwitz数、换位分解、大亏格展开、根渐近修正</td>
+<td>Hurwitz、Hardinian</td>
+</tr>
+<tr class="even">
+<td>代数组合动力系统</td>
+<td>偏序集、序理想、rowmotion、homomesy</td>
+<td>Fence</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>成果组</th>
+<th>原问题之外的延伸</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/lecture-hall-polynomiality">Lecture
+Hall多项式与退化</a></td>
+<td>多项式性 → 显式系数/单项式计数 → SAGBI基与toric退化</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/k6-clique-chain-packing-coloring">K6链装填着色</a></td>
+<td>有限反例 → 全族锐23色上界及长链精确值</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/rook-polynomial-unimodality">q-rook与嵌套盒单峰性</a></td>
+<td>near-full q-rook → 任意维嵌套盒乘积差单峰 → Hilbert函数推论</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues">数值半群端点残差</a></td>
+<td>最终仿射 → 端点斜率公式 → 正负伸缩与有效界</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three">Hurwitz多项式与大亏格展开</a></td>
+<td>g2 → g3/g4 → 一般profile二项展开、根修正与有效界</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Aurantium-47/eventual-infinite-log-concavity">最终无限对数凹性</a></td>
+<td>三项式尾部 → 一般严格正多项式幂 → 增长深度曲率</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Aurantium-47/narayana-polytope-counterexamples">Narayana格点和</a></td>
+<td>两个否定实例 → 任意有限格点多重集的锐excess界</td>
+</tr>
+</tbody>
+</table>
 <p>Hurwitz项目尤其连接了枚举几何和实根多项式：已有Coulter–Do–Moskovsky的定义与递推，以及Accadia–Lewanski–Ruzza的大亏格框架；本系列给出g=2、3、4单循环情形的全次数结果，并进一步整理有效二项展开、根修正与定量界。原有框架及直接推论继续归属前人。</p>
-<h2 id="文献更新karp">Karp二阶实根猜想：另一条证明</h2>
-<p>2026年10月17日核到Henry Zweiman的<a href="https://arxiv.org/abs/2610.18895">A proof of Karp’s conjecture</a>，arXiv记录提交日期为10月10日。其Theorem 1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。本项目通过Gauss–Lucas卷积、Bernstein多项式与Beta矩给出另一条证明，作为肯定结论计入成果；参数化引理的新增推广仍单独对照。详见<a href="KARP_COMPARISON.md">时间线与证明比较</a>。</p>
+<h2 id="karp二阶实根猜想另一条证明">Karp二阶实根猜想：另一条证明</h2>
+<p>2026年10月17日核到Henry Zweiman的<a
+href="https://arxiv.org/abs/2610.18895">A proof of Karp’s
+conjecture</a>，arXiv记录提交日期为10月10日。其Theorem
+1.3给出了正系数实根输入的负实根结论，并证明残余根定位及严格大于1的间距。与本项目主要结论有实质重合。本项目通过Gauss–Lucas卷积、Bernstein多项式与Beta矩给出另一条证明，作为肯定结论计入成果；参数化引理的新增推广仍单独对照。详见<a
+href="KARP_COMPARISON.md">时间线与证明比较</a>。</p>
 <p>统计与引用口径见<a href="METHODS.md">阅读说明</a>。</p>
 
-<footer class="aris-footer">
-  Generated by <a href="https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/render-html/SKILL.md">ARIS <code>/render-html</code></a> ·
-  source <code>REPORT.zh.md</code> ·
-  SHA256 <code>f34a05f1d378</code> ·
-  generated at 2026-10-16 16:53 UTC.
-  Edit the source Markdown / JSON, then re-render.
-</footer>
-
-</div>
-</body>
-</html>
+<footer class="aris-footer">Source: REPORT.zh.md · SHA256: 5f04f6fdb5ef8a6e640b8a8dd46551b87b65afb9667d31134737e4646da0499d · Catalog date: 2026-10-22.</footer>
+</div></body></html>

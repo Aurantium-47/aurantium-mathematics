@@ -17,19 +17,27 @@
   </picture>
 </p>
 
-A collection of **24 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
+A collection of **26 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
 
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-overview.swiss-classic.mobile.en.png">
-  <img src="assets/research-overview.swiss-classic.en.png" alt="24 result families; 14 original targets answered; 7 families with generalizations; 8 Lean formalization projects; 77 prior researchers; question years 2012–2026." width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.current.mobile.en.svg">
+  <img src="assets/research-overview.current.en.svg" alt="26 result families; 17 main targets answered; 7 families with generalizations; 9 projects with Lean material (including partial); 88 prior researchers; question years 2012–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
 **Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
 
-[Conjecture names, original sources and results](CONJECTURES.md) · [The 77 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
+[Conjecture names, original sources and results](CONJECTURES.md) · [The 88 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
+
+## This update · 22 October 2026
+
+- **[Zudilin’s B-polynomial root-location problem](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)**: posed in 2015, restated in SIGMA (2016), and published in a Springer proceedings volume (2020). The proof covers every real a and n≥2, with nonpositive roots in x=t³ and strict negative-root/interlacing conclusions away from exceptional parameters. The Lean companion is partial, not a full certification.
+- **[Orthogonal partial-sum threshold counterexample](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**: refutes Koelink–Román–Zudilin’s Conjecture 3.4 in arXiv:2409.00261v2. A cubic from an infinite positive orthogonal system has three real roots at t=1/3 but a nonreal pair at t=1/2, with a stronger 1,3,1,3 reentrance certificate. The journal record is Indagationes Mathematicae (2025); identical wording in the inaccessible journal final text has not been verified.
+- **[Clique-join unimodality for every blade list](https://github.com/Aurantium-47/clique-join-domination-polynomials)**: completes the unimodality part of Rather’s JCMCC (2025) question. All positive core and blade orders are covered, analytically for N≥23 and by 14,464 exact tuples for N≤22. Earlier two-/three-blade results and the four-blade strengthening remain one group; zero-location questions are not claimed solved.
+
+These ordinary proofs passed independent AI mathematical review, not human peer review or full Lean certification. Two newly public repositories bring the catalog to 26 groups; the clique upgrade adds no group. The 17 main-target answers are not 17 conjectures newly resolved in this update, and the clique entry counts the completed unimodality subquestion only.
 
 ## Selected results
 
@@ -58,14 +66,14 @@ A collection of **24 result families** in combinatorics, graph theory, polynomia
 
 ## Sources and artifacts
 
-Original questions and related studies appear in Applied Mathematics and Computation, Experimental Mathematics, Journal of Graph Theory, Algebraic Combinatorics, Canadian Journal of Mathematics and other research venues. The [bibliography](SOURCES.md) records 60 source and related-work entries.
+Original questions and related studies appear in Applied Mathematics and Computation, Experimental Mathematics, Journal of Graph Theory, Algebraic Combinatorics, Canadian Journal of Mathematics and other research venues. The [bibliography](SOURCES.md) records 69 source and related-work entries.
 
-The [Lean collection](formalizations/README.md) contains 189 source files from eight fixed public versions. Each research repository supplies its precise theorem, proof and verification materials.
+The [Lean collection](formalizations/README.md) contains 189 source files from eight fixed public versions. The separate [Zudilin partial companion](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness/tree/main/partial-formalization) adds seven source files, making nine projects with Lean material, not nine fully formalized main theorems. Each repository states its precise proof scope.
 
 ## All projects
 
 <details>
-<summary><strong>All 24 projects</strong></summary>
+<summary><strong>All 26 projects</strong></summary>
 
 | Repository | Status |
 | --- | --- |
@@ -92,7 +100,9 @@ The [Lean collection](formalizations/README.md) contains 189 source files from e
 | [narayana-polytope-counterexamples](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | Written proof / exact verification |
 | [peak-and-x-descent-growth-rates](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates) | Written proof / exact verification |
 | [fixed-length-fertility-counterexample](https://github.com/Aurantium-47/fixed-length-fertility-counterexample) | Written proof / exact verification |
-| [clique-join-domination-polynomials](https://github.com/Aurantium-47/clique-join-domination-polynomials) | Written proof / exact verification |
+| [clique-join-domination-polynomials](https://github.com/Aurantium-47/clique-join-domination-polynomials) | All-blade computer-assisted unimodality proof; no Lean |
+| [zudilin-b-polynomial-real-rootedness](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | Complete ordinary proof; partial Lean companion only |
+| [orthogonal-partial-sum-threshold-counterexample](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | Complete ordinary proof and exact rational certificates |
 
 </details>
 
@@ -145,7 +155,7 @@ Concrete methods include Dyck paths, Stieltjes–Rogers polynomials, Toeplitz/Ha
 
 ## Literature and extensions
 
-The bibliography contains 24 problem-source records and 36 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is included among the affirmative results: our manuscript gives a different proof through Beta moments, Bernstein polynomials and Gauss–Lucas convolution. Zweiman submitted a proof of the same positive second-order target earlier in October 2026; the chronology and the relation between the routes are documented in [the comparison](KARP_COMPARISON.md).
+The bibliography contains 26 problem-source records and 43 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is included among the affirmative results: our manuscript gives a different proof through Beta moments, Bernstein polynomials and Gauss–Lucas convolution. Zweiman submitted a proof of the same positive second-order target earlier in October 2026; the chronology and the relation between the routes are documented in [the comparison](KARP_COMPARISON.md).
 
 Problem dates and venue information are given in the [research background](REPORT.zh.md). Source dates describe the documented history; each project's exact contribution is stated separately.
 

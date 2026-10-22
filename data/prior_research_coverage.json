@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-18",
-  "direct_records": 44,
-  "listed_researcher_names": 77,
+  "as_of": "2026-10-22",
+  "direct_records": 52,
+  "listed_researcher_names": 88,
   "scope": "Authors listed on original problem sources and directly related studies; excludes records used only as general tools, definitions or broad background. Includes original proposers and studies of directly related objects; does not measure failed attempts or the complete worldwide researcher population.",
   "selected_records": [
     {
@@ -578,6 +578,108 @@
       "url": "https://arxiv.org/abs/2610.18895",
       "role": "Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中",
       "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 61,
+      "title": "Zudilin B多项式实根性：原题来源",
+      "year": 2015,
+      "authors": [
+        "Wadim Zudilin"
+      ],
+      "venue": "arXiv:1504.07696；Springer Proc. Math. Stat. 314 (2020), 621–630",
+      "url": "https://arxiv.org/abs/1504.07696",
+      "role": "问题来源",
+      "kind": "会议论文集"
+    },
+    {
+      "bibliography_index": 62,
+      "title": "Asymptotics of orthogonal polynomials with asymptotic Freud-like weights",
+      "year": 2020,
+      "authors": [
+        "Wen-Gao Long",
+        "Dan Dai",
+        "Yu-Tian Li",
+        "Xiang-Sheng Wang"
+      ],
+      "venue": "Studies in Applied Mathematics 144, 133–163",
+      "url": "https://doi.org/10.1111/sapm.12291",
+      "role": "B多项式与连续对偶Hahn联系；不同固定参数渐近范围",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 63,
+      "title": "正交多项式部分和阈值：原题来源",
+      "year": 2024,
+      "authors": [
+        "Erik Koelink",
+        "Pablo Román",
+        "Wadim Zudilin"
+      ],
+      "venue": "arXiv:2409.00261v2；Indagationes Mathematicae 36 (2025), 1745–1761",
+      "url": "https://arxiv.org/abs/2409.00261v2",
+      "role": "问题来源",
+      "kind": "论文"
+    },
+    {
+      "bibliography_index": 64,
+      "title": "Zeros of linear combinations of orthogonal polynomials",
+      "year": 2025,
+      "authors": [
+        "Antonio J. Durán"
+      ],
+      "venue": "arXiv:2505.11956v1",
+      "url": "https://arxiv.org/abs/2505.11956",
+      "role": "部分和邻近工作；归一化及量词不同",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 65,
+      "title": "Zeros of linear combinations of Hermite polynomials",
+      "year": 2025,
+      "authors": [
+        "Antonio J. Durán"
+      ],
+      "venue": "arXiv:2505.15330v1",
+      "url": "https://arxiv.org/abs/2505.15330",
+      "role": "Hermite特定归一化研究，不代替一般阈值命题",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 66,
+      "title": "Unimodality and monotonic portions of certain domination polynomials",
+      "year": 2021,
+      "authors": [
+        "Amanda Burcroff",
+        "Grace O’Brien"
+      ],
+      "venue": "arXiv:2110.00709",
+      "url": "https://arxiv.org/abs/2110.00709",
+      "role": "clique-join已知三叶片及奇数阶四叶片情形",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 67,
+      "title": "Domination polynomial is unimodal for large graphs with a universal vertex",
+      "year": 2021,
+      "authors": [
+        "Shengtong Zhang"
+      ],
+      "venue": "arXiv:2111.00641",
+      "url": "https://arxiv.org/abs/2111.00641",
+      "role": "clique-join已有N≥8192单峰性",
+      "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 68,
+      "title": "New Perspectives On The Unimodality Of Domination Polynomials",
+      "year": 2026,
+      "authors": [
+        "Mohamed Omar"
+      ],
+      "venue": "arXiv:2601.14494v1",
+      "url": "https://arxiv.org/abs/2601.14494",
+      "role": "阈值图对数凹性及进一步充分判据",
+      "kind": "相关研究文献"
     }
   ],
   "excluded_records": [
@@ -676,6 +778,12 @@
       "title": "The importance of the Selberg integral",
       "role": "Hardinian常数背景",
       "reason": "General tool, definition, broader background, supporting bibliography or editorial restatement; omitted from this narrower headcount."
+    },
+    {
+      "bibliography_index": 69,
+      "title": "Report from the Open Problems Session at OPSFA13",
+      "role": "Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者",
+      "reason": "Editorial restatement; original proposer is already included from the primary paper."
     }
   ],
   "researcher_names": [
@@ -686,7 +794,9 @@
     "Alexander Diaz-Lopez",
     "Alexander Natalchenko",
     "Allan Bickle",
+    "Amanda Burcroff",
     "Andrew Howroyd",
+    "Antonio J. Durán",
     "Armin Straub",
     "Arsenii Sagdeev",
     "Bilal Ahmad Rather",
@@ -697,6 +807,7 @@
     "Colin Defant",
     "D. Stanton",
     "Dagan Karp",
+    "Dan Dai",
     "Danilo Lewanski",
     "Darko Dimitrov",
     "Davide Accadia",
@@ -705,10 +816,12 @@
     "Dumitru I. Stamate",
     "Ellena Moskovsky",
     "Erik Insko",
+    "Erik Koelink",
     "Francesco Strazzanti",
     "George Boros",
     "George Spahn",
     "Giulio Ruzza",
+    "Grace O’Brien",
     "Guo-Niu Han",
     "Guoce Xin",
     "Hanna Furmańczyk",
@@ -736,6 +849,7 @@
     "Mohamed Omar",
     "Mona Gatzweiler",
     "Norman Do",
+    "Pablo Román",
     "Pamela E. Harris",
     "Peter R. W. McNamara",
     "Riste Škrekovski",
@@ -746,15 +860,20 @@
     "Sara Billey",
     "Sergi Elizalde",
     "Shane Chern",
+    "Shengtong Zhang",
     "Sibel Özkan",
     "Slobodan Filipovski",
     "Stephan Brandt",
     "Tom Roby",
     "Victor H. Moll",
+    "Wadim Zudilin",
+    "Wen-Gao Long",
     "Wenle Shi",
     "Xavier Coulter",
+    "Xiang-Sheng Wang",
     "Yeong-Nan Yeh",
     "Yi Wang",
-    "Ying Wang"
+    "Ying Wang",
+    "Yu-Tian Li"
   ]
 }

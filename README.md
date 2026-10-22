@@ -17,19 +17,27 @@
   </picture>
 </p>
 
-组合数学、图论、多项式与渐近分析的研究成果集，收录**24组成果**。代表结果包括**Katthän多项式性猜想的证明、Wang–Xin次数猜想的精确公式、Karp二阶实根猜想的另一条证明，以及K₆链装填着色的23色锐界**。
+组合数学、图论、多项式与渐近分析的研究成果集，收录**26组成果**。代表结果包括**Katthän多项式性猜想的证明、Wang–Xin次数猜想的精确公式、Karp二阶实根猜想的另一条证明，以及K₆链装填着色的23色锐界**。
 
 
 <picture>
-  <source media="(max-width: 650px)" srcset="assets/research-overview.swiss-classic.mobile.zh.png">
-  <img src="assets/research-overview.swiss-classic.zh.png" alt="24组研究成果，14项原题解答，7组推广成果，8个Lean形式化项目，77位前期研究者；问题提出年份2012—2026。" width="1600">
+  <source media="(max-width: 650px)" srcset="assets/research-overview.current.mobile.zh.svg">
+  <img src="assets/research-overview.current.zh.svg" alt="26组研究成果，17项主要目标解答，7组推广成果，9个含Lean材料的项目（含部分），88位前期研究者；问题提出年份2012—2026。" width="1600">
 </picture>
 
 **涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
 
 **方法与工具：** 行列式与生成函数 · SAGBI基与toric退化 · 根交错与正性 · 精确证书 · Lean 4 / mathlib · Python / SymPy · C++17
 
-[猜想名称、原始出处与本研究结论](CONJECTURES.md) · [77位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
+[猜想名称、原始出处与本研究结论](CONJECTURES.md) · [88位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
+
+## 本次更新 · 2026年10月22日
+
+- **[Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)**：2015年提出的全实参数观察，2016年SIGMA问题报告重述，2020年收入Springer论文集。证明所有实参数a、n≥2时Pₙᵃ(x)的零点非正，并给出非例外参数的严格负根、交错和定位。变量为x=t³；仅有部分Lean伴随，完整形式化未完成。
+- **[正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**：否定Koelink–Román–Zudilin于2024年提出、arXiv v2猜想3.4的单阈值断言。无限正交系统中的三次部分和，在t=1/3有三个实根、t=1/2却有非实根；进一步给出1、3、1、3的再入根数。期刊为Indagationes Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大反驳对象。
+- **[Clique-join全叶片单峰性](https://github.com/Aurantium-47/clique-join-domination-polynomials)**：完成Rather在JCMCC（2025）问题中的单峰性部分。任意正核心、叶片数及大小均覆盖；N≥23解析证明，N≤22精确穷尽14,464组参数。四叶片更强结论与旧的两／三叶片结果保留在同一组，不重复计数；零点问题不宣称解决。
+
+以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。新增两个已公开项目使总数成为26组；全叶片升级不增加组数。17项主要目标解答不是17个本次新解猜想，其中clique-join只计已完整解决的单峰性子问题。
 
 ## 代表结果
 
@@ -60,19 +68,19 @@
 
 原题及相关研究见于 **Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Algebraic Combinatorics、Canadian Journal of Mathematics、Journal of Pure and Applied Algebra** 等专业期刊，以及LAGOS会议论文集、OEIS和研究预印本。
 
-例如，Howroyd问题有2018年的明确提问和Machacek的部分证明；Lecture Hall来自Katthän的2018年论文；Peak项目对应2016年正式发表论文中的具体猜想。目录整理了**60条问题来源与相关文献**，每项成果均链接原题和前人工作。
+例如，Howroyd问题有2018年的明确提问和Machacek的部分证明；Lecture Hall来自Katthän的2018年论文；Peak项目对应2016年正式发表论文中的具体猜想。目录整理了**69条问题来源与相关文献**，每项成果均链接原题和前人工作。
 
 ## 论文与代码
 
-- **[24个项目](#全部项目)**：具体命题、证明与项目说明。
-- **[8个Lean项目、189个源文件](formalizations/README.md)**：收录固定公开版本及原依赖配置。
+- **[26个项目](#全部项目)**：具体命题、证明与项目说明。
+- **[8个项目、189个Lean源文件的固定归档](formalizations/README.md)**；另有[Zudilin部分伴随](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness/tree/main/partial-formalization)的7个Lean源文件。合计9个含Lean材料的项目，不代表9个全定理完成形式化。
 - **[证明与验证材料](METHODS.md)**：原题与文献对照、证明检查、精确计算或有限证书核验。
 - **[参考文献](SOURCES.md)**：原论文、相关研究及各自的关系。
 
 ## 全部项目
 
 <details>
-<summary><strong>展开全部24个项目</strong></summary>
+<summary><strong>展开全部26个项目</strong></summary>
 
 | 项目 | 已形成的结果 | 验证与文献状态 |
 | --- | --- | --- |
@@ -99,7 +107,9 @@
 | [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | 两个多面体反例及普遍excess≤3实根性充分条件 | 证明与精确证书 |
 | [Peak与X-descent增长率谱](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates) | 构造实现峰集增长率整个区间及可同时选择X/I时的[0,1]谱 | 构造证明 |
 | [固定长度fertility反例](https://github.com/Aurantium-47/fixed-length-fertility-counterexample) | 长度9完整枚举362880个排列，fertility谱缺55，否定固定长度包含猜想 | 穷举证书与证明 |
-| [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 两blade全参数超对数凹；三blade有限及无限族反例 | 证明与精确核查 |
+| [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 任意正核心及叶片大小的全家族单峰性；保留两叶片ULC及三叶片反例 | 计算机辅助证明；独立AI复核；无Lean |
+| [Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | 所有实参数a、n≥2，Pₙᵃ(x)非正实根；非例外参数严格交错 | 完整文字证明；仅部分Lean |
+| [正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | 三次部分和反驳arXiv v2猜想3.4；根数出现1、3、1、3再入 | 完整文字证明；精确Sturm证书 |
 
 </details>
 
@@ -187,7 +197,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 ## 前人研究与论文出处
 
-当前目录整理了**24条问题来源、36条相关研究与工具文献，共60条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
+当前目录整理了**26条问题来源、43条相关研究与工具文献，共69条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
 
 | 研究线 | 目录中的前人线索 | 发表载体 |
 | --- | --- | --- |

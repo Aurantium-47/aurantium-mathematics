@@ -722,5 +722,111 @@
     "url": "https://arxiv.org/abs/2610.18895",
     "role": "Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中",
     "kind": "相关研究文献"
+  },
+  {
+    "title": "Zudilin B多项式实根性：原题来源",
+    "year": 2015,
+    "authors": [
+      "Wadim Zudilin"
+    ],
+    "venue": "arXiv:1504.07696；Springer Proc. Math. Stat. 314 (2020), 621–630",
+    "url": "https://arxiv.org/abs/1504.07696",
+    "role": "问题来源",
+    "kind": "会议论文集"
+  },
+  {
+    "title": "Asymptotics of orthogonal polynomials with asymptotic Freud-like weights",
+    "year": 2020,
+    "authors": [
+      "Wen-Gao Long",
+      "Dan Dai",
+      "Yu-Tian Li",
+      "Xiang-Sheng Wang"
+    ],
+    "venue": "Studies in Applied Mathematics 144, 133–163",
+    "url": "https://doi.org/10.1111/sapm.12291",
+    "role": "B多项式与连续对偶Hahn联系；不同固定参数渐近范围",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "正交多项式部分和阈值：原题来源",
+    "year": 2024,
+    "authors": [
+      "Erik Koelink",
+      "Pablo Román",
+      "Wadim Zudilin"
+    ],
+    "venue": "arXiv:2409.00261v2；Indagationes Mathematicae 36 (2025), 1745–1761",
+    "url": "https://arxiv.org/abs/2409.00261v2",
+    "role": "问题来源",
+    "kind": "论文"
+  },
+  {
+    "title": "Zeros of linear combinations of orthogonal polynomials",
+    "year": 2025,
+    "authors": [
+      "Antonio J. Durán"
+    ],
+    "venue": "arXiv:2505.11956v1",
+    "url": "https://arxiv.org/abs/2505.11956",
+    "role": "部分和邻近工作；归一化及量词不同",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "Zeros of linear combinations of Hermite polynomials",
+    "year": 2025,
+    "authors": [
+      "Antonio J. Durán"
+    ],
+    "venue": "arXiv:2505.15330v1",
+    "url": "https://arxiv.org/abs/2505.15330",
+    "role": "Hermite特定归一化研究，不代替一般阈值命题",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "Unimodality and monotonic portions of certain domination polynomials",
+    "year": 2021,
+    "authors": [
+      "Amanda Burcroff",
+      "Grace O’Brien"
+    ],
+    "venue": "arXiv:2110.00709",
+    "url": "https://arxiv.org/abs/2110.00709",
+    "role": "clique-join已知三叶片及奇数阶四叶片情形",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "Domination polynomial is unimodal for large graphs with a universal vertex",
+    "year": 2021,
+    "authors": [
+      "Shengtong Zhang"
+    ],
+    "venue": "arXiv:2111.00641",
+    "url": "https://arxiv.org/abs/2111.00641",
+    "role": "clique-join已有N≥8192单峰性",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "New Perspectives On The Unimodality Of Domination Polynomials",
+    "year": 2026,
+    "authors": [
+      "Mohamed Omar"
+    ],
+    "venue": "arXiv:2601.14494v1",
+    "url": "https://arxiv.org/abs/2601.14494",
+    "role": "阈值图对数凹性及进一步充分判据",
+    "kind": "相关研究文献"
+  },
+  {
+    "title": "Report from the Open Problems Session at OPSFA13",
+    "year": 2016,
+    "authors": [
+      "Howard S. Cohl",
+      "Wadim Zudilin"
+    ],
+    "venue": "SIGMA 12 (2016), 071",
+    "url": "https://sigma-journal.com/2016/071/",
+    "role": "Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者",
+    "kind": "问题集重述"
   }
 ]

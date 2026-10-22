@@ -541,16 +541,69 @@
       "Bilal Ahmad Rather"
     ],
     "source_venue": "Journal of Combinatorial Mathematics and Combinatorial Computing",
-    "result_class": "参数族与推进",
-    "result": "两blade全参数超对数凹；三blade有限及无限族反例",
-    "verification": "证明与精确核查",
+    "result_class": "原题结论",
+    "result": "任意正核心及任意正叶片数、大小的全家族单峰性；保留两叶片ULC及三叶片非对数凹反例",
+    "verification": "完整计算机辅助证明；独立AI复核；无Lean",
     "extension_group": false,
-    "extension_chain": "更强ULC及无限反例计入本项主结果，不另加扩展组",
+    "extension_chain": "全叶片单峰性升级同一成果组；四叶片更强结论不另计数",
     "source_kind": "论文",
     "url": "https://github.com/Aurantium-47/clique-join-domination-polynomials",
     "source_age_years": 1,
     "verified_version_age_years": 1,
     "age_stat_primary": true,
-    "counterexample_component": true
+    "counterexample_component": true,
+    "publication_note": "完成Rather问题中的单峰性部分；零点及其极限不在本结论内",
+    "unresolved_broader_components": [
+      "zeros",
+      "limiting zeros"
+    ]
+  },
+  {
+    "title": "Zudilin B多项式实根性",
+    "repo": "zudilin-b-polynomial-real-rootedness",
+    "source_first_year": 2015,
+    "verified_version_year": 2017,
+    "source_url": "https://arxiv.org/abs/1504.07696",
+    "authors": [
+      "Wadim Zudilin"
+    ],
+    "source_venue": "Springer Proceedings in Mathematics & Statistics 314 (2020), 621–630；SIGMA 12 (2016), 071重述",
+    "result_class": "原题结论",
+    "result": "所有实参数a、n≥2，Pₙᵃ(x)的全部零点非正；非例外参数严格负根及交错",
+    "verification": "完整文字证明；独立AI复核；仅部分Lean伴随",
+    "extension_group": false,
+    "extension_chain": "进一步结构结论计入主成果，不另加组",
+    "source_kind": "会议论文集／开放问题报告",
+    "url": "https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness",
+    "source_age_years": 11,
+    "verified_version_age_years": 9,
+    "age_stat_primary": true,
+    "counterexample_component": false,
+    "publication_note": "2015-04-29首发；原题已经是全实参数。变量为x=t³，不是原变量t；完整Lean尚未完成。"
+  },
+  {
+    "title": "正交多项式部分和阈值反例",
+    "repo": "orthogonal-partial-sum-threshold-counterexample",
+    "source_first_year": 2024,
+    "verified_version_year": 2025,
+    "source_url": "https://arxiv.org/abs/2409.00261v2",
+    "authors": [
+      "Erik Koelink",
+      "Pablo Román",
+      "Wadim Zudilin"
+    ],
+    "source_venue": "Indagationes Mathematicae 36 (2025), 1745–1761；目标以arXiv v2为准",
+    "result_class": "原题结论",
+    "result": "正交多项式系统的三次部分和在t=1/3有三实根、t=1/2有非实根，否定v2猜想3.4",
+    "verification": "完整文字证明；精确Sturm证书；独立AI复核",
+    "extension_group": false,
+    "extension_chain": "进一步结构结论计入主成果，不另加组",
+    "source_kind": "论文",
+    "url": "https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample",
+    "source_age_years": 2,
+    "verified_version_age_years": 1,
+    "age_stat_primary": true,
+    "counterexample_component": true,
+    "publication_note": "2024-08-30首发，核查2025-02-07 v2；期刊最终全文未核对。公开版本尚无Lean文件。"
   }
 ]

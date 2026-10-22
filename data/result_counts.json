@@ -11,12 +11,15 @@
     "numerical-semigroup-endpoint-residues",
     "peak-polynomial-last-real-root",
     "peak-and-x-descent-growth-rates",
-    "karp-order-two-real-rootedness"
+    "karp-order-two-real-rootedness",
+    "clique-join-domination-polynomials",
+    "zudilin-b-polynomial-real-rootedness"
   ],
   "counterexample_focus_projects": [
     "fence-rowmotion-counterexample",
     "k6-clique-chain-packing-coloring",
-    "fixed-length-fertility-counterexample"
+    "fixed-length-fertility-counterexample",
+    "orthogonal-partial-sum-threshold-counterexample"
   ],
   "further_progress": [
     "hardinian-array-asymptotics",
@@ -24,8 +27,7 @@
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
     "eventual-infinite-log-concavity",
-    "stanton-eleven-entry-w-positivity",
-    "clique-join-domination-polynomials"
+    "stanton-eleven-entry-w-positivity"
   ],
   "construction_or_classification": [
     "unit-translation-coefficient-oscillation",
@@ -35,9 +37,9 @@
   "parallel_treatment": [
     "karp-order-two-real-rootedness"
   ],
-  "lean_projects": 8,
+  "lean_projects": 9,
   "extension_groups": 7,
-  "result_families": 24,
+  "result_families": 26,
   "family_grouping": "One core-question group per listed project; principal result, supporting arguments and extensions remain in that group.",
   "families_with_extensions": 7,
   "partial_results_on_broader_questions": [
@@ -46,8 +48,7 @@
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
     "eventual-infinite-log-concavity",
-    "stanton-eleven-entry-w-positivity",
-    "clique-join-domination-polynomials"
+    "stanton-eleven-entry-w-positivity"
   ],
   "partial_results_also_with_extensions": [
     "eventual-infinite-log-concavity",
@@ -57,5 +58,25 @@
   "extension_count_meaning": "Families with subsequent generalizations or constructions; overlaps partial results and does not imply the full original question was settled.",
   "alternative_proof_projects": [
     "karp-order-two-real-rootedness"
-  ]
+  ],
+  "lean_project_repositories": [
+    "howroyd-27-conjecture",
+    "chemical-graph-sigma-extremizers",
+    "stern-polynomial-positivity",
+    "hardinian-array-asymptotics",
+    "triangle-free-circulant-existence",
+    "nonmixed-five-point-packing",
+    "lecture-hall-polynomiality",
+    "fence-rowmotion-counterexample",
+    "zudilin-b-polynomial-real-rootedness"
+  ],
+  "partial_lean_companion_projects": [
+    "zudilin-b-polynomial-real-rootedness"
+  ],
+  "unresolved_broader_components": {
+    "clique-join-domination-polynomials": [
+      "Zeros and limiting zeros; only the whole-family unimodality subquestion is completed."
+    ]
+  },
+  "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."
 }

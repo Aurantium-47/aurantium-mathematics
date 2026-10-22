@@ -1,0 +1,133 @@
+{
+  "updated": "2026-10-22",
+  "base_commit": "2ff7a5dedb5256e5201185ad2806c9179f4b7ec4",
+  "scope": "Files changed or added in this catalog update; unchanged historical assets and formalization archive are preserved. This manifest excludes itself.",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "CONJECTURES.md",
+      "bytes": 5692,
+      "sha256": "692c659a65dcf878921a4cfa4919194490becbd32aea1d92d408ee83fbc73d73"
+    },
+    {
+      "path": "METHODS.md",
+      "bytes": 5098,
+      "sha256": "55556f13588b3de329decaa62716b21f080524cad20af72d2dd1fa5b7e1e76a6"
+    },
+    {
+      "path": "PRIOR_RESEARCH.md",
+      "bytes": 8422,
+      "sha256": "62f6b732864e8b959273d73cf9de809d60b4d02752810ec4df1bc5be6c3e0003"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 16974,
+      "sha256": "73c701fc75dc8c247f2fd196ef192a4f2bb85528244319d726730ef8c5f8009f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 22466,
+      "sha256": "a72b3850bd02e1ec4d03b8acb466317aff144a7f6b659b8b141a85ce94cd327c"
+    },
+    {
+      "path": "REPORT.html",
+      "bytes": 32513,
+      "sha256": "2ac340df5107cb13a46f59a0fd84d2b57bdf8eabc248ddd275ec283da98eb331"
+    },
+    {
+      "path": "REPORT.zh.md",
+      "bytes": 19575,
+      "sha256": "5f04f6fdb5ef8a6e640b8a8dd46551b87b65afb9667d31134737e4646da0499d"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 16065,
+      "sha256": "7e947062ffe0a27071e16630101f2919b70ad00d489a0b8f355c1fa47d1fe099"
+    },
+    {
+      "path": "assets/report.css",
+      "bytes": 7101,
+      "sha256": "fb964baa8ba7ad1234984f9d147056adf5703d94814b8f498c338e74eb39b98a"
+    },
+    {
+      "path": "assets/research-overview.current.en.svg",
+      "bytes": 1240,
+      "sha256": "d8a4b4c0084721db2db24b7b306a6383553ec2c085b9be81b7077b3548c1ddd7"
+    },
+    {
+      "path": "assets/research-overview.current.mobile.en.svg",
+      "bytes": 1440,
+      "sha256": "462804e88cc71907a23365cc1aae2e2a9ea4dd64fa5e8e9b85fffba22afcafe5"
+    },
+    {
+      "path": "assets/research-overview.current.mobile.zh.svg",
+      "bytes": 1431,
+      "sha256": "6e6842a0728b94a87a69472164ada6ec3a3f61b7da70dcde3ce40ec1aa827e35"
+    },
+    {
+      "path": "assets/research-overview.current.zh.svg",
+      "bytes": 1231,
+      "sha256": "44a9a5775ab5c4695134b8794bd2c4641ee29b8d16c7eb75430af42beb0692de"
+    },
+    {
+      "path": "data/aggregate_metrics.json",
+      "bytes": 248,
+      "sha256": "54b9353125d7dc269be1ce2777c5cd24a4f29a2c26f21c92f96b92161ed4f6a3"
+    },
+    {
+      "path": "data/authors.json",
+      "bytes": 2305,
+      "sha256": "73cd5bb829dfe573a3909558c4b3d3ee169a29954d0486a8e0e095a38aa8a787"
+    },
+    {
+      "path": "data/bibliography.csv",
+      "bytes": 13410,
+      "sha256": "cae149a773035214b06e4caa4c0b1927b83da376b212c26c10aa3a6714ae76b8"
+    },
+    {
+      "path": "data/bibliography.json",
+      "bytes": 22756,
+      "sha256": "95ea1fd28b6bfd0e9f107a5d61cba3dadadb598a307ce6f223a6a3fdacf8067c"
+    },
+    {
+      "path": "data/catalog_summary.json",
+      "bytes": 1422,
+      "sha256": "b3bea7ae069232af37214be69533f3a1ab59cab0c31f90826dfb1ab0c3601952"
+    },
+    {
+      "path": "data/frontpage_statistics.json",
+      "bytes": 4794,
+      "sha256": "38717e4bc6a4e9208282bcd29c030576fe58840568a0775a37b2dffbe06e3974"
+    },
+    {
+      "path": "data/prior_research_coverage.json",
+      "bytes": 27656,
+      "sha256": "891b330329b3f2d9ec863be43d30eba23c0d18c7a46d6fbdd64c3b3929dc3075"
+    },
+    {
+      "path": "data/projects.csv",
+      "bytes": 11666,
+      "sha256": "8bb212b2d366fd2f3add2ba5a63fdf3e84da8a1ac31267a4a9161b3c1f6145ba"
+    },
+    {
+      "path": "data/projects.json",
+      "bytes": 23054,
+      "sha256": "ec6ed39bded956789f7ccbd5768cafd87d353f701592aaa58f07fe9f4351c827"
+    },
+    {
+      "path": "data/result_counts.json",
+      "bytes": 3355,
+      "sha256": "946d74f75db5f1718796dc74f26838f7a9d0dae2119fb71107ced486d13c13a6"
+    },
+    {
+      "path": "scripts/render_catalog.py",
+      "bytes": 8014,
+      "sha256": "a0ce3b3f1fca038dc515b3ccdde87c6fbae87d40d63c28db6d7b96a383d8e76b"
+    },
+    {
+      "path": "scripts/render_report.py",
+      "bytes": 1014,
+      "sha256": "bb06283be378ab7af7362216c742fd91ba76d44b712707aa5e5995a0952f64a4"
+    }
+  ]
+}

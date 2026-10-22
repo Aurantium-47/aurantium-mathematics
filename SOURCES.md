@@ -1,8 +1,8 @@
-# 问题来源与相关研究
+# 问题来源与参考文献
 
-24条问题来源与36条相关研究／工具背景，共60条。原题行使用中文索引名；正式题名见原文。相关工作按实际关系列出。
+26条问题来源与43条相关研究／工具背景，共69条。原题行使用中文索引名；正式题名见原文。相关工作按实际关系列出。
 
-| 序号 | 题名／问题索引 | 年 | 列出作者 | 刊物／载体 | 关系 | 链接 |
+| # | 文献 | 年份 | 作者 | 刊物／载体 | 关系 | 链接 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Howroyd 27集分类：原题来源 | 2018 | Andrew Howroyd | OEIS A297557 | 问题来源 | [来源](https://oeis.org/A297557) |
 | 2 | 化学图极值度数分类：原题来源 | 2024 | Martin Knor; Riste Škrekovski; Slobodan Filipovski; Darko Dimitrov | Applied Mathematics and Computation | 问题来源 | [来源](https://arxiv.org/abs/2411.01530) |
@@ -21,7 +21,7 @@
 | 15 | Gap-five Gaussian商正性：原题来源 | 2025 | Mona Gatzweiler; Christian Krattenthaler | The Ramanujan Journal | 问题来源 | [来源](https://doi.org/10.1007/s11139-025-01285-2) |
 | 16 | Hurwitz多项式与大亏格展开：原题来源 | 2023 | Xavier Coulter; Norman Do; Ellena Moskovsky | Canadian Journal of Mathematics | 问题来源 | [来源](https://doi.org/10.4153/S0008414X25101168) |
 | 17 | 最终无限对数凹性：原题来源 | 2014 | Luis A. Medina; Armin Straub | Annals of Combinatorics | 问题来源 | [来源](https://arxiv.org/abs/1405.1765) |
-| 18 | Stanton十一项W正性：原题来源 | 未定年 | D. Stanton | 未标日期的作者手稿 | 问题来源 | [来源](https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf) |
+| 18 | Stanton十一项W正性：原题来源 | None | D. Stanton | 未标日期的作者手稿 | 问题来源 | [来源](https://www-users.cse.umn.edu/~stant001/PAPERS/macmahon.pdf) |
 | 19 | 单位平移后的无界振荡：原题来源 | 2000 | Jenny Alvarez; Miguel Amadis; Leobardo Rosales | SIMU技术报告（年份经后文书目佐证） | 问题来源 | [来源](https://sites.math.rutgers.edu/~bte14/Articles/Gnk/Gnk.pdf) |
 | 20 | Hoggatt行和矩分类：原题来源 | 2026 | Jianxi Mao; Wenle Shi | arXiv | 问题来源 | [来源](https://arxiv.org/abs/2607.01582) |
 | 21 | Narayana格点和：原题来源 | 2021 | Colin Defant | Fertilitopes / arXiv固定版 | 问题来源 | [来源](https://arxiv.org/abs/2102.11836) |
@@ -29,7 +29,7 @@
 | 23 | 固定长度fertility反例：原题来源 | 2024 | Jurgis Kemeklis | arXiv | 问题来源 | [来源](https://arxiv.org/abs/2408.05378) |
 | 24 | Clique-join支配多项式：原题来源 | 2025 | Bilal Ahmad Rather | Journal of Combinatorial Mathematics and Combinatorial Computing | 问题来源 | [来源](https://doi.org/10.61091/jcmcc126-19) |
 | 25 | Unique maximum independent sets in graphs on monomials of a fixed degree | 2021 | John Machacek | Procedia Computer Science 195; LAGOS 2021 | Howroyd：3整除分支 | [来源](https://arxiv.org/abs/2010.11112) |
-| 26 | Modified Total Sigma-Irregularity in Chemical Graphs | 2026 | Darko Dimitrov、Slobodan Filipovski、Martin Knor、Riste Škrekovski | Discrete Mathematics Letters 18 | 化学图：已知部分 | [来源](https://doi.org/10.47443/dml.2026.041) |
+| 26 | Modified Total Sigma-Irregularity in Chemical Graphs | 2026 | Darko Dimitrov; Slobodan Filipovski; Martin Knor; Riste Škrekovski | Discrete Mathematics Letters 18 | 化学图：已知部分 | [来源](https://doi.org/10.47443/dml.2026.041) |
 | 27 | A simple algorithm for expanding a power series as a continued fraction | 2023 | Alan D. Sokal | Expositiones Mathematicae | Lecture Hall通用工具 | [来源](https://doi.org/10.1016/j.exmath.2022.12.001) |
 | 28 | Combinatorial aspects of continued fractions | 1980 | Philippe Flajolet | Discrete Mathematics | Lecture Hall经典工具 | [来源](https://algo.inria.fr/flajolet/Publications/Flajolet80b.pdf) |
 | 29 | Triangle-free regular graphs | 1991 | A. F. Sidorenko | Discrete Mathematics | A-图既有偶度族 | [来源](https://doi.org/10.1016/0012-365X(91)90114-H) |
@@ -64,6 +64,15 @@
 | 58 | On the large genus of Hurwitz numbers | 2026 | Davide Accadia; Danilo Lewanski; Giulio Ruzza | arXiv | Hurwitz主阶框架 | [来源](https://arxiv.org/abs/2604.12880) |
 | 59 | The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus | 2025 | Chenglang Yang | arXiv | Hurwitz普通单调主阶 | [来源](https://arxiv.org/abs/2503.01920) |
 | 60 | A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series | 2026 | Henry Zweiman | arXiv:2610.18895v1 | Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中 | [来源](https://arxiv.org/abs/2610.18895) |
+| 61 | Zudilin B多项式实根性：原题来源 | 2015 | Wadim Zudilin | arXiv:1504.07696；Springer Proc. Math. Stat. 314 (2020), 621–630 | 问题来源 | [来源](https://arxiv.org/abs/1504.07696) |
+| 62 | Asymptotics of orthogonal polynomials with asymptotic Freud-like weights | 2020 | Wen-Gao Long; Dan Dai; Yu-Tian Li; Xiang-Sheng Wang | Studies in Applied Mathematics 144, 133–163 | B多项式与连续对偶Hahn联系；不同固定参数渐近范围 | [来源](https://doi.org/10.1111/sapm.12291) |
+| 63 | 正交多项式部分和阈值：原题来源 | 2024 | Erik Koelink; Pablo Román; Wadim Zudilin | arXiv:2409.00261v2；Indagationes Mathematicae 36 (2025), 1745–1761 | 问题来源 | [来源](https://arxiv.org/abs/2409.00261v2) |
+| 64 | Zeros of linear combinations of orthogonal polynomials | 2025 | Antonio J. Durán | arXiv:2505.11956v1 | 部分和邻近工作；归一化及量词不同 | [来源](https://arxiv.org/abs/2505.11956) |
+| 65 | Zeros of linear combinations of Hermite polynomials | 2025 | Antonio J. Durán | arXiv:2505.15330v1 | Hermite特定归一化研究，不代替一般阈值命题 | [来源](https://arxiv.org/abs/2505.15330) |
+| 66 | Unimodality and monotonic portions of certain domination polynomials | 2021 | Amanda Burcroff; Grace O’Brien | arXiv:2110.00709 | clique-join已知三叶片及奇数阶四叶片情形 | [来源](https://arxiv.org/abs/2110.00709) |
+| 67 | Domination polynomial is unimodal for large graphs with a universal vertex | 2021 | Shengtong Zhang | arXiv:2111.00641 | clique-join已有N≥8192单峰性 | [来源](https://arxiv.org/abs/2111.00641) |
+| 68 | New Perspectives On The Unimodality Of Domination Polynomials | 2026 | Mohamed Omar | arXiv:2601.14494v1 | 阈值图对数凹性及进一步充分判据 | [来源](https://arxiv.org/abs/2601.14494) |
+| 69 | Report from the Open Problems Session at OPSFA13 | 2016 | Howard S. Cohl; Wadim Zudilin | SIGMA 12 (2016), 071 | Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者 | [来源](https://sigma-journal.com/2016/071/) |
 
 ## 刊物记录
 

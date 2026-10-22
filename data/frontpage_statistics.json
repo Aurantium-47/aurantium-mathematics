@@ -1,17 +1,17 @@
 {
-  "research_families": 24,
-  "original_target_answers": 14,
-  "affirmative_results": 11,
-  "counterexample_focus": 3,
-  "partial_results": 7,
+  "research_families": 26,
+  "original_target_answers": 17,
+  "affirmative_results": 13,
+  "counterexample_focus": 4,
+  "partial_results": 6,
   "extension_families": 7,
-  "lean_families": 8,
-  "lean_source_files": 189,
-  "journal_problem_sources": 14,
-  "bibliographic_records": 60,
-  "primary_source_author_names": 48,
-  "all_listed_author_names": 102,
-  "dated_sources": 22,
+  "lean_families": 9,
+  "lean_source_files": 196,
+  "journal_problem_sources": 15,
+  "bibliographic_records": 69,
+  "primary_source_author_names": 51,
+  "all_listed_author_names": 114,
+  "dated_sources": 24,
   "source_years": [
     2012,
     2026
@@ -19,12 +19,12 @@
   "source_age_year_difference": {
     "min": 0,
     "max": 14,
-    "mean": 4.5
+    "mean": 4.666666666666667
   },
   "age_measure": "2026 minus first source year; literature age, not continuous unsolved duration; includes the Karp parallel-treatment source. Undated Stanton and indirectly dated 2000 report excluded.",
   "author_measure": "Distinct names listed in this bibliography, not a count of unsuccessful attempts; incomplete author lists and unresolved name disambiguation are documented in METHODS.md.",
-  "prior_researcher_names": 77,
-  "prior_research_records": 44,
+  "prior_researcher_names": 88,
+  "prior_research_records": 52,
   "prior_research_scope": "Original question sources and directly related studies, with general tools and background excluded; see prior_research_coverage.json.",
   "displayed_metric_count": 6,
   "displayed_metrics": [
@@ -42,7 +42,8 @@
     "extension_families": "推广成果",
     "prior_researcher_names": "前期研究者",
     "karp_timeline": "Karp二阶实根猜想：提出与本系列证明",
-    "source_year_range": "问题提出年份"
+    "source_year_range": "问题提出年份",
+    "lean_families": "含Lean材料的项目 / Projects with Lean material"
   },
   "representative_conjectures": [
     {
@@ -114,5 +115,11 @@
     "project": "karp-order-two-real-rootedness",
     "label": "Karp二阶实根猜想",
     "note": "本系列给出另一条证明；不表示首次证明。"
-  }
+  },
+  "formalization_archive_projects": 8,
+  "formalization_archive_source_files": 189,
+  "external_partial_lean_source_files": 7,
+  "lean_scope_note": "8 archived projects plus the Zudilin partial companion (7 source files); the latter is not a complete formalization.",
+  "as_of": "2026-10-22",
+  "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."
 }

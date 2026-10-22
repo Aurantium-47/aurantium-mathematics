@@ -59,3 +59,12 @@ Rectangular Hardinian Arrays,2024,Robert Dougherty-Bliss; George Spahn,ACM Commu
 On the large genus of Hurwitz numbers,2026,Davide Accadia; Danilo Lewanski; Giulio Ruzza,arXiv,https://arxiv.org/abs/2604.12880,Hurwitz主阶框架,相关研究文献
 The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus,2025,Chenglang Yang,arXiv,https://arxiv.org/abs/2503.01920,Hurwitz普通单调主阶,相关研究文献
 A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series,2026,Henry Zweiman,arXiv:2610.18895v1,https://arxiv.org/abs/2610.18895,Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中,相关研究文献
+Zudilin B多项式实根性：原题来源,2015,Wadim Zudilin,"arXiv:1504.07696；Springer Proc. Math. Stat. 314 (2020), 621–630",https://arxiv.org/abs/1504.07696,问题来源,会议论文集
+Asymptotics of orthogonal polynomials with asymptotic Freud-like weights,2020,Wen-Gao Long; Dan Dai; Yu-Tian Li; Xiang-Sheng Wang,"Studies in Applied Mathematics 144, 133–163",https://doi.org/10.1111/sapm.12291,B多项式与连续对偶Hahn联系；不同固定参数渐近范围,相关研究文献
+正交多项式部分和阈值：原题来源,2024,Erik Koelink; Pablo Román; Wadim Zudilin,"arXiv:2409.00261v2；Indagationes Mathematicae 36 (2025), 1745–1761",https://arxiv.org/abs/2409.00261v2,问题来源,论文
+Zeros of linear combinations of orthogonal polynomials,2025,Antonio J. Durán,arXiv:2505.11956v1,https://arxiv.org/abs/2505.11956,部分和邻近工作；归一化及量词不同,相关研究文献
+Zeros of linear combinations of Hermite polynomials,2025,Antonio J. Durán,arXiv:2505.15330v1,https://arxiv.org/abs/2505.15330,Hermite特定归一化研究，不代替一般阈值命题,相关研究文献
+Unimodality and monotonic portions of certain domination polynomials,2021,Amanda Burcroff; Grace O’Brien,arXiv:2110.00709,https://arxiv.org/abs/2110.00709,clique-join已知三叶片及奇数阶四叶片情形,相关研究文献
+Domination polynomial is unimodal for large graphs with a universal vertex,2021,Shengtong Zhang,arXiv:2111.00641,https://arxiv.org/abs/2111.00641,clique-join已有N≥8192单峰性,相关研究文献
+New Perspectives On The Unimodality Of Domination Polynomials,2026,Mohamed Omar,arXiv:2601.14494v1,https://arxiv.org/abs/2601.14494,阈值图对数凹性及进一步充分判据,相关研究文献
+Report from the Open Problems Session at OPSFA13,2016,Howard S. Cohl; Wadim Zudilin,"SIGMA 12 (2016), 071",https://sigma-journal.com/2016/071/,Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者,问题集重述

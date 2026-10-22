@@ -2,6 +2,14 @@
 
 [返回首页](README.md) · [完整文献目录](SOURCES.md)
 
+## 本次更新 · 2026年10月22日
+
+- **[Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)**：2015年提出的全实参数观察，2016年SIGMA问题报告重述，2020年收入Springer论文集。证明所有实参数a、n≥2时Pₙᵃ(x)的零点非正，并给出非例外参数的严格负根、交错和定位。变量为x=t³；仅有部分Lean伴随，完整形式化未完成。
+- **[正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**：否定Koelink–Román–Zudilin于2024年提出、arXiv v2猜想3.4的单阈值断言。无限正交系统中的三次部分和，在t=1/3有三个实根、t=1/2却有非实根；进一步给出1、3、1、3的再入根数。期刊为Indagationes Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大反驳对象。
+- **[Clique-join全叶片单峰性](https://github.com/Aurantium-47/clique-join-domination-polynomials)**：完成Rather在JCMCC（2025）问题中的单峰性部分。任意正核心、叶片数及大小均覆盖；N≥23解析证明，N≤22精确穷尽14,464组参数。四叶片更强结论与旧的两／三叶片结果保留在同一组，不重复计数；零点问题不宣称解决。
+
+以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。新增两个已公开项目使总数成为26组；全叶片升级不增加组数。17项主要目标解答不是17个本次新解猜想，其中clique-join只计已完整解决的单峰性子问题。
+
 ## 研究脉络
 
 ### 01 · Howroyd：为什么最大独立集恰好有27个？
@@ -68,7 +76,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 ## 前人研究与论文出处
 
-当前目录整理了**24条问题来源、36条相关研究与工具文献，共60条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
+当前目录整理了**26条问题来源、43条相关研究与工具文献，共69条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
 
 | 研究线 | 目录中的前人线索 | 发表载体 |
 | --- | --- | --- |
@@ -84,9 +92,9 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 原题涉及**Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Canadian Journal of Mathematics、Algebraic Combinatorics、Electronic Journal of Combinatorics、Journal of Pure and Applied Algebra**等专业期刊。分区按明确版次列在[研究背景](REPORT.zh.md)，成果本文的发布状态见各项目。
 
 
-## 24个项目的来源年代
+## 26个项目的来源年代
 
-Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面22项可定年来源相距0–14年，平均4年；这个量描述文献年代，项目的具体研究历史见上文。
+Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面24项可定年来源相距0–14年，平均约4.08年；这个量描述文献年代，项目的具体研究历史见上文。
 
 2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp二阶实根问题于2012年提出，本系列于2026年给出另一条证明；同期工作的先后记录另列。
 
@@ -116,6 +124,8 @@ Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想�
 | [Peak与X-descent增长率谱](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates) | 2024 | 2025 | 1年 | [European Journal of Combinatorics](https://doi.org/10.1016/j.ejc.2025.104246) |
 | [固定长度fertility反例](https://github.com/Aurantium-47/fixed-length-fertility-counterexample) | 2024 | 2024 | 2年 | [arXiv](https://arxiv.org/abs/2408.05378) |
 | [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 2025 | 2025 | 1年 | [Journal of Combinatorial Mathematics and Combinatorial Computing](https://doi.org/10.61091/jcmcc126-19) |
+| [Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | 2015 | 2017 | 9年 | [Springer论文集2020；采用arXiv v2](https://arxiv.org/abs/1504.07696) |
+| [正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | 2024 | 2025 | 1年 | [Indagationes Mathematicae；目标以arXiv v2为准](https://arxiv.org/abs/2409.00261v2) |
 
 ## 原题与后续论文的刊物记录
 

@@ -16,6 +16,16 @@
 
 Stern项目还给出反例，否定Ulas猜想4.3最后一条单调性断言；该猜想中一般唯一实根等其他条款未因此得到证明。Lecture Hall的进一步代数结构见其独立推广说明。
 
+## 新增及升级目标 · 2026年10月22日
+
+| 题目与原始版本 | 过去的进展 | 本次结论与边界 |
+| --- | --- | --- |
+| [Zudilin B多项式根位置观察（2015），Section 4](https://arxiv.org/abs/1504.07696) | 原文定义、递推、反射恒等式和实验观察；Long等（2020）研究不同参数设置的渐近性质 | [完整全实参数证明](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)；变量x=t³；非例外参数严格负根和交错；仅部分Lean伴随 |
+| [Koelink–Román–Zudilin（2024），arXiv v2猜想3.4](https://arxiv.org/abs/2409.00261v2) | Proposition 3.1证明充分大t的实根及交错；Durán（2025）研究不同归一化和量词 | [精确反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)否定单阈值；期刊最终全文未核对，不宣称反驳未经核对的版本 |
+| [Rather（2025），Theorem 2.16后的未编号问题](https://doi.org/10.61091/jcmcc126-19) | Burcroff–O’Brien：三叶片／奇数阶四叶片；Zhang：N≥8192；Omar：阈值图及充分判据 | [全叶片单峰性](https://github.com/Aurantium-47/clique-join-domination-polynomials)；同一旧成果组升级，四叶片加强不另计数；零点问题仍未覆盖 |
+
+这三项是两个新增项目与一个旧项目的范围升级；不把定理、推论、旧特例逐项累计为新增猜想。
+
 ## 猜想与开放问题
 
 论文中的“Conjecture”是作者明确提出、当时尚无证明的断言；“Question”或“Problem”是作者提出的问题。两者都是正常的数学研究目标。并非每项猜想都有广为人知的专名，按“作者＋原文编号”引用很常见。
@@ -26,6 +36,6 @@ Stern项目还给出反例，否定Ulas猜想4.3最后一条单调性断言；�
 - **Omar–Troyka 问题5.1、5.2**：峰集和X-descent的增长率存在性。[研究结果](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates)
 - **Lewis–Morales 注6末尾的问题**：特定q-rook多项式的单峰性。[研究结果](https://github.com/Aurantium-47/rook-polynomial-unimodality)
 
-因此，首页合称“猜想与开放问题”。14是按项目主要目标统计的原题解答数，其中含Karp的另一条证明，不把一个项目中的每条定理、推论和反例拆开累加。部分解答与原题之外的推广分别统计，见[统计说明](METHODS.md)。
+因此，首页合称“猜想与开放问题”。17是按项目主要目标统计的原题解答数（含clique-join已完整解决的单峰性子问题，不表示其零点问题也解决），其中含Karp的另一条证明，不把一个项目中的每条定理、推论和反例拆开累加。部分解答与原题之外的推广分别统计，见[统计说明](METHODS.md)。
 
 [返回首页](README.md)

@@ -1,42 +1,42 @@
 {
-  "public_projects": 24,
+  "public_projects": 26,
   "categories": {
-    "原题结论": 14,
-    "参数族与推进": 7,
+    "原题结论": 17,
+    "参数族与推进": 6,
     "构造与分类": 3
   },
-  "projects_with_Lean": 8,
+  "projects_with_Lean": 9,
   "cloud_acceptance_closed_projects": 7,
   "extension_groups": 7,
-  "counterexample_or_negative_certificate_projects": 7,
-  "bibliographic_records": 60,
-  "research_documents_excluding_OEIS": 59,
-  "named_author_strings_lower_bound": 102,
+  "counterexample_or_negative_certificate_projects": 8,
+  "bibliographic_records": 69,
+  "research_documents_excluding_OEIS": 68,
+  "named_author_strings_lower_bound": 114,
   "bibliographic_count_note": "Bounded documented corpus of original sources/related work/background;not all global papers or all people who attempted these problems. Some et-al/edited-volume author lists are incomplete.",
   "source_age_year_difference": {
-    "n": 22,
+    "n": 24,
     "minimum": 0,
     "maximum": 14,
-    "mean": 4.5,
+    "mean": 4.666666666666667,
     "median": 3.0
   },
   "verified_version_age_year_difference": {
-    "n": 22,
+    "n": 24,
     "minimum": 0,
     "maximum": 14,
-    "mean": 4
+    "mean": 4.083333333333333
   },
   "including_indirect_2000_report": {
-    "n": 23,
+    "n": 25,
     "minimum": 0,
     "maximum": 26,
-    "mean": 5.434782608695652
+    "mean": 5.52
   },
   "unknown_date": [
     "Stanton author manuscript"
   ],
   "age_note": "2026 minus year,not exact elapsed years or proof of continuous unsolved status. Primary summary excludes undated Stanton and the indirectly authenticated2000 report;source first year does not prove the exact question was already in v1.",
   "extension_groups_pending_comparison": 1,
-  "literature_updated": "2026-10-17",
+  "literature_updated": "2026-10-22",
   "alternative_proof_projects": 1
 }

@@ -1,10 +1,8 @@
-# 前期研究者与对应文献
+# 前期研究者与直接相关工作
 
-当前整理到**77位前期研究者，涉及44条原题及直接相关研究记录**。包含问题提出者、原论文作者、已有特例和直接相关对象的研究作者。仅作为通用工具、定义或宽泛背景引用的文献，未计入这项人数。
+当前整理到**88位前期研究者，涉及52条原题及直接相关研究记录**。包括问题提出者、已有特例和直接相关对象的研究作者；通用工具、定义、宽泛背景与编辑重述不计入人数。不是失败尝试人数或全球研究者总数。
 
-这是当前文献整理覆盖到的人数；部分文献的完整作者表尚未展开，因此不作为全球总人数。也不把这些作者一概解释为“尝试同一猜想但失败”。
-
-| 文献 | 已列作者 | 与研究的关系 |
+| 原题或研究 | 作者 | 与本项目的关系 |
 | --- | --- | --- |
 | [Howroyd 27集分类：原题来源](https://oeis.org/A297557) | Andrew Howroyd | 问题来源 |
 | [化学图极值度数分类：原题来源](https://arxiv.org/abs/2411.01530) | Martin Knor、Riste Škrekovski、Slobodan Filipovski、Darko Dimitrov | 问题来源 |
@@ -50,9 +48,15 @@
 | [On the large genus of Hurwitz numbers](https://arxiv.org/abs/2604.12880) | Davide Accadia、Danilo Lewanski、Giulio Ruzza | Hurwitz主阶框架 |
 | [The structures of simple Hurwitz numbers and monotone Hurwitz numbers with varying genus](https://arxiv.org/abs/2503.01920) | Chenglang Yang | Hurwitz普通单调主阶 |
 | [A proof of Karp's conjecture on the zeros of Toeplitz determinants of rising factorial series](https://arxiv.org/abs/2610.18895) | Henry Zweiman | Karp：2026-10-10提交证明；Theorem 1.3覆盖正序列实根、定位与间距，贡献对照中 |
+| [Zudilin B多项式实根性：原题来源](https://arxiv.org/abs/1504.07696) | Wadim Zudilin | 问题来源 |
+| [Asymptotics of orthogonal polynomials with asymptotic Freud-like weights](https://doi.org/10.1111/sapm.12291) | Wen-Gao Long、Dan Dai、Yu-Tian Li、Xiang-Sheng Wang | B多项式与连续对偶Hahn联系；不同固定参数渐近范围 |
+| [正交多项式部分和阈值：原题来源](https://arxiv.org/abs/2409.00261v2) | Erik Koelink、Pablo Román、Wadim Zudilin | 问题来源 |
+| [Zeros of linear combinations of orthogonal polynomials](https://arxiv.org/abs/2505.11956) | Antonio J. Durán | 部分和邻近工作；归一化及量词不同 |
+| [Zeros of linear combinations of Hermite polynomials](https://arxiv.org/abs/2505.15330) | Antonio J. Durán | Hermite特定归一化研究，不代替一般阈值命题 |
+| [Unimodality and monotonic portions of certain domination polynomials](https://arxiv.org/abs/2110.00709) | Amanda Burcroff、Grace O’Brien | clique-join已知三叶片及奇数阶四叶片情形 |
+| [Domination polynomial is unimodal for large graphs with a universal vertex](https://arxiv.org/abs/2111.00641) | Shengtong Zhang | clique-join已有N≥8192单峰性 |
+| [New Perspectives On The Unimodality Of Domination Polynomials](https://arxiv.org/abs/2601.14494) | Mohamed Omar | 阈值图对数凹性及进一步充分判据 |
 
-## 姓名索引
+逐条筛选及未纳入文献见[覆盖明细](data/prior_research_coverage.json)。完整书目保留[全部69条记录](SOURCES.md)。
 
-A. F. Sidorenko；Alan Talmage；Alejandro H. Morales；Alex Chengyu Li；Alexander Diaz-Lopez；Alexander Natalchenko；Allan Bickle；Andrew Howroyd；Armin Straub；Arsenii Sagdeev；Bilal Ahmad Rather；Bruce E. Sagan；Candice X. T. Zhang；Chenglang Yang；Christian Krattenthaler；Colin Defant；D. Stanton；Dagan Karp；Danilo Lewanski；Darko Dimitrov；Davide Accadia；Didem Gözüpek；Dmitry B. Karp；Dumitru I. Stamate；Ellena Moskovsky；Erik Insko；Francesco Strazzanti；George Boros；George Spahn；Giulio Ruzza；Guo-Niu Han；Guoce Xin；Hanna Furmańczyk；Hanqian Fang；Henry Zweiman；James J. Y. Zhao；Jenny Alvarez；Jianxi Mao；Joel Brewster Lewis；Johann Cigler；John Machacek；Jurgis Kemeklis；Justin M. Troyka；Leobardo Rosales；Luis A. Medina；Lukas Katthän；Maciej Ulas；Manuel Kauers；Martin Knor；Matthew Fahrbach；Matthew Plante；Megan Cream；Meysam Ghahramani；Miguel Amadis；Mohamed Omar；Mona Gatzweiler；Norman Do；Pamela E. Harris；Peter R. W. McNamara；Riste Škrekovski；Robert Dougherty-Bliss；Ronald J. Gould；S. Majid Ayat；S. Masih Ayat；Sara Billey；Sergi Elizalde；Shane Chern；Sibel Özkan；Slobodan Filipovski；Stephan Brandt；Tom Roby；Victor H. Moll；Wenle Shi；Xavier Coulter；Yeong-Nan Yeh；Yi Wang；Ying Wang。
-
-逐条筛选及未纳入文献见[覆盖明细](data/prior_research_coverage.json)。完整书目仍保留[60条记录](SOURCES.md)。
+[返回首页](README.md)
