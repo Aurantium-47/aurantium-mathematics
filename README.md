@@ -226,3 +226,18 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 Hardinian的实际核多项式及相关代数验证已完成，一般化结果正在合作推进，完成后补充。
 
 本系列由我负责选题、研究组织、结果判断与交付，AI辅助推导、实现和核验。合作成果按实际贡献署名；原论文与工具的归属分别保留在各项目中。
+
+## 原问题出处参考（不代表本仓库成果已获期刊接受）
+
+下表区分原问题的公开年代、明确题号及原论文发表载体。**这些期刊、书章和问题清单是原题出处，不是本研究的发表成绩。** 本研究尚未获任何期刊或会议接受；Lean 验证和独立 AI 复核也不等于人类同行评审或全球首创认证。出处年代和载体提供研究背景，不单独代表问题难度或贡献大小。
+
+| 原问题 | 年代与题号 | 原作者及可核对的正式出处 |
+| --- | --- | --- |
+| **BRW 图多项式团交叠** | **1994**，Conjecture 6.5，第 76 页 | Francesco Brenti、Gordon F. Royle、David G. Wagner；*Location of Zeros of Chromatic and Related Polynomials of Graphs*，[Canadian Journal of Mathematics **46(1)** (1994), **55–80**](https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/location-of-zeros-of-chromatic-and-related-polynomials-of-graphs/8B66867EF89BFB7C22DDD36E718D8157)，[DOI: 10.4153/CJM-1994-002-3](https://doi.org/10.4153/CJM-1994-002-3)。正式期刊论文。 |
+| **Craven–Csordas / AIM 23** | **2004** 作者稿 Problem 4.16；**2007** AIM Problem 23 | Thomas Craven、George Csordas；*Composition Theorems, Multiplier Sequences and Complex Zero Decreasing Sequences*，收于 [*Value Distribution Theory and Related Topics*, Advances in Complex Analysis and Its Applications **3** (2004), **131–166**](https://link.springer.com/chapter/10.1007/1-4020-7951-6_6)，Kluwer Academic Publishers，现由 Springer 托管；[作者稿](https://math.hawaii.edu/~tom/mathfiles/czdssurvey.pdf)、[AIM 问题集第 7 页](https://aimath.org/WWN/polyaschurlax/polyaschurlax.pdf)。正式书章与官方问题清单。 |
+| **AIM 34 乘子序列** | **2007**，Problem 34，第 9 页 | [AIM “Pólya–Schur–Lax Problems: Hyperbolicity and Stability Preservers” 问题集](https://aimath.org/WWN/polyaschurlax/polyaschurlax.pdf)，编者 Julius Borcea、Petter Brändén、George Csordas、Victor Vinnikov；[研讨会日期：2007-05-28 至 06-01](https://aimath.org/pastworkshops/polyaschurlax.html)。官方研讨会问题清单，**不是同行评审会议论文**；该题未单独署名。 |
+| **Sun–Zhao 椭圆积分序列** | **2016-02-13** 预印本；[v1 猜想 5.1、5.2、5.3，第 12 页](https://arxiv.org/pdf/1602.04359v1) | Brian Yi Sun、James Jing-Yu Zhao；*Log-behavior of Two Sequences Related to the Elliptic Integrals*，[Acta Mathematicae Applicatae Sinica, English Series **36(3)** (2020), **590–602**](https://link.springer.com/article/10.1007/s10255-020-0952-1)，DOI: 10.1007/s10255-020-0952-1。正式期刊论文；刊期为 2020 年 7 月，出版社正式版本日期为 2020-09-02。 |
+| **Simon 完全单调性** | **2020-12-20** 预印本；[v2 §3 第 5 页无编号主猜想及随后阈值凸性提问](https://arxiv.org/pdf/2012.11018v2) | Thomas Simon；*Remark on a Mittag–Leffler function of Le Roy type*，[Integral Transforms and Special Functions **33(2)** (2022), **108–114**](https://www.tandfonline.com/doi/abs/10.1080/10652469.2021.1913138)，DOI: 10.1080/10652469.2021.1913138；**2021-04-17 在线，2022 卷期**。正式期刊论文。 |
+| **Hardinian 全固定秩渐近** | **2023-09-01**，[预印本 v1 第 8 页无编号渐近猜想](https://arxiv.org/pdf/2309.00487v1)；正式版第 12 页 | Robert Dougherty-Bliss、Manuel Kauers；*Hardinian Arrays*，[The Electronic Journal of Combinatorics **31(2)** (2024), **P2.9**](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v31i2p9)，13 页，DOI: 10.37236/12358，**2024-04-05 正式发表**。2014 年 OEIS 数组来源不等于该渐近猜想的提出年份。 |
+
+**版本与范围说明：** BRW 正式原文及 Hardinian 预印本与正式版已核对。Craven–Csordas 题号绑定已查作者稿和 AIM 指定问题集；Sun–Zhao 与 Simon 题面绑定上表预印本版本，正式刊物书目信息已核实，但未逐页核对最终排版。BRW 6.5 的 w-real 分句与一般 τ-real 分句必须分开，部分推进不称整题解决；Simon 主猜想反例不在次级阈值的 Lean 验证范围内。网页后来的平台上线日期、稿件接收日期和正式刊期也不混用。上述出处信息不改变原有项目计数或验证统计。
