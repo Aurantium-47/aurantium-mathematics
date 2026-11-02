@@ -1,128 +1,53 @@
 {
   "updated": "2026-11-02",
-  "base_commit": "c499ae50d911d9c99a7d85af99a3ac5c3e7ab684",
-  "scope": "Files changed in this one-family BRW catalog update; unchanged records, historical assets and formalization archive are preserved. This manifest excludes itself.",
+  "base_commit": "98daf61e8217f03d535539debdda2762f4ae5a1c",
+  "scope": "Upgrade the existing BRW partial-result family to the full specified theta subfamily; all other records, counts, visuals and formalization archive preserved. Excludes this manifest.",
   "hash_algorithm": "SHA-256",
   "files": [
     {
       "path": "CONJECTURES.md",
-      "bytes": 7358,
-      "sha256": "23b6ac16a2510f4e2dc3d10fb923e6b6d2f8f3fa1aaf05d7c05608ef5b162949"
+      "bytes": 7783,
+      "sha256": "05d4e9bae8a7ccf13163632711ea2c2526b033689de20918568d2517bb590435"
     },
     {
       "path": "METHODS.md",
-      "bytes": 5395,
-      "sha256": "9dfac557c39a454f4a12cf744b7ba824b5e0ba83f878476ef28a9c7414b6aea7"
-    },
-    {
-      "path": "PRIOR_RESEARCH.md",
-      "bytes": 8654,
-      "sha256": "51ec01fea27c3fd0699bbc5f83f1bea1033efb37e4c33687ed945bdf5613d4ad"
+      "bytes": 5483,
+      "sha256": "63a6785446cb24461b66632ecff187f474033ac65babc82aabc57036cd8b7792"
     },
     {
       "path": "README.en.md",
-      "bytes": 19102,
-      "sha256": "becfff89faa644c95421fcb2d6de579d3b920a7329b74bfb31c1ca109237404a"
+      "bytes": 19617,
+      "sha256": "691c7512f6dbde80d820a0278a4fbb77d3dc7a754bbceeaa916397358f885a79"
     },
     {
       "path": "README.md",
-      "bytes": 29117,
-      "sha256": "0eedebc5c2303b9940819f49a66925dff91b02e7fbf442cd8edc988abad6be28"
+      "bytes": 29539,
+      "sha256": "77aba9d81aea4a53cd4a30727109921ad8318d9c079ba58c5a89ee5171f2aa4f"
     },
     {
       "path": "REPORT.html",
-      "bytes": 34572,
-      "sha256": "338e53b9106e3383ec7fc5d3bb697dbe00c5d76340526bcb6764df460da6f630"
+      "bytes": 35008,
+      "sha256": "f1abaa1b141ec49be75f6c8e4c510e85d0ec77ac542dccf7ed9253aed891d05f"
     },
     {
       "path": "REPORT.zh.md",
-      "bytes": 21427,
-      "sha256": "997ec78c7f07c5b6e49517c87ebee802ea080257a9ee2cd52def30294722d6e8"
-    },
-    {
-      "path": "SOURCES.md",
-      "bytes": 16365,
-      "sha256": "03beee8a107eb1f0b7e9871310446baa0de2eb9ed32029968df7c3ba36cde18d"
-    },
-    {
-      "path": "assets/research-overview.current.en.svg",
-      "bytes": 1240,
-      "sha256": "6416728cec8bd94fea2c7ebd1d5b281582b20b3273ae582a8b83fb03e8bfeda7"
-    },
-    {
-      "path": "assets/research-overview.current.mobile.en.svg",
-      "bytes": 1440,
-      "sha256": "0988ff01c4c3efb18da7074a10a651da2d7390e43d0bf6a6c3319bd9c9bd0a08"
-    },
-    {
-      "path": "assets/research-overview.current.mobile.zh.svg",
-      "bytes": 1431,
-      "sha256": "c13ff13e1a3dcfb3b4ee2a943c7685e976ba237d1bd0aa360173f313f09fd859"
-    },
-    {
-      "path": "assets/research-overview.current.zh.svg",
-      "bytes": 1231,
-      "sha256": "96233348cc7c6a193e9b243caa916e6e95b0454461623d3836e35bc6198507a6"
-    },
-    {
-      "path": "data/aggregate_metrics.json",
-      "bytes": 248,
-      "sha256": "e04a1654006619564c0857762cf37cd5a196bb378a2e7440fb434223de7a6ba0"
-    },
-    {
-      "path": "data/authors.json",
-      "bytes": 2369,
-      "sha256": "c483fcac7080bedbfc283c705060ae7e85d590b3d5824d1c4fd0b582b2a2c083"
-    },
-    {
-      "path": "data/bibliography.csv",
-      "bytes": 13620,
-      "sha256": "d147c492854dbd8a666321370098a275480037b54d50c92586bec36af2ef5f0c"
-    },
-    {
-      "path": "data/bibliography.json",
-      "bytes": 23179,
-      "sha256": "2907a8b2cc6bafa53bf0d00318945ddd35ef37cfceac562fd365aa72c9765fbb"
-    },
-    {
-      "path": "data/catalog_summary.json",
-      "bytes": 1406,
-      "sha256": "5a29fc423e0bdd5e048a6ab6f6614bb6a41f5f3be6a98bc8e9c7417d5c8f775f"
-    },
-    {
-      "path": "data/frontpage_statistics.json",
-      "bytes": 4781,
-      "sha256": "4193948eb133d267c57a7e2dcbba38635ffe133c9f420ca9fd16a0d5c33af22b"
-    },
-    {
-      "path": "data/prior_research_coverage.json",
-      "bytes": 28207,
-      "sha256": "f50acb542f34ea6d25cbf572ee9bb1cbcb5d11a8d7c415c2676cca713d831dcd"
+      "bytes": 21852,
+      "sha256": "737454a25689d7c0fbbc88cd42fee5be7ba30a2d31c443e4fcc13ffa55a330c3"
     },
     {
       "path": "data/projects.csv",
-      "bytes": 12637,
-      "sha256": "3afc7f1305f9907aba3781a96684ddddd2362e94a94266c60a4072fabbcf59c7"
+      "bytes": 12778,
+      "sha256": "742a02182df209563e0899c4cda2b1019776941872e4048fd3c64f1b117552aa"
     },
     {
       "path": "data/projects.json",
-      "bytes": 24527,
-      "sha256": "25bb9bb5fa1c65b6411cf9a393f3faad230ee02ea72f33e5c9156ba7e4b8e0fa"
+      "bytes": 24666,
+      "sha256": "524b9d2a18dae4cdc12e286ec09ad1db2d031ace73f3d2522dc951ef2d45f8eb"
     },
     {
       "path": "data/result_counts.json",
-      "bytes": 3612,
-      "sha256": "97a7cdb1dedcbb014a8b125099fdc0dd1f9d8462bc405e11cc0007b0d4bf18a8"
-    },
-    {
-      "path": "scripts/render_catalog.py",
-      "bytes": 8401,
-      "sha256": "fa40fd89895abe4ba353166b28cf08a9d6f28fbce9adfaa239ae91a35fa93daa"
-    },
-    {
-      "path": "scripts/render_report.py",
-      "bytes": 1014,
-      "sha256": "4f5f0ca252a860514efe187d0bf121ee8ede44c01a7c2d34b492bca09bfdbdf1"
+      "bytes": 3676,
+      "sha256": "67a65dff517fc1367176c32cd7ab9d8d5115bf97d21bcfaed0badd627cd0fb54"
     }
   ]
 }

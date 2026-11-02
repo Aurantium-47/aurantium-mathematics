@@ -18,11 +18,11 @@ Stern项目还给出反例，否定Ulas猜想4.3最后一条单调性断言；�
 
 ## 本次更新 · 2026年11月2日
 
-**[BRW τ实性团粘合：结构类与 theta 图的统一阈值定理](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。另证明存在同一个整数M，使所有a,b,c≥2且max(a,b,c)≥M的Θ(a,b,c)边商只有非正实根，得到相应的普遍沿边粘合结论。
+**[BRW τ实性团粘合：结构类与完整 theta 图族](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。进一步以计算机辅助证明覆盖所有a,b,c≥2的Θ(a,b,c)：其Bell边商的全部零点均严格为负实数，因此与任意τ实图沿边普通粘合均保持τ实性。
 
-[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一theta补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)均附精确符号检查。M没有给出数值；本工作未解决有限多个未覆盖的路径长度三元组，也不声称其为反例。这是Brenti、Royle、Wagner于[1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般猜想或全部theta图的解答；猜想6.6为不同的图联接问题。
+[全 theta 图族证明与精确证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)把无限参数族归约为有效解析范围与2,460个有限情形：总路径长度至少72时由解析论证覆盖；半径21/20的精确判据进一步缩小余项，余下情形以83,842个精确负实根区间逐项认证，并经独立纯整数全量重放。此前的[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一阈值补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)保留为阶段性版本。完整指定theta图族现已覆盖，但这仍只是[Brenti–Royle–Wagner于1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般团交叠猜想的解答；猜想6.6为不同的图联接问题。
 
-新增**一个部分结果组**，目录为27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。AI辅助文字证明与有限精确检查不等于人工同行评审或形式化验证；有限检查不替代充分大参数结论的分析证明。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
 
 ## 新增及升级目标 · 2026年10月22日
 

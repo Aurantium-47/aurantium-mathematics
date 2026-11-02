@@ -80,7 +80,7 @@
       "Zeros and limiting zeros; only the whole-family unimodality subquestion is completed."
     ],
     "brw-tau-clique-attachments": [
-      "General Conjecture 6.5 and the finite uncovered theta triples are not resolved by these results; no numerical uniform threshold is given."
+      "General Conjecture 6.5 is not resolved by these results. The full specified theta family with all three path lengths at least two is now covered by analytic reduction and exhaustive exact certificates."
     ]
   },
   "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."
