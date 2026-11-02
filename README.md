@@ -33,7 +33,7 @@
 
 ## 本次更新 · 2026年11月2日
 
-**三项式原始目标范围升级。** [公开计算机辅助证明草稿（固定版本68f4c920）](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)覆盖[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)：对所有整数n≥10，(1+x+x²)^n的系数序列经零延拓后，全部对数凹迭代均非负。[PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍为未合并草稿；已完成独立AI内部数学复核与精确重放，不等于人工同行评审或Lean形式化。该旧成果组由部分解答改列原始目标解答：当前27组中18项主要目标解答（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。不把一般多项式猜想5.2另计一次，也不借此重新认证其证明。
+**三项式无限对数凹性：所有n≥10，所有迭代层。** [固定版本计算机辅助证明草稿68f4c920](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)完成[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)的特定断言：对每个整数n≥10，(1+x+x²)^n的系数序列在支撑之外补零后，每一层对数凹迭代均非负。进一步，对每个n≥4004，第四层迭代多项式有**2n个互异负实根**。解析论证与精确证书共同覆盖完整无界命题，并非有限实验外推。已完成[独立AI辅助数学与计算复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md)，包括边界包络从头重建。[研究草稿PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍未合并；不宣称人工同行评审、形式化验证或历史首创认证。本结果不证明一般猜想5.2。统计保持**27组、18项主要目标解答**（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。
 
 **[BRW τ实性团粘合：统一圈替换与结构类](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。将任意普通τ实图替换到任意圈C_(m+2)的一个顶点（所有m≥1），所得图仍为普通τ实图，且Bell边商只有非正实根，因此可与任意普通τ实图沿边粘合，操作可迭代。[统一已发布证明版本](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/dc6d35ba53c6a41064bc9982cb524b05b74dc2ff/extensions/2026-11-02-uniform-cycle-substitution)。根的单调性与扩充箭头矩阵不变量给出覆盖所有圈长及输入次数的普通数学证明，不依赖有限算例外推；具有互异严格负实根的输入给出严格交错，非零边界输入给出弱交错。不宣称任意同时图替换或不受限的大团粘合。
 
@@ -53,6 +53,7 @@ BRW仍计为**一个部分结果组**；目录保持27组、18项主要目标解
 
 | 原题 | 已有研究 | 本研究的结果 |
 | --- | --- | --- |
+| **三项式无限对数凹性**<br><sub>Medina–Straub · 2014 · 例5.3</sub> | 原文已证明10≤n≤500 | **每个整数n≥10、每一层迭代**；n≥4004时第四层有2n个互异负实根；[计算机辅助证明草稿](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) |
 | **Katthän多项式性猜想**<br><sub>Lecture Hall多项式 · Katthän · 2018</sub> | 原文计算验证到长度12 | **证明任意长度成立**；进一步得到系数公式和代数结构定理 |
 | **Karp二阶实根猜想**<br><sub>2012年提出 · 2026年给出另一条证明</sub> | 原题于2012年提出；2026年10月已有先行提交的证明 | **通过Gauss–Lucas卷积、Bernstein多项式与Beta矩给出不同路线的证明**，覆盖二阶正满支撑目标；[证明与同期工作](KARP_COMPARISON.md) |
 | **Wang–Xin次数猜想**<br><sub>Catalan幂Hankel行列式 · Wang–Xin 2018预印本／2019期刊版；Cigler表述2023</sub> | 文献给出若干有限参数特例 | **覆盖两个参数的完整有效范围**，证明全部j≥1、k≥2j−1的指定余类精确次数公式 |
