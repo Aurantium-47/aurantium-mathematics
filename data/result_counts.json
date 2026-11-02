@@ -13,7 +13,8 @@
     "peak-and-x-descent-growth-rates",
     "karp-order-two-real-rootedness",
     "clique-join-domination-polynomials",
-    "zudilin-b-polynomial-real-rootedness"
+    "zudilin-b-polynomial-real-rootedness",
+    "eventual-infinite-log-concavity"
   ],
   "counterexample_focus_projects": [
     "fence-rowmotion-counterexample",
@@ -26,7 +27,6 @@
     "nonmixed-five-point-packing",
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
-    "eventual-infinite-log-concavity",
     "stanton-eleven-entry-w-positivity",
     "brw-tau-clique-attachments"
   ],
@@ -48,12 +48,10 @@
     "nonmixed-five-point-packing",
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
-    "eventual-infinite-log-concavity",
     "stanton-eleven-entry-w-positivity",
     "brw-tau-clique-attachments"
   ],
   "partial_results_also_with_extensions": [
-    "eventual-infinite-log-concavity",
     "hurwitz-single-cycle-genera-two-three"
   ],
   "partial_results_meaning": "Particular cases or partial conclusions for broader original questions; does not mean only post-solution extensions.",
@@ -83,5 +81,5 @@
       "General Conjecture 6.5 is not resolved by these results. The full specified theta family with all three path lengths at least two is now covered by analytic reduction and exhaustive exact certificates."
     ]
   },
-  "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."
+  "original_target_count_note": "Counts the selected main target once per project; clique-join completes only unimodality; eventual-infinite-log-concavity completes the Example 5.3 trinomial target in an explicitly labeled, AI-internally-reviewed fixed public draft. No claim of 18 newly solved conjectures; Conjecture 5.2 is not separately counted or newly certified."
 }

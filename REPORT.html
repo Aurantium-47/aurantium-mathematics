@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aurantium · Mathematics</title>
 <meta name="generator" content="scripts/render_report.py + Pandoc">
-<meta name="source-file" content="REPORT.zh.md"><meta name="source-sha256" content="737454a25689d7c0fbbc88cd42fee5be7ba30a2d31c443e4fcc13ffa55a330c3">
+<meta name="source-file" content="REPORT.zh.md"><meta name="source-sha256" content="a285daba40846687c8be5e95d7c967b3d7ca639b42c309a3712da54070324d7c">
 <style>:root {
   --bg: #fdfcf7;
   --bg-soft: #f4f1ea;
@@ -297,6 +297,11 @@ id="问题的来历前人的进展与本系列贡献">问题的来历、前人�
 <p><a href="README.md">返回首页</a> · <a
 href="SOURCES.md">完整文献目录</a></p>
 <h2 id="本次更新--2026年11月2日">本次更新 · 2026年11月2日</h2>
+<p><strong>三项式原始目标范围升级。</strong> <a
+href="https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10">公开计算机辅助证明草稿（固定版本68f4c920）</a>覆盖<a
+href="https://arxiv.org/pdf/1405.1765v1#page=11">Medina–Straub（2014）例5.3</a>：对所有整数n≥10，(1+x+x²)^n的系数序列经零延拓后，全部对数凹迭代均非负。<a
+href="https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2">PR
+#2</a>仍为未合并草稿；已完成独立AI内部数学复核与精确重放，不等于人工同行评审或Lean形式化。该旧成果组由部分解答改列原始目标解答：当前27组中18项主要目标解答（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。不把一般多项式猜想5.2另计一次，也不借此重新认证其证明。</p>
 <p><strong><a
 href="https://github.com/Aurantium-47/brw-tau-clique-attachments">BRW
 τ实性团粘合：结构类与完整 theta
@@ -308,7 +313,7 @@ theta
 href="https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02">结构定理文稿</a>与<a
 href="https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta">统一阈值补充证明</a>保留为阶段性版本。完整指定theta图族现已覆盖，但这仍只是<a
 href="https://doi.org/10.4153/CJM-1994-002-3">Brenti–Royle–Wagner于1994年提出的猜想6.5</a>的部分结果，不是一般团交叠猜想的解答；猜想6.6为不同的图联接问题。</p>
-<p>BRW仍计为<strong>一个部分结果组</strong>，目录保持27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu
+<p>BRW仍计为<strong>一个部分结果组</strong>，其自身不增加成果组或主要目标解答数；合并上述三项式升级后，目录为27组、18项主要目标解答、6组部分解答，7组推广及9个含Lean材料项目不变。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu
 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。</p>
 <h2 id="上次更新--2026年10月22日">上次更新 · 2026年10月22日</h2>
 <ul>
@@ -322,7 +327,7 @@ Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大�
 <li><strong><a
 href="https://github.com/Aurantium-47/clique-join-domination-polynomials">Clique-join全叶片单峰性</a></strong>：完成Rather在JCMCC（2025）问题中的单峰性部分。任意正核心、叶片数及大小均覆盖；N≥23解析证明，N≤22精确穷尽14,464组参数。四叶片更强结论与旧的两／三叶片结果保留在同一组，不重复计数；零点问题不宣称解决。</li>
 </ul>
-<p>以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。新增两个已公开项目使总数成为26组；全叶片升级不增加组数。17项主要目标解答不是17个本次新解猜想，其中clique-join只计已完整解决的单峰性子问题。</p>
+<p>以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。当时新增两个已公开项目使总数成为26组；全叶片升级不增加组数。当时17项主要目标解答不是17个该次新解猜想，其中clique-join只计已完整解决的单峰性子问题。</p>
 <h2 id="研究脉络">研究脉络</h2>
 <h3 id="01--howroyd为什么最大独立集恰好有27个">01 ·
 Howroyd：为什么最大独立集恰好有27个？</h3>
@@ -867,8 +872,9 @@ href="https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three">Hur
 </tr>
 <tr class="even">
 <td><a
-href="https://github.com/Aurantium-47/eventual-infinite-log-concavity">最终无限对数凹性</a></td>
-<td>三项式尾部 → 一般严格正多项式幂 → 增长深度曲率</td>
+href="https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10">最终无限对数凹性</a></td>
+<td>三项式充分大幂阶段 →
+全部整数n≥10原始目标；一般严格正多项式幂与增长深度细化仍属同组</td>
 </tr>
 <tr class="odd">
 <td><a
@@ -886,5 +892,5 @@ conjecture</a>，arXiv记录提交日期为10月10日。其Theorem
 href="KARP_COMPARISON.md">时间线与证明比较</a>。</p>
 <p>统计与引用口径见<a href="METHODS.md">阅读说明</a>。</p>
 
-<footer class="aris-footer">Source: REPORT.zh.md · SHA256: 737454a25689d7c0fbbc88cd42fee5be7ba30a2d31c443e4fcc13ffa55a330c3 · Catalog date: 2026-11-02.</footer>
+<footer class="aris-footer">Source: REPORT.zh.md · SHA256: a285daba40846687c8be5e95d7c967b3d7ca639b42c309a3712da54070324d7c · Catalog date: 2026-11-02.</footer>
 </div></body></html>

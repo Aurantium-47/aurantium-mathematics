@@ -18,11 +18,17 @@ Stern项目还给出反例，否定Ulas猜想4.3最后一条单调性断言；�
 
 ## 本次更新 · 2026年11月2日
 
+**三项式原始目标范围升级。** [公开计算机辅助证明草稿（固定版本68f4c920）](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)覆盖[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)：对所有整数n≥10，(1+x+x²)^n的系数序列经零延拓后，全部对数凹迭代均非负。[PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍为未合并草稿；已完成独立AI内部数学复核与精确重放，不等于人工同行评审或Lean形式化。该旧成果组由部分解答改列原始目标解答：当前27组中18项主要目标解答（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。不把一般多项式猜想5.2另计一次，也不借此重新认证其证明。
+
+该原始目标在[旧主分支论文式(T)](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/757ff0e95175a988c4ae52d426157f9a2e01e4c4/paper/proof.tex#L53-L57)明确列出。新草稿的[解析章§1](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10/ANALYTIC_PROOF.md)与[有限／代数章§§1—3](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10/FINITE_AND_ALGEBRAIC_PROOF.md)分别覆盖n≥4004及10≤n≤4003，并补齐早期迭代。[验证附录](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10/README.md)记录3,994个有限指数、15项解析检查、1,929个边界包围的完整新重建，以及与63个旁路盒的覆盖核对；边界重建使用经复核的双队列可恢复封装，不是直接运行`regenerate.py --full`。算术重放与数学论证的区别见[验证映射](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10/ANALYTIC_VERIFICATION_MAP.md)。
+
+原有一般严格正满支撑多项式充分大整数幂结果及增长深度细化保留为同组历史材料。本次复核与计数升级只针对例5.3；不声称非整数幂、内部零系数／稀疏支撑、任意符号、统一于所有多项式的阈值或其他全指数分类已获证明。
+
 **[BRW τ实性团粘合：结构类与完整 theta 图族](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。进一步以计算机辅助证明覆盖所有a,b,c≥2的Θ(a,b,c)：其Bell边商的全部零点均严格为负实数，因此与任意τ实图沿边普通粘合均保持τ实性。
 
 [全 theta 图族证明与精确证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)把无限参数族归约为有效解析范围与2,460个有限情形：总路径长度至少72时由解析论证覆盖；半径21/20的精确判据进一步缩小余项，余下情形以83,842个精确负实根区间逐项认证，并经独立纯整数全量重放。此前的[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一阈值补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)保留为阶段性版本。完整指定theta图族现已覆盖，但这仍只是[Brenti–Royle–Wagner于1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般团交叠猜想的解答；猜想6.6为不同的图联接问题。
 
-BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+BRW仍计为**一个部分结果组**，其自身不增加成果组或主要目标解答数；合并上述三项式升级后，目录为27组、18项主要目标解答、6组部分解答，7组推广及9个含Lean材料项目不变。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
 
 ## 新增及升级目标 · 2026年10月22日
 
@@ -44,6 +50,6 @@ BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解�
 - **Omar–Troyka 问题5.1、5.2**：峰集和X-descent的增长率存在性。[研究结果](https://github.com/Aurantium-47/peak-and-x-descent-growth-rates)
 - **Lewis–Morales 注6末尾的问题**：特定q-rook多项式的单峰性。[研究结果](https://github.com/Aurantium-47/rook-polynomial-unimodality)
 
-因此，首页合称“猜想与开放问题”。17是按项目主要目标统计的原题解答数（含clique-join已完整解决的单峰性子问题，不表示其零点问题也解决），其中含Karp的另一条证明，不把一个项目中的每条定理、推论和反例拆开累加。部分解答与原题之外的推广分别统计，见[统计说明](METHODS.md)。
+因此，首页合称“猜想与开放问题”。18是按项目主要目标统计的原题解答数（含clique-join已完整解决的单峰性子问题，不表示其零点问题也解决），其中含Karp的另一条证明，不把一个项目中的每条定理、推论和反例拆开累加。部分解答与原题之外的推广分别统计，见[统计说明](METHODS.md)。
 
 [返回首页](README.md)

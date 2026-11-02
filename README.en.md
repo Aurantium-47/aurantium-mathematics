@@ -22,7 +22,7 @@ A collection of **27 result families** in combinatorics, graph theory, polynomia
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.current.mobile.en.svg">
-  <img src="assets/research-overview.current.en.svg" alt="27 result families; 17 main targets answered; 7 families with generalizations; 9 projects with Lean material (including partial); 91 prior researchers; question years 1994–2026." width="1600">
+  <img src="assets/research-overview.current.en.svg" alt="27 result families; 18 main targets answered; 7 families with generalizations; 9 projects with Lean material (including partial); 91 prior researchers; question years 1994–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
@@ -33,11 +33,13 @@ A collection of **27 result families** in combinatorics, graph theory, polynomia
 
 ## This update · 2 November 2026
 
+**Trinomial original-target coverage updated.** The [fixed public computer-assisted proof draft, 68f4c920](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) covers [Medina–Straub (2014), Example 5.3](https://arxiv.org/pdf/1405.1765v1#page=11): every zero-extended log-concavity iterate of the coefficients of (1+x+x²)^n is nonnegative for every integer n≥10. [PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) remains an unmerged draft. Independent AI-assisted internal mathematical review and exact replays are complete; these are not human peer review or Lean formalization. This existing family moves from partial to an answered original target: 27 families, 18 main targets answered (14 affirmative, 4 counterexample-focused), 6 partial answers and 3 construction/classification groups. The 7 extension families and 9 projects with Lean material are unchanged. Conjecture 5.2 is neither separately counted nor newly certified by this update.
+
 **[BRW τ-real clique attachment: structural classes and the full theta family](https://github.com/Aurantium-47/brw-tau-clique-attachments)**. For an incomparability graph partitioned into k nonempty independent classes, with one anchor per class adjacent to every vertex outside that class, every Bell chromatic clique quotient for 0≤j≤k has only nonpositive real zeros. Ordinary attachment along any clique to any τ-real graph therefore preserves τ-reality. A computer-assisted proof now covers every Θ(a,b,c) with a,b,c≥2: all zeros of its Bell edge quotient are strictly negative and real, giving universal ordinary edge attachment to any τ-real graph.
 
 The [all-theta proof and exact certificates](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta) combine an effective analytic range with 2,460 finite cases. The analytic argument covers total path length at least 72; an exact radius-21/20 test further reduces the remainder. The remaining cases are certified by 83,842 exact negative-root intervals, with an independent full pure-integer replay. The earlier [structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02) and [uniform eventual addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta) remain as historical stages. The specified theta family is now completely covered, but these are still partial results on [Brenti–Royle–Wagner's 1994 Conjecture 6.5](https://doi.org/10.4153/CJM-1994-002-3), not a solution of general clique-overlap closure; Conjecture 6.6 concerns the different graph-join assertion.
 
-BRW remains **one partial-result family**: 27 families, including 7 partial answers. The 17 main-target answers, 7 extension families and 9 projects with Lean material do not increase. This computer-assisted proof, prepared with AI assistance, combines analytic reduction with exhaustive exact certificates, not finite sampling; it is not human peer review or proof-assistant formal verification. Literature comparison remains incomplete, including the exact overlap with Mu–Shen–Xu's 2026 τ-polynomial paper; no historical-priority or global-open-status claim is made.
+BRW remains **one partial-result family**: its own update adds no family or main-target answer. Including the trinomial upgrade above, the catalog has 27 families, 18 main-target answers and 6 partial answers; 7 extension families and 9 projects with Lean material remain unchanged. This computer-assisted proof, prepared with AI assistance, combines analytic reduction with exhaustive exact certificates, not finite sampling; it is not human peer review or proof-assistant formal verification. Literature comparison remains incomplete, including the exact overlap with Mu–Shen–Xu's 2026 τ-polynomial paper; no historical-priority or global-open-status claim is made.
 
 ## Previous update · 22 October 2026
 
@@ -45,7 +47,7 @@ BRW remains **one partial-result family**: 27 families, including 7 partial answ
 - **[Orthogonal partial-sum threshold counterexample](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**: refutes Koelink–Román–Zudilin’s Conjecture 3.4 in arXiv:2409.00261v2. A cubic from an infinite positive orthogonal system has three real roots at t=1/3 but a nonreal pair at t=1/2, with a stronger 1,3,1,3 reentrance certificate. The journal record is Indagationes Mathematicae (2025); identical wording in the inaccessible journal final text has not been verified.
 - **[Clique-join unimodality for every blade list](https://github.com/Aurantium-47/clique-join-domination-polynomials)**: completes the unimodality part of Rather’s JCMCC (2025) question. All positive core and blade orders are covered, analytically for N≥23 and by 14,464 exact tuples for N≤22. Earlier two-/three-blade results and the four-blade strengthening remain one group; zero-location questions are not claimed solved.
 
-These ordinary proofs passed independent AI mathematical review, not human peer review or full Lean certification. Two newly public repositories bring the catalog to 26 groups; the clique upgrade adds no group. The 17 main-target answers are not 17 conjectures newly resolved in this update, and the clique entry counts the completed unimodality subquestion only.
+These ordinary proofs passed independent AI mathematical review, not human peer review or full Lean certification. At that time, two newly public repositories brought the catalog to 26 groups; the clique upgrade adds no group. Those 17 main-target answers were not 17 conjectures newly resolved in that update, and the clique entry counts the completed unimodality subquestion only.
 
 ## Selected results
 
@@ -69,7 +71,7 @@ These ordinary proofs passed independent AI mathematical review, not human peer 
 | [q-rook unimodality](https://github.com/Aurantium-47/rook-polynomial-unimodality) | **A particular board problem to arbitrary dimension:** nested-box product differences and related algebraic consequences |
 | [Numerical semigroups](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | **Eventual behaviour to explicit formulas:** slopes, correction terms, effective thresholds and signed dilations |
 | [Hurwitz polynomials](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | **Genus two to genera three and four**, followed by refined asymptotic expansions, root corrections and effective bounds |
-| [Infinite log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | **Trinomials to general strictly positive polynomials:** a sufficiently-high-power theorem and growing-depth refinements |
+| [Infinite log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) | **Trinomial original target and same-family extensions:** all integers n≥10 in the fixed public draft above; general positive-polynomial eventual results and growing-depth refinements retained |
 | [Narayana lattice sums](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | **Two counterexamples to a general criterion:** a sufficient condition covering a broader class of objects |
 
 ## Sources and artifacts
@@ -101,7 +103,7 @@ The [Lean collection](formalizations/README.md) contains 189 source files from e
 | [karp-order-two-real-rootedness](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | Alternative proof route; comparison with the earlier submission documented |
 | [gap-five-gaussian-quotients](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | Written proof / exact verification |
 | [hurwitz-single-cycle-genera-two-three](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | Written proof / exact verification |
-| [eventual-infinite-log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | Written proof / exact verification |
+| [eventual-infinite-log-concavity](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) | All integer n≥10; computer-assisted proof draft, AI-internally reviewed; PR #2 unmerged; no Lean |
 | [stanton-eleven-entry-w-positivity](https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity) | Written proof / exact verification |
 | [unit-translation-coefficient-oscillation](https://github.com/Aurantium-47/unit-translation-coefficient-oscillation) | Written proof / exact verification |
 | [hoggatt-row-sum-moments](https://github.com/Aurantium-47/hoggatt-row-sum-moments) | Written proof / exact verification |

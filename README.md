@@ -22,7 +22,7 @@
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.current.mobile.zh.svg">
-  <img src="assets/research-overview.current.zh.svg" alt="27组研究成果，17项主要目标解答，7组推广成果，9个含Lean材料的项目（含部分），91位前期研究者；问题提出年份1994—2026。" width="1600">
+  <img src="assets/research-overview.current.zh.svg" alt="27组研究成果，18项主要目标解答，7组推广成果，9个含Lean材料的项目（含部分），91位前期研究者；问题提出年份1994—2026。" width="1600">
 </picture>
 
 **涉及领域：** 极值图论 · 代数组合 · 交换代数 · 离散几何 · 实根多项式 · 枚举几何 · 渐近分析 · 形式化数学
@@ -33,11 +33,13 @@
 
 ## 本次更新 · 2026年11月2日
 
+**三项式原始目标范围升级。** [公开计算机辅助证明草稿（固定版本68f4c920）](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)覆盖[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)：对所有整数n≥10，(1+x+x²)^n的系数序列经零延拓后，全部对数凹迭代均非负。[PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍为未合并草稿；已完成独立AI内部数学复核与精确重放，不等于人工同行评审或Lean形式化。该旧成果组由部分解答改列原始目标解答：当前27组中18项主要目标解答（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。不把一般多项式猜想5.2另计一次，也不借此重新认证其证明。
+
 **[BRW τ实性团粘合：结构类与完整 theta 图族](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。进一步以计算机辅助证明覆盖所有a,b,c≥2的Θ(a,b,c)：其Bell边商的全部零点均严格为负实数，因此与任意τ实图沿边普通粘合均保持τ实性。
 
 [全 theta 图族证明与精确证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)把无限参数族归约为有效解析范围与2,460个有限情形：总路径长度至少72时由解析论证覆盖；半径21/20的精确判据进一步缩小余项，余下情形以83,842个精确负实根区间逐项认证，并经独立纯整数全量重放。此前的[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一阈值补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)保留为阶段性版本。完整指定theta图族现已覆盖，但这仍只是[Brenti–Royle–Wagner于1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般团交叠猜想的解答；猜想6.6为不同的图联接问题。
 
-BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+BRW仍计为**一个部分结果组**，其自身不增加成果组或主要目标解答数；合并上述三项式升级后，目录为27组、18项主要目标解答、6组部分解答，7组推广及9个含Lean材料项目不变。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
 
 ## 上次更新 · 2026年10月22日
 
@@ -45,7 +47,7 @@ BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解�
 - **[正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**：否定Koelink–Román–Zudilin于2024年提出、arXiv v2猜想3.4的单阈值断言。无限正交系统中的三次部分和，在t=1/3有三个实根、t=1/2却有非实根；进一步给出1、3、1、3的再入根数。期刊为Indagationes Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大反驳对象。
 - **[Clique-join全叶片单峰性](https://github.com/Aurantium-47/clique-join-domination-polynomials)**：完成Rather在JCMCC（2025）问题中的单峰性部分。任意正核心、叶片数及大小均覆盖；N≥23解析证明，N≤22精确穷尽14,464组参数。四叶片更强结论与旧的两／三叶片结果保留在同一组，不重复计数；零点问题不宣称解决。
 
-以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。新增两个已公开项目使总数成为26组；全叶片升级不增加组数。17项主要目标解答不是17个本次新解猜想，其中clique-join只计已完整解决的单峰性子问题。
+以上普通证明均经独立AI数学复核，不等于人工同行评审或完整Lean认证。当时新增两个已公开项目使总数成为26组；全叶片升级不增加组数。当时17项主要目标解答不是17个该次新解猜想，其中clique-join只计已完整解决的单峰性子问题。
 
 ## 代表结果
 
@@ -69,7 +71,7 @@ BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解�
 | [q-rook单峰性](https://github.com/Aurantium-47/rook-polynomial-unimodality) | **特定棋盘→任意维度**：推广到嵌套盒乘积差的一般结论，并得到相关代数推论 |
 | [数值半群](https://github.com/Aurantium-47/numerical-semigroup-endpoint-residues) | **存在规律→明确公式与有效界**：算出斜率、修正项和成立范围，并覆盖正负伸缩 |
 | [Hurwitz多项式](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | **从g=2扩展到g=3、4**，继续得到更一般情形的精细展开、根修正与定量界 |
-| [无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | **三项式→一般正系数多项式**：证明足够高次幂上的统一结论，并进一步细化参数增长情形 |
+| [无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) | **三项式原始目标及同组推广**：全部整数n≥10见上方固定公开草稿；一般正系数充分大幂与增长深度细化保留 |
 | [Narayana格点和](https://github.com/Aurantium-47/narayana-polytope-counterexamples) | **两个反例→一般判据**：从否定实例进一步提炼出适用于更广对象的统一充分条件 |
 
 ## 论文出处
@@ -108,7 +110,7 @@ BRW仍计为**一个部分结果组**，目录保持27组，其中7组部分解�
 | [Karp二阶变换实根性](https://github.com/Aurantium-47/karp-order-two-real-rootedness) | 正、满支撑的二阶Pochhammer变换负实根性及残余根间距 | 不同证明路线；与先行成果的比较见专页 |
 | [Gap-five Gaussian商正性](https://github.com/Aurantium-47/gap-five-gaussian-quotients) | gap=5、k≥8、n≥2k：多项式性蕴含系数非负；与已知边界合并覆盖k≥5 | 证明与符号证书 |
 | [Hurwitz多项式与大亏格展开](https://github.com/Aurantium-47/hurwitz-single-cycle-genera-two-three) | g=2、3、4单周期全次数实根/交错；一般profile有效大亏格精细项 | 证明与精确核查 |
-| [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity) | 固定严格正满支撑多项式的充分大整数幂无限对数凹；三项式与增长深度细化 | 证明与精确证书 |
+| [最终无限对数凹性](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) | 三项式(1+x+x²)^n对所有整数n≥10、全部零延拓对数凹迭代非负；公开复核草稿覆盖原始目标 | 计算机辅助证明与精确证书；独立AI内部复核；PR #2草稿未合并，非人工同行评审或Lean |
 | [Stanton十一项W正性](https://github.com/Aurantium-47/stanton-eleven-entry-w-positivity) | 对所有可容许对称11项向量证明W正性，A无上界 | 证明与精确证书 |
 | [单位平移后的无界振荡](https://github.com/Aurantium-47/unit-translation-coefficient-oscillation) | 显式递归构造：正非增整数系数经x→x+1后可出现任意多次相邻差符号变化 | 构造证明 |
 | [Hoggatt行和矩分类](https://github.com/Aurantium-47/hoggatt-row-sum-moments) | 数值行和的Stieltjes矩分类、显式测度及行列式证书；保留Baxter既有结论归属 | 证明与精确证书 |

@@ -1,53 +1,83 @@
 {
   "updated": "2026-11-02",
-  "base_commit": "98daf61e8217f03d535539debdda2762f4ae5a1c",
-  "scope": "Upgrade the existing BRW partial-result family to the full specified theta subfamily; all other records, counts, visuals and formalization archive preserved. Excludes this manifest.",
+  "base_commit": "06a8984896ba5010177205977515ec7f1e682a34",
+  "scope": "Reclassify the existing Example 5.3 trinomial target using explicitly labeled AI-internally-reviewed public draft 68f4c920606ad239fbc3a8195bc0987b790f5905; 18 answered and 6 partial, with 27 families, 7 extensions and 9 Lean projects unchanged. No new certification or separate count for Conjecture 5.2. Excludes this manifest.",
   "hash_algorithm": "SHA-256",
   "files": [
     {
       "path": "CONJECTURES.md",
-      "bytes": 7783,
-      "sha256": "05d4e9bae8a7ccf13163632711ea2c2526b033689de20918568d2517bb590435"
+      "bytes": 10353,
+      "sha256": "403d967696182b14d6df027702b827e0117a6f4aeb2805845fd0c5a4c98f711a"
     },
     {
       "path": "METHODS.md",
-      "bytes": 5483,
-      "sha256": "63a6785446cb24461b66632ecff187f474033ac65babc82aabc57036cd8b7792"
+      "bytes": 6150,
+      "sha256": "9280782b28fa812e694b7fb51f5e4f034c78a8a668f800e45b56fbb28ca7da83"
     },
     {
       "path": "README.en.md",
-      "bytes": 19617,
-      "sha256": "691c7512f6dbde80d820a0278a4fbb77d3dc7a754bbceeaa916397358f885a79"
+      "bytes": 21096,
+      "sha256": "20ec39ef7efd7c1cead92fe224f4d7a9d69b290a58b96585f627c021f9ad6c6c"
     },
     {
       "path": "README.md",
-      "bytes": 29539,
-      "sha256": "77aba9d81aea4a53cd4a30727109921ad8318d9c079ba58c5a89ee5171f2aa4f"
+      "bytes": 30832,
+      "sha256": "019675365fe9f2387041e092ddb1b8e0588746b28840a9fc87b86f6aa045589c"
     },
     {
       "path": "REPORT.html",
-      "bytes": 35008,
-      "sha256": "f1abaa1b141ec49be75f6c8e4c510e85d0ec77ac542dccf7ed9253aed891d05f"
+      "bytes": 36199,
+      "sha256": "a3d2ac9c17cebf42ac74acef2ee6f4b1b0265096a28676e7a3acd31052db03f1"
     },
     {
       "path": "REPORT.zh.md",
-      "bytes": 21852,
-      "sha256": "737454a25689d7c0fbbc88cd42fee5be7ba30a2d31c443e4fcc13ffa55a330c3"
+      "bytes": 22991,
+      "sha256": "a285daba40846687c8be5e95d7c967b3d7ca639b42c309a3712da54070324d7c"
+    },
+    {
+      "path": "assets/research-overview.current.en.svg",
+      "bytes": 1240,
+      "sha256": "3806ba51e3b5724da14d31c320e43762a68b0f793fef87a75b8255f20098683c"
+    },
+    {
+      "path": "assets/research-overview.current.mobile.en.svg",
+      "bytes": 1440,
+      "sha256": "4166799882b705956afbdde0ba5c6fb4c56c20de509d83f2f779cd1dce211b22"
+    },
+    {
+      "path": "assets/research-overview.current.mobile.zh.svg",
+      "bytes": 1431,
+      "sha256": "7b5e4bebcafbe2e4ce6848f76cc925ba2e29b9c2c387fb00cc8ceaf331498920"
+    },
+    {
+      "path": "assets/research-overview.current.zh.svg",
+      "bytes": 1231,
+      "sha256": "93e2c62c90d3e0bb13648eb5e2ec495e957ba40901d13cf1b5d17ce2c2e73074"
+    },
+    {
+      "path": "data/catalog_summary.json",
+      "bytes": 1406,
+      "sha256": "e5b204a4a87982d802effa21acade015cf846de58bb8c3473c1f9a37cc7fa16a"
+    },
+    {
+      "path": "data/frontpage_statistics.json",
+      "bytes": 4931,
+      "sha256": "9db3fcc939e65223f27ee06d6d13d3e3cbf40df0cdb8ee2d358c8556283ca2f4"
     },
     {
       "path": "data/projects.csv",
-      "bytes": 12778,
-      "sha256": "742a02182df209563e0899c4cda2b1019776941872e4048fd3c64f1b117552aa"
+      "bytes": 13932,
+      "sha256": "debabf7bc976d5db9a0e4ee9cea8598a31d2409ecb0f5a32f8ccd08fa2e04b11"
     },
     {
       "path": "data/projects.json",
-      "bytes": 24666,
-      "sha256": "524b9d2a18dae4cdc12e286ec09ad1db2d031ace73f3d2522dc951ef2d45f8eb"
+      "bytes": 25820,
+      "sha256": "6dac2c3c25e2c8ae4b01ae3c8721edb6392c97c31a206d19d0e9620cbc5b39fd"
     },
     {
       "path": "data/result_counts.json",
-      "bytes": 3676,
-      "sha256": "67a65dff517fc1367176c32cd7ab9d8d5115bf97d21bcfaed0badd627cd0fb54"
+      "bytes": 3748,
+      "sha256": "8743312eae95f876b9b0a0ab6ff0ae05a4a48e1c75caae4bc75a54ac5022acbe"
     }
   ]
 }

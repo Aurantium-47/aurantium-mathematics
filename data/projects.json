@@ -383,17 +383,26 @@
       "Armin Straub"
     ],
     "source_venue": "Annals of Combinatorics",
-    "result_class": "参数族与推进",
-    "result": "固定严格正满支撑多项式的充分大整数幂无限对数凹；三项式与增长深度细化",
-    "verification": "证明与精确证书",
+    "result_class": "原题结论",
+    "result": "三项式(1+x+x²)^n对所有整数n≥10、全部零延拓对数凹迭代非负；公开复核草稿覆盖原始目标",
+    "verification": "计算机辅助证明与精确证书；独立AI内部复核；PR #2草稿未合并，非人工同行评审或Lean",
     "extension_group": true,
-    "extension_chain": "三项式尾部 → 一般严格正多项式幂 → 增长深度曲率",
+    "extension_chain": "三项式充分大幂阶段 → 全部整数n≥10原始目标；一般严格正多项式幂与增长深度细化仍属同组",
     "source_kind": "论文",
     "url": "https://github.com/Aurantium-47/eventual-infinite-log-concavity",
     "source_age_years": 12,
     "verified_version_age_years": 12,
     "age_stat_primary": true,
-    "counterexample_component": false
+    "counterexample_component": false,
+    "proof_version": {
+      "commit": "68f4c920606ad239fbc3a8195bc0987b790f5905",
+      "url": "https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10",
+      "pull_request": "https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2",
+      "publication_status": "Public draft; open and unmerged at catalog review",
+      "selected_original_target": "Medina–Straub arXiv:1405.1765v1 Example 5.3: all integer n>=10, all zero-extended iterates nonnegative",
+      "review_scope": "Independent AI-assisted internal proof review; 3994 finite exponents, 15 analytic stages, and fresh two-queue reconstruction of all 1929 edge enclosures with coverage against 63 bypasses; not the literal regenerate.py --full command; no human peer review or Lean certification",
+      "count_scope": "One existing family upgraded; Conjecture 5.2 is not separately counted or newly certified by this update."
+    }
   },
   {
     "title": "Stanton十一项W正性",
