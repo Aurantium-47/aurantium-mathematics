@@ -7,7 +7,7 @@ It does not run or certify the mathematical proofs.
 """
 from pathlib import Path
 import csv, html, json, statistics
-B=Path(__file__).resolve().parents[1]; D=B/'data'; AS_OF='2026-10-22'
+B=Path(__file__).resolve().parents[1]; D=B/'data'; AS_OF='2026-11-02'
 def load(name):return json.loads((D/name).read_text())
 def save(name,data):(D/name).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 p=load('projects.json'); bib=load('bibliography.json'); r=load('result_counts.json'); cov=load('prior_research_coverage.json')
@@ -23,13 +23,16 @@ r.update(lean_projects=lean,extension_groups=ext,result_families=len(p),families
 a=[x['source_age_years'] for x in p if x['age_stat_primary']];v=[x['verified_version_age_years'] for x in p if x['age_stat_primary']]
 summary=load('catalog_summary.json');summary.update(public_projects=len(p),categories={k:sum(x['result_class']==k for x in p) for k in dict.fromkeys(x['result_class'] for x in p)},projects_with_Lean=lean,extension_groups=ext,counterexample_or_negative_certificate_projects=sum(x['counterexample_component'] for x in p),bibliographic_records=len(bib),research_documents_excluding_OEIS=sum(x['kind']!='OEIS原始提问' for x in bib),named_author_strings_lower_bound=len(allauthors),source_age_year_difference=dict(n=len(a),minimum=min(a),maximum=max(a),mean=statistics.mean(a),median=statistics.median(a)),verified_version_age_year_difference=dict(n=len(v),minimum=min(v),maximum=max(v),mean=statistics.mean(v)),literature_updated=AS_OF)
 ai=[x['source_age_years'] for x in p if x['source_age_years'] is not None];summary['including_indirect_2000_report']=dict(n=len(ai),minimum=min(ai),maximum=max(ai),mean=statistics.mean(ai));save('catalog_summary.json',summary)
-f=load('frontpage_statistics.json');f.update(research_families=len(p),original_target_answers=sum(len(r[k]) for k in primary[:2]),affirmative_results=len(r[primary[0]]),counterexample_focus=len(r[primary[1]]),partial_results=len(r[primary[2]]),extension_families=ext,lean_families=lean,lean_source_files=196,formalization_archive_projects=8,formalization_archive_source_files=189,external_partial_lean_source_files=7,lean_scope_note='8 archived projects plus the Zudilin partial companion (7 source files); the latter is not a complete formalization.',journal_problem_sources=15,bibliographic_records=len(bib),primary_source_author_names=len({a for x in p for a in x['authors']}),all_listed_author_names=len(allauthors),dated_sources=len(a),source_age_year_difference=dict(min=min(a),max=max(a),mean=statistics.mean(a)),prior_researcher_names=len(prior),prior_research_records=len(cov['selected_records']),as_of=AS_OF)
+f=load('frontpage_statistics.json');f.update(research_families=len(p),original_target_answers=sum(len(r[k]) for k in primary[:2]),affirmative_results=len(r[primary[0]]),counterexample_focus=len(r[primary[1]]),partial_results=len(r[primary[2]]),extension_families=ext,lean_families=lean,lean_source_files=196,formalization_archive_projects=8,formalization_archive_source_files=189,external_partial_lean_source_files=7,lean_scope_note='8 archived projects plus the Zudilin partial companion (7 source files); the latter is not a complete formalization.',journal_problem_sources=16,bibliographic_records=len(bib),primary_source_author_names=len({a for x in p for a in x['authors']}),all_listed_author_names=len(allauthors),dated_sources=len(a),source_age_year_difference=dict(min=min(a),max=max(a),mean=statistics.mean(a)),prior_researcher_names=len(prior),prior_research_records=len(cov['selected_records']),as_of=AS_OF)
+source_years=[x['source_first_year'] for x in p if x['age_stat_primary']]
+f['source_years']=[min(source_years),max(source_years)]
+f['source_age_display']=f'Original-source years {min(source_years)}–{max(source_years)}; a {max(source_years)-min(source_years)}-year year-difference span. Not a claim of continuous unresolved duration.'
 f['display_labels']['lean_families']='含Lean材料的项目 / Projects with Lean material';f['original_target_count_note']=r['original_target_count_note'];save('frontpage_statistics.json',f)
 ag=load('aggregate_metrics.json');ag.update(as_of=AS_OF,public_projects=len(p),projects_with_Lean=lean,extension_groups=ext,bibliographic_records=len(bib),listed_author_name_strings=len(allauthors));save('aggregate_metrics.json',ag)
 for name,rows in [('projects',p),('bibliography',bib)]:
  fields=list(dict.fromkeys(k for x in rows for k in x))
  with (D/(name+'.csv')).open('w',encoding='utf-8-sig',newline='') as o:
-  w=csv.DictWriter(o,fieldnames=fields);w.writeheader()
+  w=csv.DictWriter(o,fieldnames=fields,lineterminator="\n");w.writeheader()
   for x in rows:w.writerow({k:'; '.join(map(str,v)) if isinstance(v,list) else json.dumps(v,ensure_ascii=False) if isinstance(v,dict) else v for k,v in x.items()})
 # Preserve existing venue notes after the source list.
 sources=B/'SOURCES.md';old=sources.read_text();tail='\n## '+old.split('\n## ',1)[1] if '\n## ' in old else ''
@@ -42,7 +45,7 @@ lines+=['',f'逐条筛选及未纳入文献见[覆盖明细](data/prior_research
 (B/'PRIOR_RESEARCH.md').write_text('\n'.join(lines)+'\n')
 # The same clean six-metric layout, now generated from data rather than copied numbers.
 (B/'assets').mkdir(exist_ok=True)
-values=[len(p),f['original_target_answers'],ext,lean,len(prior),'2012–2026']
+values=[len(p),f['original_target_answers'],ext,lean,len(prior),f'{min(source_years)}–{max(source_years)}']
 labels={'zh':['研究成果组','主要目标解答','推广成果组','含Lean材料的项目','前期研究者','问题提出年份'],'en':['Research families','Main targets answered','Extension families','Projects with Lean material','Prior researchers','Source years']}
 for lang in labels:
  for mobile in [False,True]:

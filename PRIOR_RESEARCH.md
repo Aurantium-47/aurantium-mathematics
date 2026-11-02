@@ -1,6 +1,6 @@
 # 前期研究者与直接相关工作
 
-当前整理到**88位前期研究者，涉及52条原题及直接相关研究记录**。包括问题提出者、已有特例和直接相关对象的研究作者；通用工具、定义、宽泛背景与编辑重述不计入人数。不是失败尝试人数或全球研究者总数。
+当前整理到**91位前期研究者，涉及53条原题及直接相关研究记录**。包括问题提出者、已有特例和直接相关对象的研究作者；通用工具、定义、宽泛背景与编辑重述不计入人数。不是失败尝试人数或全球研究者总数。
 
 | 原题或研究 | 作者 | 与本项目的关系 |
 | --- | --- | --- |
@@ -56,7 +56,8 @@
 | [Unimodality and monotonic portions of certain domination polynomials](https://arxiv.org/abs/2110.00709) | Amanda Burcroff、Grace O’Brien | clique-join已知三叶片及奇数阶四叶片情形 |
 | [Domination polynomial is unimodal for large graphs with a universal vertex](https://arxiv.org/abs/2111.00641) | Shengtong Zhang | clique-join已有N≥8192单峰性 |
 | [New Perspectives On The Unimodality Of Domination Polynomials](https://arxiv.org/abs/2601.14494) | Mohamed Omar | 阈值图对数凹性及进一步充分判据 |
+| [Location of Zeros of Chromatic and Related Polynomials of Graphs](https://doi.org/10.4153/CJM-1994-002-3) | Francesco Brenti、Gordon F. Royle、David G. Wagner | BRW猜想6.5原题来源；猜想6.6为不同的图联接断言 |
 
-逐条筛选及未纳入文献见[覆盖明细](data/prior_research_coverage.json)。完整书目保留[全部69条记录](SOURCES.md)。
+逐条筛选及未纳入文献见[覆盖明细](data/prior_research_coverage.json)。完整书目保留[全部70条记录](SOURCES.md)。
 
 [返回首页](README.md)

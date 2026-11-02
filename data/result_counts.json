@@ -27,7 +27,8 @@
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
     "eventual-infinite-log-concavity",
-    "stanton-eleven-entry-w-positivity"
+    "stanton-eleven-entry-w-positivity",
+    "brw-tau-clique-attachments"
   ],
   "construction_or_classification": [
     "unit-translation-coefficient-oscillation",
@@ -39,7 +40,7 @@
   ],
   "lean_projects": 9,
   "extension_groups": 7,
-  "result_families": 26,
+  "result_families": 27,
   "family_grouping": "One core-question group per listed project; principal result, supporting arguments and extensions remain in that group.",
   "families_with_extensions": 7,
   "partial_results_on_broader_questions": [
@@ -48,7 +49,8 @@
     "gap-five-gaussian-quotients",
     "hurwitz-single-cycle-genera-two-three",
     "eventual-infinite-log-concavity",
-    "stanton-eleven-entry-w-positivity"
+    "stanton-eleven-entry-w-positivity",
+    "brw-tau-clique-attachments"
   ],
   "partial_results_also_with_extensions": [
     "eventual-infinite-log-concavity",
@@ -76,6 +78,9 @@
   "unresolved_broader_components": {
     "clique-join-domination-polynomials": [
       "Zeros and limiting zeros; only the whole-family unimodality subquestion is completed."
+    ],
+    "brw-tau-clique-attachments": [
+      "General Conjecture 6.5 and the finite uncovered theta triples are not resolved by these results; no numerical uniform threshold is given."
     ]
   },
   "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."

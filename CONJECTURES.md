@@ -16,6 +16,14 @@
 
 Stern项目还给出反例，否定Ulas猜想4.3最后一条单调性断言；该猜想中一般唯一实根等其他条款未因此得到证明。Lecture Hall的进一步代数结构见其独立推广说明。
 
+## 本次更新 · 2026年11月2日
+
+**[BRW τ实性团粘合：结构类与 theta 图的统一阈值定理](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。另证明存在同一个整数M，使所有a,b,c≥2且max(a,b,c)≥M的Θ(a,b,c)边商只有非正实根，得到相应的普遍沿边粘合结论。
+
+[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一theta补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)均附精确符号检查。M没有给出数值；本工作未解决有限多个未覆盖的路径长度三元组，也不声称其为反例。这是Brenti、Royle、Wagner于[1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般猜想或全部theta图的解答；猜想6.6为不同的图联接问题。
+
+新增**一个部分结果组**，目录为27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。AI辅助文字证明与有限精确检查不等于人工同行评审或形式化验证；有限检查不替代充分大参数结论的分析证明。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+
 ## 新增及升级目标 · 2026年10月22日
 
 | 题目与原始版本 | 过去的进展 | 本次结论与边界 |

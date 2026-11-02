@@ -828,5 +828,18 @@
     "url": "https://sigma-journal.com/2016/071/",
     "role": "Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者",
     "kind": "问题集重述"
+  },
+  {
+    "title": "Location of Zeros of Chromatic and Related Polynomials of Graphs",
+    "year": 1994,
+    "authors": [
+      "Francesco Brenti",
+      "Gordon F. Royle",
+      "David G. Wagner"
+    ],
+    "venue": "Canadian Journal of Mathematics 46(1), 55–80",
+    "url": "https://doi.org/10.4153/CJM-1994-002-3",
+    "role": "BRW猜想6.5原题来源；猜想6.6为不同的图联接断言",
+    "kind": "论文"
   }
 ]

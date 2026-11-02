@@ -17,21 +17,29 @@
   </picture>
 </p>
 
-A collection of **26 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
+A collection of **27 result families** in combinatorics, graph theory, polynomials and asymptotic analysis. Highlights include **a proof of the Katthän’s polynomiality conjecture, exact Catalan–Hankel degree formulas for the Wang–Xin conjecture in Cigler’s formulation, another proof of Karp’s second-order real-rootedness conjecture, and the sharp uniform bound of 23 colours for K₆ chains**.
 
 
 <picture>
   <source media="(max-width: 650px)" srcset="assets/research-overview.current.mobile.en.svg">
-  <img src="assets/research-overview.current.en.svg" alt="26 result families; 17 main targets answered; 7 families with generalizations; 9 projects with Lean material (including partial); 88 prior researchers; question years 2012–2026." width="1600">
+  <img src="assets/research-overview.current.en.svg" alt="27 result families; 17 main targets answered; 7 families with generalizations; 9 projects with Lean material (including partial); 91 prior researchers; question years 1994–2026." width="1600">
 </picture>
 
 **Research areas:** extremal graph theory · algebraic combinatorics · commutative algebra · discrete geometry · real-rooted polynomials · enumerative geometry · asymptotic analysis · formalized mathematics
 
 **Methods and tools:** determinants and generating functions · SAGBI bases and toric degeneration · root interlacing and positivity · exact certificates · Lean 4 / mathlib · Python / SymPy · C++17
 
-[Conjecture names, original sources and results](CONJECTURES.md) · [The 88 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
+[Conjecture names, original sources and results](CONJECTURES.md) · [The 91 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
-## This update · 22 October 2026
+## This update · 2 November 2026
+
+**[BRW τ-real clique attachment: structural classes and a uniform eventual theta theorem](https://github.com/Aurantium-47/brw-tau-clique-attachments)**. For an incomparability graph partitioned into k nonempty independent classes, with one anchor per class adjacent to every vertex outside that class, every Bell chromatic clique quotient for 0≤j≤k has only nonpositive real zeros. Ordinary attachment along any clique to any τ-real graph therefore preserves τ-reality. Separately, one integer M works for every Θ(a,b,c) with a,b,c≥2 and max(a,b,c)≥M: its Bell edge quotient has only nonpositive real zeros, giving universal ordinary edge attachment.
+
+The [structural manuscript](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02) and [uniform theta addendum](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta) include exact symbolic checks. M is not numerically specified; the finitely many uncovered path-length triples are not settled by this work, nor claimed to be counterexamples. These are partial results on [Brenti–Royle–Wagner's 1994 Conjecture 6.5](https://doi.org/10.4153/CJM-1994-002-3), not a general or all-theta solution; Conjecture 6.6 concerns the different graph-join assertion.
+
+This adds **one partial-result family**: 27 families, including 7 partial answers. The 17 main-target answers, 7 extension families and 9 projects with Lean material do not increase. AI-assisted written proofs and finite exact checks are not human peer review or formal verification; finite checks do not establish the analytic eventuality argument. Literature comparison remains incomplete, including the exact overlap with Mu–Shen–Xu's 2026 τ-polynomial paper; no historical-priority or global-open-status claim is made.
+
+## Previous update · 22 October 2026
 
 - **[Zudilin’s B-polynomial root-location problem](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)**: posed in 2015, restated in SIGMA (2016), and published in a Springer proceedings volume (2020). The proof covers every real a and n≥2, with nonpositive roots in x=t³ and strict negative-root/interlacing conclusions away from exceptional parameters. The Lean companion is partial, not a full certification.
 - **[Orthogonal partial-sum threshold counterexample](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**: refutes Koelink–Román–Zudilin’s Conjecture 3.4 in arXiv:2409.00261v2. A cubic from an infinite positive orthogonal system has three real roots at t=1/3 but a nonreal pair at t=1/2, with a stronger 1,3,1,3 reentrance certificate. The journal record is Indagationes Mathematicae (2025); identical wording in the inaccessible journal final text has not been verified.
@@ -66,14 +74,14 @@ These ordinary proofs passed independent AI mathematical review, not human peer 
 
 ## Sources and artifacts
 
-Original questions and related studies appear in Applied Mathematics and Computation, Experimental Mathematics, Journal of Graph Theory, Algebraic Combinatorics, Canadian Journal of Mathematics and other research venues. The [bibliography](SOURCES.md) records 69 source and related-work entries.
+Original questions and related studies appear in Applied Mathematics and Computation, Experimental Mathematics, Journal of Graph Theory, Algebraic Combinatorics, Canadian Journal of Mathematics and other research venues. The [bibliography](SOURCES.md) records 70 source and related-work entries.
 
 The [Lean collection](formalizations/README.md) contains 189 source files from eight fixed public versions. The separate [Zudilin partial companion](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness/tree/main/partial-formalization) adds seven source files, making nine projects with Lean material, not nine fully formalized main theorems. Each repository states its precise proof scope.
 
 ## All projects
 
 <details>
-<summary><strong>All 26 projects</strong></summary>
+<summary><strong>All 27 projects</strong></summary>
 
 | Repository | Status |
 | --- | --- |
@@ -103,6 +111,7 @@ The [Lean collection](formalizations/README.md) contains 189 source files from e
 | [clique-join-domination-polynomials](https://github.com/Aurantium-47/clique-join-domination-polynomials) | All-blade computer-assisted unimodality proof; no Lean |
 | [zudilin-b-polynomial-real-rootedness](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | Complete ordinary proof; partial Lean companion only |
 | [orthogonal-partial-sum-threshold-counterexample](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | Complete ordinary proof and exact rational certificates |
+| [brw-tau-clique-attachments](https://github.com/Aurantium-47/brw-tau-clique-attachments) | Partial Conjecture 6.5 results; written proofs and exact symbolic checks; no Lean |
 
 </details>
 
@@ -155,7 +164,7 @@ Concrete methods include Dyck paths, Stieltjes–Rogers polynomials, Toeplitz/Ha
 
 ## Literature and extensions
 
-The bibliography contains 26 problem-source records and 43 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is included among the affirmative results: our manuscript gives a different proof through Beta moments, Bernstein polynomials and Gauss–Lucas convolution. Zweiman submitted a proof of the same positive second-order target earlier in October 2026; the chronology and the relation between the routes are documented in [the comparison](KARP_COMPARISON.md).
+The bibliography contains 27 problem-source records and 43 related studies or classical tools, covering more than one hundred listed author names. Seven project-level extension groups are highlighted. Karp is included among the affirmative results: our manuscript gives a different proof through Beta moments, Bernstein polynomials and Gauss–Lucas convolution. Zweiman submitted a proof of the same positive second-order target earlier in October 2026; the chronology and the relation between the routes are documented in [the comparison](KARP_COMPARISON.md).
 
 Problem dates and venue information are given in the [research background](REPORT.zh.md). Source dates describe the documented history; each project's exact contribution is stated separately.
 

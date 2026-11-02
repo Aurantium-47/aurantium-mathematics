@@ -605,5 +605,30 @@
     "age_stat_primary": true,
     "counterexample_component": true,
     "publication_note": "2024-08-30首发，核查2025-02-07 v2；期刊最终全文未核对。公开版本尚无Lean文件。"
+  },
+  {
+    "title": "BRW τ实性团粘合",
+    "repo": "brw-tau-clique-attachments",
+    "source_first_year": 1994,
+    "verified_version_year": 1994,
+    "source_url": "https://doi.org/10.4153/CJM-1994-002-3",
+    "authors": [
+      "Francesco Brenti",
+      "Gordon F. Royle",
+      "David G. Wagner"
+    ],
+    "source_venue": "Canadian Journal of Mathematics 46(1), 55–80",
+    "result_class": "参数族与推进",
+    "result": "猜想6.5的部分结果：带锚点不可比图的全部团商实根性；存在统一M，使a,b,c≥2且max(a,b,c)≥M的theta图边商实根，从而普通团粘合保持τ实性。M未给数值，本工作未解决有限未覆盖三元组，也不声称其为反例；不宣称一般猜想或全部theta图已解决。",
+    "verification": "AI辅助文字证明与精确符号检查；无Lean；有限检查不代替分析证明",
+    "extension_group": false,
+    "extension_chain": "结构类与统一充分大参数定理作为同一部分结果组，不增加推广组计数",
+    "source_kind": "论文",
+    "url": "https://github.com/Aurantium-47/brw-tau-clique-attachments",
+    "source_age_years": 32,
+    "verified_version_age_years": 32,
+    "age_stat_primary": true,
+    "counterexample_component": false,
+    "publication_note": "公开版本1ecaf2df19a751422a4672a4ccb30aefe8f73f51；文献比较不完整；不宣称历史首创或全球开放状态。与Mu–Shen–Xu 2026论文的精确重叠尚未核清。"
   }
 ]

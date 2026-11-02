@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-22",
-  "direct_records": 52,
-  "listed_researcher_names": 88,
+  "as_of": "2026-11-02",
+  "direct_records": 53,
+  "listed_researcher_names": 91,
   "scope": "Authors listed on original problem sources and directly related studies; excludes records used only as general tools, definitions or broad background. Includes original proposers and studies of directly related objects; does not measure failed attempts or the complete worldwide researcher population.",
   "selected_records": [
     {
@@ -680,6 +680,20 @@
       "url": "https://arxiv.org/abs/2601.14494",
       "role": "阈值图对数凹性及进一步充分判据",
       "kind": "相关研究文献"
+    },
+    {
+      "bibliography_index": 70,
+      "title": "Location of Zeros of Chromatic and Related Polynomials of Graphs",
+      "year": 1994,
+      "authors": [
+        "Francesco Brenti",
+        "Gordon F. Royle",
+        "David G. Wagner"
+      ],
+      "venue": "Canadian Journal of Mathematics 46(1), 55–80",
+      "url": "https://doi.org/10.4153/CJM-1994-002-3",
+      "role": "BRW猜想6.5原题来源；猜想6.6为不同的图联接断言",
+      "kind": "论文"
     }
   ],
   "excluded_records": [
@@ -810,6 +824,7 @@
     "Dan Dai",
     "Danilo Lewanski",
     "Darko Dimitrov",
+    "David G. Wagner",
     "Davide Accadia",
     "Didem Gözüpek",
     "Dmitry B. Karp",
@@ -817,10 +832,12 @@
     "Ellena Moskovsky",
     "Erik Insko",
     "Erik Koelink",
+    "Francesco Brenti",
     "Francesco Strazzanti",
     "George Boros",
     "George Spahn",
     "Giulio Ruzza",
+    "Gordon F. Royle",
     "Grace O’Brien",
     "Guo-Niu Han",
     "Guoce Xin",

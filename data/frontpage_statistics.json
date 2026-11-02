@@ -1,30 +1,30 @@
 {
-  "research_families": 26,
+  "research_families": 27,
   "original_target_answers": 17,
   "affirmative_results": 13,
   "counterexample_focus": 4,
-  "partial_results": 6,
+  "partial_results": 7,
   "extension_families": 7,
   "lean_families": 9,
   "lean_source_files": 196,
-  "journal_problem_sources": 15,
-  "bibliographic_records": 69,
-  "primary_source_author_names": 51,
-  "all_listed_author_names": 114,
-  "dated_sources": 24,
+  "journal_problem_sources": 16,
+  "bibliographic_records": 70,
+  "primary_source_author_names": 54,
+  "all_listed_author_names": 117,
+  "dated_sources": 25,
   "source_years": [
-    2012,
+    1994,
     2026
   ],
   "source_age_year_difference": {
     "min": 0,
-    "max": 14,
-    "mean": 4.666666666666667
+    "max": 32,
+    "mean": 5.76
   },
   "age_measure": "2026 minus first source year; literature age, not continuous unsolved duration; includes the Karp parallel-treatment source. Undated Stanton and indirectly dated 2000 report excluded.",
   "author_measure": "Distinct names listed in this bibliography, not a count of unsuccessful attempts; incomplete author lists and unresolved name disambiguation are documented in METHODS.md.",
-  "prior_researcher_names": 88,
-  "prior_research_records": 52,
+  "prior_researcher_names": 91,
+  "prior_research_records": 53,
   "prior_research_scope": "Original question sources and directly related studies, with general tools and background excluded; see prior_research_coverage.json.",
   "displayed_metric_count": 6,
   "displayed_metrics": [
@@ -36,7 +36,7 @@
     "source_year_range"
   ],
   "partial_results_display_label": "原题的部分解答 / Partial answers to further questions",
-  "source_age_display": "Original-source years 2012–2026; a 14-year year-difference span. Not a claim of continuous unresolved duration.",
+  "source_age_display": "Original-source years 1994–2026; a 32-year year-difference span. Not a claim of continuous unresolved duration.",
   "display_labels": {
     "research_families": "数学成果组",
     "extension_families": "推广成果",
@@ -120,6 +120,6 @@
   "formalization_archive_source_files": 189,
   "external_partial_lean_source_files": 7,
   "lean_scope_note": "8 archived projects plus the Zudilin partial companion (7 source files); the latter is not a complete formalization.",
-  "as_of": "2026-10-22",
+  "as_of": "2026-11-02",
   "original_target_count_note": "Counts the selected main target once per project; the clique-join entry completes the unimodality subquestion, not every question in the source. No claim of 17 newly solved conjectures."
 }

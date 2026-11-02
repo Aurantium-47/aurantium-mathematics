@@ -2,7 +2,15 @@
 
 [返回首页](README.md) · [完整文献目录](SOURCES.md)
 
-## 本次更新 · 2026年10月22日
+## 本次更新 · 2026年11月2日
+
+**[BRW τ实性团粘合：结构类与 theta 图的统一阈值定理](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。另证明存在同一个整数M，使所有a,b,c≥2且max(a,b,c)≥M的Θ(a,b,c)边商只有非正实根，得到相应的普遍沿边粘合结论。
+
+[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一theta补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)均附精确符号检查。M没有给出数值；本工作未解决有限多个未覆盖的路径长度三元组，也不声称其为反例。这是Brenti、Royle、Wagner于[1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般猜想或全部theta图的解答；猜想6.6为不同的图联接问题。
+
+新增**一个部分结果组**，目录为27组，其中7组部分解答；17项主要目标解答、7组推广及9个含Lean材料的项目均不增加。AI辅助文字证明与有限精确检查不等于人工同行评审或形式化验证；有限检查不替代充分大参数结论的分析证明。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+
+## 上次更新 · 2026年10月22日
 
 - **[Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness)**：2015年提出的全实参数观察，2016年SIGMA问题报告重述，2020年收入Springer论文集。证明所有实参数a、n≥2时Pₙᵃ(x)的零点非正，并给出非例外参数的严格负根、交错和定位。变量为x=t³；仅有部分Lean伴随，完整形式化未完成。
 - **[正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample)**：否定Koelink–Román–Zudilin于2024年提出、arXiv v2猜想3.4的单阈值断言。无限正交系统中的三次部分和，在t=1/3有三个实根、t=1/2却有非实根；进一步给出1、3、1、3的再入根数。期刊为Indagationes Mathematicae（2025），但最终全文与v2是否同文未核对，不扩大反驳对象。
@@ -76,7 +84,7 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 
 ## 前人研究与论文出处
 
-当前目录整理了**26条问题来源、43条相关研究与工具文献，共69条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
+当前目录整理了**27条问题来源、43条相关研究与工具文献，共70条记录**，覆盖百余个作者署名。下面几条线索能说明这些问题处在怎样的研究积累之中。
 
 | 研究线 | 目录中的前人线索 | 发表载体 |
 | --- | --- | --- |
@@ -92,9 +100,9 @@ Furmańczyk、Gözüpek与Özkan在[Packing coloring of graphs with long paths](
 原题涉及**Applied Mathematics and Computation、Experimental Mathematics、Journal of Graph Theory、Canadian Journal of Mathematics、Algebraic Combinatorics、Electronic Journal of Combinatorics、Journal of Pure and Applied Algebra**等专业期刊。分区按明确版次列在[研究背景](REPORT.zh.md)，成果本文的发布状态见各项目。
 
 
-## 26个项目的来源年代
+## 27个项目的来源年代
 
-Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面24项可定年来源相距0–14年，平均约4.08年；这个量描述文献年代，项目的具体研究历史见上文。
+Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想见2018年原文。Peak项目采用2016年期刊版本，预印本首发于2014年。按2026减采用版年份，下面25项可定年来源相距0–32年，平均约5.20年；这个量描述文献年代，项目的具体研究历史见上文。
 
 2000年技术报告由后文书目旁证，单列；Stanton作者手稿暂未定年。Karp二阶实根问题于2012年提出，本系列于2026年给出另一条证明；同期工作的先后记录另列。
 
@@ -126,6 +134,7 @@ Howroyd的提问日期明确为2018年1月1日；Katthän的Lecture Hall猜想�
 | [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 2025 | 2025 | 1年 | [Journal of Combinatorial Mathematics and Combinatorial Computing](https://doi.org/10.61091/jcmcc126-19) |
 | [Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | 2015 | 2017 | 9年 | [Springer论文集2020；采用arXiv v2](https://arxiv.org/abs/1504.07696) |
 | [正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | 2024 | 2025 | 1年 | [Indagationes Mathematicae；目标以arXiv v2为准](https://arxiv.org/abs/2409.00261v2) |
+| [BRW τ实性团粘合](https://github.com/Aurantium-47/brw-tau-clique-attachments) | 1994 | 1994 | 32年 | [Canadian Journal of Mathematics](https://doi.org/10.4153/CJM-1994-002-3) |
 
 ## 原题与后续论文的刊物记录
 

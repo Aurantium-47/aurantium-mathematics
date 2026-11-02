@@ -1,6 +1,6 @@
 # 问题来源与参考文献
 
-26条问题来源与43条相关研究／工具背景，共69条。原题行使用中文索引名；正式题名见原文。相关工作按实际关系列出。
+27条问题来源与43条相关研究／工具背景，共70条。原题行使用中文索引名；正式题名见原文。相关工作按实际关系列出。
 
 | # | 文献 | 年份 | 作者 | 刊物／载体 | 关系 | 链接 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,6 +73,7 @@
 | 67 | Domination polynomial is unimodal for large graphs with a universal vertex | 2021 | Shengtong Zhang | arXiv:2111.00641 | clique-join已有N≥8192单峰性 | [来源](https://arxiv.org/abs/2111.00641) |
 | 68 | New Perspectives On The Unimodality Of Domination Polynomials | 2026 | Mohamed Omar | arXiv:2601.14494v1 | 阈值图对数凹性及进一步充分判据 | [来源](https://arxiv.org/abs/2601.14494) |
 | 69 | Report from the Open Problems Session at OPSFA13 | 2016 | Howard S. Cohl; Wadim Zudilin | SIGMA 12 (2016), 071 | Section 7重述；Cohl为报告编辑，Zudilin为该节问题提出者 | [来源](https://sigma-journal.com/2016/071/) |
+| 70 | Location of Zeros of Chromatic and Related Polynomials of Graphs | 1994 | Francesco Brenti; Gordon F. Royle; David G. Wagner | Canadian Journal of Mathematics 46(1), 55–80 | BRW猜想6.5原题来源；猜想6.6为不同的图联接断言 | [来源](https://doi.org/10.4153/CJM-1994-002-3) |
 
 ## 刊物记录
 
