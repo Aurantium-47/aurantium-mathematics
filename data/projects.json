@@ -628,16 +628,16 @@
     ],
     "source_venue": "Canadian Journal of Mathematics 46(1), 55–80",
     "result_class": "参数族与推进",
-    "result": "猜想6.5的部分结果：带锚点不可比图的全部团商实根性；对全部a,b,c≥2的Θ(a,b,c)，Bell边商的全部零点均严格为负实数，故与任意τ实图沿边普通粘合保持τ实性。完整指定theta图族已覆盖，不宣称一般团交叠猜想已解决。",
-    "verification": "AI辅助计算机辅助证明：有效解析归约与2,460个有限情形、83,842个精确负实根区间；独立纯整数全量重放；无Lean",
+    "result": "猜想6.5的部分结果：任意普通τ实图替换任意圈的一个顶点，保持τ实性并有实根Bell边商，因而可普遍沿边粘合；另保留带锚点不可比图的全部团商实根性、全部a,b,c≥2的Θ(a,b,c)及任意路径数的长最短路径条件。不宣称一般团交叠猜想已解决。",
+    "verification": "统一圈替换：根单调性与扩充箭头矩阵不变量的普通数学证明，所有圈长与输入次数；独立AI内部复核，非人工同行评审或Lean。全三路径定理另用解析归约与穷尽精确证书。",
     "extension_group": false,
-    "extension_chain": "结构类、统一充分大参数定理及完整指定theta图族作为同一部分结果组，不增加推广组计数",
+    "extension_chain": "统一圈替换包含C5/C7及Θ(2^k,m)特例；结构类、全三路径及任意路径数充分长条件仍属同一部分结果组，不增加推广组计数",
     "source_kind": "论文",
     "url": "https://github.com/Aurantium-47/brw-tau-clique-attachments",
     "source_age_years": 32,
     "verified_version_age_years": 32,
     "age_stat_primary": true,
     "counterexample_component": false,
-    "publication_note": "完整theta图族版本cfa1f5fd798116b44ddc95da6f90710e48fac14a；结构与统一阈值阶段版本1ecaf2df19a751422a4672a4ccb30aefe8f73f51；文献比较不完整；不宣称历史首创或全球开放状态。与Mu–Shen–Xu 2026论文的精确重叠尚未核清。"
+    "publication_note": "统一圈替换已发布证明版本：dc6d35ba53c6a41064bc9982cb524b05b74dc2ff；完整theta图族版本cfa1f5fd798116b44ddc95da6f90710e48fac14a；结构与统一阈值阶段版本1ecaf2df19a751422a4672a4ccb30aefe8f73f51；文献比较不完整；不宣称历史首创或全球开放状态。与Mu–Shen–Xu 2026论文的精确重叠尚未核清。"
   }
 ]

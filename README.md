@@ -35,11 +35,11 @@
 
 **三项式原始目标范围升级。** [公开计算机辅助证明草稿（固定版本68f4c920）](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)覆盖[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)：对所有整数n≥10，(1+x+x²)^n的系数序列经零延拓后，全部对数凹迭代均非负。[PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍为未合并草稿；已完成独立AI内部数学复核与精确重放，不等于人工同行评审或Lean形式化。该旧成果组由部分解答改列原始目标解答：当前27组中18项主要目标解答（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。不把一般多项式猜想5.2另计一次，也不借此重新认证其证明。
 
-**[BRW τ实性团粘合：结构类与完整 theta 图族](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。对分为k个非空独立类、每类有一个与类外所有顶点相邻的锚点的不可比图，证明所有0≤j≤k的Bell色多项式团商只有非正实根，从而与任意τ实图沿任意团普通粘合保持τ实性。进一步以计算机辅助证明覆盖所有a,b,c≥2的Θ(a,b,c)：其Bell边商的全部零点均严格为负实数，因此与任意τ实图沿边普通粘合均保持τ实性。
+**[BRW τ实性团粘合：统一圈替换与结构类](https://github.com/Aurantium-47/brw-tau-clique-attachments)**。将任意普通τ实图替换到任意圈C_(m+2)的一个顶点（所有m≥1），所得图仍为普通τ实图，且Bell边商只有非正实根，因此可与任意普通τ实图沿边粘合，操作可迭代。[统一已发布证明版本](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/dc6d35ba53c6a41064bc9982cb524b05b74dc2ff/extensions/2026-11-02-uniform-cycle-substitution)。根的单调性与扩充箭头矩阵不变量给出覆盖所有圈长及输入次数的普通数学证明，不依赖有限算例外推；具有互异严格负实根的输入给出严格交错，非零边界输入给出弱交错。不宣称任意同时图替换或不受限的大团粘合。
 
-[全 theta 图族证明与精确证书](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)把无限参数族归约为有效解析范围与2,460个有限情形：总路径长度至少72时由解析论证覆盖；半径21/20的精确判据进一步缩小余项，余下情形以83,842个精确负实根区间逐项认证，并经独立纯整数全量重放。此前的[结构定理文稿](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02)与[统一阈值补充证明](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/1ecaf2df19a751422a4672a4ccb30aefe8f73f51/extensions/2026-11-02-uniform-theta)保留为阶段性版本。完整指定theta图族现已覆盖，但这仍只是[Brenti–Royle–Wagner于1994年提出的猜想6.5](https://doi.org/10.4153/CJM-1994-002-3)的部分结果，不是一般团交叠猜想的解答；猜想6.6为不同的图联接问题。
+统一定理包含此前C₅/C₇替换及Θ(2ᵏ,m)特例（2ᵏ表示k条长度为2的路径），并不替代独立的[全三路径定理](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/cfa1f5fd798116b44ddc95da6f90710e48fac14a/extensions/2026-11-02-all-theta)：全部a,b,c≥2的Θ(a,b,c)有严格负实根Bell边商；也不替代[任意路径数的充分长条件](https://github.com/Aurantium-47/brw-tau-clique-attachments/tree/b40ae7bc9df78ab78d47470d26c1915a0208182f/extensions/2026-11-02-parallel-paths)。带锚点不可比图的团商定理仍保留。给实根Bell边商的种子H添加通用团K_s，可覆盖团商阶数0≤j≤s+2；仅当H无三角形时覆盖全部可能团交。
 
-BRW仍计为**一个部分结果组**，其自身不增加成果组或主要目标解答数；合并上述三项式升级后，目录为27组、18项主要目标解答、6组部分解答，7组推广及9个含Lean材料项目不变。该计算机辅助证明由AI辅助完成，结合解析归约与穷尽精确证书，而非有限抽样；不等于人工同行评审或证明助手形式化验证。文献比较尚不完整，与Mu–Shen–Xu 2026年τ多项式论文的精确重叠待核，不宣称历史首创或全球开放状态。
+BRW仍计为**一个部分结果组**；目录保持27组、18项主要目标解答（14项肯定结论与4项反例）、6组部分解答、3组构造与分类、7组推广及9个含Lean材料项目。一般BRW猜想6.5未解决，猜想6.6是不同的图联接问题。统一证明经过独立AI内部复核，不是人工同行评审或证明助手形式化；全三路径定理保留其计算机辅助证明与精确证书。文献比较尚不完整，Mu–Shen–Xu全文未取得、精确重叠待核，不宣称历史首创或全球开放状态。
 
 ## 上次更新 · 2026年10月22日
 
@@ -120,7 +120,7 @@ BRW仍计为**一个部分结果组**，其自身不增加成果组或主要目�
 | [Clique-join支配多项式](https://github.com/Aurantium-47/clique-join-domination-polynomials) | 任意正核心及叶片大小的全家族单峰性；保留两叶片ULC及三叶片反例 | 计算机辅助证明；独立AI复核；无Lean |
 | [Zudilin B多项式实根性](https://github.com/Aurantium-47/zudilin-b-polynomial-real-rootedness) | 所有实参数a、n≥2，Pₙᵃ(x)非正实根；非例外参数严格交错 | 完整文字证明；仅部分Lean |
 | [正交部分和阈值反例](https://github.com/Aurantium-47/orthogonal-partial-sum-threshold-counterexample) | 三次部分和反驳arXiv v2猜想3.4；根数出现1、3、1、3再入 | 完整文字证明；精确Sturm证书 |
-| [BRW τ实性团粘合](https://github.com/Aurantium-47/brw-tau-clique-attachments) | 带锚点不可比图；全部a,b,c≥2的theta图，猜想6.5部分结果 | 解析证明与穷尽精确证书；无Lean |
+| [BRW τ实性团粘合](https://github.com/Aurantium-47/brw-tau-clique-attachments) | 统一圈替换；带锚点不可比图；全三路径图族，猜想6.5部分结果 | 统一普通数学证明；theta另附精确证书；无Lean |
 
 </details>
 

@@ -1,38 +1,38 @@
 {
   "updated": "2026-11-02",
-  "base_commit": "06a8984896ba5010177205977515ec7f1e682a34",
-  "scope": "Reclassify the existing Example 5.3 trinomial target using explicitly labeled AI-internally-reviewed public draft 68f4c920606ad239fbc3a8195bc0987b790f5905; 18 answered and 6 partial, with 27 families, 7 extensions and 9 Lean projects unchanged. No new certification or separate count for Conjecture 5.2. Excludes this manifest.",
+  "base_commit": "be05f702a484bf14e55f15dba00120de8ec1fd14",
+  "scope": "Uniform-cycle presentation update pinned to published proof dc6d35ba53c6a41064bc9982cb524b05b74dc2ff. Upgrade only existing BRW partial-family scope; all counts and trinomial public unmerged draft provenance unchanged. Excludes this manifest.",
   "hash_algorithm": "SHA-256",
   "files": [
     {
       "path": "CONJECTURES.md",
-      "bytes": 10353,
-      "sha256": "403d967696182b14d6df027702b827e0117a6f4aeb2805845fd0c5a4c98f711a"
+      "bytes": 10317,
+      "sha256": "7f3d5b4066ce2a5edbae4bb0f36b3514b1e9cc8d1a9edc3923cd0b3fef42ccdb"
     },
     {
       "path": "METHODS.md",
-      "bytes": 6150,
-      "sha256": "9280782b28fa812e694b7fb51f5e4f034c78a8a668f800e45b56fbb28ca7da83"
+      "bytes": 6294,
+      "sha256": "592f38ef38131395f2f7bb6d559e12d3bd376ae275a120ce730e4861ed6178dc"
     },
     {
       "path": "README.en.md",
-      "bytes": 21096,
-      "sha256": "20ec39ef7efd7c1cead92fe224f4d7a9d69b290a58b96585f627c021f9ad6c6c"
+      "bytes": 21010,
+      "sha256": "c3cde8b2c6ec9f19ee19b5e99786c87b96e4138647a6a3ca2c72241bd1316125"
     },
     {
       "path": "README.md",
-      "bytes": 30832,
-      "sha256": "019675365fe9f2387041e092ddb1b8e0588746b28840a9fc87b86f6aa045589c"
+      "bytes": 30823,
+      "sha256": "3a7f2a2b7534edecbea3488813eecb624240e9fd14e7b0b71aefde1fe1b0aa58"
     },
     {
       "path": "REPORT.html",
-      "bytes": 36199,
-      "sha256": "a3d2ac9c17cebf42ac74acef2ee6f4b1b0265096a28676e7a3acd31052db03f1"
+      "bytes": 36152,
+      "sha256": "b146b4811edeeacdc3ff610ec657bf2df3e006739084b12a41775907a877f0a8"
     },
     {
       "path": "REPORT.zh.md",
-      "bytes": 22991,
-      "sha256": "a285daba40846687c8be5e95d7c967b3d7ca639b42c309a3712da54070324d7c"
+      "bytes": 22955,
+      "sha256": "1391ca7bd5606e36803ddc19f301f24762f640ff9b4b05ed2754c8a1a4a34937"
     },
     {
       "path": "assets/research-overview.current.en.svg",
@@ -66,18 +66,18 @@
     },
     {
       "path": "data/projects.csv",
-      "bytes": 13932,
-      "sha256": "debabf7bc976d5db9a0e4ee9cea8598a31d2409ecb0f5a32f8ccd08fa2e04b11"
+      "bytes": 14166,
+      "sha256": "737c3aafe8c28d1dcda3deb41616af39b029f9e6b0ffacfdca0c1a705cce69f0"
     },
     {
       "path": "data/projects.json",
-      "bytes": 25820,
-      "sha256": "6dac2c3c25e2c8ae4b01ae3c8721edb6392c97c31a206d19d0e9620cbc5b39fd"
+      "bytes": 26054,
+      "sha256": "c9e30cf7e116e60d31d3658b5c24649867a1cb5560b99cd5d4bf99408a3abb71"
     },
     {
       "path": "data/result_counts.json",
-      "bytes": 3748,
-      "sha256": "8743312eae95f876b9b0a0ab6ff0ae05a4a48e1c75caae4bc75a54ac5022acbe"
+      "bytes": 3860,
+      "sha256": "5a850a19cbc752b95dab48e8de09e4e304325043e544ccd500458d7de4a792cc"
     }
   ]
 }

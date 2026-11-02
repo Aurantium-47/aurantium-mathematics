@@ -78,7 +78,7 @@
       "Zeros and limiting zeros; only the whole-family unimodality subquestion is completed."
     ],
     "brw-tau-clique-attachments": [
-      "General Conjecture 6.5 is not resolved by these results. The full specified theta family with all three path lengths at least two is now covered by analytic reduction and exhaustive exact certificates."
+      "General Conjecture 6.5 is not resolved. Uniform one-vertex cycle substitution is proved for every cycle length and input degree; no arbitrary simultaneous graph substitution or unrestricted larger-clique closure. The independent full three-path theorem and arbitrary-path-count sufficient length condition remain."
     ]
   },
   "original_target_count_note": "Counts the selected main target once per project; clique-join completes only unimodality; eventual-infinite-log-concavity completes the Example 5.3 trinomial target in an explicitly labeled, AI-internally-reviewed fixed public draft. No claim of 18 newly solved conjectures; Conjecture 5.2 is not separately counted or newly certified."
