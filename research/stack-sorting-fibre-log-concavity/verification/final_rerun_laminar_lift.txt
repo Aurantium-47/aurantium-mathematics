@@ -1,0 +1,16 @@
+{
+  "trees_checked": 204,
+  "exact_quadratic_hessian_checks": 22088,
+  "M_convex_support_checks": 30,
+  "max_total_coordinate_sum": 13,
+  "max_lattice_points": 380,
+  "all_passed": true
+}
+{
+  "all_positive_composition_checks": 204,
+  "total_positive_compositions_examined": 12492,
+  "max_positive_compositions_in_case": 792,
+  "finite_ordinary_Theta_comparisons": 204,
+  "all_passed": true
+}
+Explicit direct-composition example: 50 lattice points; [50, 457, 1469, 2131, 1469, 457, 50]

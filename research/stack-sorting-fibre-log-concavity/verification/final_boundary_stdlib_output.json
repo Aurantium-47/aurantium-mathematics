@@ -1,0 +1,29 @@
+{
+  "support_restriction_discriminants": [
+    -3,
+    -4
+  ],
+  "fertility_factorization_exact": true,
+  "cauchy_obstruction_degree": 8,
+  "cauchy_obstruction_coefficients": [
+    1010014,
+    57201064,
+    1100422596,
+    8520584072,
+    29270433192,
+    43348280976,
+    25922917020,
+    4434887600,
+    210301806
+  ],
+  "gcd_degree": 0,
+  "sturm_variations_minus_infinity_zero_plus_infinity": [
+    7,
+    1,
+    1
+  ],
+  "real_roots": 6,
+  "negative_roots": 6,
+  "nonreal_roots": 2,
+  "all_passed": true
+}

@@ -1,0 +1,408 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{pdftitle={Ultra log concavity of laminar Narayana sums},pdfauthor={},pdfsubject={AI-assisted proof candidate for mathematical review},pdfkeywords={Narayana polynomials, laminar nestohedra, stack sorting, Lorentzian polynomials, ultra log concavity}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Laminar Narayana sums}
+\fancyhead[R]{\small Proof candidate}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{2pt}
+\setlist[enumerate]{itemsep=3pt,topsep=5pt}
+\setlist[itemize]{itemsep=3pt,topsep=5pt}
+\allowdisplaybreaks[2]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\NN}{\mathbb{Z}_{\geq 0}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\des}{\operatorname{des}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Fer}{\operatorname{Fer}}
+\newcommand{\LC}{\operatorname{LC}}
+\newcommand{\Tr}{\operatorname{T}}
+\title{\vspace{-1.2em}\LARGE\bfseries Ultra log concavity of laminar Narayana sums}
+\author{}
+\date{\normalsize 4 November 2026}
+\begin{document}
+\maketitle
+\vspace{-2em}
+\begin{center}\small AI-assisted proof candidate for mathematical review\end{center}
+\vspace{-0.5em}
+\noindent\textbf{Review status.} This draft has undergone internal mathematical checks. It has not undergone external peer review, and priority has not been established. No claim is made that the real-rootedness conjecture for stack-sorting fibers has been proved.
+
+\begin{abstract}
+Let $P$ be a Minkowski sum of coordinate simplices indexed by a laminar family on $[m]$, with nonnegative integral weights and positive singleton weights. Write $Q$ for the total weight. A construction is given that makes the degree-$(Q-m)$ homogenization of
+\[
+ x^{-m}\sum_{q\in P\cap\ZZ^m}\prod_{i=1}^m N_{q_i}(x)
+\]
+a Lorentzian polynomial. Consequently, its coefficients are ultra log-concave of order $Q-m$. The proof combines a lattice-point recurrence, a formal Narayana substitution, and the ordinary coefficient-preserving truncation theorem of Ross, S\"uss, and Wannerer. Through Defant's fertilitope results, it yields log-concavity of the descent distribution on every stack-sorting fiber, the weaker question stated immediately after Conjecture 31 in his 2020 paper. The argument does not establish real-rootedness.
+\end{abstract}
+
+\section{Statement and conventions}
+For $a\geq1$, use the Narayana polynomial convention
+\begin{equation}\label{eq:narayana}
+ N_a(x)=\sum_{j=1}^{a}\frac1a\binom{a}{j}\binom{a}{j-1}x^j.
+\end{equation}
+Thus $N_1(x)=x$, and $N_a(x)/x$ has degree $a-1$, positive coefficients throughout its degree range, and constant and leading coefficients equal to one.
+
+A family $\cL$ of nonempty subsets of $[m]=\{1,\ldots,m\}$ is \emph{laminar} if any two members are either disjoint or comparable by inclusion. Assume throughout that $m\geq1$ and that $\cL$ contains every singleton. For a nonempty $I\subseteq[m]$, put
+\[
+ \Delta_I=\conv\{e_i:i\in I\},\qquad
+ P=\sum_{I\in\cL}y_I\Delta_I,
+ \qquad Q=\sum_{I\in\cL}y_I,
+\]
+where $e_1,\ldots,e_m$ are the coordinate vectors. A zero-weight summand is interpreted as $\{0\}$.
+
+A nonnegative sequence $(a_0,\ldots,a_d)$ is \emph{ultra log-concave of order $d$} if it has no internal zeros and $(a_j/\binom dj)_{j=0}^d$ is log-concave. For $d=0,1$, the inequalities are vacuous. This is the degree-sensitive convention used below.
+
+\begin{theorem}\label{thm:main}
+Suppose $y_I\in\NN$ for all $I\in\cL$ and $y_{\{i\}}\geq1$ for all $i$. Set $d=Q-m$. Then
+\begin{equation}\label{eq:A}
+ A_P(x)=x^{-m}\sum_{q\in P\cap\ZZ^m}\prod_{i=1}^m N_{q_i}(x)
+       =\sum_{j=0}^{d}a_jx^j
+\end{equation}
+has degree exactly $d$, all $a_j$ are positive, and the binary form $u^d A_P(v/u)$ is Lorentzian. In particular, $(a_0,\ldots,a_d)$ is ultra log-concave of order $d$. Its endpoint coefficients satisfy
+\[
+ a_0=a_d=|P\cap\ZZ^m|.
+\]
+\end{theorem}
+
+The same conclusion applies if the summand weights are initially nonnegative real numbers, the singleton weights are positive, and $P$ is an integral polytope: Lemma~\ref{lem:integral} shows that all these weights are necessarily integral. Any laminar family can be made a family of intervals by ordering leaves in a depth-first traversal of its containment forest. Thus the interval convention for binary nestohedra in \cite[Section 2.6]{Defant2023} imposes no additional restriction here after a coordinate permutation.
+
+The stack-sorting consequence is stated and proved in Section~\ref{sec:fibers}. In particular, the result concerns a fixed fiber, rather than only a union of fibers or an aggregate descent distribution.
+
+\section{Lattice points and unique subtree surpluses}
+Adjoin $[m]$ to $\cL$, with weight zero, if it is absent. This changes neither $P$ nor $Q$. Regard the resulting family as a rooted tree under inclusion. The children of a nonleaf node $I$ are its maximal proper subnodes. They are pairwise disjoint and cover $I$, since every singleton is present. Set
+\[
+ W_I=\sum_{\substack{J\in\cL\\J\subseteq I}}y_J,
+ \qquad q(I)=\sum_{i\in I}q_i.
+\]
+In particular, $W_{[m]}=Q$.
+
+\begin{lemma}\label{lem:integral}
+If the nonnegative real weights above give an integral polytope $P$, then every $y_I$ is an integer.
+\end{lemma}
+\begin{proof}
+For every $S\subseteq[m]$, additivity of the minimum of a linear functional under Minkowski sum gives
+\begin{equation}\label{eq:minima}
+ z(S):=\min_{q\in P}q(S)=\sum_{\substack{I\in\cL\\I\subseteq S}}y_I.
+\end{equation}
+Indeed, the minimum of $q(S)$ on $\Delta_I$ is one when $I\subseteq S$, and zero otherwise. Since a linear minimum on an integral polytope occurs at an integral vertex, each $z(S)$ is integral. Processing the members of $\cL$ in increasing inclusion order and using
+\[
+ y_I=z(I)-\sum_{\substack{J\in\cL\\J\subsetneq I}}y_J
+\]
+proves the assertion by induction. In particular, a positive singleton weight is at least one.
+\end{proof}
+
+\begin{lemma}[Subtree feasibility]\label{lem:feasible}
+A vector $q\in\RR^m$ belongs to $P$ if and only if
+\begin{equation}\label{eq:feasible}
+ q([m])=Q,\qquad q(I)\geq W_I\quad(I\in\cL).
+\end{equation}
+If $q$ and the weights are integral, the allocations witnessing its membership in the Minkowski sum can be chosen integral.
+\end{lemma}
+\begin{proof}
+Necessity follows from \eqref{eq:minima}, or directly by summing the contributions of all simplices supported inside $I$.
+
+For sufficiency, regard $q_i$ as capacity available at leaf $i$. These capacities are nonnegative by the singleton inequalities. Process the nodes in an order in which every proper descendant precedes its ancestors. At node $I$, allocate a mass of $y_I$ among leaves in $I$, without exceeding the residual capacity at any leaf. At that time all proper descendants of $I$ have been processed, while any previously processed node not contained in $I$ is disjoint from $I$. This follows from laminarity and the chosen order. Hence the total previously allocated mass inside $I$ is precisely $W_I-y_I$. The residual capacity there is
+\[
+ q(I)-(W_I-y_I)\geq y_I,
+\]
+so the allocation is possible. If capacities and weights are integral, fill the leaves in any fixed order using integral amounts; the residual capacities remain integral.
+
+After processing the root, the total allocated mass is $Q=q([m])$. All residual capacities are nonnegative, so each is zero. The allocation made at $I$ is an element of $y_I\Delta_I$, and the sum of these allocations is $q$. This proves membership. The construction proves existence; it does not assert uniqueness of a Minkowski decomposition.
+\end{proof}
+
+For a node $I$ and $r\in\NN$, let $\mathcal C_I(r)$ be the integer vectors indexed by $I$ satisfying
+\[
+ q(I)=W_I+r,\qquad q(J)\geq W_J
+       \quad\text{for every node }J\subseteq I.
+\]
+These sets are finite because all coordinates are positive and the total is fixed. Define the \emph{reduced} weighted sum
+\begin{equation}\label{eq:F}
+ F_I(r;x)=\sum_{q\in\mathcal C_I(r)}\prod_{i\in I}\frac{N_{q_i}(x)}{x}.
+\end{equation}
+Exactly one factor of $x$ is removed for each original leaf. In particular, Lemma~\ref{lem:feasible} gives $F_{[m]}(0;x)=A_P(x)$.
+
+\begin{lemma}[Unique surplus recurrence]\label{lem:recurrence}
+For a singleton of weight $a$, one has $F_{\{i\}}(r;x)=N_{a+r}(x)/x$. If $I$ has children $I_1,\ldots,I_\ell$ and own weight $c=y_I$, then
+\begin{equation}\label{eq:recurrence}
+ F_I(r;x)=\sum_{\substack{r_1,\ldots,r_\ell\geq0\\r_1+\cdots+r_\ell=c+r}}
+                 \prod_{j=1}^\ell F_{I_j}(r_j;x).
+\end{equation}
+\end{lemma}
+\begin{proof}
+A feasible parent vector uniquely determines
+\[
+ r_j=q(I_j)-W_{I_j}\geq0.
+\]
+Since the children partition $I$ and $W_I=c+\sum_jW_{I_j}$, their surpluses sum to $c+r$. Its restriction to $I_j$ lies in $\mathcal C_{I_j}(r_j)$. Conversely, concatenate one vector from each such child set. All proper-node inequalities hold inside a child, and the parent sum and inequality hold by the surplus identity. These maps are inverse. The weights in \eqref{eq:F} multiply across disjoint child blocks, proving \eqref{eq:recurrence}. No choice of a Minkowski decomposition is counted.
+\end{proof}
+
+The zero-weight root also handles a disconnected containment forest: its zero surplus forces all maximal component surpluses to be zero, so their contributions multiply.
+
+\section{A finite polynomial model for the recurrence}
+All generating series in this section are formal power series in $z$ over $\QQ[x]$. Put
+\[
+ b_r(x)=\frac{N_{r+1}(x)}x,\qquad
+ M(z,x)=\sum_{r\geq0}b_r(x)z^r,\qquad
+ R(u,x)=(1+u)(1+xu).
+\]
+There is a unique series $u=u(z,x)\in z\QQ[x][[z]]$ satisfying $u=zR(u,x)$. Lagrange inversion gives, for $r\geq0$,
+\begin{align*}
+ [z^r]\frac{u}{z}
+ &=\frac1{r+1}[t^r](1+t)^{r+1}(1+xt)^{r+1}\\
+ &=\sum_{j=0}^r\frac1{r+1}
+       \binom{r+1}{j}\binom{r+1}{j+1}x^j
+ =b_r(x).
+\end{align*}
+Consequently
+\begin{equation}\label{eq:substitution}
+ u=zM(z,x),\qquad M(z,x)=R(u,x),\qquad z=\frac{u}{R(u,x)}.
+\end{equation}
+Equivalently, $M=1+(1+x)zM+xz^2M^2$. Because $R(0,x)=1$, both substitutions in \eqref{eq:substitution} are valid and mutually inverse as formal substitutions. No analytic convergence is required.
+
+For a polynomial $B(u,x)$, define
+\begin{equation}\label{eq:theta}
+ \Theta B=R(u,x)\frac{B(u,x)-B(0,x)}u.
+\end{equation}
+The quotient is a polynomial. If $B$ has nonnegative coefficients, so does $\Theta B$, because the subtraction removes exactly its terms of $u$-degree zero. If $G(z,x)=B(u(z,x),x)$, then
+\begin{equation}\label{eq:shift}
+ \frac{G(z,x)-G(0,x)}z=(\Theta B)(u(z,x),x).
+\end{equation}
+Thus $\Theta$ implements one forward shift of the sequence of $z$-coefficients.
+
+\begin{proposition}\label{prop:finite}
+Define one polynomial $B_I(u,x)$ for each node by
+\begin{equation}\label{eq:tree-expression}
+ B_{\{i\}}=\Theta^{\,y_{\{i\}}-1}R,
+ \qquad
+ B_I=\Theta^{\,y_I}\left(\prod_{j=1}^{\ell}B_{I_j}\right)
+ \quad\text{at an internal node.}
+\end{equation}
+All these polynomials have nonnegative coefficients and satisfy
+\[
+ \sum_{r\geq0}F_I(r;x)z^r=B_I(u(z,x),x).
+\]
+In particular, $A_P(x)=B_{[m]}(0,x)$. The full expression uses $m$ copies of $R$ and exactly $d=Q-m$ applications of $\Theta$.
+\end{proposition}
+\begin{proof}
+At a leaf of weight $a$, the sequence $N_{a+r}(x)/x=b_{a+r-1}(x)$ is the $(a-1)$-fold forward shift of $(b_r(x))$. Equations~\eqref{eq:substitution} and \eqref{eq:shift} give the first rule. At an internal node, the product of the child generating series has coefficient at $z^t$ equal to the convolution over child surpluses summing to $t$. Equation~\eqref{eq:recurrence} retains the coefficients with $t=y_I+r$, which is exactly a $y_I$-fold shift. This proves the second rule and the generating-series identity by induction. Evaluation at $z=0$, equivalently $u=0$, gives the root value. Finally, the shift count is
+\[
+ \sum_{i=1}^m(y_{\{i\}}-1)+\sum_{\substack{I\in\cL\\|I|>1}}y_I=Q-m.
+\]
+Nonnegativity follows at each multiplication and each application of \eqref{eq:theta}.
+\end{proof}
+
+\section{Lorentzian ingredients}
+We use Lorentzian polynomials with their \emph{ordinary monomial coefficients}, not factorial-normalized coefficients. The following standard facts fix the precise conventions needed here.
+
+For a homogeneous polynomial $f$ of degree $D\geq2$ with nonnegative coefficients, the characterization in \cite[Theorem 2.25]{BH2020} says that $f$ is Lorentzian if and only if its support is $M$-convex and every derivative $\partial^\alpha f$ with $|\alpha|=D-2$ has a Hessian with at most one positive eigenvalue. Nonnegative constants and linear forms are Lorentzian; the zero polynomial is allowed in the closure statements. The support condition and a direct check of the truncation used below are detailed in Appendix~\ref{app:truncation}.
+
+The required preservation properties are:
+\begin{enumerate}[label=(\roman*)]
+ \item products of Lorentzian polynomials are Lorentzian;
+ \item partial derivatives, nonnegative linear substitutions (including setting a variable to zero), and multiplication by a positive scalar preserve the Lorentzian property;
+ \item deleting all monomials whose exponent in one coordinate exceeds a fixed nonnegative integer preserves the Lorentzian property, with the retained coefficients unchanged.
+\end{enumerate}
+The first two are standard results of Br\"and\'en and Huh; see \cite[Theorem 2.10 and Corollary 2.32]{BH2020}. The ordinary truncation statement in (iii) is credited to Ross, S\"uss, and Wannerer, \cite[Definition 3.2 and Proposition 3.3]{RSW2025}. Their Theorem 3.1 also records the product and substitution closures. Appendix~\ref{app:truncation} gives a short verification of the particular upper-coordinate truncation required here; no novelty is claimed for that preservation theorem.
+
+Finally, for $a_j\geq0$, the binary form
+\begin{equation}\label{eq:binary}
+ \sum_{j=0}^d a_j u^{d-j}v^j
+\end{equation}
+is Lorentzian if and only if $(a_j/\binom dj)_{j=0}^d$ is log-concave with no internal zeros, with the usual conventions in degrees zero and one; see \cite[Example 2.26]{BH2020}. Notice that the binomial denominator uses the degree $d$ of this binary form, not the degree of an auxiliary form from which it is extracted.
+
+\section{The homogeneous lift and extraction}
+Consider any subexpression built from $R$ by multiplication and $\Theta$. Let $m'$ denote its number of base copies of $R$, let $d'$ denote its number of applications of $\Theta$, and let $B(u,x)$ denote its value. Define initially in the Laurent polynomial ring
+\begin{equation}\label{eq:lift}
+ H(u,v)=u^{d'}B(u,v/u).
+\end{equation}
+The following simultaneous invariant makes this a polynomial and fixes its exact homogenization degree.
+
+\begin{lemma}\label{lem:invariant}
+For every such subexpression, $H$ is a polynomial with nonnegative coefficients. Every monomial of $H$ has total degree at least $d'$. Its unique highest-total-degree monomial is
+\[
+ (uv)^{m'+d'},
+\]
+with coefficient one. In particular, its total degree is exactly $D'=2(m'+d')$.
+\end{lemma}
+\begin{proof}
+At a base copy, $m'=1$, $d'=0$, and $H=(1+u)(1+v)$, so the assertions hold. Multiplication adds the leaf and shift counts and multiplies the corresponding $H$ polynomials. It therefore preserves all three assertions, including uniqueness and coefficient one of the top monomial.
+
+For a shift, assume the assertions hold for $B$ and write $H_{[d']}$ for the homogeneous degree-$d'$ part of $H$. A monomial $u^a x^b$ of $B$ becomes $u^{d'+a-b}v^b$ in $H$ and has total degree $d'+a$. Hence
+\begin{equation}\label{eq:low-layer}
+ H_{[d']}(u,v)=u^{d'}B(0,v/u).
+\end{equation}
+For $\widetilde B=\Theta B$, direct substitution in \eqref{eq:theta} gives
+\begin{equation}\label{eq:H-shift}
+ \widetilde H(u,v):=u^{d'+1}\widetilde B(u,v/u)
+       =(1+u)(1+v)\bigl(H-H_{[d']}\bigr).
+\end{equation}
+Deleting the lowest homogeneous layer leaves a polynomial with nonnegative coefficients and minimum degree at least $d'+1$. The old top term is not deleted because $2(m'+d')>d'$ for $m'\geq1$. The unique new top term is therefore $(uv)^{m'+d'+1}$, with coefficient one. This proves the invariant after a shift, and hence for all subexpressions.
+\end{proof}
+
+Homogenize at the \emph{actual} degree supplied by the lemma:
+\begin{equation}\label{eq:homogenize}
+ h(w,u,v)=w^{D'}H(u/w,v/w),\qquad D'=2(m'+d').
+\end{equation}
+At a base copy, $h=(w+u)(w+v)$. Under multiplication, the degrees $D'$ add, so the homogeneous lifts multiply without an extra power of $w$.
+
+For an integer $b\geq0$, let $\Tr_{w\leq b}$ delete monomials of $w$-exponent greater than $b$, keeping all other coefficients unchanged. Since the least degree in $H$ is at least $d'$, the largest possible $w$-exponent in $h$ is $D'-d'$. Its terms of that exponent correspond exactly to $H_{[d']}$. Equation~\eqref{eq:H-shift}, homogenized in degree $D'+2$, is therefore the identity
+\begin{equation}\label{eq:h-shift}
+ \widetilde h(w,u,v)
+   =(w+u)(w+v)\,
+         \Tr_{w\leq D'-d'-1}h(w,u,v).
+\end{equation}
+Here $D'-d'-1=2m'+d'-1\geq1$. In the componentwise truncation notation of \cite[Definition 3.2]{RSW2025}, this is the cap $(D'-d'-1,D',D')$ in variable order $(w,u,v)$.
+
+\begin{proposition}\label{prop:lorentzian}
+Every homogeneous lift $h$ in \eqref{eq:homogenize} is Lorentzian.
+\end{proposition}
+\begin{proof}
+The base $(w+u)(w+v)$ is a product of nonnegative linear forms. Products preserve the Lorentzian property. A shift is exactly the coefficient-preserving truncation followed by multiplication in \eqref{eq:h-shift}, both of which preserve it. Induction on the expression proves the claim.
+\end{proof}
+
+In particular, this argument does not assume that arbitrary homogenization preserves a Lorentzian property. It constructs each homogeneous lift through the stated closure operations. The exact degree invariant also shows that \eqref{eq:h-shift} has no hidden extra power, derivative multiplier, or coefficient normalization.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Apply the construction to the root expression in Proposition~\ref{prop:finite}. Its parameters are $m'=m$, $d'=d=Q-m$, and $D=2(m+d)$. By \eqref{eq:low-layer},
+\begin{align}\label{eq:extract}
+ u^d A_P(v/u)
+ &=H_{[d]}(u,v)=[w^{D-d}]h(w,u,v)\notag\\
+ &=\left.\frac1{(D-d)!}\,
+       \frac{\partial^{D-d}h}{\partial w^{D-d}}\right|_{w=0}.
+\end{align}
+The factorial is the ordinary coefficient-extraction factor. Differentiation, specialization at zero, and positive rescaling preserve the Lorentzian property, so the extracted binary form is Lorentzian of degree $d$.
+
+For completeness, $P\cap\ZZ^m$ is nonempty: in each integral simplex summand choose an integral vertex and add these vertices. Every lattice point $q$ satisfies $q_i\geq1$ and $\sum_iq_i=Q$. Thus
+\[
+ \prod_i\frac{N_{q_i}(x)}x
+\]
+has positive coefficients in every degree from zero through $\sum_i(q_i-1)=d$, and both endpoint coefficients are one. Summing gives exact degree $d$, positivity of every coefficient, and $a_0=a_d=|P\cap\ZZ^m|$. Applying the binary criterion \eqref{eq:binary} completes the proof.
+\end{proof}
+
+When $d=0$, all singleton weights are one and every internal weight is zero; $P=\{(1,\ldots,1)\}$ and $A_P=1$. Degree one also presents no endpoint problem. Single-leaf trees, zero internal weights, and disconnected families were included throughout.
+
+\section{Descent distributions on stack sorting fibers}\label{sec:fibers}
+Let $s$ be West's stack-sorting map. Recursively, $s(\varnothing)=\varnothing$ and $s(LnR)=s(L)s(R)n$, where $n$ is the largest letter. For $\pi\in S_n$, $n\geq1$, define
+\[
+ f_r(\pi)=|\{\sigma\in S_n:s(\sigma)=\pi,\ \des(\sigma)=r\}|.
+\]
+Defant's Conjecture 31 in \cite[p.~37]{Defant2020} asks for real-rootedness of the corresponding sequence. The paragraph immediately following it explicitly asks the weaker general log-concavity question. The following consequence addresses that weaker question.
+
+\begin{corollary}\label{cor:fibers}
+For every $n\geq1$ and $\pi\in S_n$, the sequence
+$(f_0(\pi),\ldots,f_{n-1}(\pi))$ is log-concave. More precisely, if $s^{-1}(\pi)\neq\varnothing$ and $k=\des(\pi)$, then $d=n-2k-1\geq0$, the support of this sequence is exactly
+\[
+ k,k+1,\ldots,n-k-1,
+\]
+and $(f_k(\pi),f_{k+1}(\pi),\ldots,f_{n-k-1}(\pi))$ is ultra log-concave of order $d$.
+\end{corollary}
+\begin{proof}
+For a nonempty fiber, Defant's fertilitope theorems and refined fertility formula \cite[Theorems 3.1--3.2 and the following displayed formula]{Defant2023} give an integral binary nestohedron $\Fer_\pi\subseteq\RR^{k+1}$, with positive integral singleton weights, such that
+\begin{equation}\label{eq:defant}
+ \sum_{r=0}^{n-1}f_r(\pi)x^{r+1}
+  =\sum_{q\in\Fer_\pi\cap\ZZ^{k+1}}\prod_{i=1}^{k+1}N_{q_i}(x).
+\end{equation}
+Every lattice point has total coordinate sum $n-k$. Consequently, the parameters in Theorem~\ref{thm:main} are
+\[
+ m=k+1,\qquad Q=n-k,\qquad d=Q-m=n-2k-1.
+\]
+After dividing \eqref{eq:defant} by $x^{k+1}$, that theorem gives
+\[
+ A_{\Fer_\pi}(x)=\sum_{j=0}^{d}f_{k+j}(\pi)x^j
+\]
+with all coefficients positive, and proves the stated ULC conclusion. Positivity and exact degree also give the claimed full support.
+
+To see ordinary log-concavity explicitly, write $a_j=f_{k+j}(\pi)$. For $1\leq j\leq d-1$, ULC implies
+\[
+ a_j^2\geq a_{j-1}a_{j+1}
+       \frac{\binom dj^2}{\binom d{j-1}\binom d{j+1}}
+   =a_{j-1}a_{j+1}\frac{(j+1)(d-j+1)}{j(d-j)}
+   \geq a_{j-1}a_{j+1}.
+\]
+Padding this positive block by zeros at either end preserves log-concavity. For $d=0,1$ the same assertion follows directly. If the fiber is empty, all $f_r(\pi)$ vanish and the log-concavity inequalities hold trivially; no degree-$d$ claim is needed in that case.
+\end{proof}
+
+If the empty permutation is included, its unique preimage is itself and its descent distribution is the singleton sequence $(1)$. This is a separate trivial case; the formula $d=n-2k-1$ above is asserted only for nonempty permutations with nonempty fibers.
+
+\section{Scope and the remaining real rootedness question}
+The argument proves a ULC statement for the trimmed polynomial. It does not prove the real-rootedness claims in \cite[Conjecture 31]{Defant2020} or \cite[Conjectures 1.1 and 1.2]{Defant2023}. The distinction is substantive: ordinary coordinate truncation preserves Lorentzian polynomials but need not preserve real stability.
+
+For example, start from the stable product $(w+u)^2(w+v)^2$ and delete its $w^4$ term. Specializing $u=v=1$ gives
+\[
+ (w+1)^4-w^4=(2w+1)(2w^2+2w+1),
+\]
+whose last factor has nonreal roots $(-1\pm i)/2$. Thus a closure step used in the lift cannot simply be replaced by a stability argument. This example is not a counterexample to the fiber real-rootedness conjecture: it concerns an auxiliary lift, not a fiber polynomial.
+
+The laminar assumption and positive singleton weights are also essential to the scope of this draft. Overlapping nonlaminar blocks do not have the child-partition recurrence proved here. Zero singleton weights would require conventions for $N_0$ and a different base analysis. Neither extension is claimed. The mathematical argument is presented for external checking; its publication priority and acceptance remain unestablished.
+
+\appendix
+\section{A direct check of the truncation step}\label{app:truncation}
+For clarity, the upper-coordinate case of \cite[Proposition 3.3]{RSW2025} is verified here using the characterization in \cite[Theorem 2.25]{BH2020}. This is a proof of a previously established closure property, not a new truncation theorem.
+
+A nonempty finite set $S\subseteq\NN^t$ of constant coordinate sum is $M$-convex if it satisfies the exchange condition: whenever $\alpha,\beta\in S$ and $\alpha_i>\beta_i$, there is a $j$ with $\alpha_j<\beta_j$ such that $\alpha-e_i+e_j\in S$. This is the standard exchange formulation in the present constant-sum setting.
+
+Let $f$ be homogeneous Lorentzian of degree $D$, and fix a coordinate $z_p$ and a cap $b\in\NN$. Write $g=\Tr_{z_p\leq b}f$. If $g=0$, there is nothing to prove. To check its support, take $\alpha,\beta\in\supp(g)$ with $\alpha_i>\beta_i$ and choose $j$ by exchange in $\supp(f)$. The exchanged point stays under the cap: if $j\neq p$, its $p$th coordinate does not increase; if $j=p$, then $\alpha_p<\beta_p\leq b$ and hence $\alpha_p+1\leq b$. Thus $\supp(g)$ is $M$-convex.
+
+For $D\geq2$, fix a differential operator $\partial^\gamma$ with $|\gamma|=D-2$ and put $t=\gamma_p$. Compare the quadratic forms $\partial^\gamma g$ and $\partial^\gamma f$.
+\begin{itemize}
+ \item If $t>b$, the former is zero.
+ \item If $t\leq b-2$, the forms are identical: every contributing exponent in the $p$th coordinate is at most $t+2\leq b$.
+ \item If $t=b$, the former is the latter with $z_p$ set to zero. Its Hessian is the principal submatrix omitting row and column $p$, embedded with a zero row and column. Interlacing gives at most one positive eigenvalue.
+ \item If $t=b-1$, only the $z_p^2$ coefficient is removed. The new Hessian is the old Hessian minus a nonnegative multiple of $e_pe_p^{\mathsf T}$. Subtracting a positive semidefinite matrix cannot increase the number of positive eigenvalues.
+\end{itemize}
+The Lorentzian characterization therefore applies to $g$. In degrees zero and one the assertion follows immediately from nonnegativity. This also confirms directly that the operation used in \eqref{eq:h-shift} keeps ordinary coefficients and introduces no factorial normalization.
+
+\begin{thebibliography}{9}
+\bibitem{BH2020}
+P. Br\"and\'en and J. Huh,
+\emph{Lorentzian polynomials},
+Annals of Mathematics \textbf{192} (2020), 821--891.
+\href{https://doi.org/10.4007/annals.2020.192.3.4}{doi:10.4007/annals.2020.192.3.4}.
+\href{https://web.math.princeton.edu/~huh/Lorentzian.pdf}{Author-hosted full text}.
+
+\bibitem{Defant2020}
+C. Defant,
+\emph{Stack-Sorting Preimages of Permutation Classes},
+S\'eminaire Lotharingien de Combinatoire \textbf{82} (2020), Article B82b.
+Conjecture 31 and its following paragraph are on printed page 37.
+\url{https://www.mat.univie.ac.at/~slc/wpapers/s82defant.pdf}.
+
+\bibitem{Defant2023}
+C. Defant,
+\emph{Fertilitopes},
+Discrete \& Computational Geometry \textbf{70} (2023), 713--752.
+\href{https://doi.org/10.1007/s00454-023-00488-y}{doi:10.1007/s00454-023-00488-y}.
+\href{https://arxiv.org/html/2102.11836v2}{arXiv:2102.11836v2}.
+
+\bibitem{RSW2025}
+J. Ross, H. S\"uss, and T. Wannerer,
+\emph{Dually Lorentzian Polynomials},
+Monatshefte f\"ur Mathematik \textbf{208} (2025), 495--524.
+Definition 3.2 and Proposition 3.3 give ordinary coefficient-preserving truncation.
+\href{https://doi.org/10.1007/s00605-025-02134-6}{doi:10.1007/s00605-025-02134-6}.
+\href{https://arxiv.org/pdf/2304.08399}{arXiv:2304.08399}.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,5 @@
+Normalized shifted-support restriction: z1*(z1**2 + 3*z1 + 3)/6
+Normalized q-support restriction after removing monomial: z1*(z1**2 + 2*z1 + 2)/24
+Original fertility polynomial remains RR: 3*x**3*(x + 1)*(x + 3)*(3*x + 1)
+Cauchy-square obstruction gamma: 210301806*x**8 + 4434887600*x**7 + 25922917020*x**6 + 43348280976*x**5 + 29270433192*x**4 + 8520584072*x**3 + 1100422596*x**2 + 57201064*x + 1010014
+Exact Sturm: degree8, six real roots, two nonreal roots; gcd with derivative1.

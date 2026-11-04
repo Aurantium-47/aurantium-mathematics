@@ -31,6 +31,27 @@
 
 [猜想名称、原始出处与本研究结论](CONJECTURES.md) · [91位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
+## 证明候选稿草案 · 2026年11月4日
+
+**[Stack-sorting 纤维：全部纤维对数凹证明候选](research/stack-sorting-fibre-log-concavity)** · <sub>[Defant 2020 年明确提出的问题，第 37 页](https://www.mat.univie.ac.at/~slc/wpapers/s82defant.pdf#page=37) · 枚举组合</sub>
+
+**每个固定纤维，任意排列大小。** 这份 AI 辅助完整证明候选针对 Defant 在 Conjecture 31 后提出的对数凹问题，并加强为去掉强制零项后的超对数凹性。**更强的实根猜想在本工作中仍未解决。**
+
+**候选贡献：** 为全部具有整数权重、且单点权重为正的层状 Narayana 格点和构造形式尾移表示与精确三变量 Lorentzian 提升。Defant 的计数公式和多面体工具、Brändén–Huh 的理论框架及 Ross–Süss–Wannerer 的普通截断定理均明确归属前人；探索 Lorentzian 联系的总体建议也已由 Defant 提出。
+
+<details>
+<summary>证明路线、精确算例与复核范围</summary>
+
+<img src="research/stack-sorting-fibre-log-concavity/assets/overview.svg" width="920" alt="证明候选路线：固定 stack-sorting 纤维，经层状 Narayana 和与 Lorentzian 提升，得到去零后的超对数凹性。50 格点算例的精确系数为 50,457,1469,2131,1469,457,50。本工作未解决实根性。">
+
+可编辑证明和复现代码覆盖完整允许参数范围。补充精确检查已复跑至大小 10，共 **4,037,913 个排列、89,261 个非空纤维**；另通过 **204 个层状算例、22,088 项二次 Hessian 检查**。有限枚举是一般证明的补充证据。
+
+</details>
+
+**审查与优先权：** 内部 AI 审查，包括一次新开展的完整源码对抗审查，未发现实质漏洞。**尚未经外部同行评审或证明助手形式化，历史优先权未确认。** [准确审查范围、原始来源与复现限制](research/stack-sorting-fibre-log-concavity/review/FINAL_VERIFICATION.md)。
+
+**目录边界：** 候选稿单独展示，不调整现有核心目录的项目、已解目标或 Lean 统计。
+
 ## 新公开部分结果 · 2026年11月4日
 
 **[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>

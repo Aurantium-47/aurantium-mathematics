@@ -1,0 +1,6 @@
+Verification environment recorded 2026-11-04
+Python 3.12.14
+SymPy 1.14.0 (optional failed-strengthening certificates only)
+Main laminar and permutation checks: Python standard library only
+All arithmetic in the theorem checks is integer or exact rational.
+No proof-assistant formalization is supplied.
