@@ -31,6 +31,26 @@
 
 [猜想名称、原始出处与本研究结论](CONJECTURES.md) · [91位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
+## 新公开证明候选稿 · 2026年11月4日
+
+**[Ferroni–McGinnis 单位圆猜想 · 证明候选稿](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/tree/d9b2bc10e2c8efef8765542f099ea9432ac45de9)** · <sub>[猜想 4.5](https://arxiv.org/html/2202.11808v2#S4.SS2) · 多项式零点</sub>
+
+**任意正整数容量向量 → 全部零点落在 |x| = 1 上。** 解析证明稿覆盖所有 n ≥ 1、1 ≤ k ≤ n 的加权排列多项式，包括不等容量；常数多项式没有零点。
+
+**审核与优先权：** 两次独立开展的 AI 审核均未发现数学缺口；目前仍为**未经人类同行评审、未完成形式化验证的证明候选稿**。2026 年 9 月的一条 MathOverflow 评论链接了可能相关的更早解答，但其内容未能读取。**创新性与优先权尚未确定，不作首创声明。** [审核状态](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/REVIEW_STATUS.md) · [来源与更早解答线索](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/SOURCES.md)
+
+<details>
+<summary>证明路线图与可复现检验</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/ferroni-mcginnis-unit-circle/d9b2bc10e2c8efef8765542f099ea9432ac45de9/assets/proof-map.svg" width="920" alt="路径矩阵把实区间 (−2,2) 中的零点转到单位圆，再从全为 1 的容量推广到任意正整数容量。">
+
+- **[证明路线](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/PROOF.md)：** 路径矩阵行列式与 Gauss–Lucas 定理将变换后的零点限制在 (−2,2)，再由经典 Grace–Walsh–Szegő 定理与倒数对称性推广到任意正整数容量。递推、生成函数及经典工具均明确归属前人。
+- **[计算检验](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/VERIFICATION.md)：** 附 404 个精确单位圆认证；有限检验与图中算例不代替全参数解析证明。本项目只涉及猜想 4.5，不解决另外的 h* 实根性或交错性猜想。
+
+</details>
+
+**目录边界：** 本候选稿单独列出，不并入保持原样的11月2日27项目核心目录快照；本次不更新项目、已解目标或Lean统计。
+
 ## 新增公开入口 · 2026年11月3日
 
 **正式问题集 · 两项完整否定答案，现已公开源码与复核材料**
