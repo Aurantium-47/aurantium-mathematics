@@ -31,6 +31,25 @@ A collection of **27 result families** in combinatorics, graph theory, polynomia
 
 [Conjecture names, original sources and results](CONJECTURES.md) · [The 91 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
+## Newly public archives · 3 November 2026
+
+**Formal problem lists · Two complete negative answers, with public sources and review evidence**
+
+- **[AIM 23 / Craven–Csordas (2004)](https://github.com/Aurantium-47/aim23-czds-counterexample/tree/491fc358e101f0028af7ab01e9835c5d8d8218e0): nonreal roots 4 → 6.** An entire function and coefficient sequence satisfy all original hypotheses, but the coefficientwise transformation increases the number of nonreal roots, disproving the proposed sufficient condition.
+- **[AIM 34 (2007)](https://github.com/Aurantium-47/aim34-multiplier-sequence/tree/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e): every real m > 0 fails.** The sequence (n+m)^(√(n+m)) fails to preserve polynomial real-rootedness for every positive real shift, answering the sufficiently-large-integer-shift question negatively.
+
+<details>
+<summary>Visual summaries, Lean scope and published versions</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/aim23-czds-counterexample/491fc358e101f0028af7ab01e9835c5d8d8218e0/assets/result.svg" width="460" alt="AIM23: the degree-six witness has four nonreal roots before transformation and six afterward.">
+<img src="https://raw.githubusercontent.com/Aurantium-47/aim34-multiplier-sequence/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e/assets/result.svg" width="460" alt="AIM34: every positive real shift fails to be a multiplier sequence.">
+
+Both full original targets have **October 2026 Lean source-replay and independent AI-assisted semantic-review records**; this publication and presentation pass did not recompile Lean. AIM23's exact 4→6 uses the independent rational/Sturm certificate; Lean proves input at most four and output exactly six. AIM34 proves a finite polynomial witness exists for every parameter without a uniform degree bound. The original sources are a book chapter / AIM problem list, **not the four leading mathematics journals**. No human peer review, journal acceptance or global-priority claim is made. The fixed published versions retain sources, historical evidence, reproduction instructions and the historical-source-link limitations.
+
+</details>
+
+**Counting scope:** the overview and 27-project table retain the 2 November core-catalog snapshot. AIM23 and AIM34 are previously completed results with newly public repositories, not yet incorporated into that snapshot’s project / Lean counts. Publication is not a new proof; alternate proofs, certificates and reviews are not counted again.
+
 ## This update · 2 November 2026
 
 **Trinomial infinite log-concavity: every n≥10, every iterate.** The [fixed computer-assisted proof draft, 68f4c920](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10) completes the specific assertion in [Medina–Straub (2014), Example 5.3](https://arxiv.org/pdf/1405.1765v1#page=11): every zero-extended log-concavity iterate of the coefficients of (1+x+x²)^n is nonnegative for every integer n≥10. For every n≥4004, the fourth-iterate polynomial moreover has **2n distinct negative real roots**. Analytic arguments and exact certificates establish the full unbounded statement, not a finite experiment. [Independent AI-assisted mathematical and computational review](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md) is complete, including fresh boundary-enclosure reconstruction. [Research draft PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2) remains unmerged; no human peer review, formal verification or historical-priority certification is claimed. General Conjecture 5.2 is not established by this result. Counts remain **27 families, 18 main targets answered** (14 affirmative, 4 counterexample-focused), 6 partial answers and 3 construction/classification groups; 7 extension families and 9 projects with Lean material are unchanged.

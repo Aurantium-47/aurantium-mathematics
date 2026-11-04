@@ -31,6 +31,25 @@
 
 [猜想名称、原始出处与本研究结论](CONJECTURES.md) · [91位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
+## 新增公开入口 · 2026年11月3日
+
+**正式问题集 · 两项完整否定答案，现已公开源码与复核材料**
+
+- **[AIM 23 / Craven–Csordas（2004）](https://github.com/Aurantium-47/aim23-czds-counterexample/tree/491fc358e101f0028af7ab01e9835c5d8d8218e0)：非实根 4 → 6。** 构造满足原题全部假设的整函数与系数序列，但逐系数变换反而增加非实根，否定原充分性问题；不是仅验证有限参数。
+- **[AIM 34（2007）](https://github.com/Aurantium-47/aim34-multiplier-sequence/tree/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e)：所有实数 m > 0，都不成立。** 序列 (n+m)^(√(n+m)) 对每个正实平移均不保持多项式实根性，完整否定“充分大的整数平移能否成立”的问题。
+
+<details>
+<summary>直观示意、Lean验证范围与公开版本</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/aim23-czds-counterexample/491fc358e101f0028af7ab01e9835c5d8d8218e0/assets/result.svg" width="460" alt="AIM23：六次多项式变换前有4个非实根，变换后有6个。">
+<img src="https://raw.githubusercontent.com/Aurantium-47/aim34-multiplier-sequence/797fe1cb3d5386acd70f5cdd0ec5ce40c5c79a4e/assets/result.svg" width="460" alt="AIM34：每个正实平移m都不是乘子序列。">
+
+两项完整原始靶标已有 **2026年10月的Lean源码重放与独立AI辅助语义复核记录**；此次公开归档与展示没有重新编译Lean。AIM23的精确4→6来自独立有理/Sturm证书，Lean证明输入至多4、输出恰为6；AIM34证明每个参数存在有限多项式反例，不给统一次数上界。原题来自书章／AIM问题表，**不是四大期刊出处**；不宣称人工同行评审、期刊接受或全球首解。固定仓库版本保留源码、历史证据、复现说明及原题链接失效说明。
+
+</details>
+
+**统计边界：** 上方看板与下方27项目表保留11月2日核心目录快照；这里链接的AIM23、AIM34是此前已完成、此次新增公开仓库的两项成果，尚未并入该快照的项目／Lean统计。公开归档不是新增证明，不将不同证明、证书或复核重复计数。
+
 ## 本次更新 · 2026年11月2日
 
 **三项式无限对数凹性：所有n≥10，所有迭代层。** [固定版本计算机辅助证明草稿68f4c920](https://github.com/Aurantium-47/eventual-infinite-log-concavity/tree/68f4c920606ad239fbc3a8195bc0987b790f5905/research/trinomial-all-n-ge10)完成[Medina–Straub（2014）例5.3](https://arxiv.org/pdf/1405.1765v1#page=11)的特定断言：对每个整数n≥10，(1+x+x²)^n的系数序列在支撑之外补零后，每一层对数凹迭代均非负。进一步，对每个n≥4004，第四层迭代多项式有**2n个互异负实根**。解析论证与精确证书共同覆盖完整无界命题，并非有限实验外推。已完成[独立AI辅助数学与计算复核](https://github.com/Aurantium-47/eventual-infinite-log-concavity/blob/1f9c5ce4cd6c5b2e0fe908f11f0a51d85648591f/research/trinomial-all-n-ge10/review-2026-11-02/REVIEW.md)，包括边界包络从头重建。[研究草稿PR #2](https://github.com/Aurantium-47/eventual-infinite-log-concavity/pull/2)仍未合并；不宣称人工同行评审、形式化验证或历史首创认证。本结果不证明一般猜想5.2。统计保持**27组、18项主要目标解答**（14项肯定、4项反例）、6项部分解答、3项构造／分类；7组推广和9个含Lean材料项目不变。
