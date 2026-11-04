@@ -31,6 +31,26 @@ A collection of **27 result families** in combinatorics, graph theory, polynomia
 
 [Conjecture names, original sources and results](CONJECTURES.md) · [The 91 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
+## Newly public proof candidate · 4 November 2026
+
+**[Ferroni–McGinnis unit-circle conjecture · proof candidate](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/tree/d9b2bc10e2c8efef8765542f099ea9432ac45de9)** · <sub>[Conjecture 4.5](https://arxiv.org/html/2202.11808v2#S4.SS2) · Polynomial zeros</sub>
+
+**Every positive integer capacity vector → all zeros on |x| = 1.** The analytic manuscript covers the weighted-permutation polynomial for every n ≥ 1 and 1 ≤ k ≤ n, including unequal capacities. Constant polynomials have no zeros.
+
+**Review and priority:** Two independent AI reviews found no mathematical gap; this remains a **proof candidate without human peer review or formal verification**. A September 2026 MathOverflow comment links a possible earlier solution whose content could not be inspected. **Novelty and priority remain unresolved; neither is claimed.** [Review status](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/REVIEW_STATUS.md) · [Sources and earlier-solution lead](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/SOURCES.md)
+
+<details>
+<summary>Proof map and reproducible checks</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/ferroni-mcginnis-unit-circle/d9b2bc10e2c8efef8765542f099ea9432ac45de9/assets/proof-map.svg" width="920" alt="A path-matrix route takes roots in the real interval (−2,2) to the unit circle, then transfers from unit to arbitrary positive integer capacities.">
+
+- **[Proof](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/PROOF.md):** A path-matrix determinant and Gauss–Lucas locate the transformed roots in (−2,2); the classical Grace–Walsh–Szegő theorem and reciprocal symmetry extend the conclusion to all positive integer capacities. The recurrence, generating function and classical tools are credited to prior work.
+- **[Checks](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/blob/d9b2bc10e2c8efef8765542f099ea9432ac45de9/docs/VERIFICATION.md):** 404 exact unit-circle certifications accompany the analytic argument. Finite checks and plotted examples are not the all-parameter proof. This project concerns Conjecture 4.5 only, not the separate h* real-rootedness or interlacing conjectures.
+
+</details>
+
+**Catalog scope:** This candidate is listed separately from the unchanged 2 November core-catalog snapshot of 27 projects; no project, solved-target or Lean count is updated here.
+
 ## Newly public archives · 3 November 2026
 
 **Formal problem lists · Two complete negative answers, with public sources and review evidence**
