@@ -31,6 +31,29 @@
 
 [猜想名称、原始出处与本研究结论](CONJECTURES.md) · [91位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
+## 新公开部分结果 · 2026年11月4日
+
+**[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>
+
+**系数大小不设上限。** 对任意仅有实零点、系数为正整数的 h(t)=1+h₁t+⋯+h_dtᵈ，只要 1 ≤ d ≤ 13，每个严格递增初段 1 < h₁ < ⋯ < hᵣ 的差分向量 (1,h₁−1,…,hᵣ−hᵣ₋₁) 都是某个单纯复形的 f 向量。
+
+**证明与范围：** 严格的计算机辅助证明结合穷尽的精确整数枚举与覆盖整个无界尾部的解析论证。**不限制次数的一般问题在本工作中仍未解决。**
+
+**审核与优先权：** AI 生成的数学工作经两组独立开展的 AI 审核，有限计算有三套实现。**尚无人类同行评审或证明助手形式化，创新性与发表优先权未确立。** [来源与声明边界](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/PROVENANCE.md)
+
+<details>
+<summary>范围示意、证明与精确证书</summary>
+
+<img src="https://raw.githubusercontent.com/Aurantium-47/kubitzke-welker-degree13/11e7139f991497229885d2f1b096949c77265e92/assets/overview.png" width="920" alt="全部 1–13 次实根情形，系数无上界：精确有限枚举加已证明的无界尾部。仅凭 Newton 不等式可保证到 11 次，一般次数仍未解决。">
+
+- **证明：** [12 次以内的论证](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree12_proof.md)与 [13 次扩展](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/proofs/degree13_extension.md)得到初始差分的 Kruskal–Katona 结论，不只是 Macaulay 增长，也不是另外的原系数向量问题。
+- **[复现材料](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/REPRODUCIBILITY.md)：** 66 个指标情形共枚举 10,445,449 个有限 q 值，余下 15 个局部候选元组均由精确代数论证排除；无界尾部已有证明，不是截断搜索。
+- **边界：** 单独使用 Newton 不等式可保证到 11 次，12 次有反例；该反例不是实根多项式，因此不反驳原问题 4.4。[原始来源与相近问题区别](https://github.com/Aurantium-47/kubitzke-welker-degree13/blob/11e7139f991497229885d2f1b096949c77265e92/SOURCES.md)
+
+</details>
+
+**目录边界：** 本部分结果单独列出，不并入保持原样的11月2日27项目核心目录快照；本次不更新项目、已解目标或Lean统计。
+
 ## 新公开证明候选稿 · 2026年11月4日
 
 **[Ferroni–McGinnis 单位圆猜想 · 证明候选稿](https://github.com/Aurantium-47/ferroni-mcginnis-unit-circle/tree/d9b2bc10e2c8efef8765542f099ea9432ac45de9)** · <sub>[猜想 4.5](https://arxiv.org/html/2202.11808v2#S4.SS2) · 多项式零点</sub>
