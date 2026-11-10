@@ -31,6 +31,16 @@ A collection of **27 result families** in combinatorics, graph theory, polynomia
 
 [Conjecture names, original sources and results](CONJECTURES.md) · [The 91 researchers and their work](PRIOR_RESEARCH.md) · [Statistical definitions](METHODS.md)
 
+## New counterexamples · 10 November 2026
+
+**[Defant’s single-fibre real-rootedness conjecture: witnesses of lengths 111 and 112](research/defant-single-fibre-counterexamples/README.md)** · Permutation enumeration / real-rooted polynomials
+
+Two explicit permutations have stack-sorting preimage descent polynomials with **four nonreal roots each**. A product construction increases the length by two and multiplies the fibre polynomial by x, giving counterexamples for **every n ≥ 111**. The proof combines a binary-nestohedron lattice-point formula with an exact rational inequality; reproducible Python standard-library checks and Sturm root-count certificates are included.
+
+[Construction and proof](research/defant-single-fibre-counterexamples/PROOF.md) · [Compact exact certificate](research/defant-single-fibre-counterexamples/COMPACT_PROOF.md) · [Reproduction and verification](research/defant-single-fibre-counterexamples/VERIFICATION.md) · [Sources and related work](research/defant-single-fibre-counterexamples/SOURCES.md)
+
+This resolves the real-rootedness assertion; the separate log-concavity question remains. This addition is outside the existing 27-project catalog snapshot below.
+
 ## Newly public partial result · 4 November 2026
 
 **[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>

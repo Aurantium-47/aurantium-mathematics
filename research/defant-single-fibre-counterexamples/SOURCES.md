@@ -1,0 +1,8 @@
+# Sources and related results
+
+1. Colin Defant, *Stack-Sorting Preimages of Permutation Classes*, Séminaire Lotharingien de Combinatoire **82** (2020), B82b, Conjecture 31, printed p. 37. [Journal text](https://www.mat.univie.ac.at/~slc/wpapers/s82defant.pdf). The [2018 preprint](https://arxiv.org/abs/1809.03123) labels the assertion Conjecture 11.1 in v1.
+2. Colin Defant, *Fertilitopes*, Discrete & Computational Geometry **70** (2023), 713–752. [DOI](https://doi.org/10.1007/s00454-023-00488-y), [arXiv:2102.11836](https://arxiv.org/abs/2102.11836). Conjectures 1.1–1.2 state the fibre and binary-nestohedron versions. Theorem 3.1 supplies the lattice-point correspondence, Theorem 3.2 the binary-nestohedron characterization, and Corollary 3.3 their equivalence; Proposition 3.8 and the construction in the proof of Lemma 3.9 supply the append and product operations used here.
+3. Colin Defant, *Counting 3-Stack-Sortable Permutations*, [arXiv:1903.09138](https://arxiv.org/abs/1903.09138), Example 8.1. The earlier non-real-rooted example uses the union of the fibres of (6,7,8,4,5,9,10,1,2,3,11) and (6,7,8,9,2,3,4,5,10,1,11). Its polynomial is 3x²+31x³+112x⁴+169x⁵+112x⁶+31x⁷+3x⁸. The witnesses here each use one fibre.
+4. Son Nguyen and Andrew Sack, *Poset Associahedra and Stack-sorting*, [arXiv:2310.02512](https://arxiv.org/abs/2310.02512), Section 5. This proves real-rootedness for a particular poset-associahedron family.
+
+Focused literature searches on 9–10 November 2026 for Fertilitopes counterexamples, fixed-permutation fibre real-rootedness, and binary-nestohedron Narayana counterexamples located no earlier matching single-fibre counterexample. This is a bounded literature screen, not an exhaustive priority determination.

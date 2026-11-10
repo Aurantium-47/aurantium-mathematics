@@ -31,6 +31,16 @@
 
 [猜想名称、原始出处与本研究结论](CONJECTURES.md) · [91位研究者及其工作](PRIOR_RESEARCH.md) · [统计说明](METHODS.md)
 
+## 新公开反例 · 2026年11月10日
+
+**[Defant 单排列纤维实根性猜想：111、112 元素反例](research/defant-single-fibre-counterexamples/README.md)** · 排列枚举 / 实根多项式
+
+给出两个显式排列，其栈排序原像下降多项式各有 **4 个非实根**；通过长度加 2、纤维多项式乘 x 的构造，覆盖 **所有 n ≥ 111**。证明结合二元 nestohedron 的格点公式与精确有理数不等式，附可直接运行的 Python 标准库验证程序及 Sturm 根数证书。
+
+[构造与证明](research/defant-single-fibre-counterexamples/PROOF.md) · [简短精确证书](research/defant-single-fibre-counterexamples/COMPACT_PROOF.md) · [复现与核验](research/defant-single-fibre-counterexamples/VERIFICATION.md) · [原题与相关工作](research/defant-single-fibre-counterexamples/SOURCES.md)
+
+本项解决实根性断言，另一个对数凹性问题仍保留；不计入下方原有 27 项目录快照。
+
 ## 新公开部分结果 · 2026年11月4日
 
 **[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>

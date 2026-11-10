@@ -1,0 +1,2 @@
+PASS n=111: direct stack-sorting recursion matches all 72 coefficients.
+PASS n=112: direct stack-sorting recursion matches all 75 coefficients.

@@ -1,0 +1,11 @@
+PASS direct original Narayana increment DP
+Outside factor: 9*(x + 1)**5*(x**2 + 5*x + 1)**4
+Normalized polynomial degree: 35
+Lattice count: 259330500
+F positive roots: 9
+F all real roots: 9
+PASS F is squarefree with nine positive real roots and two nonreal roots
+Sturm signs0: [-1, 1, -1, 1, -1, 1, -1, 1, -1, 1, 1, -1]
+Sturm signs+inf: [1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, -1]
+Sturm signs-inf: [-1, 1, -1, 1, -1, 1, -1, 1, -1, -1, 1, -1]
+PASS permutation112, descents38, coordinate sum74
