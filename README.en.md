@@ -41,6 +41,8 @@ Two explicit permutations have stack-sorting preimage descent polynomials with *
 
 This resolves the real-rootedness assertion; the separate log-concavity question remains. This addition is outside the existing 27-project catalog snapshot below.
 
+**[Two-block gamma-ULC progress](research/defant-two-block-gamma/README.md)** · Exact certificates for M≥1, m≤24 and all real p,q≥1, with a probability reduction and exact obstructions (11 November 2026).
+
 ## Newly public partial result · 4 November 2026
 
 **[Kubitzke–Welker Question 4.4: all degrees 1–13](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[Original question, p. 17](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · Real-rooted polynomials / simplicial complexes</sub>

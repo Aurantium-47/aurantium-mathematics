@@ -1,0 +1,61 @@
+Independent coefficient verification through 3 : 0 inequalities
+Independent coefficient verification through 4 : 2 inequalities
+Independent coefficient verification through 5 : 6 inequalities
+Independent coefficient verification through 6 : 18 inequalities
+Independent coefficient verification through 7 : 36 inequalities
+Independent coefficient verification through 8 : 72 inequalities
+Independent coefficient verification through 9 : 120 inequalities
+Independent coefficient verification through 10 : 200 inequalities
+Independent coefficient verification through 11 : 300 inequalities
+Independent coefficient verification through 12 : 450 inequalities
+Independent coefficient verification through 13 : 630 inequalities
+Independent coefficient verification through 14 : 882 inequalities
+Independent coefficient verification through 15 : 1176 inequalities
+Independent coefficient verification through 16 : 1568 inequalities
+Independent coefficient verification through 17 : 2016 inequalities
+Independent coefficient verification through 18 : 2592 inequalities
+Independent coefficient verification through 19 : 3240 inequalities
+Independent coefficient verification through 20 : 4050 inequalities
+Independent coefficient verification through 21 : 4950 inequalities
+Independent coefficient verification through 22 : 6050 inequalities
+Independent coefficient verification through 23 : 7260 inequalities
+Independent coefficient verification through 24 : 8712 inequalities
+{
+  "passed": true,
+  "method": "factorial interpolation and carry-free integer convolution",
+  "lo": 3,
+  "hi": 24,
+  "minimum_M": 1,
+  "representative_triples": 1078,
+  "ordered_triples": 2024,
+  "representative_inequalities": 8712,
+  "ordered_inequalities": 16478,
+  "counts": {
+    "3": 0,
+    "4": 2,
+    "5": 4,
+    "6": 12,
+    "7": 18,
+    "8": 36,
+    "9": 48,
+    "10": 80,
+    "11": 100,
+    "12": 150,
+    "13": 180,
+    "14": 252,
+    "15": 294,
+    "16": 392,
+    "17": 448,
+    "18": 576,
+    "19": 648,
+    "20": 810,
+    "21": 900,
+    "22": 1100,
+    "23": 1210,
+    "24": 1452
+  },
+  "all_constant_terms_positive": true,
+  "checked_nonzero_coefficients": 3551042,
+  "all_rows_sha256": "2ee59e94168deccdbd7253dcba5d5df8e1aef5e94ed6a805221c9a85f01c9af3",
+  "previous_scope_rows_sha256": "b8e78994b5b92390449b9511a42cc5f9c497392a94d78e371241d13ab9753bb6"
+}

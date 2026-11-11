@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "derivative_checks": 360,
+  "recurrence_mass_checks": 5100,
+  "scope": "Four positive rational parameter pairs, every m=0..19 and k=0..floor(m/2)."
+}

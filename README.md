@@ -41,6 +41,8 @@
 
 本项解决实根性断言，另一个对数凹性问题仍保留；不计入下方原有 27 项目录快照。
 
+**[双块 gamma-ULC 阶段成果](research/defant-two-block-gamma/README.md)** · M≥1、m≤24、全部实数 p,q≥1 的精确证书，附概率化简与精确障碍例（2026年11月11日）。
+
 ## 新公开部分结果 · 2026年11月4日
 
 **[Kubitzke–Welker 问题 4.4：覆盖全部 1–13 次情形](https://github.com/Aurantium-47/kubitzke-welker-degree13/tree/11e7139f991497229885d2f1b096949c77265e92)** · <sub>[原问题，第 17 页](https://www.mathematik.uni-marburg.de/~welker/preprints/Veronese.pdf#page=17) · 实根多项式 / 单纯复形</sub>

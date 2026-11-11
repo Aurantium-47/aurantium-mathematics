@@ -1,0 +1,21 @@
+Verified total degree 6 cumulative inequalities 2
+Verified total degree 7 cumulative inequalities 6
+Verified total degree 8 cumulative inequalities 18
+Verified total degree 9 cumulative inequalities 36
+Verified total degree 10 cumulative inequalities 72
+Verified total degree 11 cumulative inequalities 120
+Verified total degree 12 cumulative inequalities 200
+Verified total degree 13 cumulative inequalities 300
+Verified total degree 14 cumulative inequalities 450
+Verified total degree 15 cumulative inequalities 630
+Verified total degree 16 cumulative inequalities 882
+Verified total degree 17 cumulative inequalities 1176
+Verified total degree 18 cumulative inequalities 1568
+{
+  "passed": true,
+  "lo": 6,
+  "hi": 18,
+  "minimum_M": 4,
+  "inequalities": 1568,
+  "rows_sha256": "b8e78994b5b92390449b9511a42cc5f9c497392a94d78e371241d13ab9753bb6"
+}
