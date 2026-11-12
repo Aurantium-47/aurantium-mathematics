@@ -39,7 +39,7 @@ Two explicit permutations have stack-sorting preimage descent polynomials with *
 
 [Construction and proof](research/defant-single-fibre-counterexamples/PROOF.md) · [Compact exact certificate](research/defant-single-fibre-counterexamples/COMPACT_PROOF.md) · [Reproduction and verification](research/defant-single-fibre-counterexamples/VERIFICATION.md) · [Sources and related work](research/defant-single-fibre-counterexamples/SOURCES.md)
 
-This resolves the real-rootedness assertion; the separate log-concavity question remains. This addition is outside the existing 27-project catalog snapshot below.
+This addresses the real-rootedness assertion. For the separate log-concavity question, see [this repository’s Lorentzian proof draft](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity) ([commit dated 4 November 2026 UTC](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)) and [Theorem 1.1 of Defant’s 10 November 2026 preprint](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1). The draft’s main conclusion implies that theorem; the preprint also develops a multivariate matroid structure. The draft has independent AI-assisted reviews, not human peer review. These additions remain outside the existing 27-project catalog snapshot below.
 
 **[Two-block gamma-ULC progress](research/defant-two-block-gamma/README.md)** · Exact certificates for M≥1, m≤24 and all real p,q≥1, with a probability reduction and exact obstructions (11 November 2026).
 
