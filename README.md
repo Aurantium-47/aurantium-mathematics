@@ -39,7 +39,7 @@
 
 [构造与证明](research/defant-single-fibre-counterexamples/PROOF.md) · [简短精确证书](research/defant-single-fibre-counterexamples/COMPACT_PROOF.md) · [复现与核验](research/defant-single-fibre-counterexamples/VERIFICATION.md) · [原题与相关工作](research/defant-single-fibre-counterexamples/SOURCES.md)
 
-本项解决实根性断言，另一个对数凹性问题仍保留；不计入下方原有 27 项目录快照。
+本项针对实根性断言。另一个对数凹性问题见[本仓库的 Lorentzian 证明草稿](https://github.com/Aurantium-47/aurantium-mathematics/tree/d6c4747db93eb8c7acfcb792215452cc1f2249dc/research/stack-sorting-fibre-log-concavity)（[2026年11月4日 UTC 提交](https://github.com/Aurantium-47/aurantium-mathematics/commit/d6c4747db93eb8c7acfcb792215452cc1f2249dc)）及 [Defant 2026年11月10日预印本的 Theorem 1.1](https://arxiv.org/html/2611.13479v1#S1.Thmtheorem1)；两份证明的主结论对应，后者另含多变量拟阵结构。上述草稿经独立 AI 审查，尚无人类同行评审；不计入下方原有 27 项目录快照。
 
 **[双块 gamma-ULC 阶段成果](research/defant-two-block-gamma/README.md)** · M≥1、m≤24、全部实数 p,q≥1 的精确证书，附概率化简与精确障碍例（2026年11月11日）。
 
