@@ -1,0 +1,80 @@
+[
+  {
+    "k": 4,
+    "exact_identity_nodes": 840,
+    "positive_coefficients": 840,
+    "total_degree_bound": 23
+  },
+  {
+    "k": 5,
+    "exact_identity_nodes": 1290,
+    "positive_coefficients": 1290,
+    "total_degree_bound": 29
+  },
+  {
+    "k": 6,
+    "exact_identity_nodes": 1836,
+    "positive_coefficients": 1836,
+    "total_degree_bound": 35
+  },
+  {
+    "k": 7,
+    "exact_identity_nodes": 2478,
+    "positive_coefficients": 2478,
+    "total_degree_bound": 41
+  },
+  {
+    "k": 8,
+    "exact_identity_nodes": 3216,
+    "positive_coefficients": 3216,
+    "total_degree_bound": 47
+  },
+  {
+    "k": 9,
+    "exact_identity_nodes": 4050,
+    "positive_coefficients": 4050,
+    "total_degree_bound": 53
+  },
+  {
+    "k": 10,
+    "exact_identity_nodes": 4980,
+    "positive_coefficients": 4980,
+    "total_degree_bound": 59
+  },
+  {
+    "k": 11,
+    "exact_identity_nodes": 6006,
+    "positive_coefficients": 6006,
+    "total_degree_bound": 65
+  },
+  {
+    "k": 12,
+    "exact_identity_nodes": 7128,
+    "positive_coefficients": 7128,
+    "total_degree_bound": 71
+  },
+  {
+    "k": 13,
+    "exact_identity_nodes": 8346,
+    "positive_coefficients": 8346,
+    "total_degree_bound": 77
+  },
+  {
+    "k": 14,
+    "exact_identity_nodes": 9660,
+    "positive_coefficients": 9660,
+    "total_degree_bound": 83
+  },
+  {
+    "k": 15,
+    "exact_identity_nodes": 11070,
+    "positive_coefficients": 11070,
+    "total_degree_bound": 89
+  },
+  {
+    "k": 16,
+    "exact_identity_nodes": 12576,
+    "positive_coefficients": 12576,
+    "total_degree_bound": 95
+  }
+]
