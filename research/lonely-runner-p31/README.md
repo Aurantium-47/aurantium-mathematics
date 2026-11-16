@@ -14,6 +14,10 @@ Two independently written search algorithms, suffix-union branch-and-bound and C
 
 The [proof and reductions](PROOF.md) explain the finite predicate, exhaustive level-one reduction, canonicalization and the LRC(14) dependency. The properness framework follows [Allikvere §2](https://arxiv.org/html/2609.02604v2#S2), with attribution there to Sungkawichai–Trakulthongchai. This repository adds the specialized p=31 calculation and cross-checking, without claiming priority or a new general theorem. Both implementations were developed within one AI-assisted workflow; distinct algorithms are not independent human peer review.
 
+## Conditional product bound
+
+A separate [flag-bound specialization](BOUND.md), assuming every LRC(m) with m<15, gives log(product of counterexample speeds) < 506.81695423653393557690. Two exact-rational implementations certify the enclosure. This applies Allikvere’s existing general theorem with an elementary shape estimate; it is not a new general theorem. After the forced divisor and the separate p=31 gate, the remaining distinct-prime log-mass target is below 489.894961040723468. The remaining prime gates have not been supplied.
+
 ## Reproduce
 
 Requirements: Python 3, g++ supporting C++17, a little-endian platform with 32-bit C++ int. Allow approximately 1 GB free temporary storage and 1 GB RAM.
