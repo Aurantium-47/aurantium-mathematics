@@ -1,0 +1,2 @@
+{'min_ratio': '3751/2349', 'a0': 1.4809362175794418, 'r': 0.9601448989625819, 'logA': 36.536518219695125, 'product_log_bound': 506.8169542365339, 'forced_divisor': 720720, 'prime_log_target': 493.32894824520855}
+8192 block-partition products checked with exact Fraction arithmetic
