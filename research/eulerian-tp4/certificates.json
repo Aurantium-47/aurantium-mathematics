@@ -1,0 +1,1480 @@
+[
+  {
+    "u": 0,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 1,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 1,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 2,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 1,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 8,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 7,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 5,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "monomials": 2,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "monomials": 5,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 2,
+    "columns": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "monomials": 2,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 17,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 16,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "monomials": 10,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 16,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "monomials": 10,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "monomials": 16,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "monomials": 9,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      2,
+      3,
+      6
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "monomials": 31,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "monomials": 19,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "monomials": 7,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 3,
+    "columns": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "monomials": 3,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 15,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 30,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "monomials": 22,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "monomials": 4,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 39,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "monomials": 29,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "monomials": 13,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "monomials": 17,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      1,
+      4,
+      6
+    ],
+    "monomials": 4,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "monomials": 51,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "monomials": 35,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      2,
+      3,
+      6
+    ],
+    "monomials": 16,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "monomials": 22,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "monomials": 6,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "monomials": 14,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "monomials": 4,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "monomials": 81,
+    "method": "Muirhead",
+    "dominant": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "dominated": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_mass": 8208,
+    "negative_mass": 984
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "monomials": 78,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "monomials": 14,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "monomials": 54,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "monomials": 16,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "monomials": 41,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "monomials": 13,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 4,
+    "columns": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "monomials": 34,
+    "method": "Muirhead",
+    "dominant": [
+      3,
+      3,
+      2,
+      0
+    ],
+    "dominated": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "positive_mass": 72,
+    "negative_mass": 72
+  },
+  {
+    "u": 4,
+    "columns": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "monomials": 4,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 6,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 20,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "monomials": 40,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "monomials": 10,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 45,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "monomials": 65,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "monomials": 35,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "monomials": 56,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      4,
+      6
+    ],
+    "monomials": 21,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      1,
+      5,
+      6
+    ],
+    "monomials": 5,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "monomials": 96,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      3,
+      6
+    ],
+    "monomials": 51,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "monomials": 86,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "monomials": 35,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      2,
+      5,
+      6
+    ],
+    "monomials": 10,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "monomials": 30,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "monomials": 10,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "monomials": 5,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "monomials": 116,
+    "method": "Muirhead",
+    "dominant": [
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    "dominated": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "positive_mass": 17640,
+    "negative_mass": 1440
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "monomials": 146,
+    "method": "Muirhead",
+    "dominant": [
+      3,
+      1,
+      1,
+      0,
+      0
+    ],
+    "dominated": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_mass": 720,
+    "negative_mass": 720
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "monomials": 65,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "monomials": 155,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "monomials": 95,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "monomials": 30,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "monomials": 140,
+    "method": "Muirhead",
+    "dominant": [
+      3,
+      2,
+      2,
+      0,
+      0
+    ],
+    "dominated": [
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_mass": 360,
+    "negative_mass": 240
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "monomials": 95,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "monomials": 35,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "monomials": 21,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "monomials": 100,
+    "method": "Muirhead",
+    "dominant": [
+      3,
+      2,
+      2,
+      1,
+      0
+    ],
+    "dominated": [
+      3,
+      2,
+      1,
+      1,
+      1
+    ],
+    "positive_mass": 1800,
+    "negative_mass": 600
+  },
+  {
+    "u": 5,
+    "columns": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "monomials": 55,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "monomials": 21,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 5,
+    "columns": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "monomials": 5,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "monomials": 6,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "monomials": 15,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "monomials": 20,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "monomials": 21,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "monomials": 50,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      4,
+      6
+    ],
+    "monomials": 66,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      1,
+      5,
+      6
+    ],
+    "monomials": 30,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "monomials": 50,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "monomials": 90,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      3,
+      6
+    ],
+    "monomials": 126,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "monomials": 126,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "monomials": 121,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      2,
+      5,
+      6
+    ],
+    "monomials": 66,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "monomials": 140,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "monomials": 126,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      0,
+      4,
+      5,
+      6
+    ],
+    "monomials": 20,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "monomials": 60,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "monomials": 120,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "monomials": 140,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "monomials": 120,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "monomials": 126,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "monomials": 75,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "monomials": 120,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "monomials": 90,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "monomials": 50,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "monomials": 15,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "monomials": 60,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "monomials": 50,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "monomials": 21,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "monomials": 6,
+    "method": "nonnegative coefficients"
+  },
+  {
+    "u": 6,
+    "columns": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "monomials": 1,
+    "method": "nonnegative coefficients"
+  }
+]
