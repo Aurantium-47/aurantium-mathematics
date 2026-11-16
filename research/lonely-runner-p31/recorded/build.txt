@@ -1,0 +1,5 @@
+g++ (Debian 14.2.0-19) 14.2.0
+x86_64
+g++ -O3 -std=c++17 runner16_math/bnb_full.cpp -o runner16_math/bnb_full
+binary records: native little-endian signed int32, 15 integers, lexicographic order
+Published C++ files are clang-format reformattings of the archived source. Include sets and whitespace-stripped non-include text were checked identical; both formatted files passed g++ -O3 -std=c++17 -fsyntax-only.

@@ -1,0 +1,45 @@
+level=2 complete_parents=1 potential_assignments=32768 nodes=16421 prunes=5464 accepted_leaves=2747 survivors=2746 bnb_seconds=0.000383703 brute_seconds=0.000503656
+level=4 complete_parents=2746 potential_assignments=89980928 nodes=17092702 prunes=7271602 accepted_leaves=1276122 survivors=1276122 bnb_seconds=0.355038 brute_seconds=1.27359
+progress level=8 parents=100000 retained=106748
+progress level=8 parents=200000 retained=243860
+progress level=8 parents=300000 retained=418742
+progress level=8 parents=400000 retained=553414
+progress level=8 parents=500000 retained=668594
+progress level=8 parents=600000 retained=797342
+progress level=8 parents=700000 retained=931830
+progress level=8 parents=800000 retained=1086460
+progress level=8 parents=900000 retained=1220640
+progress level=8 parents=1000000 retained=1336794
+progress level=8 parents=1100000 retained=1473044
+progress level=8 parents=1200000 retained=1576730
+level=8 complete_parents=1276122 potential_assignments=41815965696 nodes=744444780 prunes=371187719 accepted_leaves=1672732 survivors=1672732 bnb_seconds=27.7769 brute_seconds=0.0372353
+progress level=16 parents=100000 retained=0
+progress level=16 parents=200000 retained=0
+progress level=16 parents=300000 retained=0
+progress level=16 parents=400000 retained=0
+progress level=16 parents=500000 retained=0
+progress level=16 parents=600000 retained=0
+progress level=16 parents=700000 retained=0
+progress level=16 parents=800000 retained=0
+progress level=16 parents=900000 retained=0
+progress level=16 parents=1000000 retained=0
+progress level=16 parents=1100000 retained=0
+progress level=16 parents=1200000 retained=0
+progress level=16 parents=1300000 retained=0
+progress level=16 parents=1400000 retained=0
+progress level=16 parents=1500000 retained=0
+progress level=16 parents=1600000 retained=0
+level=16 complete_parents=1672732 potential_assignments=54812082176 nodes=73384756 prunes=37528744 accepted_leaves=0 survivors=0 bnb_seconds=31.0924 brute_seconds=0.0411624
+
+runner16_math: 71.055 seconds
+level=2 parents=1 raw=2747 survivors=2746 fnv=6657518272379016186 seconds=0.0159188
+level=4 parents=2746 raw=1276122 survivors=1276122 fnv=11852799748218892885 seconds=3.86826
+level=8 parents=1276122 raw=1672732 survivors=1672732 fnv=3763767826349897285 seconds=49.6717
+level=16 parents=1672732 raw=0 survivors=0 fnv=14695981039346656037 seconds=148.073
+
+runner_dpll: 148.100 seconds
+PASS level 2: 2746 vectors, SHA256 c7466e1e8a904063d590604992374a68b8167e9bd190f142d4a86add1ae98b9c
+PASS level 4: 1276122 vectors, SHA256 3da2d1b7801cd033e78478955d067a6d6c673f20ac641deecce6b0d3f03b82ba
+PASS level 8: 1672732 vectors, SHA256 65a55a3e792bdf20b9a01a633ec75f9dfcdb1964825d5af076d396e806d9aead
+PASS level 16: 0 vectors, SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+PASS: two algorithms agree on every stored layer. This is one conditional gate, not LRC(15).
