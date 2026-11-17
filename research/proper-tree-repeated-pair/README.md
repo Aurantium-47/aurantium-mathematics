@@ -6,6 +6,8 @@ The repeated pair may occupy internal skeleton vertices. The example weights q,q
 
 [Proof and references](PROOF.md). The proof uses Awan's existing master formula and general weight-recovery lemma, then extracts connected colored triples and reconstructs two-column adjacency data. No claim is made to solve Stanley's general conjecture, cover unrestricted diameter-six trees, or establish priority.
 
+[Concrete 730-vertex example](EXAMPLE.md): diameter six, repeated internal weights, and an explicit comparison with the cited hypotheses.
+
 ## Reproduce the checks
 
 Python 3.10+; standard library only. From this directory:
@@ -13,9 +15,11 @@ Python 3.10+; standard library only. From this directory:
 ```sh
 python checks/signature.py
 python checks/forest.py
+python checks/example.py
 sha256sum -c SHA256SUMS
 ```
 
+- `example.py`: constructs the 730-vertex proper tree; checks the 96 submultiset sums, skeleton, degrees and diameters.
 - `signature.py`: all 18,247 labelled skeleton trees on 3 through 7 vertices; colored edge/triple data determines the tree up to swapping the repeated pair.
 - `forest.py`: an independently implemented full forest expansion on all 1,440 labelled skeletons on 3 through 6 vertices; 34,271 exact coefficient identities checked, including q=2.
 
