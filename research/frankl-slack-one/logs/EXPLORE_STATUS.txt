@@ -1,0 +1,2 @@
+Solver implementation: Glucose 4.1 (pysat.solvers.Glucose4 documentation), bundled with python-sat 1.9.dev22.
+All three exploration runs ended UNKNOWN at conflict budget; budget is checked at solver interruption points and may overshoot. No SAT model or UNSAT certificate was obtained.

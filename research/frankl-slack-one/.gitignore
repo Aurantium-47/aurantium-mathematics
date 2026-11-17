@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+slack13_*.cnf*
+checker_drat_trim/
+/php54*
+!certificates/

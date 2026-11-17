@@ -1,0 +1,2 @@
+{"solver": "Glucose 4.1", "python_sat": "1.9.dev22", "variables": 20, "clauses": 45, "min_original_clause_length": 2, "proof_lines": 39, "stats": {"restarts": 1, "conflicts": 30, "decisions": 41, "propagations": 165}}
+Negative control CNF is SAT; model directly checked
