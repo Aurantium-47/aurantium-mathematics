@@ -1,0 +1,22 @@
+{
+  "1": {
+    "union_closed": 3,
+    "regular_separated_fullground": 2,
+    "with_size1_or2": 2
+  },
+  "2": {
+    "union_closed": 13,
+    "regular_separated_fullground": 2,
+    "with_size1_or2": 12
+  },
+  "3": {
+    "union_closed": 121,
+    "regular_separated_fullground": 4,
+    "with_size1_or2": 118
+  },
+  "4": {
+    "union_closed": 4959,
+    "regular_separated_fullground": 18,
+    "with_size1_or2": 4918
+  }
+}

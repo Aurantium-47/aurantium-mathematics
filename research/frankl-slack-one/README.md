@@ -59,8 +59,13 @@ checker_drat_trim/drat-trim php54.sat_control.cnf php54.drat
 
 The checked small CNF/proof and controls are retained in `certificates/`. See [proof-pipeline report](proof-pipeline.md).
 
+## Restricted regular subproblem
+
+[Gebendorfer comparison and diagnostic](regular-prior-work.md) specializes an existing zero-codegree counting argument to the regular 01 subcase; regular 00 is excluded by its degree mismatch. **This excludes neither unrestricted branch.** Regular 10 remains unresolved. The general encoder and its three UNKNOWN results are unchanged. Run `python regular_diagnostic.py` and `python audit_regular.py` for the added small tests; `timeout 60s python regular_diagnostic.py --run` additionally performs bounded regular-only exploration. See the [independent audit](audit-regular.md).
+
 ## Prior work and open obligations
 
+- Gebendorfer (v2.1, 6 August 2026), [author preprint](https://www.researchgate.net/publication/411040817_Structure_Residual-Degree_Bounds_and_Target_Capacity_for_Minimal_Regular_Counterexamples_to_Frankl%27s_Union-Closed_Sets_Conjecture), Theorem 3.4 and §15.1: prior zero-codegree obstruction and explicit regular 13-point, 55-member target. Our regular-only note is a specialization, not a new general exclusion.
 - Hu (2017), [arXiv:1706.06167](https://arxiv.org/abs/1706.06167): maximal-partner argument and the proved 4m−1 bound used in the reduction.
 - Bhattacharjee–Bhattacharya, [Zenodo23645724](https://zenodo.org/records/23645724), repository [eUUR](https://github.com/anaxia-research/eUUR), inspected commit `aa658666fd48f92983778946f6c538dbbc270e17`: claimed54-member computational result and explicit remark identifying the55-member slack issue. This package does not independently certify that earlier computational theorem.
 - Costa–Sadhu, [arXiv:2610.02295](https://arxiv.org/abs/2610.02295), and Jiang, [arXiv:2609.08291](https://arxiv.org/abs/2609.08291): related entropy/coupling context, not a source of a claimed new bound here.

@@ -1,0 +1,5 @@
+{"direct_family_assignments": 243, "regular_positive_cases": 6, "status": "PASS"}
+{"crown_lemma_families": 4, "status": "PASS"}
+{"case": "00", "scope": "regular-only", "vars": 41457, "clauses": 723428, "status": "SOLVER_UNSAT_NOT_CERTIFIED", "seconds": 0.39, "stats": {"restarts": 0, "conflicts": 0, "decisions": 0, "propagations": 5709}}
+{"case": "10", "scope": "regular-only", "vars": 41880, "clauses": 738022, "status": "UNKNOWN", "seconds": 2.71, "stats": {"restarts": 144, "conflicts": 21066, "decisions": 137021, "propagations": 20733642}}
+{"case": "01", "scope": "regular-only", "vars": 41647, "clauses": 729379, "status": "UNKNOWN", "seconds": 2.47, "stats": {"restarts": 93, "conflicts": 20022, "decisions": 116969, "propagations": 20282149}}
