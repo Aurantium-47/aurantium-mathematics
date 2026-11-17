@@ -1,0 +1,3 @@
+2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+gcc (Debian 14.2.0-19) 14.2.0
+Build: gcc -D_DEFAULT_SOURCE drat-trim.c -std=c99 -O2 -o drat-trim

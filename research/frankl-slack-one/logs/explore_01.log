@@ -1,0 +1,4 @@
+{"branch": "01", "cnf_sha256": "63b3d627db2429c42ddf1d99c288790e55f29c38b91b79f394f0e2d31fbabe4a", "python_sat": "1.9.dev22", "solver": "Glucose4 (PySAT g4)", "limits": {"address_space_MiB": 1536, "CPU_soft_s": 40, "CPU_hard_s": 45, "outer_wall_s": 50}, "start": 1794898662.9560883}
+{"result": null, "elapsed_s": 3.0792254650004907, "stats": {"restarts": 85, "conflicts": 20101, "decisions": 61745, "propagations": 20849395}}
+UNKNOWN: conflict budget reached; no SAT model or UNSAT conclusion
+process_exit=0

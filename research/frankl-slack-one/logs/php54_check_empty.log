@@ -1,0 +1,11 @@
+
+c parsing input formula with 20 variables and 45 clauses
+
+c finished parsing
+
+c ERROR: no conflict
+
+s NOT VERIFIED
+
+c verification time: 0.235 seconds
+exit=1
