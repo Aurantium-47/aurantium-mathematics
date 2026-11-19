@@ -9,3 +9,5 @@ ad54f4af4d075732b4151cc7dd55be06d7772f1b8554ce2a099fd8b6733ace5a  ./recorded/exa
 49291e643cd27388c49e0e558dc284b0a63f18a6c7d9f77d87920b0cdc41b1a7  ./recorded/signature.log
 f1f4e96247ccd2c8c4d6cdfec5aad92dd9e5fcf5feeca8b23dd290aac0c72d02  ./ADDENDUM.md
 4045c178a8f1c6763f1f54a51b69724e4517253d0b0f1e6a92ef17cdd4fc133a  ./checks/short_sums.py
+11213ab9e55944672be650fca20a76f453d0b0577ebbee907dd1a6e6e948b790  ./ADDENDUM-II.md
+fc7c0cee294a3e13e88410be961ccf21f9c101242ca2fe39298a352d2130912f  ./checks/singleton_complement.py
