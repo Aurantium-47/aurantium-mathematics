@@ -1,0 +1,23 @@
+# Narrow weight intervals without a common divisor
+
+This addendum gives another sufficient condition for reconstruction among proper trees; it neither replaces the preceding proofs nor asserts a general solution or priority.
+
+**Proposition.** Let T be a proper tree with a skeleton on k ≥ 3 vertices and multiset W of skeleton weights (one plus the number of attached leaves). Suppose exactly one weight occurs twice and every other weight occurs once. Write m=min(W) and M=max(W). If M ≤ 2m−2, then Phi(T) determines T among proper trees. No common divisor or sum-injectivity hypothesis is needed.
+
+**Proof.** Use [Awan, Proposition 2.1 and Lemma 2.4](https://arxiv.org/html/2609.13464v2) for the forest formula and recovery of W among proper trees. Let n=sum(W) and epsilon=(-1)^(n−k−1). In the forest formula one component is marked, decreasing its power-sum index by one; its marking coefficient is its total weight minus its vertex count. Even if marked, any nonsingleton component has index at least 2m−1 > M. A singleton's index is at most M. Also m≥2 since M≥m.
+
+For h=2 or 3, let C be any h-element weight submultiset, with sum s. Form the monomial with factor p_(s−1) and the singleton-index factors p_w for w in W minus C. Write N_C for the number of connected induced h-vertex skeleton subsets with weight multiset C. Any contributing forest has h−1 edges by factor count and exactly one nonsingleton component, identified by the factor with index >M. That component has h vertices. The common sign is epsilon times (-1)^(h−1).
+
+If the nonsingleton component is marked, its unmarked complement is W minus C, so it has colors C and contributes (s−h)N_C after removing the common sign. If a singleton is marked, its original weight must be b+1 for some distinct index b in the small-factor multiset W minus C. The actual singleton multiset is obtained by replacing one b by b+1. Hence the nonsingleton color multiset C' is obtained from C by replacing one b+1 by b, and has sum s−1. Skip an ineligible b if C' is not an available h-element submultiset or if no singleton of weight b+1 is available in W minus C'. Each connected subset of colors C' yields a unique forest with that component, and its multiplicity of possible markings is exactly the number of b+1 entries in W minus C'. Each such marking has weight coefficient b. Thus, denoting the target coefficient divided by the common sign by A_C,
+
+    A_C = (s−h) N_C + Σ_b b · mult_(W minus C')(b+1) · N_C'.
+
+The sum is over distinct eligible b, not occurrences of b in the target. Every term on the right except N_C is known by induction on increasing s at fixed h; s−h>0. Ties in s do not interact. No term involving a marked p1 can contribute to the selected monomials. This recovers all connected pair and triple color counts. Distinct target monomials within h are distinguished by their small-factor multiset, even with equal sums.
+
+For the repeated vertices r,s, the pair counts determine whether rs is an edge, each unique vertex's number of neighbors in {r,s}, and every unique-unique edge. For distinct nonadjacent unique vertices, the mixed triple count gives the number of common neighbors in {r,s}; for adjacent vertices this count is zero by acyclicity. These are the norms and inner products of their two-coordinate binary incidence rows. Norm-one rows split into classes by inner product 1, and norm-zero and norm-two rows are fixed. The incidence columns are reconstructed up to a swap. Leaf expansion then reconstructs T. Any competing proper tree with the same Phi has the same W and satisfies the same hypotheses.
+
+## Example and family
+
+Weights (8,9,10,11,11,12,13,14) on skeleton edges 03, 13, 34, 45, 46, 52, 67 give an 88-vertex proper tree of diameter six, with repeated weight at internal vertices 3 and 4. The gcd is 1, 14=2·8−2, and both pair and triple sums collide. The exact checker verifies all 63 coefficient equations (22 have nonzero singleton-mark contributions), and recovers all 63 pair/triple counts by the recurrence, comparing against directly counted connected induced subsets. It enumerates 128 forests; this finite check is not the proof.
+
+For any k-vertex skeleton, weights (k,k,k+1,...,2k−2) give a quadratic-size leaf expansion with no common divisor. The repeated pair can be placed at arbitrary vertices. The result does not cover arbitrary proper trees or arbitrary diameter-six trees. Awan's directly cited reconstruction theorem assumes uniqueness for skeleton internal weights, unlike the example above; a limited search did not establish whether other theorems cover this family. No novelty claim is made.
