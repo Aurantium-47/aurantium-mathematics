@@ -7,3 +7,5 @@ d6a860cbb807414b799d07988478ccecc33d260ae9422d3862bd7b3d1d954b9d  ./checks/fores
 ad54f4af4d075732b4151cc7dd55be06d7772f1b8554ce2a099fd8b6733ace5a  ./recorded/example.log
 44d7c901a03004430363df2c4f45cb33eeb56128f88209d9ec14af70885e9259  ./recorded/forest.log
 49291e643cd27388c49e0e558dc284b0a63f18a6c7d9f77d87920b0cdc41b1a7  ./recorded/signature.log
+f1f4e96247ccd2c8c4d6cdfec5aad92dd9e5fcf5feeca8b23dd290aac0c72d02  ./ADDENDUM.md
+4045c178a8f1c6763f1f54a51b69724e4517253d0b0f1e6a92ef17cdd4fc133a  ./checks/short_sums.py
