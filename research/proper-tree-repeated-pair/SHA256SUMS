@@ -13,3 +13,5 @@ f1f4e96247ccd2c8c4d6cdfec5aad92dd9e5fcf5feeca8b23dd290aac0c72d02  ./ADDENDUM.md
 fc7c0cee294a3e13e88410be961ccf21f9c101242ca2fe39298a352d2130912f  ./checks/singleton_complement.py
 7dbf1836c2ddcb29559bacaa274a3d0ccda1e963e624d785731a7faf426018ae  ./ADDENDUM-III.md
 7bff6418fcfc7495b3d999e93f2b6839a45f2eae1e1c0713586199c6b8577061  ./checks/narrow_interval.py
+b525a8427a0d330c0f4a81b9fe8283781c31ffe2cfde73f7b8c1d99cba935c1a  ./ADDENDUM-IV.md
+1a277d399c48dc37647335dcb4cb53381e643275a174d283c247df15f5921a26  ./checks/independent_colors.py
