@@ -1,0 +1,17 @@
+# Reconstruction with adjacent pairs of repeated weight
+
+**Theorem.** Let `T` be a proper tree. Suppose that every edge joining two repeated-weight vertices in its weighted skeleton joins the two copies of a single weight of multiplicity exactly two. Then the specialized first power-sum derivative determines `T` among proper trees. There is no edge-sum bound, and any number of these pairs may occur.
+
+Recover the weight multiset and edge-type counts using [Awan, Lemma 2.4](https://arxiv.org/html/2609.13464v2#S2). These data determine whether the hypothesis holds. Skeletons with at most two vertices are already determined by these data.
+
+Use the two-edge layer, templates and provisional disjoint baseline from Addendum V. The unique-center corrections are unchanged. The only new overlapping edge pairs have types `{a,a}` and `{a,u}`, where `a` has multiplicity two and `u` is unique. When the `a–a` edge exists, every `a–u` edge meets it, because its repeated-weight endpoint is one of the two copies. Thus the correction `C(a;a,u) - D({a,a},{a,u})` has known multiplicity `e_{a,a} e_{a,u}`; the disjoint template here is zero since it would require three copies of `a`. Two distinct edges each joining repeated vertices cannot overlap, because they would either join different weight pairs or repeat the same edge. The only remaining unknowns are exactly the columns of Addenda V–VI: two distinct unique neighbors attached to the same repeated center. The column formulas and symbolic rank proof are unchanged.
+
+For each repeated weight, recover its multiset of neighborhoods **restricted to unique vertices** by maximal cliques and residual singletons, as in Addendum V. These cliques depend only on the subforest obtained by removing the repeated-to-repeated edges. Pad the multiset with empty neighborhoods up to the recovered multiplicity. Whenever `e_{a,a}=1`, connect the two vertices of weight `a`; this step has no orientation choice. The known unique-to-unique edges and leaf counts complete the reconstruction.
+
+As a corollary, the full chromatic symmetric function distinguishes every tree in this class from arbitrary trees. The star-basis leading partition detects properness ([Orellana–Tomba, Corollary 3.13](https://arxiv.org/html/2611.18940v1#S3.SS3), restating González–Orellana–Tomba). A competitor with the same full chromatic symmetric function is therefore proper and has the same specialized derivative. The same corollary applies to Addendum VI.
+
+## Exact fixture
+
+Take weights `(5,2,3,5,4,6,7,7,8)` and edges `03,13,34,45,46,52,67,48`, using vertex indices starting at 0. The expanded tree has 47 vertices. Both the 5–5 and 7–7 edges connect two copies of a repeated weight. One copy of 5 and one copy of 7 has no unique neighbor. The sole unknown column is `x(5;2,4)`: its coefficient at `(3,5,6,7,7,8,10)` is 8 and the recovered overlap is 1. All 114 nonzero coefficients of the signed-normalized two-edge layer agree with direct edge-pair enumeration. This verifies the fixture, not the universal theorem.
+
+The fixture has diameter six and has repeated weights at internal skeleton vertices. It is outside the multiplicity-isolated class in [Awan, Theorem 1](https://arxiv.org/html/2609.13464v2#S2) and [Zeng](https://arxiv.org/abs/2608.18179), and outside the diameter-at-most-five full-invariant result of [González–Orellana–Tomba](https://arxiv.org/abs/2404.06002). These comparisons specify the scope of the extension.
